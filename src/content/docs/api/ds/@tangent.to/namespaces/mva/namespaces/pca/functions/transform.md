@@ -4,7 +4,7 @@ title: "transform"
 
 > **transform**(`model`, `X`): `any`[]
 
-Defined in: [ds/src/mva/pca.js:241](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/pca.js#L241)
+Defined in: [ds/src/mva/pca.js:241](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/pca.js#L241)
 
 Transform new data using fitted PCA model
 

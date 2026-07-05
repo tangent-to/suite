@@ -2,22 +2,44 @@
 title: "quantile"
 ---
 
-> **quantile**(`arr`, `p`, `options?`): `any`
+> **quantile**(`arr`, `p`, `options?`): `number` \| `number`[]
 
-Defined in: [ds/src/core/math.js:196](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/math.js#L196)
+Defined in: [ds/src/core/math.js:205](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/math.js#L205)
+
+Compute the quantile(s) of an array
 
 ## Parameters
 
 ### arr
 
-`any`
+`number`[]
+
+Array of numbers
 
 ### p
 
-`any`
+`number` \| `number`[]
+
+Probability in [0, 1], or an array of probabilities
 
 ### options?
 
+Options
+
+#### method?
+
+`string`
+
+Interpolation method ('linear' or nearest)
+
+#### naOmit?
+
+`boolean`
+
+Omit non-finite values instead of throwing
+
 ## Returns
 
-`any`
+`number` \| `number`[]
+
+Quantile value, or array of quantiles if p is an array

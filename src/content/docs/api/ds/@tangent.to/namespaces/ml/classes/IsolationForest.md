@@ -2,7 +2,7 @@
 title: "IsolationForest"
 ---
 
-Defined in: [ds/src/ml/outliers.js:242](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L242)
+Defined in: [ds/src/ml/outliers.js:242](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L242)
 
 Isolation Forest for outlier detection
 Compatible with sklearn.ensemble.IsolationForest
@@ -25,7 +25,7 @@ const scores = iso.score_samples(X_test); // Anomaly scores
 
 > **new IsolationForest**(`options?`): `IsolationForest`
 
-Defined in: [ds/src/ml/outliers.js:252](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L252)
+Defined in: [ds/src/ml/outliers.js:252](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L252)
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Random seed (default: null)
 
 > **\_groupModels**: `Map`\<`any`, `any`\>
 
-Defined in: [ds/src/ml/outliers.js:274](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L274)
+Defined in: [ds/src/ml/outliers.js:274](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L274)
 
 ***
 
@@ -85,7 +85,7 @@ Defined in: [ds/src/ml/outliers.js:274](https://github.com/tangent-to/ds/blob/f8
 
 > **\_originalData**: `any`
 
-Defined in: [ds/src/ml/outliers.js:273](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L273)
+Defined in: [ds/src/ml/outliers.js:273](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L273)
 
 ***
 
@@ -93,7 +93,7 @@ Defined in: [ds/src/ml/outliers.js:273](https://github.com/tangent-to/ds/blob/f8
 
 > **\_tableColumns**: `any`
 
-Defined in: [ds/src/ml/outliers.js:272](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L272)
+Defined in: [ds/src/ml/outliers.js:272](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L272)
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: [ds/src/ml/outliers.js:272](https://github.com/tangent-to/ds/blob/f8
 
 > **contamination**: `number`
 
-Defined in: [ds/src/ml/outliers.js:262](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L262)
+Defined in: [ds/src/ml/outliers.js:262](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L262)
 
 ***
 
@@ -109,7 +109,7 @@ Defined in: [ds/src/ml/outliers.js:262](https://github.com/tangent-to/ds/blob/f8
 
 > **label\_column**: `string`
 
-Defined in: [ds/src/ml/outliers.js:265](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L265)
+Defined in: [ds/src/ml/outliers.js:265](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L265)
 
 ***
 
@@ -117,7 +117,7 @@ Defined in: [ds/src/ml/outliers.js:265](https://github.com/tangent-to/ds/blob/f8
 
 > **max\_features**: `number`
 
-Defined in: [ds/src/ml/outliers.js:263](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L263)
+Defined in: [ds/src/ml/outliers.js:263](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L263)
 
 ***
 
@@ -125,7 +125,7 @@ Defined in: [ds/src/ml/outliers.js:263](https://github.com/tangent-to/ds/blob/f8
 
 > **max\_samples**: `number`
 
-Defined in: [ds/src/ml/outliers.js:261](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L261)
+Defined in: [ds/src/ml/outliers.js:261](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L261)
 
 ***
 
@@ -133,7 +133,7 @@ Defined in: [ds/src/ml/outliers.js:261](https://github.com/tangent-to/ds/blob/f8
 
 > **max\_samples\_**: `number`
 
-Defined in: [ds/src/ml/outliers.js:268](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L268)
+Defined in: [ds/src/ml/outliers.js:268](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L268)
 
 ***
 
@@ -141,7 +141,7 @@ Defined in: [ds/src/ml/outliers.js:268](https://github.com/tangent-to/ds/blob/f8
 
 > **n\_estimators**: `number`
 
-Defined in: [ds/src/ml/outliers.js:260](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L260)
+Defined in: [ds/src/ml/outliers.js:260](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L260)
 
 ***
 
@@ -149,7 +149,7 @@ Defined in: [ds/src/ml/outliers.js:260](https://github.com/tangent-to/ds/blob/f8
 
 > **nFeatures\_**: `number`
 
-Defined in: [ds/src/ml/outliers.js:271](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L271)
+Defined in: [ds/src/ml/outliers.js:271](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L271)
 
 ***
 
@@ -157,7 +157,7 @@ Defined in: [ds/src/ml/outliers.js:271](https://github.com/tangent-to/ds/blob/f8
 
 > **offset\_**: `number`
 
-Defined in: [ds/src/ml/outliers.js:269](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L269)
+Defined in: [ds/src/ml/outliers.js:269](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L269)
 
 ***
 
@@ -165,7 +165,7 @@ Defined in: [ds/src/ml/outliers.js:269](https://github.com/tangent-to/ds/blob/f8
 
 > **random\_state**: `number`
 
-Defined in: [ds/src/ml/outliers.js:264](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L264)
+Defined in: [ds/src/ml/outliers.js:264](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L264)
 
 ***
 
@@ -173,7 +173,7 @@ Defined in: [ds/src/ml/outliers.js:264](https://github.com/tangent-to/ds/blob/f8
 
 > **threshold\_**: `number`
 
-Defined in: [ds/src/ml/outliers.js:270](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L270)
+Defined in: [ds/src/ml/outliers.js:270](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L270)
 
 ***
 
@@ -181,7 +181,7 @@ Defined in: [ds/src/ml/outliers.js:270](https://github.com/tangent-to/ds/blob/f8
 
 > **trees\_**: `any`[]
 
-Defined in: [ds/src/ml/outliers.js:267](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L267)
+Defined in: [ds/src/ml/outliers.js:267](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L267)
 
 ## Methods
 
@@ -189,7 +189,7 @@ Defined in: [ds/src/ml/outliers.js:267](https://github.com/tangent-to/ds/blob/f8
 
 > **\_fitSingleModel**(`X`): `any`
 
-Defined in: [ds/src/ml/outliers.js:354](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L354)
+Defined in: [ds/src/ml/outliers.js:354](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L354)
 
 Internal method to fit a single isolation forest model
 
@@ -213,7 +213,7 @@ Model parameters
 
 > **\_predictWithModel**(`X`, `model`): `number`[]
 
-Defined in: [ds/src/ml/outliers.js:591](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L591)
+Defined in: [ds/src/ml/outliers.js:591](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L591)
 
 Internal method to predict with a specific model
 
@@ -243,7 +243,7 @@ Predictions
 
 > **fit**(`X`): `IsolationForest`
 
-Defined in: [ds/src/ml/outliers.js:282](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L282)
+Defined in: [ds/src/ml/outliers.js:282](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L282)
 
 Fit the model
 
@@ -267,7 +267,7 @@ this
 
 > **fit\_predict**(`X`): `any`[] \| `number`[]
 
-Defined in: [ds/src/ml/outliers.js:632](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L632)
+Defined in: [ds/src/ml/outliers.js:632](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L632)
 
 Fit and predict in one step (sklearn compatibility)
 
@@ -291,7 +291,7 @@ Predictions: -1 for outliers, 1 for inliers (or table with outlier column)
 
 > **fit\_transform**(`X`): `any`[] \| `number`[]
 
-Defined in: [ds/src/ml/outliers.js:623](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L623)
+Defined in: [ds/src/ml/outliers.js:623](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L623)
 
 Fit and transform in one step
 Primary API for outlier detection with tables
@@ -316,7 +316,7 @@ Labels or table with outlier column
 
 > **predict**(`X`): `any`[] \| `number`[]
 
-Defined in: [ds/src/ml/outliers.js:499](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L499)
+Defined in: [ds/src/ml/outliers.js:499](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L499)
 
 Predict if samples are outliers
 
@@ -340,7 +340,7 @@ Predictions: -1 for outliers, 1 for inliers (or table with outlier column)
 
 > **score\_samples**(`X`): `number`[]
 
-Defined in: [ds/src/ml/outliers.js:426](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L426)
+Defined in: [ds/src/ml/outliers.js:426](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L426)
 
 Compute anomaly scores for samples
 Lower (more negative) scores indicate outliers
@@ -366,7 +366,7 @@ Anomaly scores (negative values)
 
 > **transform**(`X`): `any`[] \| `number`[]
 
-Defined in: [ds/src/ml/outliers.js:613](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L613)
+Defined in: [ds/src/ml/outliers.js:613](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L613)
 
 Transform data by adding outlier labels
 Alias for predict() - primary API for table-based workflows

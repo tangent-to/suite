@@ -2,9 +2,11 @@
 title: "cut"
 ---
 
-> **cut**(`model`, `k`): `any`[]
+> **cut**(`model`, `k`): `number`[]
 
-Defined in: [ds/src/ml/hca.js:227](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/hca.js#L227)
+Defined in: [ds/src/ml/hca.js:233](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/hca.js#L233)
+
+Cut a hierarchical clustering dendrogram into k flat clusters
 
 ## Parameters
 
@@ -12,10 +14,16 @@ Defined in: [ds/src/ml/hca.js:227](https://github.com/tangent-to/ds/blob/f89855c
 
 `any`
 
+Fitted HCA model with { dendrogram, linkage, n }
+
 ### k
 
-`any`
+`number`
+
+Desired number of clusters (1 ≤ k ≤ n)
 
 ## Returns
 
-`any`[]
+`number`[]
+
+Cluster label for each of the n samples

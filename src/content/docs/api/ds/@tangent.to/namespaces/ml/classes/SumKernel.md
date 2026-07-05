@@ -2,7 +2,7 @@
 title: "SumKernel"
 ---
 
-Defined in: [ds/src/ml/kernels/sum.js:11](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L11)
+Defined in: [ds/src/ml/kernels/sum.js:11](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L11)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new SumKernel**(`opts?`): `SumKernel`
 
-Defined in: [ds/src/ml/kernels/sum.js:16](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L16)
+Defined in: [ds/src/ml/kernels/sum.js:16](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L16)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Array of kernel instances to sum
 
 > **kernels**: [`Kernel`](Kernel.md)[]
 
-Defined in: [ds/src/ml/kernels/sum.js:27](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L27)
+Defined in: [ds/src/ml/kernels/sum.js:27](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L27)
 
 ## Methods
 
@@ -50,7 +50,7 @@ Defined in: [ds/src/ml/kernels/sum.js:27](https://github.com/tangent-to/ds/blob/
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ds/src/ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/base.js#L30)
+Defined in: [ds/src/ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -84,7 +84,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ds/src/ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/base.js#L76)
+Defined in: [ds/src/ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/base.js#L76)
 
 Clone the kernel with the same parameters
 
@@ -104,7 +104,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `number`
 
-Defined in: [ds/src/ml/kernels/sum.js:30](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L30)
+Defined in: [ds/src/ml/kernels/sum.js:30](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L30)
 
 Compute covariance between two points
 
@@ -138,7 +138,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ds/src/ml/kernels/sum.js:34](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L34)
+Defined in: [ds/src/ml/kernels/sum.js:34](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L34)
 
 Get kernel hyperparameters
 
@@ -162,7 +162,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ds/src/ml/kernels/sum.js:43](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/sum.js#L43)
+Defined in: [ds/src/ml/kernels/sum.js:43](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/sum.js#L43)
 
 Set kernel hyperparameters
 

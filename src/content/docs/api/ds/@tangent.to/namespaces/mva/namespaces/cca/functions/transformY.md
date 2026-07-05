@@ -2,9 +2,11 @@
 title: "transformY"
 ---
 
-> **transformY**(`model`, `Y`, `options?`): `object`[]
+> **transformY**(`model`, `Y`, `options?`): `any`[]
 
-Defined in: [ds/src/mva/cca.js:212](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/cca.js#L212)
+Defined in: [ds/src/mva/cca.js:235](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/cca.js#L235)
+
+Project new Y data onto the fitted Y canonical variates
 
 ## Parameters
 
@@ -12,12 +14,22 @@ Defined in: [ds/src/mva/cca.js:212](https://github.com/tangent-to/ds/blob/f89855
 
 `any`
 
+Fitted CCA model
+
 ### Y
 
-`any`
+`number`[][]
+
+New Y data matrix (n × q)
 
 ### options?
 
+`any` = `{}`
+
+Transform options
+
 ## Returns
 
-`object`[]
+`any`[]
+
+Canonical score objects, one per row

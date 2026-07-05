@@ -4,7 +4,7 @@ title: "prepareX"
 
 > **prepareX**(`__namedParameters?`): `object`
 
-Defined in: [ds/src/core/table.js:478](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/table.js#L478)
+Defined in: [ds/src/core/table.js:478](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/table.js#L478)
 
 Prepare feature matrix X from table-like data.
 Supports optional categorical encoding:

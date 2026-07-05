@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [ds/src/index.js:16](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/index.js#L16)
+Defined in: [ds/src/index.js:16](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/index.js#L16)
 
 ## Type Declaration
 

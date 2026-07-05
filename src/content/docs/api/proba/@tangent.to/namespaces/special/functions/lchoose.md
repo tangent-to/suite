@@ -4,20 +4,26 @@ title: "lchoose"
 
 > **lchoose**(`n`, `k`): `number`
 
-Defined in: [special.js:412](https://github.com/tangent-to/proba/blob/85ddb69de0040f1e8589d4aa03498c3e73f506c2/src/special.js#L412)
+Defined in: [special.js:436](https://github.com/tangent-to/proba/blob/12a19a1171fcb31973b43d0cfb7201992e38f35d/src/special.js#L436)
 
-ln(n choose k) for non-negative integers.
+Log of the binomial coefficient, ln (n choose k), for non-negative integers.
 
 ## Parameters
 
 ### n
 
-`any`
+`number`
+
+Total count, n >= 0
 
 ### k
 
-`any`
+`number`
+
+Chosen count; returns -Infinity outside 0 <= k <= n
 
 ## Returns
 
 `number`
+
+ln(n choose k)

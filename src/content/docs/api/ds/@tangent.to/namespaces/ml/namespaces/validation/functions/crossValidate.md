@@ -4,7 +4,7 @@ title: "crossValidate"
 
 > **crossValidate**(`fitFn`, `scoreFn`, `X`, `y?`, `folds?`): `object`
 
-Defined in: [ds/src/ml/validation.js:559](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/validation.js#L559)
+Defined in: [ds/src/ml/validation.js:573](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/validation.js#L573)
 
 Execute cross-validation with a model.
 
@@ -24,40 +24,60 @@ and per-fold table views for further inspection.
 
 ### fitFn
 
-`any`
+`Function`
+
+Fits a model given (XTrain, yTrain) and returns the model
 
 ### scoreFn
 
-`any`
+`Function`
+
+Scores a model given (model, XTest, yTest) and returns a number
 
 ### X
 
 `any`
 
+Design matrix (n × p) or a table descriptor ({ data, X, y, encoders? })
+
 ### y?
 
 `any` = `null`
 
+Response vector, or options object when X is a table descriptor
+
 ### folds?
 
-`any` = `null`
+`any`[] = `null`
+
+Optional fold definitions (each with trainIndices/testIndices); defaults to k-fold
 
 ## Returns
 
 `object`
 
+Cross-validation results
+
 ### meanScore
 
 > **meanScore**: `number`
 
+### metadata?
+
+> `optional` **metadata?**: `any`
+
 ### nFolds
 
-> **nFolds**: `number` = `foldDefs.length`
+> **nFolds**: `number`
 
 ### scores
 
-> **scores**: `any`[]
+> **scores**: `number`[]
 
 ### stdScore
 
 > **stdScore**: `number`
+
+### tableFolds?
+
+> `optional` **tableFolds?**: `any`[]

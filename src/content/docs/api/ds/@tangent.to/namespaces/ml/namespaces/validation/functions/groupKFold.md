@@ -4,7 +4,7 @@ title: "groupKFold"
 
 > **groupKFold**(`X`, `y`, `groups`, `k?`): `any`[]
 
-Defined in: [ds/src/ml/validation.js:468](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/validation.js#L468)
+Defined in: [ds/src/ml/validation.js:475](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/validation.js#L475)
 
 Group K-Fold keeping group membership intact
 

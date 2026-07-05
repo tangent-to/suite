@@ -4,7 +4,7 @@ title: "prepareXY"
 
 > **prepareXY**(`__namedParameters?`): `object`
 
-Defined in: [ds/src/core/table.js:751](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/table.js#L751)
+Defined in: [ds/src/core/table.js:751](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/table.js#L751)
 
 Prepare feature matrix X and response vector y from table-like data.
 Supports categorical encoding for X and y via `encode` option:

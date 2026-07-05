@@ -4,7 +4,7 @@ title: "createD3DendrogramRenderer"
 
 > **createD3DendrogramRenderer**(`d3`, `options?`): `Function`
 
-Defined in: [ds/src/plot/renderers/d3Dendrogram.js:52](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/plot/renderers/d3Dendrogram.js#L52)
+Defined in: [ds/src/plot/renderers/d3Dendrogram.js:52](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/plot/renderers/d3Dendrogram.js#L52)
 
 Build a dendrogram renderer that relies on user-supplied D3 modules for scaling.
 The returned function is compatible with the `.show(renderer)` helper emitted by plotHCA.

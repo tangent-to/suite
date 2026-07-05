@@ -4,7 +4,7 @@ title: "buildModel"
 
 > **buildModel**(`rows`, `observedNames`): `any`
 
-Defined in: [model.js:26](https://github.com/tangent-to/sem/blob/a484d1af5ccb86fdee92726ba3c75d48dc82c663/src/model.js#L26)
+Defined in: [model.js:26](https://github.com/tangent-to/sem/blob/a377415108494623387d492893bb95c1809541cc/src/model.js#L26)
 
 Build the model specification from parsed rows.
 

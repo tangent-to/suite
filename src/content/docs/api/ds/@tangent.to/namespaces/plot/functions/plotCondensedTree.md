@@ -4,7 +4,7 @@ title: "plotCondensedTree"
 
 > **plotCondensedTree**(`model`, `options?`): `any`
 
-Defined in: [ds/src/plot/plotHDBSCAN.js:17](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/plot/plotHDBSCAN.js#L17)
+Defined in: [ds/src/plot/plotHDBSCAN.js:17](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/plot/plotHDBSCAN.js#L17)
 
 Generate condensed cluster tree visualization configuration
 

@@ -2,7 +2,7 @@
 title: "CCA"
 ---
 
-Defined in: [ds/src/mva/estimators/CCA.js:10](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L10)
+Defined in: [ds/src/mva/estimators/CCA.js:10](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L10)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:10](https://github.com/tangent-to/ds/b
 
 > **new CCA**(`params?`): `CCA`
 
-Defined in: [ds/src/mva/estimators/CCA.js:11](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L11)
+Defined in: [ds/src/mva/estimators/CCA.js:11](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L11)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:11](https://github.com/tangent-to/ds/b
 
 > **\_state**: `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L27)
+Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-
 
 > **\_warnings**: `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L29)
+Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-
 
 > **fitted**: `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L25)
+Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -68,81 +68,9 @@ Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-
 
 ### model
 
-> **model**: `object`
+> **model**: `any`
 
-Defined in: [ds/src/mva/estimators/CCA.js:13](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L13)
-
-#### center
-
-> **center**: `boolean`
-
-#### columnsX
-
-> **columnsX**: `any` = `columnNamesX`
-
-#### columnsY
-
-> **columnsY**: `any` = `columnNamesY`
-
-#### correlations
-
-> **correlations**: `any`
-
-#### nComponents
-
-> **nComponents**: `number` = `components`
-
-#### nFeaturesX
-
-> **nFeaturesX**: `any` = `p`
-
-#### nFeaturesY
-
-> **nFeaturesY**: `any` = `q`
-
-#### nSamples
-
-> **nSamples**: `any` = `n`
-
-#### scale
-
-> **scale**: `boolean`
-
-#### type
-
-> **type**: `string` = `'cca'`
-
-#### xMeans
-
-> **xMeans**: `any`[] = `processedX.means`
-
-#### xScores
-
-> **xScores**: `object`[]
-
-#### xSds
-
-> **xSds**: `any`[] = `processedX.sds`
-
-#### xWeights
-
-> **xWeights**: `object`[]
-
-#### yMeans
-
-> **yMeans**: `any`[] = `processedY.means`
-
-#### yScores
-
-> **yScores**: `object`[]
-
-#### ySds
-
-> **ySds**: `any`[] = `processedY.sds`
-
-#### yWeights
-
-> **yWeights**: `object`[]
+Defined in: [ds/src/mva/estimators/CCA.js:13](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L13)
 
 ***
 
@@ -150,7 +78,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:13](https://github.com/tangent-to/ds/b
 
 > **params**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L24)
+Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -162,7 +90,7 @@ Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L367)
+Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -196,7 +124,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L201)
+Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -216,7 +144,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L139)
+Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -234,10 +162,12 @@ Clear all warnings
 
 > **fit**(`X`, `Y?`, `opts?`): `CCA`
 
-Defined in: [ds/src/mva/estimators/CCA.js:16](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L16)
+Defined in: [ds/src/mva/estimators/CCA.js:26](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L26)
 
-Fit should be implemented by subclasses.
-Return `this` for chaining.
+Fit the CCA model on paired data sets X and Y.
+
+Accepts a positional numeric call (`fit(X, Y[, opts])`) or a declarative
+`{ data, X, Y }` object (`fit({ data, X, Y, columnsX, columnsY })`).
 
 #### Parameters
 
@@ -245,15 +175,25 @@ Return `this` for chaining.
 
 `any`
 
+First data matrix (n samples × p features), or a declarative `{ data, X, Y }` object
+
 ##### Y?
 
-`any` = `null`
+`number`[][] = `null`
+
+Second data matrix (n samples × q features), for the positional call form
 
 ##### opts?
+
+`any` = `{}`
+
+Fitting options (used for the positional call form)
 
 #### Returns
 
 `CCA`
+
+The fitted estimator (for chaining)
 
 #### Overrides
 
@@ -265,7 +205,7 @@ Return `this` for chaining.
 
 > **fitTransform**(...`args`): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:683](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L683)
+Defined in: [ds/src/core/estimators/estimator.js:683](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L683)
 
 Convenience: fit then transform
 Returns transformed data.
@@ -290,7 +230,7 @@ Returns transformed data.
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L97)
+Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -310,7 +250,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L294)
+Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -328,7 +268,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L65)
+Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -348,7 +288,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L124)
+Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -368,7 +308,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L148)
+Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -396,7 +336,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L132)
+Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -414,7 +354,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L36)
+Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -432,7 +372,7 @@ Check if model is fitted
 
 > **predict**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L424)
+Defined in: [ds/src/core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L424)
 
 Predict should be implemented by supervised estimators.
 
@@ -450,7 +390,7 @@ Predict should be implemented by supervised estimators.
 
 > **save**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L329)
+Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -470,7 +410,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `CCA`
 
-Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L285)
+Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -494,7 +434,7 @@ Set parameters (mutates instance).
 
 > **summary**(): `object`
 
-Defined in: [ds/src/mva/estimators/CCA.js:58](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L58)
+Defined in: [ds/src/mva/estimators/CCA.js:87](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L87)
 
 #### Returns
 
@@ -506,7 +446,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:58](https://github.com/tangent-to/ds/b
 
 ##### nComponents
 
-> **nComponents**: `number`
+> **nComponents**: `any`
 
 ##### nSamples
 
@@ -518,7 +458,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:58](https://github.com/tangent-to/ds/b
 
 > **toJSON**(): `object`
 
-Defined in: [ds/src/mva/estimators/CCA.js:69](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L69)
+Defined in: [ds/src/mva/estimators/CCA.js:98](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L98)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -537,79 +477,7 @@ Subclasses may override to include learned parameters.
 
 ##### model
 
-> **model**: `object`
-
-###### model.center
-
-> **center**: `boolean`
-
-###### model.columnsX
-
-> **columnsX**: `any` = `columnNamesX`
-
-###### model.columnsY
-
-> **columnsY**: `any` = `columnNamesY`
-
-###### model.correlations
-
-> **correlations**: `any`
-
-###### model.nComponents
-
-> **nComponents**: `number` = `components`
-
-###### model.nFeaturesX
-
-> **nFeaturesX**: `any` = `p`
-
-###### model.nFeaturesY
-
-> **nFeaturesY**: `any` = `q`
-
-###### model.nSamples
-
-> **nSamples**: `any` = `n`
-
-###### model.scale
-
-> **scale**: `boolean`
-
-###### model.type
-
-> **type**: `string` = `'cca'`
-
-###### model.xMeans
-
-> **xMeans**: `any`[] = `processedX.means`
-
-###### model.xScores
-
-> **xScores**: `object`[]
-
-###### model.xSds
-
-> **xSds**: `any`[] = `processedX.sds`
-
-###### model.xWeights
-
-> **xWeights**: `object`[]
-
-###### model.yMeans
-
-> **yMeans**: `any`[] = `processedY.means`
-
-###### model.yScores
-
-> **yScores**: `object`[]
-
-###### model.ySds
-
-> **ySds**: `any`[] = `processedY.sds`
-
-###### model.yWeights
-
-> **yWeights**: `object`[]
+> **model**: `any`
 
 ##### params
 
@@ -623,12 +491,11 @@ Subclasses may override to include learned parameters.
 
 ### transform()
 
-> **transform**(`X`, `Y`, `opts?`): `object`
+> **transform**(`X`, `Y`, `opts?`): `any`
 
-Defined in: [ds/src/mva/estimators/CCA.js:51](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L51)
+Defined in: [ds/src/mva/estimators/CCA.js:80](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L80)
 
-Transform - subclasses must override
-Ensures model is fitted before transformation
+Project new X and Y data onto their fitted canonical variates.
 
 #### Parameters
 
@@ -636,23 +503,25 @@ Ensures model is fitted before transformation
 
 `any`
 
+X data matrix (n samples × p features), or a declarative `{ data, columns }` object
+
 ##### Y
 
 `any`
 
+Y data matrix (n samples × q features), or a declarative `{ data, columns }` object
+
 ##### opts?
+
+`any` = `{}`
+
+Transform options
 
 #### Returns
 
-`object`
+`any`
 
-##### xScores
-
-> **xScores**: `object`[]
-
-##### yScores
-
-> **yScores**: `object`[]
+Object with `xScores` and `yScores` arrays of canonical score objects
 
 #### Overrides
 
@@ -662,9 +531,11 @@ Ensures model is fitted before transformation
 
 ### transformX()
 
-> **transformX**(`X`, `opts?`): `object`[]
+> **transformX**(`X`, `opts?`): `any`[]
 
-Defined in: [ds/src/mva/estimators/CCA.js:37](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L37)
+Defined in: [ds/src/mva/estimators/CCA.js:53](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L53)
+
+Project new X data onto the fitted X canonical variates.
 
 #### Parameters
 
@@ -672,19 +543,29 @@ Defined in: [ds/src/mva/estimators/CCA.js:37](https://github.com/tangent-to/ds/b
 
 `any`
 
+X data matrix (n samples × p features), or a declarative `{ data, columns }` object
+
 ##### opts?
+
+`any` = `{}`
+
+Transform options
 
 #### Returns
 
-`object`[]
+`any`[]
+
+Canonical score objects, one per row (keyed `cca1`, `cca2`, ...)
 
 ***
 
 ### transformY()
 
-> **transformY**(`Y`, `opts?`): `object`[]
+> **transformY**(`Y`, `opts?`): `any`[]
 
-Defined in: [ds/src/mva/estimators/CCA.js:44](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L44)
+Defined in: [ds/src/mva/estimators/CCA.js:66](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L66)
+
+Project new Y data onto the fitted Y canonical variates.
 
 #### Parameters
 
@@ -692,11 +573,19 @@ Defined in: [ds/src/mva/estimators/CCA.js:44](https://github.com/tangent-to/ds/b
 
 `any`
 
+Y data matrix (n samples × q features), or a declarative `{ data, columns }` object
+
 ##### opts?
+
+`any` = `{}`
+
+Transform options
 
 #### Returns
 
-`object`[]
+`any`[]
+
+Canonical score objects, one per row (keyed `cca1`, `cca2`, ...)
 
 ***
 
@@ -704,7 +593,7 @@ Defined in: [ds/src/mva/estimators/CCA.js:44](https://github.com/tangent-to/ds/b
 
 > `static` **fromJSON**(`obj?`): `CCA`
 
-Defined in: [ds/src/mva/estimators/CCA.js:78](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/estimators/CCA.js#L78)
+Defined in: [ds/src/mva/estimators/CCA.js:107](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/CCA.js#L107)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -727,7 +616,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L346)
+Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

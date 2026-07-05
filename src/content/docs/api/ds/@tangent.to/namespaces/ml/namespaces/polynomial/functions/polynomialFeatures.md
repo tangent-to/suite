@@ -4,7 +4,7 @@ title: "polynomialFeatures"
 
 > **polynomialFeatures**(`X`, `degree`): `number`[][]
 
-Defined in: [ds/src/ml/polynomial.js:30](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/polynomial.js#L30)
+Defined in: [ds/src/ml/polynomial.js:30](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/polynomial.js#L30)
 
 Create polynomial features from input
 

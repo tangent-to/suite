@@ -2,18 +2,38 @@
 title: "median"
 ---
 
-> **median**(`arr`, `options?`): `any`
+> **median**(`arr`, `options?`): `number`
 
-Defined in: [ds/src/core/math.js:227](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/math.js#L227)
+Defined in: [ds/src/core/math.js:244](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/math.js#L244)
+
+Compute the median of an array
 
 ## Parameters
 
 ### arr
 
-`any`
+`number`[]
+
+Array of numbers
 
 ### options?
 
+Options
+
+#### method?
+
+`string`
+
+Interpolation method ('linear' or nearest)
+
+#### naOmit?
+
+`boolean`
+
+Omit non-finite values instead of throwing
+
 ## Returns
 
-`any`
+`number`
+
+Median value, or NaN if empty

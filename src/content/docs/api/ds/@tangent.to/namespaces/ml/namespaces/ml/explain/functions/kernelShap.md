@@ -2,55 +2,63 @@
 title: "kernelShap"
 ---
 
-> **kernelShap**(`__namedParameters`, `X`, `opts`): `object`
+> **kernelShap**(`spec`, `X`, `opts`): `object`
 
-Defined in: [ds/src/ml/explain.js:723](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/explain.js#L723)
+Defined in: [ds/src/ml/explain.js:733](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/explain.js#L733)
 
 Convenience: KernelSHAP in one call. See [KernelExplainer](../classes/KernelExplainer.md).
 
 ## Parameters
 
-### \_\_namedParameters
+### spec
+
+Explainer specification
 
 #### background
 
-`any`
+`number`[][]
+
+Background/reference dataset (n × p)
 
 #### featureNames
 
-`any`
+`string`[]
+
+Feature names for each column
 
 #### model
 
 `any`
 
+Model object to explain (used when no predict function is supplied)
+
 #### predict
 
-`any`
+`Function`
+
+Prediction function mapping instances to outputs
 
 ### X
 
-`any`
+`number`[][]
+
+Instances to explain (n × p)
 
 ### opts
 
 `any`
 
+Options forwarded to KernelExplainer.shapValues
+
 ## Returns
 
 `object`
 
-### baseValue
+SHAP values per instance and feature
 
-> **baseValue**: `number`
+### featureNames?
 
-### expectedValue
-
-> **expectedValue**: `number`
-
-### featureNames
-
-> **featureNames**: `string`[]
+> `optional` **featureNames?**: `string`[]
 
 ### values
 

@@ -2,9 +2,11 @@
 title: "fit"
 ---
 
-> **fit**(`X`, `y`, `options?`): `object`
+> **fit**(`X`, `y`, `options?`): `any`
 
-Defined in: [ds/src/mva/lda.js:22](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/lda.js#L22)
+Defined in: [ds/src/mva/lda.js:34](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/lda.js#L34)
+
+Fit LDA model
 
 ## Parameters
 
@@ -12,100 +14,50 @@ Defined in: [ds/src/mva/lda.js:22](https://github.com/tangent-to/ds/blob/f89855c
 
 `any`
 
+Design matrix (n × p), or a declarative config object with X/y/data
+
 ### y
 
-`any`
+(`string` \| `number`)[]
+
+Class label vector
 
 ### options?
 
+Fitting options
+
+#### encoders?
+
+`any`
+
+Label encoders for declarative input
+
+#### naOmit?
+
+`boolean`
+
+Omit rows with missing values (default true)
+
+#### omit_missing?
+
+`boolean`
+
+Omit rows with missing values (alias of naOmit)
+
+#### scale?
+
+`boolean`
+
+Scale features to unit variance (default false)
+
+#### scaling?
+
+`number`
+
+Ordination scaling, 1 or 2 (default 2)
+
 ## Returns
 
-`object`
+`any`
 
-### axisSigns
-
-> **axisSigns**: `number`[]
-
-### classes
-
-> **classes**: `any`[]
-
-### classMeans
-
-> **classMeans**: `any`[][] = `classMeansOriginal`
-
-### classMeanScores
-
-> **classMeanScores**: `any`[][]
-
-### classStdScores
-
-> **classStdScores**: `any`[][]
-
-### discriminantAxes
-
-> **discriminantAxes**: `number`[][]
-
-### eigenvalues
-
-> **eigenvalues**: `any` = `sortedEigenvalues`
-
-### eigenvectors
-
-> **eigenvectors**: `number`[][]
-
-### exponent
-
-> **exponent**: `any` = `scaled.exponent`
-
-### featureNames
-
-> **featureNames**: `any` = `variableNames`
-
-### invScales
-
-> **invScales**: `any`[]
-
-### labelEncoder
-
-> **labelEncoder**: `any`
-
-### loadingFactors
-
-> **loadingFactors**: `any` = `scaled.loadingFactors`
-
-### loadings
-
-> **loadings**: `any`[]
-
-### overallMean
-
-> **overallMean**: `number`[]
-
-### projector
-
-> **projector**: `number`[][]
-
-### rawLoadings
-
-> **rawLoadings**: `number`[][] = `rawLoadingMatrix`
-
-### rawScores
-
-> **rawScores**: `number`[][] = `rawSiteMatrix`
-
-### sampleClasses
-
-> **sampleClasses**: `any`
-
-### scaling
-
-> **scaling**: `number` = `appliedScaling`
-
-### scores
-
-> **scores**: `any`[]
-
-### siteFactors
-
-> **siteFactors**: `any` = `scaled.siteFactors`
+Fitted LDA model

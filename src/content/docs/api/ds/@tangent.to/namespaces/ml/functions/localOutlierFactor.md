@@ -4,7 +4,7 @@ title: "localOutlierFactor"
 
 > **localOutlierFactor**(`X`, `options?`): `number`[]
 
-Defined in: [ds/src/ml/outliers.js:1218](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/outliers.js#L1218)
+Defined in: [ds/src/ml/outliers.js:1218](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/outliers.js#L1218)
 
 Local Outlier Factor (functional interface)
 

@@ -2,7 +2,7 @@
 title: "RandomForestClassifier"
 ---
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:494](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L494)
+Defined in: [ds/src/ml/estimators/RandomForest.js:501](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L501)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ds/src/ml/estimators/RandomForest.js:494](https://github.com/tangen
 
 > **new RandomForestClassifier**(`opts?`): `RandomForestClassifier`
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:495](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L495)
+Defined in: [ds/src/ml/estimators/RandomForest.js:502](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L502)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [ds/src/ml/estimators/RandomForest.js:495](https://github.com/tangen
 
 > **\_state**: `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L27)
+Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-
 
 > **\_warnings**: `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L29)
+Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-
 
 > **classes\_**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L515)
+Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L515)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent
 
 > **fitted**: `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L25)
+Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-
 
 > **forest**: `RandomForestBase`
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:497](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L497)
+Defined in: [ds/src/ml/estimators/RandomForest.js:504](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L504)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [ds/src/ml/estimators/RandomForest.js:497](https://github.com/tangen
 
 > **labelEncoder\_**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L514)
+Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L514)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent
 
 > **params**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L24)
+Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -116,7 +116,7 @@ Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-
 
 > **get** **featureImportances**(): `any`[] \| `number`[]
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:559](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L559)
+Defined in: [ds/src/ml/estimators/RandomForest.js:578](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L578)
 
 Get feature importances (MDI - Mean Decrease in Impurity)
 
@@ -132,7 +132,7 @@ Get feature importances (MDI - Mean Decrease in Impurity)
 
 > **get** **oobScore**(): `number`
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:566](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L566)
+Defined in: [ds/src/ml/estimators/RandomForest.js:585](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L585)
 
 Get out-of-bag score (accuracy for classification)
 
@@ -146,7 +146,7 @@ Get out-of-bag score (accuracy for classification)
 
 > **\_accuracy**(`yTrue`, `yPred`): `number`
 
-Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L644)
+Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L644)
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent
 
 > **\_decodeLabels**(`predictions`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L606)
+Defined in: [ds/src/core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L606)
 
 Decode numeric predictions to original labels
 
@@ -200,7 +200,7 @@ Decoded labels (or original if no encoder)
 
 > **\_extractLabelEncoder**(`prepared`): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L541)
+Defined in: [ds/src/core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L541)
 
 Extract and store label encoder from prepared data
 
@@ -228,7 +228,7 @@ True if encoder was found and stored
 
 > **\_getClasses**(`preparedY`, `onlyPresentClasses?`): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L563)
+Defined in: [ds/src/core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L563)
 
 Get unique classes from labels (encoded or raw)
 If labelEncoder exists, preparedY is assumed to be numeric indices [0, 1, 2, ...]
@@ -264,7 +264,7 @@ If true, only return classes present in preparedY
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L367)
+Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -298,7 +298,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L201)
+Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -318,7 +318,7 @@ HTML representation
 
 > **apply**(`X`): `any`[][]
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:573](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L573)
+Defined in: [ds/src/ml/estimators/RandomForest.js:592](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L592)
 
 Apply trees in forest to X, return leaf indices
 
@@ -338,7 +338,7 @@ Apply trees in forest to X, return leaf indices
 
 > **clearWarnings**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L139)
+Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -356,7 +356,7 @@ Clear all warnings
 
 > **decisionPath**(`X`): `any`[][][]
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:580](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L580)
+Defined in: [ds/src/ml/estimators/RandomForest.js:599](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L599)
 
 Return decision path through the forest
 
@@ -376,28 +376,35 @@ Return decision path through the forest
 
 > **fit**(`X`, `y?`, `sampleWeight?`): `RandomForestClassifier`
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:500](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L500)
+Defined in: [ds/src/ml/estimators/RandomForest.js:514](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L514)
 
-Fit should be implemented by subclasses.
-Return `this` for chaining.
+Fit the classifier on training data.
 
 #### Parameters
 
 ##### X
 
-`any`
+`number`[][]
+
+Feature matrix (n samples × p features)
 
 ##### y?
 
-`any` = `null`
+`number`[] \| `string`[]
+
+Class labels
 
 ##### sampleWeight?
 
-`any` = `null`
+`number`[] = `null`
+
+Optional per-sample weights
 
 #### Returns
 
 `RandomForestClassifier`
+
+The fitted estimator (for chaining)
 
 #### Overrides
 
@@ -409,7 +416,7 @@ Return `this` for chaining.
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L97)
+Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -429,7 +436,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L294)
+Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -447,7 +454,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L65)
+Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -467,7 +474,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L124)
+Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -487,7 +494,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L148)
+Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -515,7 +522,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L132)
+Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -533,7 +540,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L36)
+Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -549,22 +556,25 @@ Check if model is fitted
 
 ### predict()
 
-> **predict**(`X`): `any`[]
+> **predict**(`X`): `number`[] \| `string`[]
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:526](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L526)
+Defined in: [ds/src/ml/estimators/RandomForest.js:545](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L545)
 
-Predict - subclasses must override
-Ensures model is fitted before prediction
+Predict class labels for samples in X.
 
 #### Parameters
 
 ##### X
 
-`any`
+`number`[][]
+
+Feature matrix (n samples × p features)
 
 #### Returns
 
-`any`[]
+`number`[] \| `string`[]
+
+Predicted class labels
 
 #### Overrides
 
@@ -576,7 +586,7 @@ Ensures model is fitted before prediction
 
 > **predictProba**(`X`): `object`[]
 
-Defined in: [ds/src/ml/estimators/RandomForest.js:532](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/RandomForest.js#L532)
+Defined in: [ds/src/ml/estimators/RandomForest.js:551](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/RandomForest.js#L551)
 
 Predict probabilities - subclasses should override
 Ensures model is fitted before prediction
@@ -601,7 +611,7 @@ Ensures model is fitted before prediction
 
 > **save**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L329)
+Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -621,7 +631,7 @@ JSON representation of the model
 
 > **score**(`yTrueOrOpts`, `yPred`, `_opts?`, ...`args?`): `number`
 
-Defined in: [ds/src/core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L622)
+Defined in: [ds/src/core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L622)
 
 Default accuracy scoring:
  - score(yTrue, yPred)
@@ -657,7 +667,7 @@ Default accuracy scoring:
 
 > **setParams**(`params?`): `RandomForestClassifier`
 
-Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L285)
+Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -681,7 +691,7 @@ Set parameters (mutates instance).
 
 > **toJSON**(): `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L302)
+Defined in: [ds/src/core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L302)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -716,7 +726,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L431)
+Defined in: [ds/src/core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -734,7 +744,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L317)
+Defined in: [ds/src/core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L317)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -759,7 +769,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L346)
+Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

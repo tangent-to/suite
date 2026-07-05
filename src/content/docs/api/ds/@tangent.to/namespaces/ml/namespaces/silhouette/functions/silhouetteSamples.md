@@ -4,18 +4,26 @@ title: "silhouetteSamples"
 
 > **silhouetteSamples**(`X`, `labels`): `object`[]
 
-Defined in: [ds/src/ml/silhouette.js:54](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/silhouette.js#L54)
+Defined in: [ds/src/ml/silhouette.js:60](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/silhouette.js#L60)
+
+Compute the silhouette value for each sample
 
 ## Parameters
 
 ### X
 
-`any`
+`number`[][] \| \{ `columns`: `string`[]; `data`: `number`[][]; \}
+
+Data matrix (n × p) or an options object with data/columns
 
 ### labels
 
-`any`
+`number`[] \| `string`[]
+
+Cluster label for each sample (length n)
 
 ## Returns
 
 `object`[]
+
+Per-sample silhouette records

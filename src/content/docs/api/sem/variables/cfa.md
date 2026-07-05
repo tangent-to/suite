@@ -4,7 +4,7 @@ title: "cfa"
 
 > `const` **cfa**: (`syntax`, `spec`) => `any` = `sem`
 
-Defined in: [index.js:96](https://github.com/tangent-to/sem/blob/a484d1af5ccb86fdee92726ba3c75d48dc82c663/src/index.js#L96)
+Defined in: [index.js:96](https://github.com/tangent-to/sem/blob/a377415108494623387d492893bb95c1809541cc/src/index.js#L96)
 
 Alias: confirmatory factor analysis (same engine, reads better in code).
 

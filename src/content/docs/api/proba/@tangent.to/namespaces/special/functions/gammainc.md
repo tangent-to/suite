@@ -4,7 +4,7 @@ title: "gammainc"
 
 > **gammainc**(`a`, `x`): `number`
 
-Defined in: [special.js:133](https://github.com/tangent-to/proba/blob/85ddb69de0040f1e8589d4aa03498c3e73f506c2/src/special.js#L133)
+Defined in: [special.js:133](https://github.com/tangent-to/proba/blob/12a19a1171fcb31973b43d0cfb7201992e38f35d/src/special.js#L133)
 
 Regularized lower incomplete gamma P(a, x) = γ(a, x) / Γ(a).
 

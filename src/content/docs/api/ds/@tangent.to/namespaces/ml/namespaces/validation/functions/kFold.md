@@ -4,7 +4,7 @@ title: "kFold"
 
 > **kFold**(`X`, `y`, `k?`, `shuffle?`): `any`[]
 
-Defined in: [ds/src/ml/validation.js:416](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/validation.js#L416)
+Defined in: [ds/src/ml/validation.js:423](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/validation.js#L423)
 
 K-Fold cross-validation generator
 

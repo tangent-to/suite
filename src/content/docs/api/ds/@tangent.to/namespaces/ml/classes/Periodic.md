@@ -2,7 +2,7 @@
 title: "Periodic"
 ---
 
-Defined in: [ds/src/ml/kernels/periodic.js:15](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L15)
+Defined in: [ds/src/ml/kernels/periodic.js:15](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L15)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new Periodic**(`lengthScale?`, `period?`, `variance?`): `Periodic`
 
-Defined in: [ds/src/ml/kernels/periodic.js:21](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L21)
+Defined in: [ds/src/ml/kernels/periodic.js:21](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L21)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Signal variance (default: 1.0)
 
 > **lengthScale**: `number`
 
-Defined in: [ds/src/ml/kernels/periodic.js:23](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L23)
+Defined in: [ds/src/ml/kernels/periodic.js:23](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L23)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [ds/src/ml/kernels/periodic.js:23](https://github.com/tangent-to/ds/
 
 > **period**: `number`
 
-Defined in: [ds/src/ml/kernels/periodic.js:24](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L24)
+Defined in: [ds/src/ml/kernels/periodic.js:24](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L24)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [ds/src/ml/kernels/periodic.js:24](https://github.com/tangent-to/ds/
 
 > **variance**: `number`
 
-Defined in: [ds/src/ml/kernels/periodic.js:25](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L25)
+Defined in: [ds/src/ml/kernels/periodic.js:25](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L25)
 
 ## Methods
 
@@ -76,7 +76,7 @@ Defined in: [ds/src/ml/kernels/periodic.js:25](https://github.com/tangent-to/ds/
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ds/src/ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/base.js#L30)
+Defined in: [ds/src/ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -110,7 +110,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ds/src/ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/base.js#L76)
+Defined in: [ds/src/ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/base.js#L76)
 
 Clone the kernel with the same parameters
 
@@ -130,7 +130,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `number`
 
-Defined in: [ds/src/ml/kernels/periodic.js:28](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L28)
+Defined in: [ds/src/ml/kernels/periodic.js:28](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L28)
 
 Compute covariance between two points
 
@@ -164,7 +164,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ds/src/ml/kernels/periodic.js:41](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L41)
+Defined in: [ds/src/ml/kernels/periodic.js:41](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L41)
 
 Get kernel hyperparameters
 
@@ -196,7 +196,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ds/src/ml/kernels/periodic.js:49](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/kernels/periodic.js#L49)
+Defined in: [ds/src/ml/kernels/periodic.js:49](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kernels/periodic.js#L49)
 
 Set kernel hyperparameters
 

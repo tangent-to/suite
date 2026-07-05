@@ -4,32 +4,44 @@ title: "sampleCov"
 
 > **sampleCov**(`data`, `names`): `object`
 
-Defined in: [fit.js:17](https://github.com/tangent-to/sem/blob/a484d1af5ccb86fdee92726ba3c75d48dc82c663/src/fit.js#L17)
+Defined in: [fit.js:29](https://github.com/tangent-to/sem/blob/a377415108494623387d492893bb95c1809541cc/src/fit.js#L29)
 
-ML sample covariance (divisor N, lavaan's default rescaling) and means.
+Sample covariance matrix and means from raw data.
+
+Uses the maximum-likelihood divisor N (lavaan's default rescaling), not the
+unbiased N - 1. Every value must be finite; missing or non-numeric data
+raises an Error, so impute or drop it first.
 
 ## Parameters
 
 ### data
 
-`any`
+`any`[]
+
+Rows as objects, one field per variable
 
 ### names
 
-`any`
+`string`[]
+
+Variable names to include, in output order
 
 ## Returns
 
 `object`
 
+`S` is
+  the `names.length` square covariance matrix, `means` the per-variable
+  means, `n` the number of rows
+
 ### means
 
-> **means**: `any`[]
+> **means**: `number`[]
 
 ### n
 
-> **n**: `any`
+> **n**: `number`
 
 ### S
 
-> **S**: `any`[][]
+> **S**: `number`[][]

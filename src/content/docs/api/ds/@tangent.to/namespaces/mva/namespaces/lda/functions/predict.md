@@ -2,9 +2,11 @@
 title: "predict"
 ---
 
-> **predict**(`model`, `X`): `any`[]
+> **predict**(`model`, `X`): (`string` \| `number`)[]
 
-Defined in: [ds/src/mva/lda.js:397](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/lda.js#L397)
+Defined in: [ds/src/mva/lda.js:421](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/lda.js#L421)
+
+Predict class labels for new data using nearest class-mean in discriminant space
 
 ## Parameters
 
@@ -12,10 +14,16 @@ Defined in: [ds/src/mva/lda.js:397](https://github.com/tangent-to/ds/blob/f89855
 
 `any`
 
+Fitted LDA model
+
 ### X
 
 `any`
 
+New data matrix (n × p), or a declarative config object with data/X
+
 ## Returns
 
-`any`[]
+(`string` \| `number`)[]
+
+Predicted class label for each row

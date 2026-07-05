@@ -2,7 +2,7 @@
 title: "CompositionalOutlierDetector"
 ---
 
-Defined in: [ds/src/mva/composition.js:616](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L616)
+Defined in: [ds/src/mva/composition.js:620](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L620)
 
 Detect compositional outliers via the Mahalanobis distance in log-ratio
 space, tested as a chi-squared variable (Filzmoser & Hron; Parent & Dafir,
@@ -49,7 +49,7 @@ Log-ratio coordinates to use.
 
 > **new CompositionalOutlierDetector**(`opts?`): `CompositionalOutlierDetector`
 
-Defined in: [ds/src/mva/composition.js:622](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L622)
+Defined in: [ds/src/mva/composition.js:626](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L626)
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Log-ratio coordinates to use.
 
 > **alpha**: `number`
 
-Defined in: [ds/src/mva/composition.js:624](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L624)
+Defined in: [ds/src/mva/composition.js:628](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L628)
 
 ***
 
@@ -85,7 +85,7 @@ Defined in: [ds/src/mva/composition.js:624](https://github.com/tangent-to/ds/blo
 
 > **center**: `any`[]
 
-Defined in: [ds/src/mva/composition.js:646](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L646)
+Defined in: [ds/src/mva/composition.js:650](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L650)
 
 ***
 
@@ -93,7 +93,7 @@ Defined in: [ds/src/mva/composition.js:646](https://github.com/tangent-to/ds/blo
 
 > **covInverse**: `number`[][] \| [`Matrix`](../../../../core/namespaces/linalg/classes/Matrix.md)
 
-Defined in: [ds/src/mva/composition.js:657](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L657)
+Defined in: [ds/src/mva/composition.js:661](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L661)
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: [ds/src/mva/composition.js:657](https://github.com/tangent-to/ds/blo
 
 > **df**: `any`
 
-Defined in: [ds/src/mva/composition.js:641](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L641)
+Defined in: [ds/src/mva/composition.js:645](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L645)
 
 ***
 
@@ -109,7 +109,7 @@ Defined in: [ds/src/mva/composition.js:641](https://github.com/tangent-to/ds/blo
 
 > **dim**: `any`
 
-Defined in: [ds/src/mva/composition.js:640](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L640)
+Defined in: [ds/src/mva/composition.js:644](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L644)
 
 ***
 
@@ -117,7 +117,7 @@ Defined in: [ds/src/mva/composition.js:640](https://github.com/tangent-to/ds/blo
 
 > **fitted**: `boolean`
 
-Defined in: [ds/src/mva/composition.js:625](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L625)
+Defined in: [ds/src/mva/composition.js:629](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L629)
 
 ***
 
@@ -125,7 +125,7 @@ Defined in: [ds/src/mva/composition.js:625](https://github.com/tangent-to/ds/blo
 
 > **nParts**: `any`
 
-Defined in: [ds/src/mva/composition.js:639](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L639)
+Defined in: [ds/src/mva/composition.js:643](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L643)
 
 ***
 
@@ -133,7 +133,7 @@ Defined in: [ds/src/mva/composition.js:639](https://github.com/tangent-to/ds/blo
 
 > **transform**: `"clr"` \| `"ilr"`
 
-Defined in: [ds/src/mva/composition.js:623](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L623)
+Defined in: [ds/src/mva/composition.js:627](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L627)
 
 ## Methods
 
@@ -141,7 +141,7 @@ Defined in: [ds/src/mva/composition.js:623](https://github.com/tangent-to/ds/blo
 
 > **distance**(`mat`): `number`[]
 
-Defined in: [ds/src/mva/composition.js:663](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L663)
+Defined in: [ds/src/mva/composition.js:667](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L667)
 
 Squared Mahalanobis distance in log-ratio space for each row of `mat`.
 
@@ -161,7 +161,7 @@ Squared Mahalanobis distance in log-ratio space for each row of `mat`.
 
 > **fit**(`mat`): `CompositionalOutlierDetector`
 
-Defined in: [ds/src/mva/composition.js:634](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L634)
+Defined in: [ds/src/mva/composition.js:638](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L638)
 
 Estimate the centroid and (pseudo-inverse) covariance in log-ratio space
 from a reference composition - e.g. a healthy / high-yielding subpopulation.
@@ -186,7 +186,7 @@ this
 
 > **pValue**(`mat`): `number`[]
 
-Defined in: [ds/src/mva/composition.js:680](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L680)
+Defined in: [ds/src/mva/composition.js:684](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L684)
 
 Chi-squared p-value (1 − CDF) for each row's Mahalanobis distance.
 
@@ -206,7 +206,7 @@ Chi-squared p-value (1 − CDF) for each row's Mahalanobis distance.
 
 > **test**(`mat`): `object`
 
-Defined in: [ds/src/mva/composition.js:690](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/mva/composition.js#L690)
+Defined in: [ds/src/mva/composition.js:694](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L694)
 
 Test rows for compositional outlyingness against the fitted reference.
 

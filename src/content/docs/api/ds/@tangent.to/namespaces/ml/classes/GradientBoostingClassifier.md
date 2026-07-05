@@ -2,7 +2,7 @@
 title: "GradientBoostingClassifier"
 ---
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:455](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L455)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:472](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L472)
 
 Gradient boosting for classification (logistic / multinomial deviance)
 
@@ -24,7 +24,7 @@ const labels = gbc.predict({ data: newData });
 
 > **new GradientBoostingClassifier**(`opts?`): `GradientBoostingClassifier`
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:456](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L456)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:473](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L473)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [ds/src/ml/estimators/GradientBoosting.js:456](https://github.com/ta
 
 > **\_state**: `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L27)
+Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-
 
 > **\_warnings**: `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L29)
+Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-
 
 > **classes\_**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L515)
+Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L515)
 
 #### Inherited from
 
@@ -80,7 +80,7 @@ Defined in: [ds/src/core/estimators/estimator.js:515](https://github.com/tangent
 
 > **fitted**: `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L25)
+Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -92,7 +92,7 @@ Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-
 
 > **gb**: `GradientBoostingBase`
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:458](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L458)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:475](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L475)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [ds/src/ml/estimators/GradientBoosting.js:458](https://github.com/ta
 
 > **labelEncoder\_**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L514)
+Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L514)
 
 #### Inherited from
 
@@ -112,7 +112,7 @@ Defined in: [ds/src/core/estimators/estimator.js:514](https://github.com/tangent
 
 > **params**: `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L24)
+Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ Defined in: [ds/src/core/estimators/estimator.js:24](https://github.com/tangent-
 
 > **get** **featureImportances**(): `any`[]
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:505](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L505)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:533](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L533)
 
 ##### Returns
 
@@ -140,7 +140,7 @@ Defined in: [ds/src/ml/estimators/GradientBoosting.js:505](https://github.com/ta
 
 > **get** **lossHistory**(): `any`[]
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:510](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L510)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:538](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L538)
 
 Per-stage training loss (deviance)
 
@@ -154,7 +154,7 @@ Per-stage training loss (deviance)
 
 > **\_accuracy**(`yTrue`, `yPred`): `number`
 
-Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L644)
+Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L644)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [ds/src/core/estimators/estimator.js:644](https://github.com/tangent
 
 > **\_decodeLabels**(`predictions`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L606)
+Defined in: [ds/src/core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L606)
 
 Decode numeric predictions to original labels
 
@@ -208,7 +208,7 @@ Decoded labels (or original if no encoder)
 
 > **\_extractLabelEncoder**(`prepared`): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L541)
+Defined in: [ds/src/core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L541)
 
 Extract and store label encoder from prepared data
 
@@ -236,7 +236,7 @@ True if encoder was found and stored
 
 > **\_getClasses**(`preparedY`, `onlyPresentClasses?`): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L563)
+Defined in: [ds/src/core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L563)
 
 Get unique classes from labels (encoded or raw)
 If labelEncoder exists, preparedY is assumed to be numeric indices [0, 1, 2, ...]
@@ -272,7 +272,7 @@ If true, only return classes present in preparedY
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L367)
+Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -306,7 +306,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L201)
+Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -326,7 +326,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L139)
+Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -344,24 +344,29 @@ Clear all warnings
 
 > **fit**(`X`, `y?`): `GradientBoostingClassifier`
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:461](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L461)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:484](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L484)
 
-Fit should be implemented by subclasses.
-Return `this` for chaining.
+Fit the classifier on training data.
 
 #### Parameters
 
 ##### X
 
-`any`
+`number`[][]
+
+Feature matrix (n samples × p features)
 
 ##### y?
 
-`any` = `null`
+`number`[] \| `string`[]
+
+Class labels
 
 #### Returns
 
 `GradientBoostingClassifier`
+
+The fitted estimator (for chaining)
 
 #### Overrides
 
@@ -373,7 +378,7 @@ Return `this` for chaining.
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L97)
+Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -393,7 +398,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L294)
+Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -411,7 +416,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L65)
+Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -431,7 +436,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L124)
+Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -451,7 +456,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L148)
+Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -479,7 +484,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L132)
+Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -497,7 +502,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L36)
+Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -513,22 +518,25 @@ Check if model is fitted
 
 ### predict()
 
-> **predict**(`X`): `any`
+> **predict**(`X`): `number`[] \| `string`[]
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:483](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L483)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:511](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L511)
 
-Predict - subclasses must override
-Ensures model is fitted before prediction
+Predict class labels for samples in X.
 
 #### Parameters
 
 ##### X
 
-`any`
+`number`[][]
+
+Feature matrix (n samples × p features)
 
 #### Returns
 
-`any`
+`number`[] \| `string`[]
+
+Predicted class labels
 
 #### Overrides
 
@@ -540,7 +548,7 @@ Ensures model is fitted before prediction
 
 > **predictProba**(`X`): `any`[]
 
-Defined in: [ds/src/ml/estimators/GradientBoosting.js:493](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/estimators/GradientBoosting.js#L493)
+Defined in: [ds/src/ml/estimators/GradientBoosting.js:521](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/estimators/GradientBoosting.js#L521)
 
 Predict class probabilities
 
@@ -566,7 +574,7 @@ One object per row keyed by class label
 
 > **save**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L329)
+Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -586,7 +594,7 @@ JSON representation of the model
 
 > **score**(`yTrueOrOpts`, `yPred`, `_opts?`, ...`args?`): `number`
 
-Defined in: [ds/src/core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L622)
+Defined in: [ds/src/core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L622)
 
 Default accuracy scoring:
  - score(yTrue, yPred)
@@ -622,7 +630,7 @@ Default accuracy scoring:
 
 > **setParams**(`params?`): `GradientBoostingClassifier`
 
-Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L285)
+Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -646,7 +654,7 @@ Set parameters (mutates instance).
 
 > **toJSON**(): `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L302)
+Defined in: [ds/src/core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L302)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -681,7 +689,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L431)
+Defined in: [ds/src/core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -699,7 +707,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L317)
+Defined in: [ds/src/core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L317)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -724,7 +732,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/estimators/estimator.js#L346)
+Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

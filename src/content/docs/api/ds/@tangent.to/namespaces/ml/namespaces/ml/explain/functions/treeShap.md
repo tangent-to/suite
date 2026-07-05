@@ -2,43 +2,45 @@
 title: "treeShap"
 ---
 
-> **treeShap**(`__namedParameters`, `X`): `object`
+> **treeShap**(`spec`, `X`): `object`
 
-Defined in: [ds/src/ml/explain.js:731](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/explain.js#L731)
+Defined in: [ds/src/ml/explain.js:748](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/explain.js#L748)
 
 Convenience: TreeSHAP in one call. See [TreeExplainer](../classes/TreeExplainer.md).
 
 ## Parameters
 
-### \_\_namedParameters
+### spec
+
+Explainer specification
 
 #### featureNames
 
-`any`
+`string`[]
+
+Feature names for each column
 
 #### model
 
 `any`
 
+Tree model to explain
+
 ### X
 
-`any`
+`number`[][]
+
+Instances to explain (n × p)
 
 ## Returns
 
 `object`
 
-### baseValue
+SHAP values per instance and feature
 
-> **baseValue**: `number`
+### featureNames?
 
-### expectedValue
-
-> **expectedValue**: `number`
-
-### featureNames
-
-> **featureNames**: `string`[]
+> `optional` **featureNames?**: `string`[]
 
 ### values
 

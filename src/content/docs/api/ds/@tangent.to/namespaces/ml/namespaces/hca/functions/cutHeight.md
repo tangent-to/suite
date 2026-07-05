@@ -2,9 +2,11 @@
 title: "cutHeight"
 ---
 
-> **cutHeight**(`model`, `height`): `any`[]
+> **cutHeight**(`model`, `height`): `number`[]
 
-Defined in: [ds/src/ml/hca.js:275](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/ml/hca.js#L275)
+Defined in: [ds/src/ml/hca.js:287](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/hca.js#L287)
+
+Cut a hierarchical clustering dendrogram at a given merge height
 
 ## Parameters
 
@@ -12,10 +14,16 @@ Defined in: [ds/src/ml/hca.js:275](https://github.com/tangent-to/ds/blob/f89855c
 
 `any`
 
+Fitted HCA model with { dendrogram, linkage, n }
+
 ### height
 
-`any`
+`number`
+
+Non-negative distance threshold; merges with distance above it are not applied
 
 ## Returns
 
-`any`[]
+`number`[]
+
+Cluster label for each of the n samples

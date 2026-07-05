@@ -2,22 +2,44 @@
 title: "summaryQuantiles"
 ---
 
-> **summaryQuantiles**(`arr`, `probs?`, `options?`): `object`
+> **summaryQuantiles**(`arr`, `probs?`, `options?`): `any`
 
-Defined in: [ds/src/core/math.js:242](https://github.com/tangent-to/ds/blob/f89855ceeb3a13b193f334d5de06a63a92d31f2a/src/core/math.js#L242)
+Defined in: [ds/src/core/math.js:276](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/math.js#L276)
+
+Compute a set of quantiles keyed by probability
 
 ## Parameters
 
 ### arr
 
-`any`
+`number`[]
+
+Array of numbers
 
 ### probs?
 
 `number`[] = `...`
 
+Probabilities in [0, 1] to compute
+
 ### options?
+
+Options
+
+#### method?
+
+`string`
+
+Interpolation method ('linear' or nearest)
+
+#### naOmit?
+
+`boolean`
+
+Omit non-finite values instead of throwing
 
 ## Returns
 
-`object`
+`any`
+
+Object mapping each probability to its quantile value
