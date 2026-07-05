@@ -145,6 +145,9 @@ h1#_top,
   padding: 0.55rem 1.1rem;
   border-radius: 999px;
   transition: filter 0.2s, transform 0.2s;
+  /* Starlight's markdown spacing rule excludes <a> from margin-top, so the
+     button would otherwise sit flush against the code block above it. */
+  margin: 1.25rem 0 0.5rem;
 }
 /* Starlight's `.sl-markdown-content a` (teal link color) outranks `.tg-run` on
    specificity and paints the label teal-on-teal, so win it back explicitly. */
