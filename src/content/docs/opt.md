@@ -20,10 +20,7 @@ deno add jsr:@tangent/opt        # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-opt example notebook: curve fit with a robust loss holding the slope under outliers
-</div>
+![opt example: robust curve fit under outliers](../../assets/screenshots/opt.png)
 
 ## Minimization
 

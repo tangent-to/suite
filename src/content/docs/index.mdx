@@ -7,12 +7,9 @@ hero:
   title: Scientific computing, native to <em>JavaScript</em>.
   tagline: A coherent stack for numerics, statistics and modeling that runs in the browser with no build step. Every result is validated against the reference it stands beside.
   image:
-    html: |
-      <svg width="88" height="88" viewBox="0 0 32 32" fill="none" aria-hidden="true" class="tg-mark">
-        <path class="tg-draw" d="M3 25C9 25 12 5 29 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <line class="tg-draw2" x1="6" y1="27" x2="26" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
-        <circle class="tg-dot" cx="15.5" cy="17.6" r="2.9" fill="currentColor"/>
-      </svg>
+    light: ../../assets/logo-light.svg
+    dark: ../../assets/logo-dark.svg
+    alt: tangent
   actions:
     - text: Explore the packages
       link: '#packages'
@@ -24,7 +21,8 @@ hero:
       variant: minimal
 ---
 
-import { CardGrid } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import noteShot from '../../assets/screenshots/tangent-note.png';
 
 <div class="tg-home">
 
@@ -47,7 +45,7 @@ import { CardGrid } from '@astrojs/starlight/components';
 <p class="tg-tier">Applications <span>GPL</span></p>
 <div class="tg-grid tg-grid-3">
   <a class="tg-card" href="/ds/"><span class="tg-name">tangent<b>/</b>ds</span><span class="tg-role">Data science</span><span class="tg-desc">Statistics, machine learning, multivariate analysis and plots, R and scikit-learn flavored.</span><span class="tg-ref">statsmodels + scikit-learn</span></a>
-  <a class="tg-card" href="/mc/"><span class="tg-name">tangent<b>/</b>mc</span><span class="tg-role">Bayesian inference</span><span class="tg-desc">PyMC-style models with NUTS and HMC, on analytic gradients. No TensorFlow.</span><span class="tg-ref">PyMC</span></a>
+  <a class="tg-card" href="/mc/"><span class="tg-name">tangent<b>/</b>mc</span><span class="tg-role">Bayesian inference</span><span class="tg-desc">PyMC-style models with NUTS and HMC, on analytic gradients.</span><span class="tg-ref">PyMC</span></a>
   <a class="tg-card" href="/sem/"><span class="tg-name">tangent<b>/</b>sem</span><span class="tg-role">Structural equation modeling</span><span class="tg-desc">Confirmatory factor analysis, path analysis and full SEM with lavaan-style syntax.</span><span class="tg-ref">lavaan</span></a>
 </div>
 
@@ -59,10 +57,8 @@ import { CardGrid } from '@astrojs/starlight/components';
 <h2 class="tg-h2">Every example is a live notebook.</h2>
 <p class="tg-lede">Open any example at note.tangent.to and run it in the browser, no install. The same code you read is the code that runs.</p>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-note.tangent.to running a tangent example (predator-prey trajectory, or a fitted curve)
-</div>
+<Image src={noteShot} alt="note.tangent.to running a tangent example" class="tg-shot" />
+
 
 </section>
 

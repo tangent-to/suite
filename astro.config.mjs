@@ -9,9 +9,11 @@ export default defineConfig({
       title: 'tangent',
       description:
         'Scientific computing for JavaScript. Numerics, statistics and modeling that run in the browser, validated against scipy, numpy and lavaan.',
-      // Placeholder logo (the tangent mark). Replace src with the final logo asset.
+      // Theme-aware logo: logo-light shows on the light (cream) theme,
+      // logo-dark on the dark theme.
       logo: {
-        src: './src/assets/logo.svg',
+        light: './src/assets/logo-light.svg',
+        dark: './src/assets/logo-dark.svg',
         alt: 'tangent',
       },
       customCss: ['./src/styles/tangent.css'],

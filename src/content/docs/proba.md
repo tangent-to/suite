@@ -20,10 +20,7 @@ deno add jsr:@tangent/proba       # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-proba example notebook: a fitted normal density over a sampled histogram, with its analytic score overlaid
-</div>
+![proba example: a distribution and its gradient](../../assets/screenshots/proba.png)
 
 ## The distribution interface
 

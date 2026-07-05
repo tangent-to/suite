@@ -20,10 +20,7 @@ deno add jsr:@tangent/lina         # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-lina example notebook: a least-squares fit recovered through the QR factorization, with its residual norm
-</div>
+![lina example: SVD and eigen output](../../assets/screenshots/lina.png)
 
 ## Solving systems
 

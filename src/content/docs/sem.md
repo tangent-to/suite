@@ -20,10 +20,7 @@ deno add jsr:@tangent/sem        # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-sem cfa notebook: a three-factor Holzinger-Swineford measurement model with loadings, fit indices, and factor covariances
-</div>
+![sem example: the CFA fit summary](../../assets/screenshots/sem.png)
 
 ## Fitting a model
 

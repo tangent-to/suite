@@ -1,6 +1,6 @@
 ---
 title: mc
-description: Bayesian modeling and MCMC for JavaScript. Declare priors and a likelihood, then sample the posterior with NUTS. Browser-first, no TensorFlow. Validated against PyMC.
+description: Bayesian modeling and MCMC for JavaScript. Declare priors and a likelihood, then sample the posterior with NUTS. Browser-first, validated against PyMC.
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 3
@@ -8,7 +8,7 @@ tableOfContents:
 
 <p class="tg-pkg-head"><span class="tg-slug">tangent<span class="slash">/</span>mc</span> <span class="tg-validated">validated against PyMC</span></p>
 
-Bayesian modeling the way PyMC does it: declare priors and a likelihood as a directed acyclic graph of random variables, then draw from the posterior with Markov chain Monte Carlo. Since version 0.5 the whole library runs on plain numbers and arrays. There is no TensorFlow and no autodiff graph. Gradients for the samplers come from analytic `dlogpdf` functions, so a model samples in the browser with nothing to compile.
+Bayesian modeling the way PyMC does it: declare priors and a likelihood as a directed acyclic graph of random variables, then draw from the posterior with Markov chain Monte Carlo.
 
 ```bash
 npm install @tangent.to/mc       # npm
@@ -20,10 +20,7 @@ deno add jsr:@tangent/mc         # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-mc bayesian-inference notebook: recover a Normal mean and scale from data, with a posterior that brackets the true values
-</div>
+![mc example: NUTS posterior summary](../../assets/screenshots/mc.png)
 
 ## Building a model
 
@@ -86,4 +83,4 @@ Every sampler and every `.sample()` call draws from a single RNG stream. Seed it
 
 ## Verified against PyMC
 
-mc is browser-first and PyMC-like: the modeling API (priors, a likelihood, `Model`) mirrors PyMC, and the samplers reproduce PyMC's behavior on shared problems. On the estimate-a-mean example NUTS recovers the true value with a credible interval that brackets it, acceptance adapts to the 0.8 target, and the analytic gradients let the whole run happen in the browser with no TensorFlow and nothing to compile.
+mc is browser-first and PyMC-like: the modeling API (priors, a likelihood, `Model`) mirrors PyMC, and the samplers reproduce PyMC's behavior on shared problems. On the estimate-a-mean example NUTS recovers the true value with a credible interval that brackets it, acceptance adapts to the 0.8 target, and the analytic gradients let the whole run happen in the browser.

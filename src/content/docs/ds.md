@@ -20,10 +20,7 @@ deno add jsr:@tangent/ds         # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-ds getting-started notebook: describe a dataset, test a group difference, reduce with PCA, cluster, and fit a linear model
-</div>
+![ds example: PCA and a fitted model](../../assets/screenshots/ds.png)
 
 ## Namespaces
 

@@ -20,10 +20,7 @@ deno add jsr:@tangent/ode           # Deno / JSR
 Run the example notebook
 </a>
 
-<div class="tg-imgph tg-imgph-wide">
-<span class="tg-imgph-k">screenshot</span>
-ode example notebook: the Lotka-Volterra predator-prey cycle traced out as a closed phase-space orbit
-</div>
+![ode example: Lotka-Volterra predator-prey](../../assets/screenshots/ode.png)
 
 ## Non-stiff integration
 

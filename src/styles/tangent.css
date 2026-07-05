@@ -248,3 +248,13 @@ h1#_top,
 .tg-imgph .tg-imgph-k { color: var(--tg-teal); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.68rem; }
 .tg-imgph.tg-imgph-wide { aspect-ratio: 16 / 7; }
 .tg-imgph.tg-imgph-sq { aspect-ratio: 4 / 3; }
+
+/* Screenshot images (landing showcase and package pages) */
+.tg-shot, .sl-markdown-content img {
+  border-radius: 12px;
+  border: 1px solid var(--sl-color-hairline);
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  height: auto;
+}
