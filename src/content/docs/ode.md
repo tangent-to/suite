@@ -20,7 +20,9 @@ deno add jsr:@tangent/ode           # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![ode example: Lotka-Volterra predator-prey](../../assets/screenshots/ode.png)
+-->
 
 ## Non-stiff integration
 

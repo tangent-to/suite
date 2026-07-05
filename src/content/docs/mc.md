@@ -20,7 +20,9 @@ deno add jsr:@tangent/mc         # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![mc example: NUTS posterior summary](../../assets/screenshots/mc.png)
+-->
 
 ## Building a model
 

@@ -20,7 +20,9 @@ deno add jsr:@tangent/sem        # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![sem example: the CFA fit summary](../../assets/screenshots/sem.png)
+-->
 
 ## Fitting a model
 

@@ -20,7 +20,9 @@ deno add jsr:@tangent/lina         # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![lina example: SVD and eigen output](../../assets/screenshots/lina.png)
+-->
 
 ## Solving systems
 

@@ -20,7 +20,9 @@ deno add jsr:@tangent/opt        # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![opt example: robust curve fit under outliers](../../assets/screenshots/opt.png)
+-->
 
 ## Minimization
 

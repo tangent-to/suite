@@ -20,7 +20,9 @@ deno add jsr:@tangent/ds         # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![ds example: PCA and a fitted model](../../assets/screenshots/ds.png)
+-->
 
 ## Namespaces
 

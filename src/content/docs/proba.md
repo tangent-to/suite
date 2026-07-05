@@ -20,7 +20,9 @@ deno add jsr:@tangent/proba       # Deno / JSR
 Run the example notebook
 </a>
 
+<!-- Placeholder screenshot hidden until a real one is ready:
 ![proba example: a distribution and its gradient](../../assets/screenshots/proba.png)
+-->
 
 ## The distribution interface
 

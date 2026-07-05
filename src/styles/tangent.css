@@ -146,6 +146,10 @@ h1#_top,
   border-radius: 999px;
   transition: filter 0.2s, transform 0.2s;
 }
+/* Starlight's `.sl-markdown-content a` (teal link color) outranks `.tg-run` on
+   specificity and paints the label teal-on-teal, so win it back explicitly. */
+.sl-markdown-content a.tg-run,
+.sl-markdown-content a.tg-run:hover { color: var(--sl-color-bg); }
 .tg-run:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .tg-run svg { flex: none; }
 
