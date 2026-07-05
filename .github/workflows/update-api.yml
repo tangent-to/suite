@@ -1,0 +1,61 @@
+name: Update API reference
+
+# Regenerates src/content/docs/api/<pkg> from each package's JSDoc and commits
+# the result. The site build itself only consumes the committed markdown, so it
+# never needs the package repos. Run this when a package's public API changes:
+# manually, on a weekly schedule, or by a repository_dispatch from a package
+# repo's own release workflow (event type: api-update).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
+  repository_dispatch:
+    types: [api-update]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+        with:
+          path: suite
+      # The packages must sit next to the site so TypeDoc can read ../<pkg>/src.
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/opt, path: opt }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/proba, path: proba }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/lina, path: lina }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/ode, path: ode }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/ds, path: ds }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/mc, path: mc }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/sem, path: sem }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install site deps (TypeDoc)
+        run: npm ci
+        working-directory: suite
+      - name: Regenerate the API reference
+        run: npm run gen:api
+        working-directory: suite
+      - name: Commit if it changed
+        working-directory: suite
+        run: |
+          git config user.name 'tangent-bot'
+          git config user.email 'bot@tangent.to'
+          git add src/content/docs/api
+          if git diff --cached --quiet; then
+            echo 'API reference already up to date.'
+          else
+            git commit -m 'chore: regenerate API reference from package JSDoc'
+            git push
+          fi

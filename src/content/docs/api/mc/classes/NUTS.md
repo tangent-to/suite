@@ -1,0 +1,405 @@
+---
+title: "NUTS"
+---
+
+Defined in: [mc/src/samplers/nuts.js:28](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L28)
+
+No-U-Turn Sampler (NUTS)
+
+An extension of Hamiltonian Monte Carlo that automatically tunes the trajectory length.
+NUTS eliminates the need to manually set the number of leapfrog steps by running
+until the trajectory makes a "U-turn" (starts coming back).
+
+**Algorithm**: Uses recursive tree doubling to adaptively determine path length.
+The trajectory is stopped when:
+$$
+(p^+ - p^-) \cdot \theta^+ < 0 \quad \text{or} \quad (p^+ - p^-) \cdot \theta^- < 0
+$$
+where $\theta^+, p^+$ are the forward endpoint and $\theta^-, p^-$ are the backward endpoint.
+
+**Advantages over HMC:**
+- No manual tuning of trajectory length
+- Better exploration of complex posteriors
+- State-of-the-art MCMC performance
+
+**Dual averaging** is used to automatically tune step size during warm-up.
+
+## See
+
+[No-U-Turn Sampler (Hoffman & Gelman, 2014)](https://arxiv.org/abs/1111.4246|The)
+
+## Constructors
+
+### Constructor
+
+> **new NUTS**(`stepSize?`, `maxTreeDepth?`, `targetAcceptance?`): `NUTS`
+
+Defined in: [mc/src/samplers/nuts.js:42](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L42)
+
+Accepts either positional arguments or a single options object.
+
+#### Parameters
+
+##### stepSize?
+
+`any` = `0.01`
+
+Initial leapfrog step size (adapted during
+  warmup), or an options object `{ stepSize, maxTreeDepth, targetAcceptance }`
+
+##### maxTreeDepth?
+
+`number` = `10`
+
+Maximum tree depth (default 10, up to 2^10 steps)
+
+##### targetAcceptance?
+
+`number` = `0.8`
+
+Target acceptance rate for adaptation (default 0.8)
+
+#### Returns
+
+`NUTS`
+
+#### Examples
+
+```ts
+new NUTS(0.01, 10, 0.8)
+```
+
+```ts
+new NUTS({ stepSize: 0.01, maxTreeDepth: 10, targetAcceptance: 0.8 })
+```
+
+## Properties
+
+### gamma
+
+> **gamma**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:55](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L55)
+
+***
+
+### kappa
+
+> **kappa**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:57](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L57)
+
+***
+
+### maxTreeDepth
+
+> **maxTreeDepth**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:50](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L50)
+
+***
+
+### mu
+
+> **mu**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:54](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L54)
+
+***
+
+### stepSize
+
+> **stepSize**: `any`
+
+Defined in: [mc/src/samplers/nuts.js:49](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L49)
+
+***
+
+### t0
+
+> **t0**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:56](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L56)
+
+***
+
+### targetAcceptance
+
+> **targetAcceptance**: `number`
+
+Defined in: [mc/src/samplers/nuts.js:51](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L51)
+
+## Methods
+
+### buildTree()
+
+> **buildTree**(`position`, `momentum`, `slice`, `direction`, `depth`, `stepSize`, `model`, `H0`): `any`
+
+Defined in: [mc/src/samplers/nuts.js:153](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L153)
+
+Build tree recursively (doubling procedure)
+
+#### Parameters
+
+##### position
+
+`any`
+
+Starting position
+
+##### momentum
+
+`any`
+
+Starting momentum
+
+##### slice
+
+`number`
+
+Slice variable for acceptance
+
+##### direction
+
+`number`
+
+Direction (+1 forward, -1 backward)
+
+##### depth
+
+`number`
+
+Current tree depth
+
+##### stepSize
+
+`number`
+
+Step size
+
+##### model
+
+`Model`
+
+The probabilistic model
+
+##### H0
+
+`number`
+
+Initial Hamiltonian
+
+#### Returns
+
+`any`
+
+Tree information
+
+***
+
+### getParams()
+
+> **getParams**(): `object`
+
+Defined in: [mc/src/samplers/nuts.js:64](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L64)
+
+Get the sampler's configuration.
+
+#### Returns
+
+`object`
+
+##### maxTreeDepth
+
+> **maxTreeDepth**: `number`
+
+##### stepSize
+
+> **stepSize**: `number`
+
+##### targetAcceptance
+
+> **targetAcceptance**: `number`
+
+***
+
+### hamiltonian()
+
+> **hamiltonian**(`position`, `momentum`, `model`): `number`
+
+Defined in: [mc/src/samplers/nuts.js:113](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L113)
+
+Compute Hamiltonian (total energy)
+
+#### Parameters
+
+##### position
+
+`any`
+
+Current position
+
+##### momentum
+
+`any`
+
+Current momentum
+
+##### model
+
+`Model`
+
+The probabilistic model
+
+#### Returns
+
+`number`
+
+Hamiltonian value
+
+***
+
+### isUTurn()
+
+> **isUTurn**(`positionMinus`, `positionPlus`, `momentumMinus`, `momentumPlus`): `boolean`
+
+Defined in: [mc/src/samplers/nuts.js:125](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L125)
+
+Check if trajectory is making a U-turn
+
+#### Parameters
+
+##### positionMinus
+
+`any`
+
+Backward endpoint position
+
+##### positionPlus
+
+`any`
+
+Forward endpoint position
+
+##### momentumMinus
+
+`any`
+
+Backward endpoint momentum
+
+##### momentumPlus
+
+`any`
+
+Forward endpoint momentum
+
+#### Returns
+
+`boolean`
+
+True if trajectory is making a U-turn
+
+***
+
+### leapfrog()
+
+> **leapfrog**(`position`, `momentum`, `stepSize`, `model`): `any`
+
+Defined in: [mc/src/samplers/nuts.js:80](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L80)
+
+Single leapfrog step
+
+#### Parameters
+
+##### position
+
+`any`
+
+Current position (parameters)
+
+##### momentum
+
+`any`
+
+Current momentum
+
+##### stepSize
+
+`number`
+
+Step size for this step
+
+##### model
+
+`Model`
+
+The probabilistic model
+
+#### Returns
+
+`any`
+
+New position and momentum
+
+***
+
+### sample()
+
+> **sample**(`model`, `initialValues`, `nSamples?`, `nWarmup?`, `thin?`): `any`
+
+Defined in: [mc/src/samplers/nuts.js:254](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/nuts.js#L254)
+
+Run NUTS sampling.
+
+The sampling controls may be passed positionally or as a single options
+object. When an options object is supplied as the third argument, the
+`nWarmup` and `thin` positional arguments are ignored in favour of the
+object's fields.
+
+#### Parameters
+
+##### model
+
+`Model`
+
+The probabilistic model
+
+##### initialValues
+
+`any`
+
+Initial parameter values
+
+##### nSamples?
+
+`any` = `1000`
+
+Number of samples, or an options object
+
+##### nWarmup?
+
+`number` = `500`
+
+Number of warmup samples for step-size adaptation (positional form)
+
+##### thin?
+
+`number` = `1`
+
+Thinning interval (positional form)
+
+#### Returns
+
+`any`
+
+Trace object with samples and diagnostics
+
+#### Examples
+
+```ts
+nuts.sample(model, { mu: 0 }, 1000, 500, 1)
+```
+
+```ts
+nuts.sample(model, { mu: 0 }, { nSamples: 1000, nWarmup: 500, thin: 1 })
+```

@@ -1,0 +1,36 @@
+---
+title: "plot"
+---
+
+## Functions
+
+- [createD3DendrogramRenderer](functions/createD3DendrogramRenderer.md)
+- [dendrogramLayout](functions/dendrogramLayout.md)
+- [diagnosticDashboard](functions/diagnosticDashboard.md)
+- [effectPlot](functions/effectPlot.md)
+- [ordiplot](functions/ordiplot.md)
+- [partialResidualPlot](functions/partialResidualPlot.md)
+- [plotCalibration](functions/plotCalibration.md)
+- [plotClusterMembership](functions/plotClusterMembership.md)
+- [plotClusterStability](functions/plotClusterStability.md)
+- [plotCondensedTree](functions/plotCondensedTree.md)
+- [plotConfusionMatrix](functions/plotConfusionMatrix.md)
+- [plotCorrelationMatrix](functions/plotCorrelationMatrix.md)
+- [plotFeatureImportance](functions/plotFeatureImportance.md)
+- [plotHCA](functions/plotHCA.md)
+- [plotHDBSCAN](functions/plotHDBSCAN.md)
+- [plotHDBSCANDashboard](functions/plotHDBSCANDashboard.md)
+- [plotHDBSCANDendrogram](functions/plotHDBSCANDendrogram.md)
+- [plotLearningCurve](functions/plotLearningCurve.md)
+- [plotPartialDependence](functions/plotPartialDependence.md)
+- [plotPrecisionRecall](functions/plotPrecisionRecall.md)
+- [plotQQ](functions/plotQQ.md)
+- [plotResiduals](functions/plotResiduals.md)
+- [plotROC](functions/plotROC.md)
+- [plotScree](functions/plotScree.md)
+- [plotSilhouette](functions/plotSilhouette.md)
+- [qqPlot](functions/qqPlot.md)
+- [residualPlot](functions/residualPlot.md)
+- [residualsLeveragePlot](functions/residualsLeveragePlot.md)
+- [resolveGroupValues](functions/resolveGroupValues.md)
+- [scaleLocationPlot](functions/scaleLocationPlot.md)
