@@ -22,32 +22,31 @@ export default defineConfig({
       social: {
         github: 'https://github.com/tangent-to',
       },
-      sidebar: [
-        {
-          label: 'Foundations',
+      sidebar: (() => {
+        // One collapsible entry per package: its overview, then its generated
+        // API reference. Keeps the package name from appearing twice.
+        const meta = {
+          opt: 'optimization',
+          proba: 'probability',
+          lina: 'linear algebra',
+          ode: 'differential equations',
+          ds: 'data science',
+          mc: 'Bayesian inference',
+          sem: 'structural equation modeling',
+        };
+        const group = (slug) => ({
+          label: `${slug} · ${meta[slug]}`,
+          collapsed: true,
           items: [
-            { label: 'opt · optimization', slug: 'opt' },
-            { label: 'opt · API reference', autogenerate: { directory: 'api/opt' }, collapsed: true },
-            { label: 'proba · probability', slug: 'proba' },
-            { label: 'proba · API reference', autogenerate: { directory: 'api/proba' }, collapsed: true },
-            { label: 'lina · linear algebra', slug: 'lina' },
-            { label: 'lina · API reference', autogenerate: { directory: 'api/lina' }, collapsed: true },
-            { label: 'ode · differential equations', slug: 'ode' },
-            { label: 'ode · API reference', autogenerate: { directory: 'api/ode' }, collapsed: true },
+            { label: 'Overview', slug },
+            { label: 'API reference', autogenerate: { directory: `api/${slug}` }, collapsed: true },
           ],
-        },
-        {
-          label: 'Applications',
-          items: [
-            { label: 'ds · data science', slug: 'ds' },
-            { label: 'ds · API reference', autogenerate: { directory: 'api/ds' }, collapsed: true },
-            { label: 'mc · Bayesian inference', slug: 'mc' },
-            { label: 'mc · API reference', autogenerate: { directory: 'api/mc' }, collapsed: true },
-            { label: 'sem · structural equation modeling', slug: 'sem' },
-            { label: 'sem · API reference', autogenerate: { directory: 'api/sem' }, collapsed: true },
-          ],
-        },
-      ],
+        });
+        return [
+          { label: 'Foundations', items: ['opt', 'proba', 'lina', 'ode'].map(group) },
+          { label: 'Applications', items: ['ds', 'mc', 'sem'].map(group) },
+        ];
+      })(),
       pagination: false,
       lastUpdated: false,
     }),
