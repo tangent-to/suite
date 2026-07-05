@@ -258,3 +258,18 @@ h1#_top,
   max-width: 100%;
   height: auto;
 }
+
+/* Landing cards: body links to the package page, footer runs the example */
+.tg-card { justify-content: space-between; }
+.tg-card-body { display: flex; flex-direction: column; gap: 0.1rem; text-decoration: none; color: inherit; }
+.tg-card-foot {
+  display: flex; justify-content: flex-end; align-items: center;
+  margin-top: 0.9rem; padding-top: 0.7rem;
+  border-top: 1px solid var(--sl-color-hairline-light);
+}
+.tg-card-run {
+  font-family: var(--tg-mono); font-size: 0.76rem; font-weight: 500;
+  color: var(--tg-teal); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.25rem;
+}
+.tg-card-run:hover { text-decoration: underline; }

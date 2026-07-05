@@ -22,7 +22,7 @@ hero:
 ---
 
 import { Image } from 'astro:assets';
-import noteShot from '../../assets/screenshots/tangent-note.png';
+import noteShot from '../../assets/screenshots/note.png';
 
 <div class="tg-home">
 
@@ -32,21 +32,21 @@ import noteShot from '../../assets/screenshots/tangent-note.png';
 <h2 class="tg-h2">Seven packages, one architecture.</h2>
 <p class="tg-lede">Small, dependency-free foundations under opinionated applications. The foundations are MIT and useful on their own; the applications compose them into the tools you reach for. Nothing depends on anything heavier than the package above it.</p>
 
-<p class="tg-tier">Foundations <span>MIT</span></p>
-<div class="tg-grid tg-grid-4">
-  <a class="tg-card" href="/opt/"><span class="tg-name">tangent<b>/</b>opt</span><span class="tg-role">Optimization</span><span class="tg-desc">Minimize, L-BFGS, curve fitting with bounds and robust losses, root finding.</span><span class="tg-ref">scipy.optimize</span></a>
-  <a class="tg-card" href="/proba/"><span class="tg-name">tangent<b>/</b>proba</span><span class="tg-role">Probability</span><span class="tg-desc">Distributions with analytic log-density gradients, cdf, quantiles, sampling.</span><span class="tg-ref">scipy.stats</span></a>
-  <a class="tg-card" href="/lina/"><span class="tg-name">tangent<b>/</b>lina</span><span class="tg-role">Linear algebra</span><span class="tg-desc">Solve, SVD, symmetric eigendecomposition, QR, Cholesky, least squares.</span><span class="tg-ref">scipy.linalg</span></a>
-  <a class="tg-card" href="/ode/"><span class="tg-name">tangent<b>/</b>ode</span><span class="tg-role">Differential equations</span><span class="tg-desc">Adaptive Dormand-Prince, a stiff Rosenbrock solver, dense output, events.</span><span class="tg-ref">scipy.integrate</span></a>
+<p class="tg-tier">Applications <span>GPL</span></p>
+<div class="tg-grid tg-grid-3">
+  <div class="tg-card"><a class="tg-card-body" href="/ds/"><span class="tg-name">tangent<b>/</b>ds</span><span class="tg-role">Data science</span><span class="tg-desc">Statistics, machine learning, multivariate analysis and plots, declarative and tidy.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/ds/examples/getting-started.js">Run example &rsaquo;</a></div></div>
+  <div class="tg-card"><a class="tg-card-body" href="/mc/"><span class="tg-name">tangent<b>/</b>mc</span><span class="tg-role">Bayesian inference</span><span class="tg-desc">PyMC-style models with NUTS and HMC, on analytic gradients.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/mc/examples/bayesian-inference.js">Run example &rsaquo;</a></div></div>
+  <div class="tg-card"><a class="tg-card-body" href="/sem/"><span class="tg-name">tangent<b>/</b>sem</span><span class="tg-role">Structural equation modeling</span><span class="tg-desc">Confirmatory factor analysis, path analysis and full SEM with lavaan-style syntax.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/sem/examples/cfa.js">Run example &rsaquo;</a></div></div>
 </div>
 
 <p class="tg-flow" aria-hidden="true">&darr;</p>
 
-<p class="tg-tier">Applications <span>GPL</span></p>
-<div class="tg-grid tg-grid-3">
-  <a class="tg-card" href="/ds/"><span class="tg-name">tangent<b>/</b>ds</span><span class="tg-role">Data science</span><span class="tg-desc">Statistics, machine learning, multivariate analysis and plots, R and scikit-learn flavored.</span><span class="tg-ref">statsmodels + scikit-learn</span></a>
-  <a class="tg-card" href="/mc/"><span class="tg-name">tangent<b>/</b>mc</span><span class="tg-role">Bayesian inference</span><span class="tg-desc">PyMC-style models with NUTS and HMC, on analytic gradients.</span><span class="tg-ref">PyMC</span></a>
-  <a class="tg-card" href="/sem/"><span class="tg-name">tangent<b>/</b>sem</span><span class="tg-role">Structural equation modeling</span><span class="tg-desc">Confirmatory factor analysis, path analysis and full SEM with lavaan-style syntax.</span><span class="tg-ref">lavaan</span></a>
+<p class="tg-tier">Foundations <span>MIT</span></p>
+<div class="tg-grid tg-grid-4">
+  <div class="tg-card"><a class="tg-card-body" href="/opt/"><span class="tg-name">tangent<b>/</b>opt</span><span class="tg-role">Optimization</span><span class="tg-desc">Minimize, L-BFGS, curve fitting with bounds and robust losses, root finding.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/opt/examples/optimization.js">Run example &rsaquo;</a></div></div>
+  <div class="tg-card"><a class="tg-card-body" href="/proba/"><span class="tg-name">tangent<b>/</b>proba</span><span class="tg-role">Probability</span><span class="tg-desc">Distributions with analytic log-density gradients, cdf, quantiles, sampling.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/proba/examples/distributions.js">Run example &rsaquo;</a></div></div>
+  <div class="tg-card"><a class="tg-card-body" href="/lina/"><span class="tg-name">tangent<b>/</b>lina</span><span class="tg-role">Linear algebra</span><span class="tg-desc">Solve, SVD, symmetric eigendecomposition, QR, Cholesky, least squares.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/lina/examples/linear-algebra.js">Run example &rsaquo;</a></div></div>
+  <div class="tg-card"><a class="tg-card-body" href="/ode/"><span class="tg-name">tangent<b>/</b>ode</span><span class="tg-role">Differential equations</span><span class="tg-desc">Adaptive Dormand-Prince, a stiff Rosenbrock solver, dense output, events.</span></a><div class="tg-card-foot"><a class="tg-card-run" href="https://note.tangent.to/gh/tangent-to/ode/examples/lotka-volterra.js">Run example &rsaquo;</a></div></div>
 </div>
 
 </section>
