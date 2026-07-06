@@ -4,7 +4,7 @@ title: "normalizeNaOmit"
 
 > **normalizeNaOmit**(`options?`): `boolean`
 
-Defined in: [ds/src/core/table.js:14](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/table.js#L14)
+Defined in: [core/table.js:14](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/table.js#L14)
 
 Normalize naOmit/omit_missing parameter names
 Accepts both R-style (naOmit) and Python-style (omit_missing)

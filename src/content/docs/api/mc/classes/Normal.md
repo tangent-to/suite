@@ -2,7 +2,7 @@
 title: "Normal"
 ---
 
-Defined in: [mc/src/distributions/normal.js:11](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L11)
+Defined in: [distributions/normal.js:11](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L11)
 
 Normal (Gaussian) distribution
 
@@ -22,7 +22,7 @@ $$ p(x | \mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x-\mu)^2}{
 
 > **new Normal**(`mu?`, `sigma?`, `name?`): `Normal`
 
-Defined in: [mc/src/distributions/normal.js:26](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L26)
+Defined in: [distributions/normal.js:26](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L26)
 
 Accepts either positional arguments or a single options object, matching the
 dual-constructor convention of `@tangent.to/ds`.
@@ -70,9 +70,9 @@ new Normal({ mean: 0, sd: 1 })
 
 ### \_dist
 
-> **\_dist**: `Readonly`\<\{ `kind`: `"continuous"`; `logpdf`: (`t`, `__namedParameters`) => `number`; `name`: `"normal"`; `params`: `string`[]; `cdf`: `number`; `dlogpdf`: \{ `dmu`: `number`; `dsigma`: `number`; `dx`: `number`; \}; `mean`: `any`; `pdf`: `number`; `quantile`: `any`; `sample`: `any`; `sampleN`: `any`[]; `support`: `number`[]; `validate`: `void`; `variance`: `number`; \}\>
+> **\_dist**: `any`
 
-Defined in: [mc/src/distributions/normal.js:36](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L36)
+Defined in: [distributions/normal.js:36](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L36)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [mc/src/distributions/normal.js:36](https://github.com/tangent-to/mc
 
 > **mu**: `any`
 
-Defined in: [mc/src/distributions/normal.js:34](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L34)
+Defined in: [distributions/normal.js:34](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L34)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [mc/src/distributions/normal.js:34](https://github.com/tangent-to/mc
 
 > **name**: `any`
 
-Defined in: [mc/src/distributions/normal.js:30](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L30)
+Defined in: [distributions/normal.js:30](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L30)
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: [mc/src/distributions/normal.js:30](https://github.com/tangent-to/mc
 
 > **observed**: `any`
 
-Defined in: [mc/src/distributions/base.js:46](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L46)
+Defined in: [distributions/base.js:46](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L46)
 
 #### Inherited from
 
@@ -112,7 +112,7 @@ Defined in: [mc/src/distributions/base.js:46](https://github.com/tangent-to/mc/b
 
 > **sigma**: `number` \| `any`[]
 
-Defined in: [mc/src/distributions/normal.js:35](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L35)
+Defined in: [distributions/normal.js:35](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L35)
 
 ## Methods
 
@@ -120,7 +120,7 @@ Defined in: [mc/src/distributions/normal.js:35](https://github.com/tangent-to/mc
 
 > **\_len**(`value`): `number`
 
-Defined in: [mc/src/distributions/base.js:55](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L55)
+Defined in: [distributions/base.js:55](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L55)
 
 Broadcast length across value and parameters (0 = all scalar).
 
@@ -144,7 +144,7 @@ Broadcast length across value and parameters (0 = all scalar).
 
 > **\_params**(): `object`
 
-Defined in: [mc/src/distributions/normal.js:39](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L39)
+Defined in: [distributions/normal.js:39](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L39)
 
 #### Returns
 
@@ -170,7 +170,7 @@ proba parameter object; subclasses must implement
 
 > **\_paramsAt**(`i`): `object`
 
-Defined in: [mc/src/distributions/base.js:63](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L63)
+Defined in: [distributions/base.js:63](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L63)
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: [mc/src/distributions/base.js:63](https://github.com/tangent-to/mc/b
 
 > **cdf**(`value`): `number`
 
-Defined in: [mc/src/distributions/base.js:149](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L149)
+Defined in: [distributions/base.js:149](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L149)
 
 Cumulative distribution function (scalar parameters).
 
@@ -216,7 +216,7 @@ Cumulative distribution function (scalar parameters).
 
 > **dlogProbDx**(`value`): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:119](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L119)
+Defined in: [distributions/base.js:119](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L119)
 
 Derivative of logProb with respect to the value, elementwise.
 Used by Model.logProbAndGradient for analytic prior gradients.
@@ -244,7 +244,7 @@ Value(s) at which to differentiate
 
 > **getParams**(): `object`
 
-Defined in: [mc/src/distributions/normal.js:47](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/normal.js#L47)
+Defined in: [distributions/normal.js:47](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/normal.js#L47)
 
 Get the distribution's parameters.
 
@@ -270,7 +270,7 @@ Get the distribution's parameters.
 
 > **logpdf**(`value`): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:107](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L107)
+Defined in: [distributions/base.js:107](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L107)
 
 Alias for [Distribution#logProb](Distribution.md#logprob), matching the `@tangent.to/proba`
 distribution contract (which names the method `logpdf`). Lets code written
@@ -298,7 +298,7 @@ Value(s) to evaluate
 
 > **logProb**(`value`): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:78](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L78)
+Defined in: [distributions/base.js:78](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L78)
 
 Log probability density/mass function. Broadcasts over array values
 and/or array parameters.
@@ -327,7 +327,7 @@ Log probability, elementwise for arrays
 
 > **mean**(): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:190](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L190)
+Defined in: [distributions/base.js:190](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L190)
 
 Get the mean of the distribution
 
@@ -347,7 +347,7 @@ The mean
 
 > **observe**(`data`): [`Distribution`](Distribution.md)
 
-Defined in: [mc/src/distributions/base.js:181](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L181)
+Defined in: [distributions/base.js:181](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L181)
 
 Set observed data for this distribution
 
@@ -375,7 +375,7 @@ this, for chaining
 
 > **pdf**(`value`): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:139](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L139)
+Defined in: [distributions/base.js:139](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L139)
 
 Probability density/mass function, `exp(logProb(value))`.
 
@@ -401,7 +401,7 @@ Value(s) to evaluate
 
 > **quantile**(`p`): `number`
 
-Defined in: [mc/src/distributions/base.js:158](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L158)
+Defined in: [distributions/base.js:158](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L158)
 
 Quantile (inverse cdf) function (scalar parameters).
 
@@ -427,7 +427,7 @@ Probability in [0, 1]
 
 > **sample**(`shape?`): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:170](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L170)
+Defined in: [distributions/base.js:170](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L170)
 
 Sample from the distribution using the package RNG (see setRandomSeed).
 `sample()` / `sample([])` return a number; `sample(n)` / `sample([n])`
@@ -455,7 +455,7 @@ Number of samples
 
 > **variance**(): `number` \| `number`[]
 
-Defined in: [mc/src/distributions/base.js:200](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/distributions/base.js#L200)
+Defined in: [distributions/base.js:200](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/distributions/base.js#L200)
 
 Get the variance of the distribution
 

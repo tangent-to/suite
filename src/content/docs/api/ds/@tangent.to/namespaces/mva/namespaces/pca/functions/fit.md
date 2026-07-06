@@ -4,7 +4,7 @@ title: "fit"
 
 > **fit**(`X`, `options?`): `any`
 
-Defined in: [ds/src/mva/pca.js:62](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/pca.js#L62)
+Defined in: [mva/pca.js:62](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/pca.js#L62)
 
 Fit PCA model
 
@@ -12,7 +12,7 @@ Fit PCA model
 
 ### X
 
-`number`[][] \| [`Matrix`](../../../../core/namespaces/linalg/classes/Matrix.md)
+`any`
 
 Data matrix (n x p)
 

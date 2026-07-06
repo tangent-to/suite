@@ -4,7 +4,7 @@ title: "gower"
 
 > **gower**(`a`, `b`, `options?`): `number`
 
-Defined in: [ds/src/ml/distances.js:172](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/distances.js#L172)
+Defined in: [ml/distances.js:172](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/distances.js#L172)
 
 Gower distance for mixed-type data (numeric + categorical)
 Handles missing values gracefully

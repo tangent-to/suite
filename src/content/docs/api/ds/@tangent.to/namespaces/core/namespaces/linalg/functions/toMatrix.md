@@ -2,9 +2,9 @@
 title: "toMatrix"
 ---
 
-> **toMatrix**(`data`): [`Matrix`](../classes/Matrix.md)
+> **toMatrix**(`data`): `Matrix`
 
-Defined in: [ds/src/core/linalg.js:13](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/linalg.js#L13)
+Defined in: [core/linalg.js:13](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/linalg.js#L13)
 
 Convert array-like structure to Matrix
 
@@ -12,12 +12,12 @@ Convert array-like structure to Matrix
 
 ### data
 
-`number`[][] \| [`Matrix`](../classes/Matrix.md)
+`any`
 
 Input data
 
 ## Returns
 
-[`Matrix`](../classes/Matrix.md)
+`Matrix`
 
 Matrix object

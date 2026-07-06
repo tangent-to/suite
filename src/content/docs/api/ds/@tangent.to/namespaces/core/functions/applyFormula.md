@@ -4,7 +4,7 @@ title: "applyFormula"
 
 > **applyFormula**(`formula`, `data`, `options?`): `any`
 
-Defined in: [ds/src/core/formula.js:415](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/formula.js#L415)
+Defined in: [core/formula.js:415](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/formula.js#L415)
 
 Apply formula to data to extract design matrix and response
 

@@ -4,7 +4,7 @@ title: "distributions"
 
 > `const` **distributions**: `object`
 
-Defined in: [mc/src/index.js:97](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/index.js#L97)
+Defined in: [index.js:97](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/index.js#L97)
 
 ## Type Declaration
 

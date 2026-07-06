@@ -2,7 +2,7 @@
 title: "HMC"
 ---
 
-Defined in: [mc/src/samplers/hmc-vector.js:22](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L22)
+Defined in: [samplers/hmc-vector.js:22](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L22)
 
 Vector-aware Hamiltonian Monte Carlo.
 
@@ -30,7 +30,7 @@ const { trace } = hmc.sample(model, { slope: 0, intercept: 0, sigma: 1 },
 
 > **new HMC**(`opts?`): `HMC`
 
-Defined in: [mc/src/samplers/hmc-vector.js:31](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L31)
+Defined in: [samplers/hmc-vector.js:31](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L31)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Target acceptance for step-size adaptation.
 
 > **adapt**: `boolean`
 
-Defined in: [mc/src/samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L35)
+Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L35)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [mc/src/samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/
 
 > **nSteps**: `number`
 
-Defined in: [mc/src/samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L33)
+Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L33)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [mc/src/samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/
 
 > **seed**: `number`
 
-Defined in: [mc/src/samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L36)
+Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L36)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [mc/src/samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/
 
 > **stepSize**: `number`
 
-Defined in: [mc/src/samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L32)
+Defined in: [samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L32)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [mc/src/samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/
 
 > **targetAccept**: `number`
 
-Defined in: [mc/src/samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L34)
+Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L34)
 
 ## Methods
 
@@ -116,7 +116,7 @@ Defined in: [mc/src/samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/
 
 > **sample**(`model`, `initialValues`, `opts?`): `object`
 
-Defined in: [mc/src/samplers/hmc-vector.js:52](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L52)
+Defined in: [samplers/hmc-vector.js:52](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L52)
 
 Run a single chain.
 
@@ -180,7 +180,7 @@ Run a single chain.
 
 > **sampleChains**(`model`, `initial`, `opts?`): `any`[]
 
-Defined in: [mc/src/samplers/hmc-vector.js:195](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/samplers/hmc-vector.js#L195)
+Defined in: [samplers/hmc-vector.js:195](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L195)
 
 Run several independent chains (sequentially) from (optionally) jittered
 starting points. Returns an array of single-chain results, ready for

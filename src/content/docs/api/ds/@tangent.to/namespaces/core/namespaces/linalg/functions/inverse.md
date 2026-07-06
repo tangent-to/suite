@@ -2,9 +2,9 @@
 title: "inverse"
 ---
 
-> **inverse**(`data`): [`Matrix`](../classes/Matrix.md)
+> **inverse**(`data`): `Matrix`
 
-Defined in: [ds/src/core/linalg.js:122](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/linalg.js#L122)
+Defined in: [core/linalg.js:122](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/linalg.js#L122)
 
 Matrix inverse
 
@@ -12,12 +12,12 @@ Matrix inverse
 
 ### data
 
-`number`[][] \| [`Matrix`](../classes/Matrix.md)
+`any`
 
 Square matrix
 
 ## Returns
 
-[`Matrix`](../classes/Matrix.md)
+`Matrix`
 
 Inverse matrix

@@ -4,7 +4,7 @@ title: "effectPlot"
 
 > **effectPlot**(`model`, `variable`, `data`, `options?`): `any`
 
-Defined in: [ds/src/plot/diagnostics.js:209](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/plot/diagnostics.js#L209)
+Defined in: [plot/diagnostics.js:209](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/plot/diagnostics.js#L209)
 
 Generate effect plot for a specific predictor
 

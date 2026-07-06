@@ -4,7 +4,7 @@ title: "imputeMissing"
 
 > **imputeMissing**(`mat`, `opts?`): `number`[][]
 
-Defined in: [ds/src/mva/composition.js:434](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L434)
+Defined in: [mva/composition.js:434](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/composition.js#L434)
 
 Impute missing values in compositional data, respecting the simplex.
 

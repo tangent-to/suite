@@ -4,7 +4,7 @@ title: "clrInv"
 
 > **clrInv**(`mat`): `any`[] \| `any`[][]
 
-Defined in: [ds/src/mva/composition.js:200](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/composition.js#L200)
+Defined in: [mva/composition.js:200](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/composition.js#L200)
 
 Inverse centered log-ratio transformation
 

@@ -2,7 +2,7 @@
 title: "PCA"
 ---
 
-Defined in: [ds/src/mva/estimators/PCA.js:30](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L30)
+Defined in: [mva/estimators/PCA.js:30](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L30)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ds/src/mva/estimators/PCA.js:30](https://github.com/tangent-to/ds/b
 
 > **new PCA**(`params?`): `PCA`
 
-Defined in: [ds/src/mva/estimators/PCA.js:31](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L31)
+Defined in: [mva/estimators/PCA.js:31](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L31)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [ds/src/mva/estimators/PCA.js:31](https://github.com/tangent-to/ds/b
 
 > **\_state**: `object`
 
-Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [ds/src/core/estimators/estimator.js:27](https://github.com/tangent-
 
 > **\_warnings**: `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [ds/src/core/estimators/estimator.js:29](https://github.com/tangent-
 
 > **fitted**: `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [ds/src/core/estimators/estimator.js:25](https://github.com/tangent-
 
 > **model**: `any`
 
-Defined in: [ds/src/mva/estimators/PCA.js:35](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L35)
+Defined in: [mva/estimators/PCA.js:35](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L35)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [ds/src/mva/estimators/PCA.js:35](https://github.com/tangent-to/ds/b
 
 > **params**: `object`
 
-Defined in: [ds/src/mva/estimators/PCA.js:34](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L34)
+Defined in: [mva/estimators/PCA.js:34](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L34)
 
 #### center
 
@@ -110,7 +110,7 @@ Defined in: [ds/src/mva/estimators/PCA.js:34](https://github.com/tangent-to/ds/b
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [ds/src/core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -144,7 +144,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -164,7 +164,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -182,7 +182,7 @@ Clear all warnings
 
 > **cumulativeVariance**(): `number`[]
 
-Defined in: [ds/src/mva/estimators/PCA.js:125](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L125)
+Defined in: [mva/estimators/PCA.js:125](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L125)
 
 Helper to expose functional cumulative variance.
 
@@ -196,7 +196,7 @@ Helper to expose functional cumulative variance.
 
 > **fit**(`X`, `opts?`): `PCA`
 
-Defined in: [ds/src/mva/estimators/PCA.js:52](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L52)
+Defined in: [mva/estimators/PCA.js:52](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L52)
 
 Fit PCA on the provided data.
 
@@ -261,7 +261,7 @@ The fitted estimator (for chaining)
 
 > **fitTransform**(...`args`): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:683](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L683)
+Defined in: [core/estimators/estimator.js:683](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L683)
 
 Convenience: fit then transform
 Returns transformed data.
@@ -286,7 +286,7 @@ Returns transformed data.
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -306,7 +306,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -324,7 +324,7 @@ Get a shallow copy of parameters.
 
 > **getScores**(`type?`, `scaled?`): `any`
 
-Defined in: [ds/src/mva/estimators/PCA.js:156](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L156)
+Defined in: [mva/estimators/PCA.js:156](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L156)
 
 Retrieve site or variable scores with optional scaling.
 
@@ -350,7 +350,7 @@ return scaled or raw coordinates
 
 > **getState**(): `any`
 
-Defined in: [ds/src/core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -370,7 +370,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -390,7 +390,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [ds/src/core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -418,7 +418,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -436,7 +436,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [ds/src/core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -454,7 +454,7 @@ Check if model is fitted
 
 > **predict**(): `void`
 
-Defined in: [ds/src/core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L424)
+Defined in: [core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L424)
 
 Predict should be implemented by supervised estimators.
 
@@ -472,7 +472,7 @@ Predict should be implemented by supervised estimators.
 
 > **save**(): `string`
 
-Defined in: [ds/src/core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -492,7 +492,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `PCA`
 
-Defined in: [ds/src/core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -516,7 +516,7 @@ Set parameters (mutates instance).
 
 > **summary**(): `object`
 
-Defined in: [ds/src/mva/estimators/PCA.js:133](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L133)
+Defined in: [mva/estimators/PCA.js:133](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L133)
 
 Provide lightweight summary of the fitted model.
 
@@ -566,7 +566,7 @@ Provide lightweight summary of the fitted model.
 
 > **toJSON**(): `object`
 
-Defined in: [ds/src/mva/estimators/PCA.js:176](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L176)
+Defined in: [mva/estimators/PCA.js:176](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L176)
 
 Serialization helper for saving estimator state.
 
@@ -600,7 +600,7 @@ Serialization helper for saving estimator state.
 
 > **transform**(`X`): `any`[]
 
-Defined in: [ds/src/mva/estimators/PCA.js:99](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L99)
+Defined in: [mva/estimators/PCA.js:99](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L99)
 
 Transform new data into principal-component scores using the fitted model.
 
@@ -630,7 +630,7 @@ Score objects, one per row, keyed by component (e.g. `pc1`, `pc2`, ...)
 
 > `static` **fromJSON**(`obj?`): `PCA`
 
-Defined in: [ds/src/mva/estimators/PCA.js:188](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/mva/estimators/PCA.js#L188)
+Defined in: [mva/estimators/PCA.js:188](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/estimators/PCA.js#L188)
 
 Restore PCA instance from JSON produced by toJSON().
 
@@ -652,7 +652,7 @@ Restore PCA instance from JSON produced by toJSON().
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [ds/src/core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

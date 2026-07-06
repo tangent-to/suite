@@ -4,7 +4,7 @@ title: "importanceData"
 
 > **importanceData**(`res`): `object`[]
 
-Defined in: [ds/src/ml/explain.js:763](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/explain.js#L763)
+Defined in: [ml/explain.js:763](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L763)
 
 Global feature importance = mean(|SHAP|) per feature, sorted descending.
 Plug into `Plot.barX(importanceData(res), { x: "importance", y: "feature" })`.

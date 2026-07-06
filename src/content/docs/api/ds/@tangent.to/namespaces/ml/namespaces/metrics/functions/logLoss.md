@@ -4,7 +4,7 @@ title: "logLoss"
 
 > **logLoss**(`yTrue`, `yPred`, `eps?`): `number`
 
-Defined in: [ds/src/ml/metrics.js:242](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/metrics.js#L242)
+Defined in: [ml/metrics.js:242](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/metrics.js#L242)
 
 Log loss (cross-entropy loss)
 

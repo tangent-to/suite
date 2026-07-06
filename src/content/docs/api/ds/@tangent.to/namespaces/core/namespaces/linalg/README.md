@@ -2,9 +2,9 @@
 title: "linalg"
 ---
 
-## Classes
+## Variables
 
-- [Matrix](classes/Matrix.md)
+- [Matrix](variables/Matrix.md)
 
 ## Functions
 

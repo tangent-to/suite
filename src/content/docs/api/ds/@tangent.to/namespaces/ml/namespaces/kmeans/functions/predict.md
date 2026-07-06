@@ -4,7 +4,7 @@ title: "predict"
 
 > **predict**(`model`, `X`): `number`[]
 
-Defined in: [ds/src/ml/kmeans.js:268](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/kmeans.js#L268)
+Defined in: [ml/kmeans.js:268](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kmeans.js#L268)
 
 Predict cluster labels for new data
 

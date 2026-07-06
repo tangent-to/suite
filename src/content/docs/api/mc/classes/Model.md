@@ -2,7 +2,7 @@
 title: "Model"
 ---
 
-Defined in: [mc/src/model.js:36](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L36)
+Defined in: [model.js:36](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L36)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [mc/src/model.js:36](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **new Model**(`name?`): `Model`
 
-Defined in: [mc/src/model.js:47](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L47)
+Defined in: [model.js:47](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L47)
 
 Accepts either a positional name or a single options object `{ name }`.
 
@@ -42,7 +42,7 @@ new Model({ name: 'linear_regression' })
 
 > **deterministics**: `Map`\<`any`, `any`\>
 
-Defined in: [mc/src/model.js:55](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L55)
+Defined in: [model.js:55](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L55)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [mc/src/model.js:55](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **name**: `any`
 
-Defined in: [mc/src/model.js:51](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L51)
+Defined in: [model.js:51](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L51)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [mc/src/model.js:51](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **observedVars**: `Map`\<`any`, `any`\>
 
-Defined in: [mc/src/model.js:53](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L53)
+Defined in: [model.js:53](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L53)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [mc/src/model.js:53](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **potentials**: `Map`\<`any`, `any`\>
 
-Defined in: [mc/src/model.js:54](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L54)
+Defined in: [model.js:54](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L54)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [mc/src/model.js:54](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **variables**: `Map`\<`any`, `any`\>
 
-Defined in: [mc/src/model.js:52](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L52)
+Defined in: [model.js:52](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L52)
 
 ## Methods
 
@@ -82,7 +82,7 @@ Defined in: [mc/src/model.js:52](https://github.com/tangent-to/mc/blob/7995b847d
 
 > **\_potentialSum**(`params`): `number`
 
-Defined in: [mc/src/model.js:128](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L128)
+Defined in: [model.js:128](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L128)
 
 Sum of all potential terms at the given parameter values.
 
@@ -102,7 +102,7 @@ Sum of all potential terms at the given parameter values.
 
 > **addVariable**(`name`, `distribution`, `observed?`): `Distribution`
 
-Defined in: [mc/src/model.js:107](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L107)
+Defined in: [model.js:107](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L107)
 
 Add a random variable to the model
 
@@ -138,7 +138,7 @@ The distribution
 
 > **computeDeterministics**(`trace`): `any`
 
-Defined in: [mc/src/model.js:267](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L267)
+Defined in: [model.js:267](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L267)
 
 Evaluate registered [Model#deterministic](#deterministic) transforms on each posterior
 draw and append them to the trace as extra columns. Computed post-hoc - they
@@ -167,7 +167,7 @@ The same trace, with one column per deterministic.
 
 > **deterministic**(`name`, `fn`): `Model`
 
-Defined in: [mc/src/model.js:95](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L95)
+Defined in: [model.js:95](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L95)
 
 Register a named deterministic transform of the parameters for recording in
 the trace (computed post-hoc from posterior draws). Deterministics do NOT
@@ -200,7 +200,7 @@ this
 
 > **getFreeVariableNames**(): `string`[]
 
-Defined in: [mc/src/model.js:246](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L246)
+Defined in: [model.js:246](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L246)
 
 Get list of unobserved variable names
 
@@ -216,7 +216,7 @@ Variable names
 
 > **getVariable**(`name`): `Distribution`
 
-Defined in: [mc/src/model.js:123](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L123)
+Defined in: [model.js:123](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L123)
 
 Get a variable from the model
 
@@ -240,7 +240,7 @@ The distribution
 
 > **logProb**(`params`): `number`
 
-Defined in: [mc/src/model.js:141](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L141)
+Defined in: [model.js:141](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L141)
 
 Compute the log probability of the model given parameter values
 
@@ -264,7 +264,7 @@ Log probability (scalar)
 
 > **logProbAndGradient**(`params`): `object`
 
-Defined in: [mc/src/model.js:175](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L175)
+Defined in: [model.js:175](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L175)
 
 Compute the log probability and its gradient with respect to parameters.
 
@@ -301,7 +301,7 @@ The scalar log probability
 
 > **potential**(`name`, `fn`): `Model`
 
-Defined in: [mc/src/model.js:80](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L80)
+Defined in: [model.js:80](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L80)
 
 Register a generic log-density term (a "potential" / factor) contributing to
 the joint log-probability. `fn(params)` receives the current free-variable
@@ -346,7 +346,7 @@ this
 
 > **predictPosterior**(`trace`, `predictFn`, `nSamples?`): `any`[]
 
-Defined in: [mc/src/model.js:299](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L299)
+Defined in: [model.js:299](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L299)
 
 Posterior predictive sampling
 Generate predictions by sampling from the posterior
@@ -383,7 +383,7 @@ Array of predictions from each posterior sample
 
 > **predictPosteriorSummary**(`trace`, `predictFn`, `credibleInterval?`): `any`
 
-Defined in: [mc/src/model.js:328](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L328)
+Defined in: [model.js:328](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L328)
 
 Compute posterior predictive mean and credible intervals
 
@@ -419,7 +419,7 @@ Credible interval (e.g., 0.95 for 95%)
 
 > **samplePrior**(`nSamples?`): `any`
 
-Defined in: [mc/src/model.js:230](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L230)
+Defined in: [model.js:230](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L230)
 
 Sample from the prior distributions
 
@@ -443,7 +443,7 @@ Samples as {name: Array} pairs
 
 > **summary**(): `string`
 
-Defined in: [mc/src/model.js:377](https://github.com/tangent-to/mc/blob/7995b847d0a211f5963bf0dadedb51df2c3f931d/src/model.js#L377)
+Defined in: [model.js:377](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/model.js#L377)
 
 Create a summary of the model
 

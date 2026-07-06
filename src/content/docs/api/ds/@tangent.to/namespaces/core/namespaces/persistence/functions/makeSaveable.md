@@ -4,7 +4,7 @@ title: "makeSaveable"
 
 > **makeSaveable**(`model`): `any`
 
-Defined in: [ds/src/core/persistence.js:186](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/core/persistence.js#L186)
+Defined in: [core/persistence.js:186](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/persistence.js#L186)
 
 Create a saveable model wrapper
 Adds save() method to any model object

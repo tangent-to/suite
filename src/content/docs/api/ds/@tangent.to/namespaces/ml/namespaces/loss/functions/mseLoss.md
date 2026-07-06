@@ -4,7 +4,7 @@ title: "mseLoss"
 
 > **mseLoss**(`yTrue`, `yPred`): `any`
 
-Defined in: [ds/src/ml/loss.js:12](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/loss.js#L12)
+Defined in: [ml/loss.js:12](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/loss.js#L12)
 
 Mean Squared Error Loss
 

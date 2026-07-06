@@ -4,7 +4,7 @@ title: "distributions"
 
 > `const` **distributions**: `object`
 
-Defined in: [ds/src/ml/tuning.js:308](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/ml/tuning.js#L308)
+Defined in: [ml/tuning.js:308](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/tuning.js#L308)
 
 Create parameter distribution objects
 

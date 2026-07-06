@@ -4,7 +4,7 @@ title: "plotHDBSCANDendrogram"
 
 > **plotHDBSCANDendrogram**(`model`, `options?`): `any`
 
-Defined in: [ds/src/plot/plotHDBSCAN.js:86](https://github.com/tangent-to/ds/blob/b030bfcdee999a5f0b26cc4645a9d3840d9f23c5/src/plot/plotHDBSCAN.js#L86)
+Defined in: [plot/plotHDBSCAN.js:86](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/plot/plotHDBSCAN.js#L86)
 
 Generate dendrogram visualization from HDBSCAN hierarchy
 Similar to HCA dendrogram but for HDBSCAN
