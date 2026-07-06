@@ -2,9 +2,9 @@
 title: "solve"
 ---
 
-> **solve**(`f`, `tSpan`, `y0`, `options?`): `any`
+> **solve**(`f`, `tSpan`, `y0`, `options?`): `object`
 
-Defined in: [index.js:33](https://github.com/tangent-to/ode/blob/f60ce54dcabcad232e27fc7b0fa8c897e9efb83e/src/index.js#L33)
+Defined in: [index.js:33](https://github.com/tangent-to/ode/blob/7b840a99e38056e3f6fb91e69d6a0c56a7b38d05/src/index.js#L33)
 
 Solve an initial value problem, dispatching by method name (scipy
 solve_ivp style). Defaults to adaptive RK45.
@@ -41,6 +41,38 @@ Initial state
 
 ## Returns
 
-`any`
+`object`
 
-Solver result {t, y, success, ...}
+Solver result (fields depend on the chosen method)
+
+### events?
+
+> `optional` **events?**: `object`[]
+
+### message
+
+> **message**: `string`
+
+### nfev
+
+> **nfev**: `number`
+
+### njev?
+
+> `optional` **njev?**: `number`
+
+### nsteps
+
+> **nsteps**: `number`
+
+### success
+
+> **success**: `boolean`
+
+### t
+
+> **t**: `number`[]
+
+### y
+
+> **y**: `number`[] \| `number`[][]

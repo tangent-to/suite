@@ -2,9 +2,9 @@
 title: "euler"
 ---
 
-> **euler**(`f`, `tSpan`, `y0`, `options`): `any`
+> **euler**(`f`, `tSpan`, `y0`, `options`): `object`
 
-Defined in: [fixed.js:129](https://github.com/tangent-to/ode/blob/f60ce54dcabcad232e27fc7b0fa8c897e9efb83e/src/fixed.js#L129)
+Defined in: [fixed.js:129](https://github.com/tangent-to/ode/blob/7b840a99e38056e3f6fb91e69d6a0c56a7b38d05/src/fixed.js#L129)
 
 Integrate y' = f(t, y) with the forward Euler method (1st order).
 
@@ -44,6 +44,30 @@ Fixed step size h > 0 (required unless nSteps given; wins if both)
 
 ## Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps}
+Solver result
+
+### message
+
+> **message**: `string`
+
+### nfev
+
+> **nfev**: `number`
+
+### nsteps
+
+> **nsteps**: `number`
+
+### success
+
+> **success**: `boolean`
+
+### t
+
+> **t**: `number`[]
+
+### y
+
+> **y**: `number`[] \| `number`[][]

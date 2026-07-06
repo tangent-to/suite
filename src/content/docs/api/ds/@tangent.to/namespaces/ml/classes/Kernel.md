@@ -2,7 +2,7 @@
 title: "Kernel"
 ---
 
-Defined in: [ml/kernels/base.js:13](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L13)
+Defined in: [ml/kernels/base.js:13](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L13)
 
 Abstract base class for GP kernels
 
@@ -32,7 +32,7 @@ Abstract base class for GP kernels
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -62,7 +62,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): `Kernel`
 
-Defined in: [ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L76)
+Defined in: [ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L76)
 
 Clone the kernel with the same parameters
 
@@ -78,7 +78,7 @@ New kernel instance
 
 > **compute**(`_x1`, `_x2`): `number`
 
-Defined in: [ml/kernels/base.js:20](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L20)
+Defined in: [ml/kernels/base.js:20](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L20)
 
 Compute covariance between two points
 
@@ -104,7 +104,7 @@ Covariance value
 
 > **getParams**(): `any`
 
-Defined in: [ml/kernels/base.js:60](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L60)
+Defined in: [ml/kernels/base.js:60](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L60)
 
 Get kernel hyperparameters
 
@@ -120,7 +120,7 @@ Hyperparameters
 
 > **setParams**(`_params`): `void`
 
-Defined in: [ml/kernels/base.js:68](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/kernels/base.js#L68)
+Defined in: [ml/kernels/base.js:68](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L68)
 
 Set kernel hyperparameters
 

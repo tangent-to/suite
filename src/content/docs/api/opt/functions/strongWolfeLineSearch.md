@@ -4,7 +4,7 @@ title: "strongWolfeLineSearch"
 
 > **strongWolfeLineSearch**(`evaluate`, `x`, `p`, `f0`, `g0`, `options?`): `any`
 
-Defined in: [linesearch.js:56](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/linesearch.js#L56)
+Defined in: [linesearch.js:56](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/linesearch.js#L56)
 
 Strong Wolfe line search along direction p from x.
 

@@ -2,9 +2,9 @@
 title: "buildModel"
 ---
 
-> **buildModel**(`rows`, `observedNames`): `any`
+> **buildModel**(`rows`, `observedNames`): `object`
 
-Defined in: [model.js:26](https://github.com/tangent-to/sem/blob/a377415108494623387d492893bb95c1809541cc/src/model.js#L26)
+Defined in: [model.js:30](https://github.com/tangent-to/sem/blob/b8e24714e89e443c145258b24794d290b277e069/src/model.js#L30)
 
 Build the model specification from parsed rows.
 
@@ -24,6 +24,31 @@ Observed variable names present in the data
 
 ## Returns
 
-`any`
+`object`
 
-{variables, latents, observed, params, aIndex, sIndex, t, p}
+RAM specification: variable ordering, the parameter
+  table (directed paths in `A`, (co)variances in `S`), total `t` and observed `p` counts
+
+### latents
+
+> **latents**: `string`[]
+
+### observed
+
+> **observed**: `string`[]
+
+### p
+
+> **p**: `number`
+
+### params
+
+> **params**: `object`[]
+
+### t
+
+> **t**: `number`
+
+### variables
+
+> **variables**: `string`[]

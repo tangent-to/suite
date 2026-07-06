@@ -4,7 +4,7 @@ title: "guardProbability"
 
 > **guardProbability**(`value`, `name?`): `number`
 
-Defined in: [core/math.js:56](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/core/math.js#L56)
+Defined in: [core/math.js:56](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/math.js#L56)
 
 Guard against values outside [0, 1]
 

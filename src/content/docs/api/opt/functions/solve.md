@@ -4,7 +4,7 @@ title: "solve"
 
 > **solve**(`A`, `b`): `number`[]
 
-Defined in: [linsolve.js:17](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/linsolve.js#L17)
+Defined in: [linsolve.js:17](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/linsolve.js#L17)
 
 Solve the linear system A x = b.
 

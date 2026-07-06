@@ -2,7 +2,7 @@
 title: "PermutationExplainer"
 ---
 
-Defined in: [ml/explain.js:623](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L623)
+Defined in: [ml/explain.js:623](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L623)
 
 Model-agnostic SHAP by sampling random feature orderings and accumulating
 each feature's marginal contribution as it is "turned on" (its value swapped
@@ -23,7 +23,7 @@ const { values, baseValue } = ex.shapValues(Xtest, { nPermutations: 64 });
 
 > **new PermutationExplainer**(`opts?`): `PermutationExplainer`
 
-Defined in: [ml/explain.js:627](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L627)
+Defined in: [ml/explain.js:627](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L627)
 
 #### Parameters
 
@@ -43,7 +43,7 @@ Defined in: [ml/explain.js:627](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **\_predict**: (`rows`) => `number`[]
 
-Defined in: [ml/explain.js:631](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L631)
+Defined in: [ml/explain.js:631](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L631)
 
 #### Parameters
 
@@ -61,7 +61,7 @@ Defined in: [ml/explain.js:631](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **background**: `any`[]
 
-Defined in: [ml/explain.js:632](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L632)
+Defined in: [ml/explain.js:632](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L632)
 
 ***
 
@@ -69,7 +69,7 @@ Defined in: [ml/explain.js:632](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **expectedValue**: `number`
 
-Defined in: [ml/explain.js:636](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L636)
+Defined in: [ml/explain.js:636](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L636)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: [ml/explain.js:636](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **featureNames**: `any`
 
-Defined in: [ml/explain.js:634](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L634)
+Defined in: [ml/explain.js:634](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L634)
 
 ***
 
@@ -85,7 +85,7 @@ Defined in: [ml/explain.js:634](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **nFeatures**: `any`
 
-Defined in: [ml/explain.js:633](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L633)
+Defined in: [ml/explain.js:633](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L633)
 
 ## Methods
 
@@ -93,7 +93,7 @@ Defined in: [ml/explain.js:633](https://github.com/tangent-to/ds/blob/2ee2e1ba26
 
 > **shapValues**(`X`, `opts?`): `object`
 
-Defined in: [ml/explain.js:647](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L647)
+Defined in: [ml/explain.js:647](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L647)
 
 #### Parameters
 

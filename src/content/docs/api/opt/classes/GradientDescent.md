@@ -2,7 +2,7 @@
 title: "GradientDescent"
 ---
 
-Defined in: [compat.js:47](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L47)
+Defined in: [compat.js:47](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L47)
 
 Gradient Descent (batch; optional backtracking line search)
 
@@ -16,7 +16,7 @@ Gradient Descent (batch; optional backtracking line search)
 
 > **new GradientDescent**(`options?`): `GradientDescent`
 
-Defined in: [compat.js:48](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L48)
+Defined in: [compat.js:48](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L48)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [compat.js:48](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **batchSize**: `any`
 
-Defined in: [compat.js:51](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L51)
+Defined in: [compat.js:51](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L51)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [compat.js:51](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **learningRate**: `any`
 
-Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L17)
+Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L17)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **lineSearch**: `any`
 
-Defined in: [compat.js:52](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L52)
+Defined in: [compat.js:52](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L52)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [compat.js:52](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **maxIter**: `any`
 
-Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L18)
+Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L18)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **stochastic**: `any`
 
-Defined in: [compat.js:50](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L50)
+Defined in: [compat.js:50](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L50)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [compat.js:50](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **tol**: `any`
 
-Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L19)
+Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L19)
 
 #### Inherited from
 
@@ -96,7 +96,7 @@ Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **verbose**: `any`
 
-Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L20)
+Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L20)
 
 #### Inherited from
 
@@ -108,7 +108,7 @@ Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **\_options**(`options`): `object`
 
-Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L34)
+Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L34)
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/18b641ebbdf876
 
 > **minimize**(`lossFn`, `x0`, `options?`): `object`
 
-Defined in: [compat.js:55](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/compat.js#L55)
+Defined in: [compat.js:55](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L55)
 
 Minimize a loss function
 

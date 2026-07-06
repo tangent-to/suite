@@ -4,7 +4,7 @@ title: "lbeta"
 
 > **lbeta**(`a`, `b`): `number`
 
-Defined in: [special.js:425](https://github.com/tangent-to/proba/blob/12a19a1171fcb31973b43d0cfb7201992e38f35d/src/special.js#L425)
+Defined in: [special.js:425](https://github.com/tangent-to/proba/blob/88b3efca7fefde9cb5ed623d00168a1014ef3c1a/src/special.js#L425)
 
 Log of the beta function, ln B(a, b) = ln Γ(a) + ln Γ(b) - ln Γ(a + b).
 

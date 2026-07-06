@@ -4,7 +4,7 @@ title: "numericalHessian"
 
 > **numericalHessian**(`f`, `x`, `options?`): `number`[][]
 
-Defined in: [numdiff.js:78](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/numdiff.js#L78)
+Defined in: [numdiff.js:78](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/numdiff.js#L78)
 
 Central finite-difference Hessian of a scalar function.
 

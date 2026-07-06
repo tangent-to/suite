@@ -2,6 +2,9 @@
 title: "special"
 ---
 
+Special functions (log-gamma, log-beta, incomplete gamma and beta, error
+functions and normal CDF) that back the distribution densities and quantiles.
+
 ## Functions
 
 - [betainc](functions/betainc.md)

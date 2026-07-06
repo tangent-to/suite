@@ -15,17 +15,9 @@ title: "stats"
 
 - [beta](variables/beta.md)
 - [chisq](variables/chisq.md)
-- [chiSquareTest](variables/chiSquareTest.md)
 - [gamma](variables/gamma.md)
 - [hypothesis](variables/hypothesis.md)
-- [kruskalWallis](variables/kruskalWallis.md)
-- [mannWhitneyU](variables/mannWhitneyU.md)
 - [normal](variables/normal.md)
-- [oneSampleTTest](variables/oneSampleTTest.md)
-- [oneWayAnova](variables/oneWayAnova.md)
-- [pairedTTest](variables/pairedTTest.md)
-- [tukeyHSD](variables/tukeyHSD.md)
-- [twoSampleTTest](variables/twoSampleTTest.md)
 - [uniform](variables/uniform.md)
 
 ## Functions

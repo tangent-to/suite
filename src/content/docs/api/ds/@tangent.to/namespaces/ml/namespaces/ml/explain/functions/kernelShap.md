@@ -4,7 +4,7 @@ title: "kernelShap"
 
 > **kernelShap**(`spec`, `X`, `opts`): `object`
 
-Defined in: [ml/explain.js:733](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/explain.js#L733)
+Defined in: [ml/explain.js:733](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/explain.js#L733)
 
 Convenience: KernelSHAP in one call. See [KernelExplainer](../classes/KernelExplainer.md).
 

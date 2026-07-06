@@ -4,7 +4,7 @@ title: "crossValidate"
 
 > **crossValidate**(`modelFactory`, `X`, `y`, `options?`): `any`
 
-Defined in: [stats/model\_comparison.js:440](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/stats/model_comparison.js#L440)
+Defined in: [stats/model\_comparison.js:440](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/stats/model_comparison.js#L440)
 
 K-fold cross-validation for model selection
 

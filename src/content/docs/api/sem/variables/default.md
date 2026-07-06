@@ -4,13 +4,15 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:102](https://github.com/tangent-to/sem/blob/a377415108494623387d492893bb95c1809541cc/src/index.js#L102)
+Defined in: [index.js:115](https://github.com/tangent-to/sem/blob/b8e24714e89e443c145258b24794d290b277e069/src/index.js#L115)
+
+Default export bundling the primary entry points ([sem](../functions/sem.md), [cfa](cfa.md), [parseModel](../functions/parseModel.md)).
 
 ## Type Declaration
 
 ### cfa
 
-> **cfa**: (`syntax`, `spec`) => `any`
+> **cfa**: (`syntax`, `spec`) => `object`
 
 Alias: confirmatory factor analysis (same engine, reads better in code).
 
@@ -55,9 +57,118 @@ Variable names (required with cov)
 
 #### Returns
 
-`any`
+`object`
 
-{estimates, fit, Sigma, S, converged, summary()}
+Fitted model: parameter estimates, fit measures, model-implied `Sigma`,
+  reordered sample covariance `S`, and a `summary()` text formatter
+
+##### converged
+
+> **converged**: `boolean`
+
+##### estimates
+
+> **estimates**: `object`[]
+
+##### fit
+
+> **fit**: `object`
+
+###### fit.aic
+
+> **aic**: `number`
+
+###### fit.baselineChisq
+
+> **baselineChisq**: `number`
+
+###### fit.baselineDf
+
+> **baselineDf**: `number`
+
+###### fit.bic
+
+> **bic**: `number`
+
+###### fit.cfi
+
+> **cfi**: `number`
+
+###### fit.chisq
+
+> **chisq**: `number`
+
+###### fit.df
+
+> **df**: `number`
+
+###### fit.fmin
+
+> **fmin**: `number`
+
+###### fit.logLik
+
+> **logLik**: `number`
+
+###### fit.n
+
+> **n**: `number`
+
+###### fit.npar
+
+> **npar**: `number`
+
+###### fit.pvalue
+
+> **pvalue**: `number`
+
+###### fit.rmsea
+
+> **rmsea**: `number`
+
+###### fit.srmr
+
+> **srmr**: `number`
+
+###### fit.tli
+
+> **tli**: `number`
+
+##### iterations
+
+> **iterations**: `number`
+
+##### latents
+
+> **latents**: `string`[]
+
+##### observed
+
+> **observed**: `string`[]
+
+##### S
+
+> **S**: `number`[][]
+
+##### Sigma
+
+> **Sigma**: `number`[][]
+
+##### summary
+
+> **summary**: () => `string`
+
+###### Returns
+
+`string`
+
+##### theta
+
+> **theta**: `number`[]
+
+##### variables
+
+> **variables**: `string`[]
 
 ### parseModel
 
@@ -85,7 +196,7 @@ Parameter rows in source order
 
 ### sem
 
-> **sem**: (`syntax`, `spec`) => `any`
+> **sem**: (`syntax`, `spec`) => `object`
 
 Fit a structural equation model.
 
@@ -128,6 +239,115 @@ Variable names (required with cov)
 
 #### Returns
 
-`any`
+`object`
 
-{estimates, fit, Sigma, S, converged, summary()}
+Fitted model: parameter estimates, fit measures, model-implied `Sigma`,
+  reordered sample covariance `S`, and a `summary()` text formatter
+
+##### converged
+
+> **converged**: `boolean`
+
+##### estimates
+
+> **estimates**: `object`[]
+
+##### fit
+
+> **fit**: `object`
+
+###### fit.aic
+
+> **aic**: `number`
+
+###### fit.baselineChisq
+
+> **baselineChisq**: `number`
+
+###### fit.baselineDf
+
+> **baselineDf**: `number`
+
+###### fit.bic
+
+> **bic**: `number`
+
+###### fit.cfi
+
+> **cfi**: `number`
+
+###### fit.chisq
+
+> **chisq**: `number`
+
+###### fit.df
+
+> **df**: `number`
+
+###### fit.fmin
+
+> **fmin**: `number`
+
+###### fit.logLik
+
+> **logLik**: `number`
+
+###### fit.n
+
+> **n**: `number`
+
+###### fit.npar
+
+> **npar**: `number`
+
+###### fit.pvalue
+
+> **pvalue**: `number`
+
+###### fit.rmsea
+
+> **rmsea**: `number`
+
+###### fit.srmr
+
+> **srmr**: `number`
+
+###### fit.tli
+
+> **tli**: `number`
+
+##### iterations
+
+> **iterations**: `number`
+
+##### latents
+
+> **latents**: `string`[]
+
+##### observed
+
+> **observed**: `string`[]
+
+##### S
+
+> **S**: `number`[][]
+
+##### Sigma
+
+> **Sigma**: `number`[][]
+
+##### summary
+
+> **summary**: () => `string`
+
+###### Returns
+
+`string`
+
+##### theta
+
+> **theta**: `number`[]
+
+##### variables
+
+> **variables**: `string`[]

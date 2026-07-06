@@ -2,9 +2,9 @@
 title: "rk4"
 ---
 
-> **rk4**(`f`, `tSpan`, `y0`, `options`): `any`
+> **rk4**(`f`, `tSpan`, `y0`, `options`): `object`
 
-Defined in: [fixed.js:159](https://github.com/tangent-to/ode/blob/f60ce54dcabcad232e27fc7b0fa8c897e9efb83e/src/fixed.js#L159)
+Defined in: [fixed.js:159](https://github.com/tangent-to/ode/blob/7b840a99e38056e3f6fb91e69d6a0c56a7b38d05/src/fixed.js#L159)
 
 Integrate y' = f(t, y) with the classic 4th-order Runge-Kutta method.
 
@@ -44,6 +44,30 @@ Fixed step size h > 0 (required unless nSteps given; wins if both)
 
 ## Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps}
+Solver result
+
+### message
+
+> **message**: `string`
+
+### nfev
+
+> **nfev**: `number`
+
+### nsteps
+
+> **nsteps**: `number`
+
+### success
+
+> **success**: `boolean`
+
+### t
+
+> **t**: `number`[]
+
+### y
+
+> **y**: `number`[] \| `number`[][]

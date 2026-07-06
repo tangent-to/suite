@@ -4,7 +4,7 @@ title: "pinv"
 
 > **pinv**(`A`, `rcond?`): `number`[][]
 
-Defined in: [svd.js:169](https://github.com/tangent-to/lina/blob/adb3a553bbd4dae6f9113e782d71a7942bab552d/src/svd.js#L169)
+Defined in: [svd.js:169](https://github.com/tangent-to/lina/blob/e7aceef1d5e9a9130b0f591b23795fe0079f45a6/src/svd.js#L169)
 
 Moore-Penrose pseudoinverse via SVD, with numpy's default cutoff.
 Solves rank-deficient least squares: x = pinv(A) b is the minimum-norm

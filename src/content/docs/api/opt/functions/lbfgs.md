@@ -4,7 +4,7 @@ title: "lbfgs"
 
 > **lbfgs**(`f`, `x0`, `options?`): `any`
 
-Defined in: [lbfgs.js:39](https://github.com/tangent-to/opt/blob/18b641ebbdf876410f574ba5fd2e3ecdbcd4a047/src/lbfgs.js#L39)
+Defined in: [lbfgs.js:39](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/lbfgs.js#L39)
 
 Minimize a function with L-BFGS.
 

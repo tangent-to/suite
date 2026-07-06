@@ -4,7 +4,7 @@ title: "transform"
 
 > **transform**(`model`, `X`): `any`[]
 
-Defined in: [mva/lda.js:378](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/lda.js#L378)
+Defined in: [mva/lda.js:378](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/mva/lda.js#L378)
 
 Project new data onto the fitted discriminant axes
 

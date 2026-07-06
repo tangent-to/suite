@@ -4,7 +4,7 @@ title: "fit"
 
 > **fit**(`X`, `Y?`, `options?`): `any`
 
-Defined in: [mva/cca.js:28](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/mva/cca.js#L28)
+Defined in: [mva/cca.js:28](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/mva/cca.js#L28)
 
 Fit CCA model.
 

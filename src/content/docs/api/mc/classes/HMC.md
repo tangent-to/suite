@@ -2,7 +2,7 @@
 title: "HMC"
 ---
 
-Defined in: [samplers/hmc-vector.js:22](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L22)
+Defined in: [samplers/hmc-vector.js:22](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L22)
 
 Vector-aware Hamiltonian Monte Carlo.
 
@@ -30,7 +30,9 @@ const { trace } = hmc.sample(model, { slope: 0, intercept: 0, sigma: 1 },
 
 > **new HMC**(`opts?`): `HMC`
 
-Defined in: [samplers/hmc-vector.js:31](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L31)
+Defined in: [samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L32)
+
+Create a vector-aware HMC sampler.
 
 #### Parameters
 
@@ -76,7 +78,7 @@ Target acceptance for step-size adaptation.
 
 > **adapt**: `boolean`
 
-Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L35)
+Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L36)
 
 ***
 
@@ -84,7 +86,7 @@ Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/43
 
 > **nSteps**: `number`
 
-Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L33)
+Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L34)
 
 ***
 
@@ -92,7 +94,7 @@ Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/43
 
 > **seed**: `number`
 
-Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L36)
+Defined in: [samplers/hmc-vector.js:37](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L37)
 
 ***
 
@@ -100,7 +102,7 @@ Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/43
 
 > **stepSize**: `number`
 
-Defined in: [samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L32)
+Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L33)
 
 ***
 
@@ -108,7 +110,7 @@ Defined in: [samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/43
 
 > **targetAccept**: `number`
 
-Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L34)
+Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L35)
 
 ## Methods
 
@@ -116,7 +118,7 @@ Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/43
 
 > **sample**(`model`, `initialValues`, `opts?`): `object`
 
-Defined in: [samplers/hmc-vector.js:52](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L52)
+Defined in: [samplers/hmc-vector.js:53](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L53)
 
 Run a single chain.
 
@@ -180,7 +182,7 @@ Run a single chain.
 
 > **sampleChains**(`model`, `initial`, `opts?`): `any`[]
 
-Defined in: [samplers/hmc-vector.js:195](https://github.com/tangent-to/mc/blob/434d88822f9b6d48679ec786993b8e73f230b0f8/src/samplers/hmc-vector.js#L195)
+Defined in: [samplers/hmc-vector.js:196](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc-vector.js#L196)
 
 Run several independent chains (sequentially) from (optionally) jittered
 starting points. Returns an array of single-chain results, ready for

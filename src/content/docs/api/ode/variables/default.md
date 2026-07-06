@@ -4,13 +4,16 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:43](https://github.com/tangent-to/ode/blob/f60ce54dcabcad232e27fc7b0fa8c897e9efb83e/src/index.js#L43)
+Defined in: [index.js:48](https://github.com/tangent-to/ode/blob/7b840a99e38056e3f6fb91e69d6a0c56a7b38d05/src/index.js#L48)
+
+Convenience bundle of every solver under one object, so consumers can
+`import ode from '@tangent.to/ode'` and call `ode.solve(...)`, `ode.rk45(...)`, etc.
 
 ## Type Declaration
 
 ### euler
 
-> **euler**: (`f`, `tSpan`, `y0`, `options`) => `any`
+> **euler**: (`f`, `tSpan`, `y0`, `options`) => `object`
 
 Integrate y' = f(t, y) with the forward Euler method (1st order).
 
@@ -50,13 +53,37 @@ Fixed step size h > 0 (required unless nSteps given; wins if both)
 
 #### Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps}
+Solver result
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]
 
 ### rk2
 
-> **rk2**: (`f`, `tSpan`, `y0`, `options`) => `any`
+> **rk2**: (`f`, `tSpan`, `y0`, `options`) => `object`
 
 Integrate y' = f(t, y) with the explicit midpoint method (2nd order).
 
@@ -96,13 +123,37 @@ Fixed step size h > 0 (required unless nSteps given; wins if both)
 
 #### Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps}
+Solver result
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]
 
 ### rk4
 
-> **rk4**: (`f`, `tSpan`, `y0`, `options`) => `any`
+> **rk4**: (`f`, `tSpan`, `y0`, `options`) => `object`
 
 Integrate y' = f(t, y) with the classic 4th-order Runge-Kutta method.
 
@@ -142,13 +193,37 @@ Fixed step size h > 0 (required unless nSteps given; wins if both)
 
 #### Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps}
+Solver result
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]
 
 ### rk45
 
-> **rk45**: (`f`, `tSpan`, `y0`, `options?`) => `any`
+> **rk45**: (`f`, `tSpan`, `y0`, `options?`) => `object`
 
 Integrate y' = f(t, y) with adaptive Dormand-Prince RK45.
 
@@ -218,13 +293,41 @@ Times at which to report the solution (dense output)
 
 #### Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, nsteps, events?}
+Solver result
+
+##### events?
+
+> `optional` **events?**: `object`[]
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]
 
 ### rosenbrock
 
-> **rosenbrock**: (`f`, `tSpan`, `y0`, `options?`) => `any`
+> **rosenbrock**: (`f`, `tSpan`, `y0`, `options?`) => `object`
 
 Integrate the stiff system y' = f(t, y) with an adaptive 4(3)
 Rosenbrock-Wanner method (Kaps-Rentrop with Shampine's coefficients).
@@ -297,13 +400,41 @@ Times at which to report the solution; dense output
 
 #### Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, njev, nsteps}
+Solver result
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### njev
+
+> **njev**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]
 
 ### solve
 
-> **solve**: (`f`, `tSpan`, `y0`, `options?`) => `any`
+> **solve**: (`f`, `tSpan`, `y0`, `options?`) => `object`
 
 Solve an initial value problem, dispatching by method name (scipy
 solve_ivp style). Defaults to adaptive RK45.
@@ -340,6 +471,38 @@ Initial state
 
 #### Returns
 
-`any`
+`object`
 
-Solver result {t, y, success, ...}
+Solver result (fields depend on the chosen method)
+
+##### events?
+
+> `optional` **events?**: `object`[]
+
+##### message
+
+> **message**: `string`
+
+##### nfev
+
+> **nfev**: `number`
+
+##### njev?
+
+> `optional` **njev?**: `number`
+
+##### nsteps
+
+> **nsteps**: `number`
+
+##### success
+
+> **success**: `boolean`
+
+##### t
+
+> **t**: `number`[]
+
+##### y
+
+> **y**: `number`[] \| `number`[][]

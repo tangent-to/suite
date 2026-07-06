@@ -4,7 +4,7 @@ title: "evaluate"
 
 > **evaluate**(`model`, `X`, `y`): `any`
 
-Defined in: [ml/mlp.js:357](https://github.com/tangent-to/ds/blob/2ee2e1ba2630e5364404ffcd3f46be1feb8826e1/src/ml/mlp.js#L357)
+Defined in: [ml/mlp.js:357](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/mlp.js#L357)
 
 Evaluate model on test data
 

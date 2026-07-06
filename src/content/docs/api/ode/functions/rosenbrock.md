@@ -2,9 +2,9 @@
 title: "rosenbrock"
 ---
 
-> **rosenbrock**(`f`, `tSpan`, `y0`, `options?`): `any`
+> **rosenbrock**(`f`, `tSpan`, `y0`, `options?`): `object`
 
-Defined in: [rosenbrock.js:143](https://github.com/tangent-to/ode/blob/f60ce54dcabcad232e27fc7b0fa8c897e9efb83e/src/rosenbrock.js#L143)
+Defined in: [rosenbrock.js:143](https://github.com/tangent-to/ode/blob/7b840a99e38056e3f6fb91e69d6a0c56a7b38d05/src/rosenbrock.js#L143)
 
 Integrate the stiff system y' = f(t, y) with an adaptive 4(3)
 Rosenbrock-Wanner method (Kaps-Rentrop with Shampine's coefficients).
@@ -77,6 +77,34 @@ Times at which to report the solution; dense output
 
 ## Returns
 
-`any`
+`object`
 
-{t, y, success, message, nfev, njev, nsteps}
+Solver result
+
+### message
+
+> **message**: `string`
+
+### nfev
+
+> **nfev**: `number`
+
+### njev
+
+> **njev**: `number`
+
+### nsteps
+
+> **nsteps**: `number`
+
+### success
+
+> **success**: `boolean`
+
+### t
+
+> **t**: `number`[]
+
+### y
+
+> **y**: `number`[] \| `number`[][]

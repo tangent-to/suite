@@ -4,7 +4,7 @@ title: "diag"
 
 > **diag**(`x`): `number`[] \| `number`[][]
 
-Defined in: [ops.js:97](https://github.com/tangent-to/lina/blob/adb3a553bbd4dae6f9113e782d71a7942bab552d/src/ops.js#L97)
+Defined in: [ops.js:97](https://github.com/tangent-to/lina/blob/e7aceef1d5e9a9130b0f591b23795fe0079f45a6/src/ops.js#L97)
 
 Build a diagonal matrix from a vector, or extract the diagonal of a matrix.
 
