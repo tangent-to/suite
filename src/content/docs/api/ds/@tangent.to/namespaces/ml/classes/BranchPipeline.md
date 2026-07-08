@@ -2,7 +2,7 @@
 title: "BranchPipeline"
 ---
 
-Defined in: [pipeline/BranchPipeline.js:18](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L18)
+Defined in: [pipeline/BranchPipeline.js:18](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L18)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [pipeline/BranchPipeline.js:18](https://github.com/tangent-to/ds/blo
 
 > **new BranchPipeline**(`options?`): `BranchPipeline`
 
-Defined in: [pipeline/BranchPipeline.js:25](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L25)
+Defined in: [pipeline/BranchPipeline.js:25](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L25)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Optional weights for each branch (for weighted voting)
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **branches**: `object`
 
-Defined in: [pipeline/BranchPipeline.js:27](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L27)
+Defined in: [pipeline/BranchPipeline.js:27](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L27)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [pipeline/BranchPipeline.js:27](https://github.com/tangent-to/ds/blo
 
 > **branchNames**: `string`[]
 
-Defined in: [pipeline/BranchPipeline.js:30](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L30)
+Defined in: [pipeline/BranchPipeline.js:30](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L30)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [pipeline/BranchPipeline.js:30](https://github.com/tangent-to/ds/blo
 
 > **combiner**: `string` \| `Function`
 
-Defined in: [pipeline/BranchPipeline.js:28](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L28)
+Defined in: [pipeline/BranchPipeline.js:28](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L28)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [pipeline/BranchPipeline.js:28](https://github.com/tangent-to/ds/blo
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -112,7 +112,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -124,7 +124,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **weights**: `number`[]
 
-Defined in: [pipeline/BranchPipeline.js:29](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L29)
+Defined in: [pipeline/BranchPipeline.js:29](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L29)
 
 ## Methods
 
@@ -132,7 +132,7 @@ Defined in: [pipeline/BranchPipeline.js:29](https://github.com/tangent-to/ds/blo
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -166,7 +166,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -186,7 +186,7 @@ HTML representation
 
 > **agreementScore**(`X`): `number`
 
-Defined in: [pipeline/BranchPipeline.js:255](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L255)
+Defined in: [pipeline/BranchPipeline.js:255](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L255)
 
 Get agreement score (how often branches agree)
 
@@ -210,7 +210,7 @@ Agreement score between 0 and 1
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -228,7 +228,7 @@ Clear all warnings
 
 > **confidence**(`X`): `number`[]
 
-Defined in: [pipeline/BranchPipeline.js:275](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L275)
+Defined in: [pipeline/BranchPipeline.js:275](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L275)
 
 Get per-sample confidence (based on branch agreement)
 
@@ -252,7 +252,7 @@ Confidence scores between 0 and 1
 
 > **fit**(`X`, `y?`): `BranchPipeline`
 
-Defined in: [pipeline/BranchPipeline.js:44](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L44)
+Defined in: [pipeline/BranchPipeline.js:44](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L44)
 
 Fit all branches
 
@@ -284,7 +284,7 @@ Target labels (optional)
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -304,7 +304,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -322,7 +322,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -342,7 +342,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -362,7 +362,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -390,7 +390,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -408,7 +408,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -426,7 +426,7 @@ Check if model is fitted
 
 > **predict**(`X`): `any`[]
 
-Defined in: [pipeline/BranchPipeline.js:62](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L62)
+Defined in: [pipeline/BranchPipeline.js:62](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L62)
 
 Predict using all branches and combine results
 
@@ -454,7 +454,7 @@ Combined predictions
 
 > **predictAll**(`X`): `object`
 
-Defined in: [pipeline/BranchPipeline.js:88](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L88)
+Defined in: [pipeline/BranchPipeline.js:88](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L88)
 
 Get predictions from all branches without combining
 
@@ -478,7 +478,7 @@ Predictions keyed by branch name
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -498,7 +498,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `BranchPipeline`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -522,7 +522,7 @@ Set parameters (mutates instance).
 
 > **summary**(): `any`
 
-Defined in: [pipeline/BranchPipeline.js:300](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L300)
+Defined in: [pipeline/BranchPipeline.js:300](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L300)
 
 Summary statistics
 
@@ -536,7 +536,7 @@ Summary statistics
 
 > **toJSON**(): `object`
 
-Defined in: [pipeline/BranchPipeline.js:313](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/pipeline/BranchPipeline.js#L313)
+Defined in: [pipeline/BranchPipeline.js:313](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/pipeline/BranchPipeline.js#L313)
 
 Serialization
 
@@ -574,7 +574,7 @@ Serialization
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -592,7 +592,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L317)
+Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L317)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -617,7 +617,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

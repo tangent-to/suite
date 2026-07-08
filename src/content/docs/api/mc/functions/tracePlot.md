@@ -4,7 +4,7 @@ title: "tracePlot"
 
 > **tracePlot**(`trace`, `variables?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:23](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/utils/visualize.js#L23)
+Defined in: [utils/visualize.js:23](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/utils/visualize.js#L23)
 
 Generate trace plot specification
 Shows the sampled values over iterations to assess convergence

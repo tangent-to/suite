@@ -4,7 +4,7 @@ title: "fit"
 
 > **fit**(`X`, `options?`): `any`
 
-Defined in: [mva/pca.js:62](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/mva/pca.js#L62)
+Defined in: [mva/pca.js:62](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/mva/pca.js#L62)
 
 Fit PCA model
 

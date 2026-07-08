@@ -2,7 +2,7 @@
 title: "OneHotEncoder"
 ---
 
-Defined in: [core/table.js:299](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L299)
+Defined in: [core/table.js:299](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L299)
 
 Simple OneHotEncoder for a single categorical column
 Note: this encoder returns an array of arrays (one-hot vectors)
@@ -13,7 +13,7 @@ Note: this encoder returns an array of arrays (one-hot vectors)
 
 > **new OneHotEncoder**(`__namedParameters?`): `OneHotEncoder`
 
-Defined in: [core/table.js:300](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L300)
+Defined in: [core/table.js:300](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L300)
 
 #### Parameters
 
@@ -33,7 +33,7 @@ Defined in: [core/table.js:300](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **\_columnConfigs**: `Map`\<`any`, `any`\>
 
-Defined in: [core/table.js:304](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L304)
+Defined in: [core/table.js:304](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L304)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [core/table.js:304](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **\_columns**: `any`[]
 
-Defined in: [core/table.js:368](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L368)
+Defined in: [core/table.js:368](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L368)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [core/table.js:368](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **\_encoders**: `Map`\<`any`, `any`\>
 
-Defined in: [core/table.js:369](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L369)
+Defined in: [core/table.js:369](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L369)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [core/table.js:369](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **categories\_**: `any`[]
 
-Defined in: [core/table.js:301](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L301)
+Defined in: [core/table.js:301](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L301)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: [core/table.js:301](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **catIndex**: `Map`\<`any`, `any`\>
 
-Defined in: [core/table.js:302](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L302)
+Defined in: [core/table.js:302](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L302)
 
 ***
 
@@ -73,7 +73,7 @@ Defined in: [core/table.js:302](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **handleUnknown**: `string`
 
-Defined in: [core/table.js:303](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L303)
+Defined in: [core/table.js:303](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L303)
 
 ## Methods
 
@@ -81,7 +81,7 @@ Defined in: [core/table.js:303](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **\_fitDeclarative**(`options`): `OneHotEncoder`
 
-Defined in: [core/table.js:359](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L359)
+Defined in: [core/table.js:359](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L359)
 
 Declarative API for fit
 
@@ -105,7 +105,7 @@ this
 
 > **\_fitTransformDeclarative**(`options`): `any`[]
 
-Defined in: [core/table.js:424](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L424)
+Defined in: [core/table.js:424](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L424)
 
 Declarative API for fitTransform
 
@@ -129,7 +129,7 @@ Array of objects with one-hot encoded columns
 
 > **\_transformDeclarative**(`options`): `any`[]
 
-Defined in: [core/table.js:391](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L391)
+Defined in: [core/table.js:391](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L391)
 
 Declarative API for transform
 
@@ -153,7 +153,7 @@ Array of objects with one-hot encoded columns
 
 > **fit**(`values?`): `OneHotEncoder`
 
-Defined in: [core/table.js:307](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L307)
+Defined in: [core/table.js:307](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L307)
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: [core/table.js:307](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **fitTransform**(`valuesOrOptions?`): `any`[]
 
-Defined in: [core/table.js:341](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L341)
+Defined in: [core/table.js:341](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L341)
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: [core/table.js:341](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **getFeatureNames**(`prefix?`): `string`[]
 
-Defined in: [core/table.js:433](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L433)
+Defined in: [core/table.js:433](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L433)
 
 Get all feature names for declarative API
 
@@ -211,7 +211,7 @@ All feature names across all columns
 
 > **toJSON**(): `object`
 
-Defined in: [core/table.js:450](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L450)
+Defined in: [core/table.js:450](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L450)
 
 #### Returns
 
@@ -231,7 +231,7 @@ Defined in: [core/table.js:450](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > **transform**(`values?`): `any`[][]
 
-Defined in: [core/table.js:320](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L320)
+Defined in: [core/table.js:320](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L320)
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: [core/table.js:320](https://github.com/tangent-to/ds/blob/bece0899e8
 
 > `static` **fromJSON**(`obj?`): `OneHotEncoder`
 
-Defined in: [core/table.js:454](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/table.js#L454)
+Defined in: [core/table.js:454](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/table.js#L454)
 
 #### Parameters
 

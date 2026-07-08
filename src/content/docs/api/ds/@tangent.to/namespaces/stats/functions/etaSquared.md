@@ -4,7 +4,7 @@ title: "etaSquared"
 
 > **etaSquared**(`anovaResult`): `number`
 
-Defined in: [stats/tests.js:602](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/stats/tests.js#L602)
+Defined in: [stats/tests.js:602](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/stats/tests.js#L602)
 
 Eta-squared effect size for ANOVA
 Proportion of total variance explained by group differences

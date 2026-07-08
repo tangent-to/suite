@@ -2,7 +2,7 @@
 title: "HamiltonianMC"
 ---
 
-Defined in: [samplers/hmc.js:24](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L24)
+Defined in: [samplers/hmc.js:24](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L24)
 
 Hamiltonian Monte Carlo (HMC) sampler
 
@@ -30,7 +30,7 @@ where $\theta$ is position (parameters), $p$ is momentum.
 
 > **new HamiltonianMC**(`stepSize?`, `nSteps?`): `HamiltonianMC`
 
-Defined in: [samplers/hmc.js:37](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L37)
+Defined in: [samplers/hmc.js:37](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L37)
 
 Accepts either positional arguments or a single options object.
 
@@ -69,7 +69,7 @@ new HamiltonianMC({ stepSize: 0.01, nSteps: 10 })
 
 > **nSteps**: `number`
 
-Defined in: [samplers/hmc.js:44](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L44)
+Defined in: [samplers/hmc.js:44](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L44)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: [samplers/hmc.js:44](https://github.com/tangent-to/mc/blob/d3c922a65
 
 > **stepSize**: `any`
 
-Defined in: [samplers/hmc.js:43](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L43)
+Defined in: [samplers/hmc.js:43](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L43)
 
 ## Methods
 
@@ -85,7 +85,7 @@ Defined in: [samplers/hmc.js:43](https://github.com/tangent-to/mc/blob/d3c922a65
 
 > **getParams**(): `object`
 
-Defined in: [samplers/hmc.js:51](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L51)
+Defined in: [samplers/hmc.js:51](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L51)
 
 Get the sampler's configuration.
 
@@ -107,7 +107,7 @@ Get the sampler's configuration.
 
 > **hamiltonian**(`position`, `momentum`, `model`): `number`
 
-Defined in: [samplers/hmc.js:106](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L106)
+Defined in: [samplers/hmc.js:106](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L106)
 
 Compute Hamiltonian (total energy)
 
@@ -143,7 +143,7 @@ Hamiltonian value
 
 > **leapfrog**(`position`, `momentum`, `model`): `any`
 
-Defined in: [samplers/hmc.js:62](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L62)
+Defined in: [samplers/hmc.js:62](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L62)
 
 Leapfrog integrator for Hamiltonian dynamics
 
@@ -179,7 +179,7 @@ New position and momentum
 
 > **sample**(`model`, `initialValues`, `nSamples?`, `burnIn?`, `thin?`): `any`
 
-Defined in: [samplers/hmc.js:133](https://github.com/tangent-to/mc/blob/d3c922a65e80c0bea72daa79834773fc47134143/src/samplers/hmc.js#L133)
+Defined in: [samplers/hmc.js:133](https://github.com/tangent-to/mc/blob/2b8afe1deaa62c7a44fbc535696f4fc5d7f05470/src/samplers/hmc.js#L133)
 
 Run HMC sampling.
 

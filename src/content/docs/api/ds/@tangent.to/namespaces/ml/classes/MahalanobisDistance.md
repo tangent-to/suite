@@ -2,7 +2,7 @@
 title: "MahalanobisDistance"
 ---
 
-Defined in: [ml/outliers.js:937](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L937)
+Defined in: [ml/outliers.js:937](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L937)
 
 Mahalanobis distance-based outlier detection
 Compatible with sklearn.covariance.EllipticEnvelope approach
@@ -25,7 +25,7 @@ const predictions = md.predict(X_test);
 
 > **new MahalanobisDistance**(`options?`): `MahalanobisDistance`
 
-Defined in: [ml/outliers.js:943](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L943)
+Defined in: [ml/outliers.js:943](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L943)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Use chi-squared distribution for threshold (default: true)
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/outliers.js:955](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L955)
+Defined in: [ml/outliers.js:955](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L955)
 
 ***
 
@@ -61,7 +61,7 @@ Defined in: [ml/outliers.js:955](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **contamination**: `number`
 
-Defined in: [ml/outliers.js:948](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L948)
+Defined in: [ml/outliers.js:948](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L948)
 
 ***
 
@@ -69,7 +69,7 @@ Defined in: [ml/outliers.js:948](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **label\_column**: `any`
 
-Defined in: [ml/outliers.js:950](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L950)
+Defined in: [ml/outliers.js:950](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L950)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: [ml/outliers.js:950](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **mean\_**: `any`[]
 
-Defined in: [ml/outliers.js:951](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L951)
+Defined in: [ml/outliers.js:951](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L951)
 
 ***
 
@@ -85,7 +85,7 @@ Defined in: [ml/outliers.js:951](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **nFeatures\_**: `number`
 
-Defined in: [ml/outliers.js:954](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L954)
+Defined in: [ml/outliers.js:954](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L954)
 
 ***
 
@@ -93,7 +93,7 @@ Defined in: [ml/outliers.js:954](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **precision\_**: `any`
 
-Defined in: [ml/outliers.js:952](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L952)
+Defined in: [ml/outliers.js:952](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L952)
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: [ml/outliers.js:952](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **threshold\_**: `number`
 
-Defined in: [ml/outliers.js:953](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L953)
+Defined in: [ml/outliers.js:953](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L953)
 
 ***
 
@@ -109,7 +109,7 @@ Defined in: [ml/outliers.js:953](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **use\_chi2**: `boolean`
 
-Defined in: [ml/outliers.js:949](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L949)
+Defined in: [ml/outliers.js:949](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L949)
 
 ## Accessors
 
@@ -119,7 +119,7 @@ Defined in: [ml/outliers.js:949](https://github.com/tangent-to/ds/blob/bece0899e
 
 > **get** **mahalanobis\_distances**(): `number`[]
 
-Defined in: [ml/outliers.js:1191](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1191)
+Defined in: [ml/outliers.js:1191](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1191)
 
 Get Mahalanobis distances for fitted data
 
@@ -135,7 +135,7 @@ Mahalanobis distances
 
 > **\_mahalanobis\_distances**(`X`): `number`[]
 
-Defined in: [ml/outliers.js:1059](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1059)
+Defined in: [ml/outliers.js:1059](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1059)
 
 Compute Mahalanobis distances for samples
 
@@ -159,7 +159,7 @@ Mahalanobis distances
 
 > **fit**(`X`): `MahalanobisDistance`
 
-Defined in: [ml/outliers.js:963](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L963)
+Defined in: [ml/outliers.js:963](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L963)
 
 Fit the detector on training data
 
@@ -183,7 +183,7 @@ this
 
 > **fit\_predict**(`X`): `number`[]
 
-Defined in: [ml/outliers.js:1159](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1159)
+Defined in: [ml/outliers.js:1159](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1159)
 
 Fit and predict in one step
 
@@ -207,7 +207,7 @@ Predictions: -1 for outliers, 1 for inliers
 
 > **fit\_transform**(`X`): `any`[] \| `number`[]
 
-Defined in: [ml/outliers.js:1183](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1183)
+Defined in: [ml/outliers.js:1183](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1183)
 
 Fit and transform in one step (parity with IsolationForest).
 
@@ -231,7 +231,7 @@ Labels or table with outlier column
 
 > **predict**(`X`): `number`[]
 
-Defined in: [ml/outliers.js:1144](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1144)
+Defined in: [ml/outliers.js:1144](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1144)
 
 Predict if samples are outliers
 
@@ -255,7 +255,7 @@ Predictions: -1 for outliers, 1 for inliers
 
 > **score\_samples**(`X`): `number`[]
 
-Defined in: [ml/outliers.js:1089](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1089)
+Defined in: [ml/outliers.js:1089](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1089)
 
 Compute Mahalanobis distances for samples
 
@@ -279,7 +279,7 @@ Negative Mahalanobis distances (outliers have lower scores)
 
 > **transform**(`X`): `any`[] \| `number`[]
 
-Defined in: [ml/outliers.js:1171](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1171)
+Defined in: [ml/outliers.js:1171](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1171)
 
 Transform data by adding outlier labels (parity with IsolationForest).
 Table or array-of-objects input -> original rows augmented with the label

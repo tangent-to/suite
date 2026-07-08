@@ -2,7 +2,7 @@
 title: "RationalQuadratic"
 ---
 
-Defined in: [ml/kernels/rational-quadratic.js:15](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L15)
+Defined in: [ml/kernels/rational-quadratic.js:15](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L15)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new RationalQuadratic**(`lengthScaleOrOpts?`, `alpha?`, `variance?`): `RationalQuadratic`
 
-Defined in: [ml/kernels/rational-quadratic.js:21](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L21)
+Defined in: [ml/kernels/rational-quadratic.js:21](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L21)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Signal variance (default: 1.0)
 
 > **alpha**: `any`
 
-Defined in: [ml/kernels/rational-quadratic.js:32](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L32)
+Defined in: [ml/kernels/rational-quadratic.js:32](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L32)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [ml/kernels/rational-quadratic.js:32](https://github.com/tangent-to/
 
 > **lengthScale**: `any`
 
-Defined in: [ml/kernels/rational-quadratic.js:31](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L31)
+Defined in: [ml/kernels/rational-quadratic.js:31](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L31)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [ml/kernels/rational-quadratic.js:31](https://github.com/tangent-to/
 
 > **variance**: `any`
 
-Defined in: [ml/kernels/rational-quadratic.js:33](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L33)
+Defined in: [ml/kernels/rational-quadratic.js:33](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L33)
 
 ## Methods
 
@@ -76,7 +76,7 @@ Defined in: [ml/kernels/rational-quadratic.js:33](https://github.com/tangent-to/
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -110,7 +110,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/base.js#L76)
+Defined in: [ml/kernels/base.js:76](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/base.js#L76)
 
 Clone the kernel with the same parameters
 
@@ -130,7 +130,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `number`
 
-Defined in: [ml/kernels/rational-quadratic.js:41](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L41)
+Defined in: [ml/kernels/rational-quadratic.js:41](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L41)
 
 Compute covariance between two points
 
@@ -164,7 +164,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/rational-quadratic.js:51](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L51)
+Defined in: [ml/kernels/rational-quadratic.js:51](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L51)
 
 Get kernel hyperparameters
 
@@ -196,7 +196,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/rational-quadratic.js:59](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/kernels/rational-quadratic.js#L59)
+Defined in: [ml/kernels/rational-quadratic.js:59](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/kernels/rational-quadratic.js#L59)
 
 Set kernel hyperparameters
 

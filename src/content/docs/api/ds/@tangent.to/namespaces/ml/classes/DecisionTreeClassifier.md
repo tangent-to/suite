@@ -2,7 +2,7 @@
 title: "DecisionTreeClassifier"
 ---
 
-Defined in: [ml/estimators/DecisionTree.js:537](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L537)
+Defined in: [ml/estimators/DecisionTree.js:537](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L537)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ml/estimators/DecisionTree.js:537](https://github.com/tangent-to/ds
 
 > **new DecisionTreeClassifier**(`opts?`): `DecisionTreeClassifier`
 
-Defined in: [ml/estimators/DecisionTree.js:538](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L538)
+Defined in: [ml/estimators/DecisionTree.js:538](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L538)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [ml/estimators/DecisionTree.js:538](https://github.com/tangent-to/ds
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **classes\_**: `any`
 
-Defined in: [core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L515)
+Defined in: [core/estimators/estimator.js:515](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L515)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [core/estimators/estimator.js:515](https://github.com/tangent-to/ds/
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **labelEncoder\_**: `any`
 
-Defined in: [core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L514)
+Defined in: [core/estimators/estimator.js:514](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L514)
 
 #### Inherited from
 
@@ -94,7 +94,7 @@ Defined in: [core/estimators/estimator.js:514](https://github.com/tangent-to/ds/
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -106,7 +106,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **tree**: `DecisionTreeBase`
 
-Defined in: [ml/estimators/DecisionTree.js:540](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L540)
+Defined in: [ml/estimators/DecisionTree.js:540](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L540)
 
 ## Accessors
 
@@ -116,7 +116,7 @@ Defined in: [ml/estimators/DecisionTree.js:540](https://github.com/tangent-to/ds
 
 > **get** **featureImportances**(): `number`[]
 
-Defined in: [ml/estimators/DecisionTree.js:597](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L597)
+Defined in: [ml/estimators/DecisionTree.js:597](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L597)
 
 Get feature importances
 
@@ -130,7 +130,7 @@ Get feature importances
 
 > **\_accuracy**(`yTrue`, `yPred`): `number`
 
-Defined in: [core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L644)
+Defined in: [core/estimators/estimator.js:644](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L644)
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: [core/estimators/estimator.js:644](https://github.com/tangent-to/ds/
 
 > **\_decodeLabels**(`predictions`): `any`[]
 
-Defined in: [core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L606)
+Defined in: [core/estimators/estimator.js:606](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L606)
 
 Decode numeric predictions to original labels
 
@@ -184,7 +184,7 @@ Decoded labels (or original if no encoder)
 
 > **\_extractLabelEncoder**(`prepared`): `boolean`
 
-Defined in: [core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L541)
+Defined in: [core/estimators/estimator.js:541](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L541)
 
 Extract and store label encoder from prepared data
 
@@ -212,7 +212,7 @@ True if encoder was found and stored
 
 > **\_getClasses**(`preparedY`, `onlyPresentClasses?`): `any`
 
-Defined in: [core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L563)
+Defined in: [core/estimators/estimator.js:563](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L563)
 
 Get unique classes from labels (encoded or raw)
 If labelEncoder exists, preparedY is assumed to be numeric indices [0, 1, 2, ...]
@@ -248,7 +248,7 @@ If true, only return classes present in preparedY
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -282,7 +282,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -302,7 +302,7 @@ HTML representation
 
 > **apply**(`X`): `number`[]
 
-Defined in: [ml/estimators/DecisionTree.js:602](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L602)
+Defined in: [ml/estimators/DecisionTree.js:602](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L602)
 
 Apply tree to X, return leaf indices
 
@@ -322,7 +322,7 @@ Apply tree to X, return leaf indices
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -340,7 +340,7 @@ Clear all warnings
 
 > **decisionPath**(`X`): `any`[][]
 
-Defined in: [ml/estimators/DecisionTree.js:607](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L607)
+Defined in: [ml/estimators/DecisionTree.js:607](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L607)
 
 Return decision path
 
@@ -360,7 +360,7 @@ Return decision path
 
 > **exportText**(`featureNames?`): `string`
 
-Defined in: [ml/estimators/DecisionTree.js:627](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L627)
+Defined in: [ml/estimators/DecisionTree.js:627](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L627)
 
 Export tree as ASCII text
 
@@ -380,7 +380,7 @@ Export tree as ASCII text
 
 > **exportTree**(`featureNames?`, `classNames?`): `string`
 
-Defined in: [ml/estimators/DecisionTree.js:622](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L622)
+Defined in: [ml/estimators/DecisionTree.js:622](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L622)
 
 Export tree to DOT format
 
@@ -404,7 +404,7 @@ Export tree to DOT format
 
 > **fit**(`X`, `y?`): `DecisionTreeClassifier`
 
-Defined in: [ml/estimators/DecisionTree.js:549](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L549)
+Defined in: [ml/estimators/DecisionTree.js:549](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L549)
 
 Fit the classifier on training data.
 
@@ -438,7 +438,7 @@ The fitted estimator (for chaining).
 
 > **getDepth**(): `number`
 
-Defined in: [ml/estimators/DecisionTree.js:612](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L612)
+Defined in: [ml/estimators/DecisionTree.js:612](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L612)
 
 Get maximum depth of tree
 
@@ -452,7 +452,7 @@ Get maximum depth of tree
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -472,7 +472,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getNLeaves**(): `number`
 
-Defined in: [ml/estimators/DecisionTree.js:617](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L617)
+Defined in: [ml/estimators/DecisionTree.js:617](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L617)
 
 Get number of leaves
 
@@ -486,7 +486,7 @@ Get number of leaves
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -504,7 +504,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -524,7 +524,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -544,7 +544,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -572,7 +572,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -590,7 +590,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -608,7 +608,7 @@ Check if model is fitted
 
 > **predict**(`X`): `number`[] \| `string`[]
 
-Defined in: [ml/estimators/DecisionTree.js:574](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L574)
+Defined in: [ml/estimators/DecisionTree.js:574](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L574)
 
 Predict class labels for each sample.
 
@@ -636,7 +636,7 @@ Predicted class labels (decoded to original label types).
 
 > **predictProba**(`X`): `any`
 
-Defined in: [ml/estimators/DecisionTree.js:580](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/estimators/DecisionTree.js#L580)
+Defined in: [ml/estimators/DecisionTree.js:580](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/estimators/DecisionTree.js#L580)
 
 Predict probabilities - subclasses should override
 Ensures model is fitted before prediction
@@ -661,7 +661,7 @@ Ensures model is fitted before prediction
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -681,7 +681,7 @@ JSON representation of the model
 
 > **score**(`yTrueOrOpts`, `yPred`, `_opts?`, ...`args?`): `number`
 
-Defined in: [core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L622)
+Defined in: [core/estimators/estimator.js:622](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L622)
 
 Default accuracy scoring:
  - score(yTrue, yPred)
@@ -717,7 +717,7 @@ Default accuracy scoring:
 
 > **setParams**(`params?`): `DecisionTreeClassifier`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -741,7 +741,7 @@ Set parameters (mutates instance).
 
 > **toJSON**(): `object`
 
-Defined in: [core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L302)
+Defined in: [core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L302)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -776,7 +776,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -794,7 +794,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L317)
+Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L317)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -819,7 +819,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

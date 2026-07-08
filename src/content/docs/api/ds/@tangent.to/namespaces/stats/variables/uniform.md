@@ -4,7 +4,7 @@ title: "uniform"
 
 > `const` **uniform**: `object`
 
-Defined in: [stats/distribution.js:58](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/stats/distribution.js#L58)
+Defined in: [stats/distribution.js:58](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/stats/distribution.js#L58)
 
 ## Type Declaration
 

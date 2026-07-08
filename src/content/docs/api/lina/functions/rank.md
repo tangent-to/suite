@@ -4,7 +4,7 @@ title: "rank"
 
 > **rank**(`A`, `tol?`): `number`
 
-Defined in: [svd.js:140](https://github.com/tangent-to/lina/blob/e7aceef1d5e9a9130b0f591b23795fe0079f45a6/src/svd.js#L140)
+Defined in: [svd.js:140](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/svd.js#L140)
 
 Numerical rank via SVD.
 

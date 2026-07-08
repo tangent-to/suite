@@ -4,7 +4,7 @@ title: "createOptimizer"
 
 > **createOptimizer**(`name`, `options?`): `Optimizer`
 
-Defined in: [compat.js:130](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/compat.js#L130)
+Defined in: [compat.js:130](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L130)
 
 Convenience function to create optimizer by name
 

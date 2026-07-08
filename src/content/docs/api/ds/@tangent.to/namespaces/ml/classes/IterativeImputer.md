@@ -2,7 +2,7 @@
 title: "IterativeImputer"
 ---
 
-Defined in: [ml/impute.js:750](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L750)
+Defined in: [ml/impute.js:750](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L750)
 
 Multivariate imputation using chained equations (MICE algorithm)
 Compatible with sklearn.impute.IterativeImputer
@@ -27,7 +27,7 @@ const X_filled = imputer.transform(X_test);
 
 > **new IterativeImputer**(`options?`): `IterativeImputer`
 
-Defined in: [ml/impute.js:761](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L761)
+Defined in: [ml/impute.js:761](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L761)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Print progress (default: false)
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/impute.js:779](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L779)
+Defined in: [ml/impute.js:779](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L779)
 
 ***
 
@@ -93,7 +93,7 @@ Defined in: [ml/impute.js:779](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **copy**: `boolean`
 
-Defined in: [ml/impute.js:776](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L776)
+Defined in: [ml/impute.js:776](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L776)
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: [ml/impute.js:776](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **initial\_imputer\_**: [`SimpleImputer`](SimpleImputer.md)
 
-Defined in: [ml/impute.js:778](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L778)
+Defined in: [ml/impute.js:778](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L778)
 
 ***
 
@@ -109,7 +109,7 @@ Defined in: [ml/impute.js:778](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **initial\_strategy**: `string`
 
-Defined in: [ml/impute.js:770](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L770)
+Defined in: [ml/impute.js:770](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L770)
 
 ***
 
@@ -117,7 +117,7 @@ Defined in: [ml/impute.js:770](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **max\_iter**: `number`
 
-Defined in: [ml/impute.js:771](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L771)
+Defined in: [ml/impute.js:771](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L771)
 
 ***
 
@@ -125,7 +125,7 @@ Defined in: [ml/impute.js:771](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **max\_value**: `number`
 
-Defined in: [ml/impute.js:774](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L774)
+Defined in: [ml/impute.js:774](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L774)
 
 ***
 
@@ -133,7 +133,7 @@ Defined in: [ml/impute.js:774](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **min\_value**: `number`
 
-Defined in: [ml/impute.js:773](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L773)
+Defined in: [ml/impute.js:773](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L773)
 
 ***
 
@@ -141,7 +141,7 @@ Defined in: [ml/impute.js:773](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **n\_iter\_**: `number`
 
-Defined in: [ml/impute.js:780](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L780)
+Defined in: [ml/impute.js:780](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L780)
 
 ***
 
@@ -149,7 +149,7 @@ Defined in: [ml/impute.js:780](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **nFeatures\_**: `number`
 
-Defined in: [ml/impute.js:777](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L777)
+Defined in: [ml/impute.js:777](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L777)
 
 ***
 
@@ -157,7 +157,7 @@ Defined in: [ml/impute.js:777](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **tol**: `number`
 
-Defined in: [ml/impute.js:772](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L772)
+Defined in: [ml/impute.js:772](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L772)
 
 ***
 
@@ -165,7 +165,7 @@ Defined in: [ml/impute.js:772](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **verbose**: `boolean`
 
-Defined in: [ml/impute.js:775](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L775)
+Defined in: [ml/impute.js:775](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L775)
 
 ## Methods
 
@@ -173,7 +173,7 @@ Defined in: [ml/impute.js:775](https://github.com/tangent-to/ds/blob/bece0899e8e
 
 > **\_fitLinearRegression**(`X`, `y`): `any`
 
-Defined in: [ml/impute.js:789](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L789)
+Defined in: [ml/impute.js:789](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L789)
 
 Fit a simple linear regression using pseudoinverse
 
@@ -203,7 +203,7 @@ Model with coefficients and predict function
 
 > **\_imputeFeature**(`X`, `featureIdx`, `missing_mask`): `number`[]
 
-Defined in: [ml/impute.js:827](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L827)
+Defined in: [ml/impute.js:827](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L827)
 
 Impute a single feature using other features
 
@@ -239,7 +239,7 @@ Imputed values for this feature
 
 > **fit**(`X`): `IterativeImputer`
 
-Defined in: [ml/impute.js:907](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L907)
+Defined in: [ml/impute.js:907](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L907)
 
 Fit the imputer on training data
 
@@ -263,7 +263,7 @@ this
 
 > **fit\_transform**(`X`): `number`[][]
 
-Defined in: [ml/impute.js:1061](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L1061)
+Defined in: [ml/impute.js:1061](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L1061)
 
 Fit and transform in one step
 
@@ -287,7 +287,7 @@ Transformed data
 
 > **transform**(`X`): `any`[] \| `number`[][]
 
-Defined in: [ml/impute.js:941](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/impute.js#L941)
+Defined in: [ml/impute.js:941](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/impute.js#L941)
 
 Transform data by filling missing values using MICE
 

@@ -4,7 +4,7 @@ title: "isolationForest"
 
 > **isolationForest**(`X`, `options?`): `number`[]
 
-Defined in: [ml/outliers.js:1207](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/ml/outliers.js#L1207)
+Defined in: [ml/outliers.js:1207](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/outliers.js#L1207)
 
 Isolation Forest (functional interface)
 

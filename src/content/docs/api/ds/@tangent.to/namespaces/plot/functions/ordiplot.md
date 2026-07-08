@@ -4,7 +4,7 @@ title: "ordiplot"
 
 > **ordiplot**(`result`, `options?`): `any`
 
-Defined in: [plot/ordiplot.js:44](https://github.com/tangent-to/ds/blob/bece0899e8ecc5f8fd2c8b895ca1767e5f9717dd/src/plot/ordiplot.js#L44)
+Defined in: [plot/ordiplot.js:48](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/plot/ordiplot.js#L48)
 
 Generate unified ordination plot configuration
 Works with PCA, LDA, and RDA results
@@ -100,11 +100,25 @@ Fill for points when there is no `colorBy`
 
 Point radius (default: 4).
 
+#### predictorColor
+
+`string` = `null`
+
+Stroke for RDA predictor arrows
+  (default: 'red'). Set e.g. '#111' for a greyscale triplot.
+
 #### predictorFactor
 
 `number` = `null`
 
 Multiplier for predictor arrows (RDA only, default: inherits loadingFactor; set 0 for auto)
+
+#### predictorTextColor
+
+`string` = `null`
+
+Fill for RDA predictor labels
+  (default: inherits predictorColor, else 'darkred').
 
 #### showCentroids
 

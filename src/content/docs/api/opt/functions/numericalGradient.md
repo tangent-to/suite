@@ -4,7 +4,7 @@ title: "numericalGradient"
 
 > **numericalGradient**(`f`, `x`, `options?`): `number`[]
 
-Defined in: [numdiff.js:14](https://github.com/tangent-to/opt/blob/56372549dfdd02390fd112fe15e220735383301d/src/numdiff.js#L14)
+Defined in: [numdiff.js:14](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/numdiff.js#L14)
 
 Approximate the gradient of a scalar function by central finite differences.
 

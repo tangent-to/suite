@@ -4,7 +4,7 @@ title: "qr"
 
 > **qr**(`A`, `options?`): `object`
 
-Defined in: [qr.js:102](https://github.com/tangent-to/lina/blob/e7aceef1d5e9a9130b0f591b23795fe0079f45a6/src/qr.js#L102)
+Defined in: [qr.js:102](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/qr.js#L102)
 
 QR decomposition A = Q R via Householder reflections.
 
