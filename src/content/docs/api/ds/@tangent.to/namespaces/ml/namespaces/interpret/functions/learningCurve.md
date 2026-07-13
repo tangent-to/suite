@@ -4,7 +4,7 @@ title: "learningCurve"
 
 > **learningCurve**(`fitFn`, `scoreFn`, `X`, `y`, `options?`): `any`
 
-Defined in: [ml/interpret.js:244](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/ml/interpret.js#L244)
+Defined in: [ml/interpret.js:244](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/interpret.js#L244)
 
 Learning curve data (performance vs training size)
 

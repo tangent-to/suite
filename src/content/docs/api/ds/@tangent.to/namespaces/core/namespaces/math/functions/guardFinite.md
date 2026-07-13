@@ -4,7 +4,7 @@ title: "guardFinite"
 
 > **guardFinite**(`value`, `name?`): `number`
 
-Defined in: [core/math.js:28](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/math.js#L28)
+Defined in: [core/math.js:28](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/math.js#L28)
 
 Guard against non-finite values
 

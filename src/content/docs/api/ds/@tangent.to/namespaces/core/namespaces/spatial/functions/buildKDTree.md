@@ -4,7 +4,7 @@ title: "buildKDTree"
 
 > **buildKDTree**(`points`, `metric?`): [`KDTree`](../classes/KDTree.md)
 
-Defined in: [core/spatial/kdtree.js:212](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/core/spatial/kdtree.js#L212)
+Defined in: [core/spatial/kdtree.js:212](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/spatial/kdtree.js#L212)
 
 Build KD-tree from data
 

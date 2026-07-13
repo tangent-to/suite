@@ -4,7 +4,7 @@ title: "bonferroni"
 
 > **bonferroni**(`pValues`, `alpha?`): `any`
 
-Defined in: [stats/tests.js:952](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/stats/tests.js#L952)
+Defined in: [stats/tests.js:952](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/tests.js#L952)
 
 Bonferroni correction for multiple testing
 

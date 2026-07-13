@@ -4,7 +4,7 @@ title: "omegaSquared"
 
 > **omegaSquared**(`anovaResult`): `number`
 
-Defined in: [stats/tests.js:620](https://github.com/tangent-to/ds/blob/0a43f5fe13ac4b751b6725aa861bff8ee10e9e13/src/stats/tests.js#L620)
+Defined in: [stats/tests.js:620](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/tests.js#L620)
 
 Omega-squared effect size for ANOVA
 Less biased estimate than eta-squared
