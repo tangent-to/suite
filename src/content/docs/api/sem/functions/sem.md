@@ -4,7 +4,7 @@ title: "sem"
 
 > **sem**(`syntax`, `spec?`): `object`
 
-Defined in: [index.js:37](https://github.com/tangent-to/sem/blob/c40df55cba16961fece3315fb019f24e9333c9ec/src/index.js#L37)
+Defined in: [index.js:41](https://github.com/tangent-to/sem/blob/124fa0ee2c1adf1b606c5303cb2e9783909925f0/src/index.js#L41)
 
 Fit a structural equation model.
 
@@ -25,7 +25,11 @@ lavaan-style model syntax:
 
 `number`[][]
 
-Sample covariance (instead of data)
+Sample covariance (instead of
+  data), maximum-likelihood (divisor-N) scaling, matching what `sampleCov`
+  produces and the returned `S`. If you hold an unbiased (divisor-(N-1))
+  covariance — R's `cov()`, most stats packages — rescale it by (n-1)/n
+  first so the chi-square, log-likelihood, AIC and BIC match lavaan.
 
 #### data?
 

@@ -4,7 +4,7 @@ title: "rk2"
 
 > **rk2**(`f`, `tSpan`, `y0`, `options`): `object`
 
-Defined in: [fixed.js:144](https://github.com/tangent-to/ode/blob/ff4ab8c1888e351a8fc6218293fe2e62f2aa5185/src/fixed.js#L144)
+Defined in: [fixed.js:144](https://github.com/tangent-to/ode/blob/2436358392377926f10d7beb38eb2de0fa880e65/src/fixed.js#L144)
 
 Integrate y' = f(t, y) with the explicit midpoint method (2nd order).
 

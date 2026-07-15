@@ -4,7 +4,7 @@ title: "eigSym"
 
 > **eigSym**(`A`, `options?`): `object`
 
-Defined in: [eigsym.js:24](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/eigsym.js#L24)
+Defined in: [eigsym.js:24](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/eigsym.js#L24)
 
 Eigendecomposition of a symmetric matrix: A = V diag(values) V^T.
 

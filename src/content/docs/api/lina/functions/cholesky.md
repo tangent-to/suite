@@ -4,7 +4,7 @@ title: "cholesky"
 
 > **cholesky**(`A`): `number`[][]
 
-Defined in: [cholesky.js:18](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/cholesky.js#L18)
+Defined in: [cholesky.js:18](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/cholesky.js#L18)
 
 Cholesky factorization of a symmetric positive definite matrix.
 

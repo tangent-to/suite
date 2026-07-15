@@ -4,7 +4,7 @@ title: "lchoose"
 
 > **lchoose**(`n`, `k`): `number`
 
-Defined in: [special.js:436](https://github.com/tangent-to/proba/blob/634a8431b23b1aab57300aef7a6c067655afce91/src/special.js#L436)
+Defined in: [special.js:455](https://github.com/tangent-to/proba/blob/e97f26559736e8c98eff10730aa20dbb3d73d529/src/special.js#L455)
 
 Log of the binomial coefficient, ln (n choose k), for non-negative integers.
 

@@ -4,7 +4,7 @@ title: "ordiplot"
 
 > **ordiplot**(`result`, `options?`): `any`
 
-Defined in: [plot/ordiplot.js:48](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/plot/ordiplot.js#L48)
+Defined in: [plot/ordiplot.js:60](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/plot/ordiplot.js#L60)
 
 Generate unified ordination plot configuration
 Works with PCA, LDA, and RDA results
@@ -55,6 +55,22 @@ Group values for points: an array,
 
 Plot height (default: 400)
 
+#### labelNudge
+
+`number` = `1`
+
+Multiplier on the radial distance a loading/
+  predictor label sits past its arrow tip (default 1). Larger pushes labels
+  further out from the tips before de-collision.
+
+#### labelRepel
+
+`boolean` = `true`
+
+Run ggrepel-style overlap removal on the
+  arrow labels (default true). Set false to place each label at its tip with no
+  de-collision.
+
 #### labels
 
 `any` = `null`
@@ -86,6 +102,17 @@ Scale factor for loading vectors (default: 3)
 
 Fill for loading labels (default:
   'darkred', or 'darkblue' for RDA).
+
+#### minLoadingContribution
+
+`number` = `0`
+
+Hide loading/predictor vectors
+  whose contribution to the two displayed axes is below this fraction (0-1) of
+  the total, i.e. squared vector length / summed squared length. Default 0 shows
+  every vector at its true relative length. Use e.g. 0.02 to drop near-zero
+  vectors that only clutter the plot, keeping magnitudes honest (vectors are NOT
+  rescaled - negligible ones are removed, not inflated).
 
 #### pointColor
 

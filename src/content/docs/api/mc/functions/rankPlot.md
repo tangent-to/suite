@@ -4,7 +4,7 @@ title: "rankPlot"
 
 > **rankPlot**(`trace`, `variables?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:489](https://github.com/tangent-to/mc/blob/f22d94c7dfed239d858791e7e0d263abb3191973/src/utils/visualize.js#L489)
+Defined in: [utils/visualize.js:489](https://github.com/tangent-to/mc/blob/4e1a8875b27c524a6bb9d33d86ba168603452f2a/src/utils/visualize.js#L489)
 
 Generate rank plot specification (for convergence diagnostics)
 Useful for detecting non-stationarity and comparing chains

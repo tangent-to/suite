@@ -4,7 +4,7 @@ title: "predict"
 
 > **predict**(`model`, `X`): (`string` \| `number`)[]
 
-Defined in: [mva/lda.js:421](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/mva/lda.js#L421)
+Defined in: [mva/lda.js:429](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/mva/lda.js#L429)
 
 Predict class labels for new data using nearest class-mean in discriminant space
 

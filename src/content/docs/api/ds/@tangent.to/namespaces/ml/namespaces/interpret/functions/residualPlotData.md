@@ -4,7 +4,7 @@ title: "residualPlotData"
 
 > **residualPlotData**(`model`, `X`, `y`): `any`
 
-Defined in: [ml/interpret.js:155](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/interpret.js#L155)
+Defined in: [ml/interpret.js:155](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/interpret.js#L155)
 
 Compute residual plot data
 

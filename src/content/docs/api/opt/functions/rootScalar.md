@@ -4,7 +4,7 @@ title: "rootScalar"
 
 > **rootScalar**(`f`, `options?`): `any`
 
-Defined in: [scalar.js:565](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/scalar.js#L565)
+Defined in: [scalar.js:565](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/scalar.js#L565)
 
 Find a root of a univariate function inside a sign-changing bracket.
 

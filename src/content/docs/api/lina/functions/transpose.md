@@ -4,7 +4,7 @@ title: "transpose"
 
 > **transpose**(`A`): `number`[][]
 
-Defined in: [ops.js:60](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/ops.js#L60)
+Defined in: [ops.js:60](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/ops.js#L60)
 
 Matrix transpose.
 

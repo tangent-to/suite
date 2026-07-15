@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:24](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/index.js#L24)
+Defined in: [index.js:24](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/index.js#L24)
 
 ## Type Declaration
 
@@ -280,6 +280,91 @@ L unit lower triangular, U upper triangular, P a permutation matrix.
 ##### U
 
 > **U**: `number`[][]
+
+### luFactor
+
+> **luFactor**: (`A`) => `object`
+
+LU factorization in packed flat storage, for callers that back-substitute
+many right-hand sides against one factorization on a hot path.
+
+Unlike lu(), this skips building the nested L, U and dense permutation
+matrix P: it returns the combined LU array directly (unit-diagonal L
+strictly below the diagonal, U on and above, in row-major n*n storage)
+together with the permutation vector, so no nested round-trip or
+permutation-matrix scan is needed. Pair it with luFactorSolve().
+
+#### Parameters
+
+##### A
+
+`number`[][]
+
+Square nested matrix
+
+#### Returns
+
+`object`
+
+`lu` is the combined LU storage (row-major n*n); `perm` maps factored row k
+  to input row perm[k]; `sign` is the permutation sign; `singular` flags a
+  pivot at or below 1e-13 * maxAbs(A).
+
+##### lu
+
+> **lu**: `Float64Array`
+
+##### n
+
+> **n**: `number`
+
+##### perm
+
+> **perm**: `Int32Array`
+
+##### sign
+
+> **sign**: `number`
+
+##### singular
+
+> **singular**: `boolean`
+
+### luFactorSolve
+
+> **luFactorSolve**: (`fac`, `b`) => `Float64Array`\<`ArrayBufferLike`\>
+
+Solve A x = b from a packed factorization returned by luFactor().
+
+#### Parameters
+
+##### fac
+
+luFactor() result
+
+###### lu
+
+`Float64Array`
+
+###### n
+
+`number`
+
+###### perm
+
+`Int32Array`
+
+##### b
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+Right-hand side (length n, not modified)
+
+#### Returns
+
+`Float64Array`\<`ArrayBufferLike`\>
+
+Solution vector x
 
 ### matmul
 

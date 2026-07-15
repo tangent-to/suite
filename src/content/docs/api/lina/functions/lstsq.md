@@ -4,7 +4,7 @@ title: "lstsq"
 
 > **lstsq**(`A`, `b`): `object`
 
-Defined in: [qr.js:128](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/qr.js#L128)
+Defined in: [qr.js:128](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/qr.js#L128)
 
 Least-squares solution of A x ≈ b via reduced QR.
 

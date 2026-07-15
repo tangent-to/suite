@@ -2,7 +2,7 @@
 title: "Recipe"
 ---
 
-Defined in: [ml/recipe.js:143](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L143)
+Defined in: [ml/recipe.js:143](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L143)
 
 Recipe class for building inspectable preprocessing workflows
 
@@ -80,7 +80,7 @@ const result = recipe.prep();
 
 > **new Recipe**(`__namedParameters`): `Recipe`
 
-Defined in: [ml/recipe.js:144](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L144)
+Defined in: [ml/recipe.js:144](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L144)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: [ml/recipe.js:144](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **\_prepared**: `boolean`
 
-Defined in: [ml/recipe.js:149](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L149)
+Defined in: [ml/recipe.js:149](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L149)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: [ml/recipe.js:149](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **\_splitResult**: `any`
 
-Defined in: [ml/recipe.js:1579](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1579)
+Defined in: [ml/recipe.js:1579](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1579)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [ml/recipe.js:1579](https://github.com/tangent-to/ds/blob/8c34ce1d14
 
 > **\_stepOutputs**: (\{ `name`: `any`; `output`: `any`; `transformer`: `any`; \} \| \{ `name`: `any`; `output`: `any`; `transformer?`: `undefined`; \})[]
 
-Defined in: [ml/recipe.js:1578](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1578)
+Defined in: [ml/recipe.js:1578](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1578)
 
 ***
 
@@ -132,7 +132,7 @@ Defined in: [ml/recipe.js:1578](https://github.com/tangent-to/ds/blob/8c34ce1d14
 
 > **\_transformers**: `object`
 
-Defined in: [ml/recipe.js:150](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L150)
+Defined in: [ml/recipe.js:150](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L150)
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: [ml/recipe.js:150](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **initialData**: `any`
 
-Defined in: [ml/recipe.js:145](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L145)
+Defined in: [ml/recipe.js:145](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L145)
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: [ml/recipe.js:145](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **splitConfig**: `object`
 
-Defined in: [ml/recipe.js:1496](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1496)
+Defined in: [ml/recipe.js:1496](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1496)
 
 #### ratio
 
@@ -168,7 +168,7 @@ Defined in: [ml/recipe.js:1496](https://github.com/tangent-to/ds/blob/8c34ce1d14
 
 > **steps**: `any`[]
 
-Defined in: [ml/recipe.js:148](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L148)
+Defined in: [ml/recipe.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L148)
 
 ***
 
@@ -176,7 +176,7 @@ Defined in: [ml/recipe.js:148](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **X**: `any`[]
 
-Defined in: [ml/recipe.js:146](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L146)
+Defined in: [ml/recipe.js:146](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L146)
 
 ***
 
@@ -184,7 +184,7 @@ Defined in: [ml/recipe.js:146](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **y**: `any`
 
-Defined in: [ml/recipe.js:147](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L147)
+Defined in: [ml/recipe.js:147](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L147)
 
 ## Methods
 
@@ -192,7 +192,7 @@ Defined in: [ml/recipe.js:147](https://github.com/tangent-to/ds/blob/8c34ce1d14a
 
 > **bake**(`data`): `any`
 
-Defined in: [ml/recipe.js:1613](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1613)
+Defined in: [ml/recipe.js:1613](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1613)
 
 Apply fitted transformers to new data
 
@@ -216,7 +216,7 @@ Transformed data
 
 > **binContinuous**(`column`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1047](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1047)
+Defined in: [ml/recipe.js:1047](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1047)
 
 Bin continuous variables into discrete categories
 
@@ -262,7 +262,7 @@ recipe.binContinuous('age', { bins: 5, labels: ['child', 'teen', 'adult', 'middl
 
 > **clean**(`validCategories`): `Recipe`
 
-Defined in: [ml/recipe.js:195](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L195)
+Defined in: [ml/recipe.js:195](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L195)
 
 Clean categorical columns
 
@@ -286,7 +286,7 @@ this
 
 > **clipOutliers**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:844](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L844)
+Defined in: [ml/recipe.js:844](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L844)
 
 Clip outliers using IQR method
 
@@ -326,7 +326,7 @@ recipe.clipOutliers(['price', 'age'], { multiplier: 1.5 });
 
 > **createInteractions**(`columns`): `Recipe`
 
-Defined in: [ml/recipe.js:933](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L933)
+Defined in: [ml/recipe.js:933](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L933)
 
 Create pairwise interaction features
 
@@ -357,7 +357,7 @@ recipe.createInteractions(['feature1', 'feature2', 'feature3']);
 
 > **createPolynomial**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:993](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L993)
+Defined in: [ml/recipe.js:993](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L993)
 
 Create polynomial features
 
@@ -398,7 +398,7 @@ recipe.createPolynomial(['age', 'income'], { degree: 2 });
 
 > **downsample**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1223](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1223)
+Defined in: [ml/recipe.js:1223](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1223)
 
 Downsample majority class for imbalanced classification
 
@@ -444,7 +444,7 @@ recipe.downsample({ strategy: 'balance', seed: 42 });
 
 > **imputeIterative**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:764](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L764)
+Defined in: [ml/recipe.js:764](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L764)
 
 Impute missing values using iterative imputation (MICE)
 
@@ -490,7 +490,7 @@ recipe.imputeIterative(['age', 'income'], { maxIter: 20 });
 
 > **imputeKNN**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:725](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L725)
+Defined in: [ml/recipe.js:725](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L725)
 
 Impute missing values using KNN
 
@@ -530,7 +530,7 @@ recipe.imputeKNN(['age', 'income'], { k: 3 });
 
 > **imputeMean**(`columns`): `Recipe`
 
-Defined in: [ml/recipe.js:618](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L618)
+Defined in: [ml/recipe.js:618](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L618)
 
 Impute missing values with mean
 
@@ -560,7 +560,7 @@ recipe.imputeMean(['age', 'income']);
 
 > **imputeMedian**(`columns`): `Recipe`
 
-Defined in: [ml/recipe.js:653](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L653)
+Defined in: [ml/recipe.js:653](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L653)
 
 Impute missing values with median
 
@@ -590,7 +590,7 @@ recipe.imputeMedian(['age', 'price']);
 
 > **imputeMode**(`columns`): `Recipe`
 
-Defined in: [ml/recipe.js:688](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L688)
+Defined in: [ml/recipe.js:688](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L688)
 
 Impute missing values with mode (most frequent value)
 
@@ -620,7 +620,7 @@ recipe.imputeMode(['category', 'status']);
 
 > **lda**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:439](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L439)
+Defined in: [ml/recipe.js:439](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L439)
 
 Apply Linear Discriminant Analysis for supervised dimensionality reduction
 
@@ -672,7 +672,7 @@ recipe.lda({
 
 > **oneHot**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:223](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L223)
+Defined in: [ml/recipe.js:223](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L223)
 
 One-hot encode categorical columns
 
@@ -712,7 +712,7 @@ this
 
 > **parseNumeric**(`columns`): `Recipe`
 
-Defined in: [ml/recipe.js:165](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L165)
+Defined in: [ml/recipe.js:165](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L165)
 
 Parse string columns as numeric
 
@@ -745,7 +745,7 @@ recipe.parseNumeric(['age', 'price', 'quantity']);
 
 > **pca**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:342](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L342)
+Defined in: [ml/recipe.js:342](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L342)
 
 Apply Principal Component Analysis for dimensionality reduction
 
@@ -804,7 +804,7 @@ recipe.pca({
 
 > **prep**(): `any`
 
-Defined in: [ml/recipe.js:1505](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1505)
+Defined in: [ml/recipe.js:1505](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1505)
 
 Execute the recipe on the initial data
 Returns train/test data and all fitted transformers
@@ -821,7 +821,7 @@ Prepared data with train, test, transformers
 
 > **rda**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:539](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L539)
+Defined in: [ml/recipe.js:539](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L539)
 
 Apply Redundancy Analysis for constrained ordination
 
@@ -880,7 +880,7 @@ recipe.rda({
 
 > **removeOutliers**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:804](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L804)
+Defined in: [ml/recipe.js:804](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L804)
 
 Remove outliers from the dataset
 
@@ -926,7 +926,7 @@ recipe.removeOutliers(['price', 'quantity'], { method: 'isolation_forest', conta
 
 > **scale**(`columns`, `options?`): `Recipe`
 
-Defined in: [ml/recipe.js:293](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L293)
+Defined in: [ml/recipe.js:293](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L293)
 
 Scale numeric columns
 
@@ -960,7 +960,7 @@ this
 
 > **selectByCorrelation**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1384](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1384)
+Defined in: [ml/recipe.js:1384](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1384)
 
 Remove highly correlated features
 
@@ -994,7 +994,7 @@ recipe.selectByCorrelation({ threshold: 0.9 });
 
 > **selectByVariance**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1299](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1299)
+Defined in: [ml/recipe.js:1299](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1299)
 
 Remove low-variance features
 
@@ -1028,7 +1028,7 @@ recipe.selectByVariance({ threshold: 0.01 });
 
 > **split**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1495](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1495)
+Defined in: [ml/recipe.js:1495](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1495)
 
 Split data into train/test sets
 
@@ -1068,7 +1068,7 @@ this
 
 > **summary**(): `string`
 
-Defined in: [ml/recipe.js:1661](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1661)
+Defined in: [ml/recipe.js:1661](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1661)
 
 Get a summary of the recipe
 
@@ -1084,7 +1084,7 @@ Recipe summary
 
 > **upsample**(`options?`): `Recipe`
 
-Defined in: [ml/recipe.js:1160](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/recipe.js#L1160)
+Defined in: [ml/recipe.js:1160](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/recipe.js#L1160)
 
 Upsample minority class for imbalanced classification
 

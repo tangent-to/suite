@@ -4,7 +4,7 @@ title: "lu"
 
 > **lu**(`A`): `object`
 
-Defined in: [lu.js:103](https://github.com/tangent-to/lina/blob/f3c886c700fd1caf2484ad1687facfa4797391b1/src/lu.js#L103)
+Defined in: [lu.js:103](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/lu.js#L103)
 
 LU factorization with partial pivoting: P A = L U.
 

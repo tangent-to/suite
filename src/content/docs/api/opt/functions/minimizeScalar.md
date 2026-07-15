@@ -4,7 +4,7 @@ title: "minimizeScalar"
 
 > **minimizeScalar**(`f`, `options?`): `any`
 
-Defined in: [scalar.js:336](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/scalar.js#L336)
+Defined in: [scalar.js:336](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/scalar.js#L336)
 
 Minimize a univariate function.
 

@@ -4,7 +4,7 @@ title: "setRandomSeed"
 
 > **setRandomSeed**(`seed`): `void`
 
-Defined in: [rng.js:16](https://github.com/tangent-to/mc/blob/f22d94c7dfed239d858791e7e0d263abb3191973/src/rng.js#L16)
+Defined in: [rng.js:16](https://github.com/tangent-to/mc/blob/4e1a8875b27c524a6bb9d33d86ba168603452f2a/src/rng.js#L16)
 
 Seed the package RNG for reproducible sampling.
 

@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:48](https://github.com/tangent-to/ode/blob/ff4ab8c1888e351a8fc6218293fe2e62f2aa5185/src/index.js#L48)
+Defined in: [index.js:48](https://github.com/tangent-to/ode/blob/2436358392377926f10d7beb38eb2de0fa880e65/src/index.js#L48)
 
 Convenience bundle of every solver under one object, so consumers can
 `import ode from '@tangent.to/ode'` and call `ode.solve(...)`, `ode.rk45(...)`, etc.

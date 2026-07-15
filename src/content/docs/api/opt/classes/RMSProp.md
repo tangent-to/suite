@@ -2,7 +2,7 @@
 title: "RMSProp"
 ---
 
-Defined in: [compat.js:85](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L85)
+Defined in: [compat.js:85](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L85)
 
 RMSProp Optimizer
 
@@ -16,7 +16,7 @@ RMSProp Optimizer
 
 > **new RMSProp**(`options?`): `RMSProp`
 
-Defined in: [compat.js:86](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L86)
+Defined in: [compat.js:86](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L86)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [compat.js:86](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **decay**: `any`
 
-Defined in: [compat.js:88](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L88)
+Defined in: [compat.js:88](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L88)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [compat.js:88](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **epsilon**: `any`
 
-Defined in: [compat.js:89](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L89)
+Defined in: [compat.js:89](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L89)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [compat.js:89](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **learningRate**: `any`
 
-Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L17)
+Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L17)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [compat.js:17](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **maxIter**: `any`
 
-Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L18)
+Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L18)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: [compat.js:18](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **tol**: `any`
 
-Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L19)
+Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L19)
 
 #### Inherited from
 
@@ -88,7 +88,7 @@ Defined in: [compat.js:19](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **verbose**: `any`
 
-Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L20)
+Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L20)
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: [compat.js:20](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **\_options**(`options`): `object`
 
-Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L34)
+Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L34)
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: [compat.js:34](https://github.com/tangent-to/opt/blob/975b1333800a65
 
 > **minimize**(`lossFn`, `x0`, `options?`): `object`
 
-Defined in: [compat.js:92](https://github.com/tangent-to/opt/blob/975b1333800a65e245182d8e0aa4c737f26ed6fc/src/compat.js#L92)
+Defined in: [compat.js:92](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/compat.js#L92)
 
 Minimize a loss function
 

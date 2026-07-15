@@ -2,7 +2,7 @@
 title: "GLM"
 ---
 
-Defined in: [stats/estimators/GLM.js:19](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L19)
+Defined in: [stats/estimators/GLM.js:19](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L19)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [stats/estimators/GLM.js:19](https://github.com/tangent-to/ds/blob/8
 
 > **new GLM**(`params?`): `GLM`
 
-Defined in: [stats/estimators/GLM.js:38](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L38)
+Defined in: [stats/estimators/GLM.js:38](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L38)
 
 #### Parameters
 
@@ -126,7 +126,7 @@ Warn if model doesn't converge (default: true)
 
 > **\_classes**: `any`[]
 
-Defined in: [stats/estimators/GLM.js:73](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L73)
+Defined in: [stats/estimators/GLM.js:73](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L73)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [stats/estimators/GLM.js:73](https://github.com/tangent-to/ds/blob/8
 
 > **\_columnsX**: `any`
 
-Defined in: [stats/estimators/GLM.js:78](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L78)
+Defined in: [stats/estimators/GLM.js:78](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L78)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [stats/estimators/GLM.js:78](https://github.com/tangent-to/ds/blob/8
 
 > **\_columnY**: `any`
 
-Defined in: [stats/estimators/GLM.js:79](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L79)
+Defined in: [stats/estimators/GLM.js:79](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L79)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [stats/estimators/GLM.js:79](https://github.com/tangent-to/ds/blob/8
 
 > **\_formula**: `any`
 
-Defined in: [stats/estimators/GLM.js:208](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L208)
+Defined in: [stats/estimators/GLM.js:208](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L208)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [stats/estimators/GLM.js:208](https://github.com/tangent-to/ds/blob/
 
 > **\_indicatorColumns**: `string`[]
 
-Defined in: [stats/estimators/GLM.js:382](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L382)
+Defined in: [stats/estimators/GLM.js:382](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L382)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [stats/estimators/GLM.js:382](https://github.com/tangent-to/ds/blob/
 
 > **\_isMixed**: `boolean`
 
-Defined in: [stats/estimators/GLM.js:77](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L77)
+Defined in: [stats/estimators/GLM.js:77](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L77)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [stats/estimators/GLM.js:77](https://github.com/tangent-to/ds/blob/8
 
 > **\_isMulticlass**: `boolean`
 
-Defined in: [stats/estimators/GLM.js:75](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L75)
+Defined in: [stats/estimators/GLM.js:75](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L75)
 
 ***
 
@@ -182,7 +182,7 @@ Defined in: [stats/estimators/GLM.js:75](https://github.com/tangent-to/ds/blob/8
 
 > **\_isMultinomial**: `boolean`
 
-Defined in: [stats/estimators/GLM.js:448](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L448)
+Defined in: [stats/estimators/GLM.js:448](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L448)
 
 ***
 
@@ -190,7 +190,7 @@ Defined in: [stats/estimators/GLM.js:448](https://github.com/tangent-to/ds/blob/
 
 > **\_isMultiOutput**: `boolean`
 
-Defined in: [stats/estimators/GLM.js:76](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L76)
+Defined in: [stats/estimators/GLM.js:76](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L76)
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: [stats/estimators/GLM.js:76](https://github.com/tangent-to/ds/blob/8
 
 > **\_model**: `any`
 
-Defined in: [stats/estimators/GLM.js:71](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L71)
+Defined in: [stats/estimators/GLM.js:71](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L71)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [stats/estimators/GLM.js:71](https://github.com/tangent-to/ds/blob/8
 
 > **\_models**: `object`
 
-Defined in: [stats/estimators/GLM.js:72](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L72)
+Defined in: [stats/estimators/GLM.js:72](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L72)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [stats/estimators/GLM.js:72](https://github.com/tangent-to/ds/blob/8
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -226,7 +226,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_targetNames**: `any`
 
-Defined in: [stats/estimators/GLM.js:74](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L74)
+Defined in: [stats/estimators/GLM.js:74](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L74)
 
 ***
 
@@ -234,7 +234,7 @@ Defined in: [stats/estimators/GLM.js:74](https://github.com/tangent-to/ds/blob/8
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -246,7 +246,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -258,7 +258,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **params**: `object`
 
-Defined in: [stats/estimators/GLM.js:42](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L42)
+Defined in: [stats/estimators/GLM.js:42](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L42)
 
 #### alpha
 
@@ -332,7 +332,7 @@ Defined in: [stats/estimators/GLM.js:42](https://github.com/tangent-to/ds/blob/8
 
 > **get** **coefficients**(): `any`
 
-Defined in: [stats/estimators/GLM.js:85](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L85)
+Defined in: [stats/estimators/GLM.js:85](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L85)
 
 Get coefficients (for backward compatibility with lm interface)
 
@@ -348,7 +348,7 @@ Get coefficients (for backward compatibility with lm interface)
 
 > **get** **intercept**(): `boolean`
 
-Defined in: [stats/estimators/GLM.js:93](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L93)
+Defined in: [stats/estimators/GLM.js:93](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L93)
 
 Get intercept flag (for backward compatibility)
 
@@ -362,7 +362,7 @@ Get intercept flag (for backward compatibility)
 
 > **\_extractColumn**(`columnName`, `_data`, `rows`): `any`
 
-Defined in: [stats/estimators/GLM.js:713](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L713)
+Defined in: [stats/estimators/GLM.js:713](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L713)
 
 Extract a column from table data
 
@@ -390,7 +390,7 @@ Extract a column from table data
 
 > **\_getCoefLabels**(): `any`[]
 
-Defined in: [stats/estimators/GLM.js:1632](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1632)
+Defined in: [stats/estimators/GLM.js:1632](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1632)
 
 Get coefficient labels
 
@@ -404,7 +404,7 @@ Get coefficient labels
 
 > **\_parseRandomEffects**(`opts`, `rows`): `object`
 
-Defined in: [stats/estimators/GLM.js:686](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L686)
+Defined in: [stats/estimators/GLM.js:686](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L686)
 
 Parse random effects specification from table-style input
 
@@ -436,7 +436,7 @@ Parse random effects specification from table-style input
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -470,7 +470,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [stats/estimators/GLM.js:1138](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1138)
+Defined in: [stats/estimators/GLM.js:1138](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1138)
 
 Jupyter notebook display support
 Returns HTML representation for better notebook rendering
@@ -489,7 +489,7 @@ Returns HTML representation for better notebook rendering
 
 > **\_summaryGLM**(`alpha?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1161](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1161)
+Defined in: [stats/estimators/GLM.js:1161](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1161)
 
 Format GLM summary
 
@@ -509,7 +509,7 @@ Format GLM summary
 
 > **\_summaryGLMHTML**(): `string`
 
-Defined in: [stats/estimators/GLM.js:1373](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1373)
+Defined in: [stats/estimators/GLM.js:1373](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1373)
 
 Format GLM summary as HTML for Jupyter
 
@@ -523,7 +523,7 @@ Format GLM summary as HTML for Jupyter
 
 > **\_summaryGLMM**(`alpha?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1448](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1448)
+Defined in: [stats/estimators/GLM.js:1448](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1448)
 
 Format GLMM summary (lme4-style, no p-values)
 
@@ -543,7 +543,7 @@ Format GLMM summary (lme4-style, no p-values)
 
 > **\_summaryGLMMHTML**(): `string`
 
-Defined in: [stats/estimators/GLM.js:1528](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1528)
+Defined in: [stats/estimators/GLM.js:1528](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1528)
 
 Format GLMM summary as HTML for Jupyter
 
@@ -557,7 +557,7 @@ Format GLMM summary as HTML for Jupyter
 
 > **\_summaryMulticlass**(`alpha?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1225](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1225)
+Defined in: [stats/estimators/GLM.js:1225](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1225)
 
 Format multiclass GLM summary
 
@@ -577,7 +577,7 @@ Format multiclass GLM summary
 
 > **\_summaryMultiOutput**(`alpha?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1248](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1248)
+Defined in: [stats/estimators/GLM.js:1248](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1248)
 
 Format multi-output GLM summary
 
@@ -597,7 +597,7 @@ Format multi-output GLM summary
 
 > **\_summaryTrueMultinomial**(`alpha?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1289](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1289)
+Defined in: [stats/estimators/GLM.js:1289](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1289)
 
 Format true multinomial logistic regression summary
 
@@ -617,7 +617,7 @@ Format true multinomial logistic regression summary
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -635,7 +635,7 @@ Clear all warnings
 
 > **confint**(`alpha?`): `any`[]
 
-Defined in: [stats/estimators/GLM.js:1036](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1036)
+Defined in: [stats/estimators/GLM.js:1036](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1036)
 
 Compute confidence intervals for coefficients
 
@@ -659,7 +659,7 @@ Array of {lower, upper} for each coefficient
 
 > **fit**(...`args`): `GLM`
 
-Defined in: [stats/estimators/GLM.js:108](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L108)
+Defined in: [stats/estimators/GLM.js:108](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L108)
 
 Fit the GLM or GLMM
 
@@ -691,7 +691,7 @@ Supports multiple calling conventions:
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -711,7 +711,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -729,7 +729,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -749,7 +749,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -769,7 +769,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -797,7 +797,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -815,7 +815,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -833,7 +833,7 @@ Check if model is fitted
 
 > **predict**(`X`, `options?`): `any`[]
 
-Defined in: [stats/estimators/GLM.js:941](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L941)
+Defined in: [stats/estimators/GLM.js:941](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L941)
 
 Predict from the fitted model
 
@@ -889,7 +889,7 @@ Predictions
 
 > **pvalues**(): `number`[]
 
-Defined in: [stats/estimators/GLM.js:1059](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1059)
+Defined in: [stats/estimators/GLM.js:1059](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1059)
 
 Compute p-values for coefficients (Wald test)
 
@@ -908,7 +908,7 @@ P-values for each coefficient
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -928,7 +928,7 @@ JSON representation of the model
 
 > **score**(`yTrue`, `yPred`, ...`args`): `number`
 
-Defined in: [stats/estimators/GLM.js:1660](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1660)
+Defined in: [stats/estimators/GLM.js:1660](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1660)
 
 Score the model (R² for regression families, accuracy for binomial/multiclass)
 
@@ -956,7 +956,7 @@ Score the model (R² for regression families, accuracy for binomial/multiclass)
 
 > **setParams**(`params?`): `GLM`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -980,7 +980,7 @@ Set parameters (mutates instance).
 
 > **summary**(`options?`): `string`
 
-Defined in: [stats/estimators/GLM.js:1015](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1015)
+Defined in: [stats/estimators/GLM.js:1015](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1015)
 
 Get model summary (lme4-style for mixed models)
 
@@ -1006,7 +1006,7 @@ Significance level for CIs (default: from constructor)
 
 > **toJSON**(): `object`
 
-Defined in: [stats/estimators/GLM.js:1709](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1709)
+Defined in: [stats/estimators/GLM.js:1709](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1709)
 
 Serialize to JSON
 
@@ -1140,7 +1140,7 @@ Serialize to JSON
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -1158,7 +1158,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj`): `GLM`
 
-Defined in: [stats/estimators/GLM.js:1734](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/stats/estimators/GLM.js#L1734)
+Defined in: [stats/estimators/GLM.js:1734](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/stats/estimators/GLM.js#L1734)
 
 Deserialize from JSON
 
@@ -1182,7 +1182,7 @@ Deserialize from JSON
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

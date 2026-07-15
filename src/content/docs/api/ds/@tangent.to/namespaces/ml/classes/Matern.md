@@ -2,7 +2,7 @@
 title: "Matern"
 ---
 
-Defined in: [ml/kernels/matern.js:13](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L13)
+Defined in: [ml/kernels/matern.js:13](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L13)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new Matern**(`lengthScaleOrOpts?`, `nu?`, `variance?`): `Matern`
 
-Defined in: [ml/kernels/matern.js:14](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L14)
+Defined in: [ml/kernels/matern.js:14](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L14)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [ml/kernels/matern.js:14](https://github.com/tangent-to/ds/blob/8c34
 
 > **lengthScale**: `any`
 
-Defined in: [ml/kernels/matern.js:23](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L23)
+Defined in: [ml/kernels/matern.js:23](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L23)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [ml/kernels/matern.js:23](https://github.com/tangent-to/ds/blob/8c34
 
 > **nu**: `any`
 
-Defined in: [ml/kernels/matern.js:24](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L24)
+Defined in: [ml/kernels/matern.js:24](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L24)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [ml/kernels/matern.js:24](https://github.com/tangent-to/ds/blob/8c34
 
 > **variance**: `any`
 
-Defined in: [ml/kernels/matern.js:25](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L25)
+Defined in: [ml/kernels/matern.js:25](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L25)
 
 ## Methods
 
@@ -70,7 +70,7 @@ Defined in: [ml/kernels/matern.js:25](https://github.com/tangent-to/ds/blob/8c34
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -104,7 +104,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -124,7 +124,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `any`
 
-Defined in: [ml/kernels/matern.js:39](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L39)
+Defined in: [ml/kernels/matern.js:39](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L39)
 
 Compute covariance between two points
 
@@ -158,7 +158,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/matern.js:76](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L76)
+Defined in: [ml/kernels/matern.js:76](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L76)
 
 Get kernel hyperparameters
 
@@ -190,7 +190,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/matern.js:84](https://github.com/tangent-to/ds/blob/8c34ce1d14a4c8a768b5406099bfadf7e90a1e09/src/ml/kernels/matern.js#L84)
+Defined in: [ml/kernels/matern.js:84](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/kernels/matern.js#L84)
 
 Set kernel hyperparameters
 

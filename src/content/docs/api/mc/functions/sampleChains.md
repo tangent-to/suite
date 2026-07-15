@@ -4,7 +4,7 @@ title: "sampleChains"
 
 > **sampleChains**(`modelFactory`, `options?`): `Promise`\<\{ `acceptanceRates`: `number`[]; `byChain`: `any`; `chains`: `any`[]; `parallel`: `boolean`; `seeds`: `number`[]; `trace`: `any`; \}\>
 
-Defined in: [parallel.js:260](https://github.com/tangent-to/mc/blob/f22d94c7dfed239d858791e7e0d263abb3191973/src/parallel.js#L260)
+Defined in: [parallel.js:260](https://github.com/tangent-to/mc/blob/4e1a8875b27c524a6bb9d33d86ba168603452f2a/src/parallel.js#L260)
 
 Sample several MCMC chains in parallel, one worker per chain.
 

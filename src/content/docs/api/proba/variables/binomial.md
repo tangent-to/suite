@@ -4,7 +4,7 @@ title: "binomial"
 
 > `const` **binomial**: `Readonly`\<\{ `kind`: `"discrete"`; `name`: `"binomial"`; `params`: `string`[]; `cdf`: `number`; `dlogpdf`: \{ `dp`: `number`; \}; `logpdf`: `number`; `mean`: `number`; `pdf`: `number`; `quantile`: `any`; `sample`: `any`; `sampleN`: `any`[]; `support`: `any`[]; `validate`: `void`; `variance`: `number`; \}\>
 
-Defined in: [binomial.js:14](https://github.com/tangent-to/proba/blob/634a8431b23b1aab57300aef7a6c067655afce91/src/binomial.js#L14)
+Defined in: [binomial.js:14](https://github.com/tangent-to/proba/blob/e97f26559736e8c98eff10730aa20dbb3d73d529/src/binomial.js#L14)
 
 Binomial distribution: successes in n independent trials. Parameterized
 {n, p} with trial count n and success probability p in [0, 1]. Support is
