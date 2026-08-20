@@ -41,7 +41,7 @@ Direct solves for square systems, plus the least-squares and pseudo-inverse rout
 | `lu(A)` | LU decomposition with partial pivoting. Returns `{L, U, P}`. |
 | `qr(A)` | QR decomposition. Returns `{Q, R}`. |
 | `cholesky(A)` | Cholesky factor of a symmetric positive-definite `A`. |
-| `choleskySolve(A, b)` | Solve `A x = b` using the Cholesky factor. |
+| `choleskySolve(L, b)` | Solve `A x = b` from `A`'s Cholesky factor `L`. `b` is a vector, or a matrix whose columns are right-hand sides — passing them all at once is much cheaper than one call per column. |
 | `svd(A)` | Singular value decomposition. Returns `{U, s, V}` with singular values `s`. |
 | `eigSym(A)` | Eigendecomposition of a symmetric `A`. Returns `{values, vectors}`. |
 
