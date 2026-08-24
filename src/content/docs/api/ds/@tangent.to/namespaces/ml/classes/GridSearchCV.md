@@ -2,7 +2,7 @@
 title: "GridSearchCV"
 ---
 
-Defined in: [ml/pipeline.js:137](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L137)
+Defined in: [ml/pipeline.js:137](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L137)
 
 Simple GridSearchCV for hyperparameter tuning
 
@@ -16,7 +16,7 @@ Simple GridSearchCV for hyperparameter tuning
 
 > **new GridSearchCV**(`estimatorFn`, `paramGrid`, `scoreFn`, `cv?`): `GridSearchCV`
 
-Defined in: [ml/pipeline.js:145](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L145)
+Defined in: [ml/pipeline.js:145](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L145)
 
 Create grid search
 
@@ -60,7 +60,7 @@ Number of cross-validation folds
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -84,7 +84,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **bestEstimator**: `any`
 
-Defined in: [ml/pipeline.js:153](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L153)
+Defined in: [ml/pipeline.js:153](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L153)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [ml/pipeline.js:153](https://github.com/tangent-to/ds/blob/906004976
 
 > **bestParams**: `any`
 
-Defined in: [ml/pipeline.js:151](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L151)
+Defined in: [ml/pipeline.js:151](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L151)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [ml/pipeline.js:151](https://github.com/tangent-to/ds/blob/906004976
 
 > **bestScore**: `number`
 
-Defined in: [ml/pipeline.js:152](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L152)
+Defined in: [ml/pipeline.js:152](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L152)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [ml/pipeline.js:152](https://github.com/tangent-to/ds/blob/906004976
 
 > **cv**: `number`
 
-Defined in: [ml/pipeline.js:150](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L150)
+Defined in: [ml/pipeline.js:150](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L150)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: [ml/pipeline.js:150](https://github.com/tangent-to/ds/blob/906004976
 
 > **cvResults**: `any`[]
 
-Defined in: [ml/pipeline.js:154](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L154)
+Defined in: [ml/pipeline.js:154](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L154)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [ml/pipeline.js:154](https://github.com/tangent-to/ds/blob/906004976
 
 > **estimatorFn**: `Function`
 
-Defined in: [ml/pipeline.js:147](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L147)
+Defined in: [ml/pipeline.js:147](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L147)
 
 ***
 
@@ -132,7 +132,7 @@ Defined in: [ml/pipeline.js:147](https://github.com/tangent-to/ds/blob/906004976
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -144,7 +144,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **paramGrid**: `any`
 
-Defined in: [ml/pipeline.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L148)
+Defined in: [ml/pipeline.js:148](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L148)
 
 ***
 
@@ -152,7 +152,7 @@ Defined in: [ml/pipeline.js:148](https://github.com/tangent-to/ds/blob/906004976
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -164,7 +164,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **scoreFn**: `Function`
 
-Defined in: [ml/pipeline.js:149](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L149)
+Defined in: [ml/pipeline.js:149](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L149)
 
 ## Methods
 
@@ -172,7 +172,7 @@ Defined in: [ml/pipeline.js:149](https://github.com/tangent-to/ds/blob/906004976
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -206,7 +206,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -226,7 +226,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -244,7 +244,7 @@ Clear all warnings
 
 > **fit**(`X`, `y`): `GridSearchCV`
 
-Defined in: [ml/pipeline.js:189](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L189)
+Defined in: [ml/pipeline.js:189](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L189)
 
 Perform grid search with cross-validation
 
@@ -278,7 +278,7 @@ this
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -298,7 +298,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -316,7 +316,7 @@ Get a shallow copy of parameters.
 
 > **getResults**(): `any`[]
 
-Defined in: [ml/pipeline.js:273](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L273)
+Defined in: [ml/pipeline.js:273](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L273)
 
 Get results sorted by score
 
@@ -332,7 +332,7 @@ Results
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -352,7 +352,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -372,7 +372,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -400,7 +400,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -418,7 +418,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -436,7 +436,7 @@ Check if model is fitted
 
 > **predict**(`X`): `any`[]
 
-Defined in: [ml/pipeline.js:264](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/pipeline.js#L264)
+Defined in: [ml/pipeline.js:264](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/pipeline.js#L264)
 
 Predict using best estimator
 
@@ -464,7 +464,7 @@ Predictions
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -484,7 +484,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `GridSearchCV`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -508,7 +508,7 @@ Set parameters (mutates instance).
 
 > **toJSON**(): `object`
 
-Defined in: [core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L302)
+Defined in: [core/estimators/estimator.js:302](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L302)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -543,7 +543,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -561,7 +561,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L317)
+Defined in: [core/estimators/estimator.js:317](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L317)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -586,7 +586,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

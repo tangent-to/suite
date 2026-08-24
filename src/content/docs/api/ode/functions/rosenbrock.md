@@ -4,7 +4,7 @@ title: "rosenbrock"
 
 > **rosenbrock**(`f`, `tSpan`, `y0`, `options?`): `object`
 
-Defined in: [rosenbrock.js:131](https://github.com/tangent-to/ode/blob/2436358392377926f10d7beb38eb2de0fa880e65/src/rosenbrock.js#L131)
+Defined in: [rosenbrock.js:131](https://github.com/tangent-to/ode/blob/7d70fbe9c2f5edf316845d7d5f257803c52c73a2/src/rosenbrock.js#L131)
 
 Integrate the stiff system y' = f(t, y) with an adaptive 4(3)
 Rosenbrock-Wanner method (Kaps-Rentrop with Shampine's coefficients).

@@ -4,7 +4,7 @@ title: "applyColumns"
 
 > **applyColumns**(`rows`, `columns`, `matrix`, `options?`): `any`[]
 
-Defined in: [core/table.js:170](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/table.js#L170)
+Defined in: [core/table.js:170](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/table.js#L170)
 
 Apply a matrix of values to specific columns on each row.
 Useful for re-attaching transformed feature matrices to table rows.

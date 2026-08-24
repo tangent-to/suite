@@ -4,7 +4,7 @@ title: "quantile"
 
 > **quantile**(`arr`, `p`, `options?`): `number` \| `number`[]
 
-Defined in: [core/math.js:205](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/math.js#L205)
+Defined in: [core/math.js:205](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/math.js#L205)
 
 Compute the quantile(s) of an array
 

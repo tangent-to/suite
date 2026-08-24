@@ -2,16 +2,25 @@
 title: "pseudoInverse"
 ---
 
-> **pseudoInverse**(`data`): `any`
+> **pseudoInverse**(`data`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:128](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L128)
+Defined in: [core/linalg.js:210](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L210)
+
+Moore-Penrose pseudoinverse via SVD with a singular-value cutoff
+scaled by the matrix size and largest singular value (numpy
+convention), so near-zero singular values are zeroed instead of
+inverted into garbage for nearly rank-deficient matrices.
 
 ## Parameters
 
 ### data
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
+
+Input matrix
 
 ## Returns
 
-`any`
+[`Matrix`](../classes/Matrix.md)
+
+Pseudoinverse

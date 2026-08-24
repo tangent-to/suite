@@ -4,7 +4,7 @@ title: "crossValidate"
 
 > **crossValidate**(`fitFn`, `scoreFn`, `X`, `y?`, `folds?`): `object`
 
-Defined in: [ml/validation.js:573](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/validation.js#L573)
+Defined in: [ml/validation.js:573](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/validation.js#L573)
 
 Execute cross-validation with a model.
 

@@ -4,7 +4,7 @@ title: "norm"
 
 > **norm**(`A`, `kind?`): `number`
 
-Defined in: [ops.js:129](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/ops.js#L129)
+Defined in: [ops.js:168](https://github.com/tangent-to/lina/blob/34950545722822ff72e186732f4f49743e3261c3/src/ops.js#L168)
 
 Matrix or vector norm.
 

@@ -2,7 +2,7 @@
 title: "HCA"
 ---
 
-Defined in: [ml/estimators/HCA.js:11](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L11)
+Defined in: [ml/estimators/HCA.js:11](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L11)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ml/estimators/HCA.js:11](https://github.com/tangent-to/ds/blob/9060
 
 > **new HCA**(`params?`): `HCA`
 
-Defined in: [ml/estimators/HCA.js:12](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L12)
+Defined in: [ml/estimators/HCA.js:12](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L12)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [ml/estimators/HCA.js:12](https://github.com/tangent-to/ds/blob/9060
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **labels**: `number`[]
 
-Defined in: [ml/estimators/HCA.js:17](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L17)
+Defined in: [ml/estimators/HCA.js:17](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L17)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [ml/estimators/HCA.js:17](https://github.com/tangent-to/ds/blob/9060
 
 > **model**: `any`
 
-Defined in: [ml/estimators/HCA.js:16](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L16)
+Defined in: [ml/estimators/HCA.js:16](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L16)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [ml/estimators/HCA.js:16](https://github.com/tangent-to/ds/blob/9060
 
 > **params**: `object`
 
-Defined in: [ml/estimators/HCA.js:15](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L15)
+Defined in: [ml/estimators/HCA.js:15](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L15)
 
 #### k
 
@@ -110,7 +110,7 @@ Defined in: [ml/estimators/HCA.js:15](https://github.com/tangent-to/ds/blob/9060
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -144,7 +144,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -164,7 +164,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -182,7 +182,7 @@ Clear all warnings
 
 > **cut**(`k`): `number`[]
 
-Defined in: [ml/estimators/HCA.js:76](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L76)
+Defined in: [ml/estimators/HCA.js:76](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L76)
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [ml/estimators/HCA.js:76](https://github.com/tangent-to/ds/blob/9060
 
 > **cutHeight**(`height`): `number`[]
 
-Defined in: [ml/estimators/HCA.js:81](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L81)
+Defined in: [ml/estimators/HCA.js:81](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L81)
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: [ml/estimators/HCA.js:81](https://github.com/tangent-to/ds/blob/9060
 
 > **fit**(`X`, `opts?`): `HCA`
 
-Defined in: [ml/estimators/HCA.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L29)
+Defined in: [ml/estimators/HCA.js:29](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L29)
 
 Fit the hierarchical clustering model.
 
@@ -268,7 +268,7 @@ The fitted estimator (for chaining).
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -288,7 +288,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -306,7 +306,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -326,7 +326,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -346,7 +346,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -374,7 +374,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -392,7 +392,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -410,7 +410,7 @@ Check if model is fitted
 
 > **predict**(): `void`
 
-Defined in: [core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L424)
+Defined in: [core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L424)
 
 Predict should be implemented by supervised estimators.
 
@@ -428,7 +428,7 @@ Predict should be implemented by supervised estimators.
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -448,7 +448,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `HCA`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -472,7 +472,7 @@ Set parameters (mutates instance).
 
 > **summary**(): `object`
 
-Defined in: [ml/estimators/HCA.js:86](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L86)
+Defined in: [ml/estimators/HCA.js:86](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L86)
 
 #### Returns
 
@@ -500,7 +500,7 @@ Defined in: [ml/estimators/HCA.js:86](https://github.com/tangent-to/ds/blob/9060
 
 > **toJSON**(): `object`
 
-Defined in: [ml/estimators/HCA.js:109](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L109)
+Defined in: [ml/estimators/HCA.js:109](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L109)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -539,7 +539,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -557,7 +557,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `HCA`
 
-Defined in: [ml/estimators/HCA.js:119](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/estimators/HCA.js#L119)
+Defined in: [ml/estimators/HCA.js:119](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/estimators/HCA.js#L119)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -580,7 +580,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

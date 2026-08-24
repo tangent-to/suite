@@ -2,9 +2,9 @@
 title: "transpose"
 ---
 
-> **transpose**(`data`): `Matrix`
+> **transpose**(`data`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:113](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L113)
+Defined in: [core/linalg.js:156](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L156)
 
 Matrix transpose
 
@@ -12,12 +12,12 @@ Matrix transpose
 
 ### data
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 Input matrix
 
 ## Returns
 
-`Matrix`
+[`Matrix`](../classes/Matrix.md)
 
 Transposed matrix

@@ -4,7 +4,7 @@ title: "earlyStopping"
 
 > **earlyStopping**(`patience?`, `minDelta?`): `any`
 
-Defined in: [ml/train.js:185](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/train.js#L185)
+Defined in: [ml/train.js:185](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/train.js#L185)
 
 Early stopping callback
 

@@ -4,7 +4,7 @@ title: "sd"
 
 > `const` **sd**: (`arr`, `sample`, `options?`) => `number` = `stddev`
 
-Defined in: [core/math.js:161](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/math.js#L161)
+Defined in: [core/math.js:161](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/math.js#L161)
 
 Alias for stddev (standard deviation) - R-style naming
 

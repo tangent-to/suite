@@ -4,7 +4,7 @@ title: "preprocess"
 
 > **preprocess**(`options`): `any`
 
-Defined in: [ml/preprocessing.js:903](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/ml/preprocessing.js#L903)
+Defined in: [ml/preprocessing.js:903](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L903)
 
 Declarative preprocessing pipeline for tabular data
 Handles numeric parsing, data validation, and categorical encoding in one step

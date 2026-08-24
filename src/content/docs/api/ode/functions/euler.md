@@ -4,7 +4,7 @@ title: "euler"
 
 > **euler**(`f`, `tSpan`, `y0`, `options`): `object`
 
-Defined in: [fixed.js:129](https://github.com/tangent-to/ode/blob/2436358392377926f10d7beb38eb2de0fa880e65/src/fixed.js#L129)
+Defined in: [fixed.js:129](https://github.com/tangent-to/ode/blob/7d70fbe9c2f5edf316845d7d5f257803c52c73a2/src/fixed.js#L129)
 
 Integrate y' = f(t, y) with the forward Euler method (1st order).
 

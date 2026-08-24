@@ -4,17 +4,19 @@ title: "eig"
 
 > **eig**(`data`): `any`
 
-Defined in: [core/linalg.js:89](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L89)
+Defined in: [core/linalg.js:101](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L101)
 
-Eigenvalue decomposition
+Eigenvalue decomposition of a symmetric matrix.
+Eigenvalues are returned in descending order; eigenvectors are the
+columns of `vectors`. Throws for non-symmetric input.
 
 ## Parameters
 
 ### data
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
-Square matrix
+Symmetric square matrix
 
 ## Returns
 

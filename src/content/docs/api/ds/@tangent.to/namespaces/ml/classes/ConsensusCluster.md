@@ -2,7 +2,7 @@
 title: "ConsensusCluster"
 ---
 
-Defined in: [clustering/ConsensusCluster.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L29)
+Defined in: [clustering/ConsensusCluster.js:29](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L29)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [clustering/ConsensusCluster.js:29](https://github.com/tangent-to/ds
 
 > **new ConsensusCluster**(`options?`): `ConsensusCluster`
 
-Defined in: [clustering/ConsensusCluster.js:36](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L36)
+Defined in: [clustering/ConsensusCluster.js:36](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L36)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Minimum co-association for same cluster (0-1)
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **coAssocMatrix**: `any`[][]
 
-Defined in: [clustering/ConsensusCluster.js:49](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L49)
+Defined in: [clustering/ConsensusCluster.js:49](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L49)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [clustering/ConsensusCluster.js:49](https://github.com/tangent-to/ds
 
 > **estimators**: `any`[]
 
-Defined in: [clustering/ConsensusCluster.js:46](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L46)
+Defined in: [clustering/ConsensusCluster.js:46](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L46)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [clustering/ConsensusCluster.js:46](https://github.com/tangent-to/ds
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -104,7 +104,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **labels**: `any`[]
 
-Defined in: [clustering/ConsensusCluster.js:50](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L50)
+Defined in: [clustering/ConsensusCluster.js:50](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L50)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [clustering/ConsensusCluster.js:50](https://github.com/tangent-to/ds
 
 > **linkage**: `string`
 
-Defined in: [clustering/ConsensusCluster.js:48](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L48)
+Defined in: [clustering/ConsensusCluster.js:48](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L48)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [clustering/ConsensusCluster.js:48](https://github.com/tangent-to/ds
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -132,7 +132,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **threshold**: `number`
 
-Defined in: [clustering/ConsensusCluster.js:47](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L47)
+Defined in: [clustering/ConsensusCluster.js:47](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L47)
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: [clustering/ConsensusCluster.js:47](https://github.com/tangent-to/ds
 
 > **X\_train**: `any`
 
-Defined in: [clustering/ConsensusCluster.js:51](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L51)
+Defined in: [clustering/ConsensusCluster.js:51](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L51)
 
 ## Accessors
 
@@ -150,7 +150,7 @@ Defined in: [clustering/ConsensusCluster.js:51](https://github.com/tangent-to/ds
 
 > **get** **agreementScore**(): `number`
 
-Defined in: [clustering/ConsensusCluster.js:265](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L265)
+Defined in: [clustering/ConsensusCluster.js:265](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L265)
 
 Get overall agreement score
 Measures how consistent the input clusterings are
@@ -169,7 +169,7 @@ Score between 0 (no agreement) and 1 (perfect agreement)
 
 > **get** **nClusters**(): `number`
 
-Defined in: [clustering/ConsensusCluster.js:247](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L247)
+Defined in: [clustering/ConsensusCluster.js:247](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L247)
 
 Get number of clusters (excluding noise)
 
@@ -185,7 +185,7 @@ Get number of clusters (excluding noise)
 
 > **get** **nNoise**(): `number`
 
-Defined in: [clustering/ConsensusCluster.js:255](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L255)
+Defined in: [clustering/ConsensusCluster.js:255](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L255)
 
 Get number of noise points
 
@@ -199,7 +199,7 @@ Get number of noise points
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -233,7 +233,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -253,7 +253,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -271,7 +271,7 @@ Clear all warnings
 
 > **fit**(`X`): `ConsensusCluster`
 
-Defined in: [clustering/ConsensusCluster.js:59](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L59)
+Defined in: [clustering/ConsensusCluster.js:59](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L59)
 
 Fit consensus clustering
 
@@ -297,7 +297,7 @@ Data to cluster (raw array or {data, columns})
 
 > **getClusterStrength**(): `any`
 
-Defined in: [clustering/ConsensusCluster.js:221](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L221)
+Defined in: [clustering/ConsensusCluster.js:221](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L221)
 
 Get average consensus strength per cluster
 
@@ -313,7 +313,7 @@ Get average consensus strength per cluster
 
 > **getConsensusStrength**(): `number`[]
 
-Defined in: [clustering/ConsensusCluster.js:186](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L186)
+Defined in: [clustering/ConsensusCluster.js:186](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L186)
 
 Get consensus strength for each sample
 Higher values = stronger agreement across models
@@ -330,7 +330,7 @@ Strength scores between 0 and 1
 
 > **getEstimatorAgreement**(): `object`[]
 
-Defined in: [clustering/ConsensusCluster.js:286](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L286)
+Defined in: [clustering/ConsensusCluster.js:286](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L286)
 
 Get detailed comparison of input clusterings
 Shows how each estimator contributed
@@ -345,7 +345,7 @@ Shows how each estimator contributed
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -365,7 +365,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -383,7 +383,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -403,7 +403,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -423,7 +423,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -451,7 +451,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -469,7 +469,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -487,7 +487,7 @@ Check if model is fitted
 
 > **predict**(): `void`
 
-Defined in: [core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L424)
+Defined in: [core/estimators/estimator.js:424](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L424)
 
 Predict should be implemented by supervised estimators.
 
@@ -505,7 +505,7 @@ Predict should be implemented by supervised estimators.
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -525,7 +525,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `ConsensusCluster`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -549,7 +549,7 @@ Set parameters (mutates instance).
 
 > **summary**(): \{ `avgConsensusStrength?`: `undefined`; `clusterStrengths?`: `undefined`; `fitted`: `boolean`; `nClusters?`: `undefined`; `nEstimators`: `number`; `nNoise?`: `undefined`; `noiseRatio?`: `undefined`; `nSamples?`: `undefined`; `overallAgreement?`: `undefined`; `threshold`: `number`; \} \| \{ `avgConsensusStrength`: `number`; `clusterStrengths`: `any`; `fitted`: `boolean`; `nClusters`: `number`; `nEstimators`: `number`; `nNoise`: `number`; `noiseRatio`: `number`; `nSamples`: `number`; `overallAgreement`: `number`; `threshold`: `number`; \}
 
-Defined in: [clustering/ConsensusCluster.js:341](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L341)
+Defined in: [clustering/ConsensusCluster.js:341](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L341)
 
 Summary statistics
 
@@ -563,7 +563,7 @@ Summary statistics
 
 > **toJSON**(): `object`
 
-Defined in: [clustering/ConsensusCluster.js:370](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L370)
+Defined in: [clustering/ConsensusCluster.js:370](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L370)
 
 Serialization (simplified)
 
@@ -609,7 +609,7 @@ Serialization (simplified)
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -627,7 +627,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj`): `ConsensusCluster`
 
-Defined in: [clustering/ConsensusCluster.js:382](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/clustering/ConsensusCluster.js#L382)
+Defined in: [clustering/ConsensusCluster.js:382](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/clustering/ConsensusCluster.js#L382)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -652,7 +652,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

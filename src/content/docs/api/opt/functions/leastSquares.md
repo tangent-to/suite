@@ -4,7 +4,7 @@ title: "leastSquares"
 
 > **leastSquares**(`spec?`): `any`
 
-Defined in: [leastsq.js:165](https://github.com/tangent-to/opt/blob/63a7219f8afc0efe76f35f5cd4a9865efeff26b2/src/leastsq.js#L165)
+Defined in: [leastsq.js:165](https://github.com/tangent-to/opt/blob/3fa4117a98aec86cceff2025f67639bcb80ba817/src/leastsq.js#L165)
 
 Minimize 0.5 * sum(r(p)^2) with Levenberg-Marquardt.
 

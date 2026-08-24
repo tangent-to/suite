@@ -1,5 +1,0 @@
----
-title: "Matrix"
----
-
-> **Matrix**: `any`

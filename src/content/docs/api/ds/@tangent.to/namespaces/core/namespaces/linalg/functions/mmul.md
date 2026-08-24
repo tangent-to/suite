@@ -2,9 +2,9 @@
 title: "mmul"
 ---
 
-> **mmul**(`A`, `B`): `Matrix`
+> **mmul**(`A`, `B`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:104](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L104)
+Defined in: [core/linalg.js:147](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L147)
 
 Matrix multiplication
 
@@ -12,18 +12,18 @@ Matrix multiplication
 
 ### A
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 First matrix
 
 ### B
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 Second matrix
 
 ## Returns
 
-`Matrix`
+[`Matrix`](../classes/Matrix.md)
 
 A * B

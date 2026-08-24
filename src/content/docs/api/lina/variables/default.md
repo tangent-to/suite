@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:24](https://github.com/tangent-to/lina/blob/74997f57cda689a82dc78ce1d90de3eaafa1a0f8/src/index.js#L24)
+Defined in: [index.js:24](https://github.com/tangent-to/lina/blob/34950545722822ff72e186732f4f49743e3261c3/src/index.js#L24)
 
 ## Type Declaration
 
@@ -35,10 +35,24 @@ When A is not symmetric, or a diagonal pivot is <= 0
 
 ### choleskySolve
 
-> **choleskySolve**: (`L`, `b`) => `number`[]
+> **choleskySolve**: (`L`, `b`) => `number`[] \| `number`[][]
 
-Solve A x = b given the Cholesky factor L of A (A = L L^T), by forward
-substitution (L y = b) then back substitution (L^T x = y).
+Solve A x = b (or A X = B) given the Cholesky factor L of A (A = L L^T), by
+forward substitution (L y = b) then back substitution (L^T x = y).
+
+Accepts either a single right-hand side vector or a matrix of them. Passing
+the whole set at once matters: the alternative — calling this once per
+column — repeats the triangular walk's setup per column, which turns
+building an inverse into markedly more work than it needs. Measured on a
+340x340 factor, one call with 340 right-hand sides against 340 single-vector
+calls: 76 ms against 371 ms.
+
+Reads the factor's nested rows directly rather than copying it to flat
+storage, and divides rather than multiplying by a reciprocal so the scaling
+step stays exact. The two paths accumulate in different orders — a scalar
+per element for one right-hand side, an axpy across the row for many — so
+they agree to roundoff (~1e-19 relative on the sizes measured) rather than
+bit for bit.
 
 #### Parameters
 
@@ -50,13 +64,17 @@ Lower triangular factor from cholesky()
 
 ##### b
 
-`number`[]
+`number`[] \| `number`[][]
 
-Right-hand side vector
+Right-hand side vector, or
+  an n x k matrix of right-hand sides
 
 #### Returns
 
-`number`[]
+`number`[] \| `number`[][]
+
+Solution, matching the shape
+  of `b`
 
 ### cond
 
@@ -157,6 +175,86 @@ values[i] descending; vectors' column i is the eigenvector for values[i]
 
 > **vectors**: `number`[][]
 
+### eigSymGeneralized
+
+> **eigSymGeneralized**: (`A`, `B`, `options?`) => `object`
+
+Generalized symmetric eigenproblem A x = lambda B x, for symmetric A and
+symmetric positive (semi)definite B.
+
+When B is positive definite this is the textbook Cholesky reduction:
+B = L L^T, eigendecompose C = L^-1 A L^-T, then x = L^-T y. The returned
+eigenvectors are B-orthonormal (x^T B x = 1), matching LAPACK/scipy's
+`eigh(A, B)`.
+
+When B is only semidefinite the Cholesky factorization does not exist —
+scipy raises here — so the reduction falls back to B's truncated inverse
+square root (see invSqrtSym). Note what this solves: with P the orthogonal
+projector onto range(B), the returned pairs satisfy
+
+    P A x = lambda B x
+
+the eigenproblem of A restricted to range(B), which is the most that is
+defined when B is singular — off that range A x = lambda B x generally has
+no solution at all. Null directions come back as zero eigenvectors with
+zero eigenvalues, and the remaining vectors are scaled to unit euclidean
+length, since B-orthonormality is undefined once B is singular. `definite`
+reports which route ran, so callers needing scipy's strictness can check it
+(or pass `strict`).
+
+#### Parameters
+
+##### A
+
+`number`[][]
+
+Symmetric matrix
+
+##### B
+
+`number`[][]
+
+Symmetric positive (semi)definite matrix
+
+##### options?
+
+###### rcond?
+
+`number`
+
+Relative eigenvalue cutoff for the
+  semidefinite fallback; default n * eps
+
+###### strict?
+
+`boolean`
+
+Throw instead of falling back when
+  B is not positive definite
+
+#### Returns
+
+`object`
+
+values[i] descending; vectors' column i is the eigenvector for values[i]
+
+##### definite
+
+> **definite**: `boolean`
+
+##### values
+
+> **values**: `number`[]
+
+##### vectors
+
+> **vectors**: `number`[][]
+
+#### Throws
+
+When A or B is not symmetric, sizes disagree, or `strict`
+  is set and B is not positive definite
+
 ### identity
 
 > **identity**: (`n`) => `number`[][]
@@ -192,6 +290,40 @@ Square nested matrix
 #### Returns
 
 `number`[][]
+
+### invSqrtSym
+
+> **invSqrtSym**: (`A`, `options?`) => `number`[][]
+
+Inverse square root of a symmetric positive semidefinite matrix:
+the symmetric W with W A W = I on A's range, and W = 0 on its null space.
+
+#### Parameters
+
+##### A
+
+`number`[][]
+
+Symmetric positive semidefinite matrix
+
+##### options?
+
+###### rcond?
+
+`number`
+
+Relative eigenvalue cutoff below which a
+  direction is treated as null; default n * eps
+
+#### Returns
+
+`number`[][]
+
+Symmetric n x n inverse square root
+
+#### Throws
+
+When A is not symmetric or has a clearly negative eigenvalue
 
 ### isPositiveDefinite
 

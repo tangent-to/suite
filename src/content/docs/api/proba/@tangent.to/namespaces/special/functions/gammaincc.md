@@ -4,7 +4,7 @@ title: "gammaincc"
 
 > **gammaincc**(`a`, `x`): `number`
 
-Defined in: [special.js:164](https://github.com/tangent-to/proba/blob/e97f26559736e8c98eff10730aa20dbb3d73d529/src/special.js#L164)
+Defined in: [special.js:164](https://github.com/tangent-to/proba/blob/ddb61197ca2a47551bb998b11b9a236599b71035/src/special.js#L164)
 
 Regularized upper incomplete gamma Q(a, x) = 1 - P(a, x), computed
 without the cancellation of literally doing 1 - P.

@@ -2,9 +2,9 @@
 title: "solveLeastSquares"
 ---
 
-> **solveLeastSquares**(`A`, `b`): `Matrix`
+> **solveLeastSquares**(`A`, `b`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:26](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L26)
+Defined in: [core/linalg.js:37](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L37)
 
 Solve least squares problem: minimize ||Ax - b||^2
 
@@ -12,18 +12,18 @@ Solve least squares problem: minimize ||Ax - b||^2
 
 ### A
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 Design matrix
 
 ### b
 
-`any`
+`number`[] \| `number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 Target vector/matrix
 
 ## Returns
 
-`Matrix`
+[`Matrix`](../classes/Matrix.md)
 
 Solution x

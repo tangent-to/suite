@@ -4,15 +4,15 @@ title: "svd"
 
 > **svd**(`data`): `any`
 
-Defined in: [core/linalg.js:74](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/core/linalg.js#L74)
+Defined in: [core/linalg.js:85](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/linalg.js#L85)
 
-Singular Value Decomposition
+Singular Value Decomposition (thin: U is m×k, V is n×k, k = min(m, n))
 
 ## Parameters
 
 ### data
 
-`any`
+`number`[][] \| [`Matrix`](../classes/Matrix.md)
 
 Input matrix
 

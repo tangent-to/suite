@@ -4,7 +4,7 @@ title: "gammaincInv"
 
 > **gammaincInv**(`p`, `a`): `number`
 
-Defined in: [special.js:181](https://github.com/tangent-to/proba/blob/e97f26559736e8c98eff10730aa20dbb3d73d529/src/special.js#L181)
+Defined in: [special.js:181](https://github.com/tangent-to/proba/blob/ddb61197ca2a47551bb998b11b9a236599b71035/src/special.js#L181)
 
 Inverse of the regularized lower incomplete gamma: x with P(a, x) = p.
 Halley-refined Newton from the Wilson-Hilferty starting point

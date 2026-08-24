@@ -4,7 +4,7 @@ title: "transform"
 
 > **transform**(`model`, `X`, `Y`, `options?`): `any`
 
-Defined in: [mva/cca.js:260](https://github.com/tangent-to/ds/blob/906004976edc5a867a581f4e234a37a94ce2f592/src/mva/cca.js#L260)
+Defined in: [mva/cca.js:260](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/mva/cca.js#L260)
 
 Project new X and Y data onto their fitted canonical variates
 
