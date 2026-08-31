@@ -2,7 +2,7 @@
 title: "KernelExplainer"
 ---
 
-Defined in: [ml/explain.js:164](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L164)
+Defined in: [ml/explain.js:164](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L164)
 
 Model-agnostic SHAP via the KernelSHAP weighted-linear-regression estimator.
 
@@ -25,7 +25,7 @@ const { values, baseValue } = ex.shapValues(Xtest);
 
 > **new KernelExplainer**(`opts?`): `KernelExplainer`
 
-Defined in: [ml/explain.js:173](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L173)
+Defined in: [ml/explain.js:173](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L173)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Alternatively, a predict function.
 
 > **\_predict**: (`rows`) => `number`[]
 
-Defined in: [ml/explain.js:177](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L177)
+Defined in: [ml/explain.js:177](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L177)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [ml/explain.js:177](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **background**: `any`[]
 
-Defined in: [ml/explain.js:178](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L178)
+Defined in: [ml/explain.js:178](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L178)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [ml/explain.js:178](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **expectedValue**: `number`
 
-Defined in: [ml/explain.js:183](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L183)
+Defined in: [ml/explain.js:183](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L183)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [ml/explain.js:183](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **featureNames**: `string`[]
 
-Defined in: [ml/explain.js:180](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L180)
+Defined in: [ml/explain.js:180](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L180)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [ml/explain.js:180](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **nFeatures**: `any`
 
-Defined in: [ml/explain.js:179](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L179)
+Defined in: [ml/explain.js:179](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L179)
 
 ## Methods
 
@@ -116,7 +116,7 @@ Defined in: [ml/explain.js:179](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **shapValues**(`X`, `opts?`): `object`
 
-Defined in: [ml/explain.js:200](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/explain.js#L200)
+Defined in: [ml/explain.js:200](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/explain.js#L200)
 
 Compute SHAP values.
 

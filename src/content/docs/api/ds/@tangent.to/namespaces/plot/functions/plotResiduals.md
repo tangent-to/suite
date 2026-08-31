@@ -4,7 +4,7 @@ title: "plotResiduals"
 
 > **plotResiduals**(`residualData`, `options?`): `any`
 
-Defined in: [plot/utils.js:249](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/plot/utils.js#L249)
+Defined in: [plot/utils.js:249](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/plot/utils.js#L249)
 
 Generate residual plot configuration
 

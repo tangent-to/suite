@@ -4,7 +4,7 @@ title: "min"
 
 > **min**(`arr`, `options?`): `number`
 
-Defined in: [core/math.js:290](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/math.js#L290)
+Defined in: [core/math.js:290](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/math.js#L290)
 
 Compute minimum value of an array
 

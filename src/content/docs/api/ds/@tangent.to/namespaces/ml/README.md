@@ -59,6 +59,7 @@ title: "ml"
 - [Recipe](classes/Recipe.md)
 - [SimpleImputer](classes/SimpleImputer.md)
 - [SumKernel](classes/SumKernel.md)
+- [WhiteKernel](classes/WhiteKernel.md)
 
 ## Functions
 

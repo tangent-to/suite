@@ -4,7 +4,7 @@ title: "cleanCategorical"
 
 > **cleanCategorical**(`options`): `any`
 
-Defined in: [ml/preprocessing.js:822](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L822)
+Defined in: [ml/preprocessing.js:822](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L822)
 
 Clean and validate categorical columns
 Removes rows with invalid categories

@@ -2,7 +2,7 @@
 title: "Matrix"
 ---
 
-Defined in: [core/matrix.js:22](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L22)
+Defined in: [core/matrix.js:22](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L22)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [core/matrix.js:22](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **new Matrix**(`rowsOrData`, `columns?`): `Matrix`
 
-Defined in: [core/matrix.js:28](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L28)
+Defined in: [core/matrix.js:28](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L28)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Column count when rowsOrData is a number
 
 > **data**: `any`
 
-Defined in: [core/matrix.js:30](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L30)
+Defined in: [core/matrix.js:30](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L30)
 
 ## Accessors
 
@@ -47,7 +47,7 @@ Defined in: [core/matrix.js:30](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **get** **columns**(): `any`
 
-Defined in: [core/matrix.js:75](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L75)
+Defined in: [core/matrix.js:75](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L75)
 
 ##### Returns
 
@@ -61,7 +61,7 @@ Defined in: [core/matrix.js:75](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **get** **rows**(): `any`
 
-Defined in: [core/matrix.js:71](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L71)
+Defined in: [core/matrix.js:71](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L71)
 
 ##### Returns
 
@@ -73,7 +73,7 @@ Defined in: [core/matrix.js:71](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **\_elementWise**(`other`, `op`): `Matrix`
 
-Defined in: [core/matrix.js:147](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L147)
+Defined in: [core/matrix.js:147](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L147)
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: [core/matrix.js:147](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **add**(`other`): `Matrix`
 
-Defined in: [core/matrix.js:162](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L162)
+Defined in: [core/matrix.js:162](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L162)
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: [core/matrix.js:162](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **clone**(): `Matrix`
 
-Defined in: [core/matrix.js:114](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L114)
+Defined in: [core/matrix.js:114](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L114)
 
 #### Returns
 
@@ -125,7 +125,7 @@ Defined in: [core/matrix.js:114](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **div**(`other`): `Matrix`
 
-Defined in: [core/matrix.js:174](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L174)
+Defined in: [core/matrix.js:174](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L174)
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: [core/matrix.js:174](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **get**(`i`, `j`): `any`
 
-Defined in: [core/matrix.js:79](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L79)
+Defined in: [core/matrix.js:79](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L79)
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: [core/matrix.js:79](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **getColumn**(`j`): `any`
 
-Defined in: [core/matrix.js:92](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L92)
+Defined in: [core/matrix.js:92](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L92)
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: [core/matrix.js:92](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **getRow**(`i`): `any`
 
-Defined in: [core/matrix.js:88](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L88)
+Defined in: [core/matrix.js:88](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L88)
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: [core/matrix.js:88](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **max**(): `number`
 
-Defined in: [core/matrix.js:201](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L201)
+Defined in: [core/matrix.js:201](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L201)
 
 #### Returns
 
@@ -213,7 +213,7 @@ Defined in: [core/matrix.js:201](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **mean**(`by?`): `number` \| `number`[]
 
-Defined in: [core/matrix.js:183](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L183)
+Defined in: [core/matrix.js:183](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L183)
 
 Mean of all entries, or per-row/per-column means.
 
@@ -237,7 +237,7 @@ Grand mean, or one mean per row/column
 
 > **min**(): `number`
 
-Defined in: [core/matrix.js:209](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L209)
+Defined in: [core/matrix.js:209](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L209)
 
 #### Returns
 
@@ -249,7 +249,7 @@ Defined in: [core/matrix.js:209](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **mmul**(`other`): `Matrix`
 
-Defined in: [core/matrix.js:123](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L123)
+Defined in: [core/matrix.js:123](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L123)
 
 Matrix product; returns a new Matrix.
 
@@ -273,7 +273,7 @@ this * other
 
 > **mul**(`other`): `Matrix`
 
-Defined in: [core/matrix.js:170](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L170)
+Defined in: [core/matrix.js:170](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L170)
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: [core/matrix.js:170](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **set**(`i`, `j`, `value`): `Matrix`
 
-Defined in: [core/matrix.js:83](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L83)
+Defined in: [core/matrix.js:83](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L83)
 
 #### Parameters
 
@@ -317,7 +317,7 @@ Defined in: [core/matrix.js:83](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **setColumn**(`j`, `values`): `Matrix`
 
-Defined in: [core/matrix.js:101](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L101)
+Defined in: [core/matrix.js:101](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L101)
 
 #### Parameters
 
@@ -339,7 +339,7 @@ Defined in: [core/matrix.js:101](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **setRow**(`i`, `values`): `Matrix`
 
-Defined in: [core/matrix.js:96](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L96)
+Defined in: [core/matrix.js:96](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L96)
 
 #### Parameters
 
@@ -361,7 +361,7 @@ Defined in: [core/matrix.js:96](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > **sub**(`other`): `Matrix`
 
-Defined in: [core/matrix.js:166](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L166)
+Defined in: [core/matrix.js:166](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L166)
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: [core/matrix.js:166](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **subMatrix**(`startRow`, `endRow`, `startColumn`, `endColumn`): `Matrix`
 
-Defined in: [core/matrix.js:139](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L139)
+Defined in: [core/matrix.js:139](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L139)
 
 #### Parameters
 
@@ -409,7 +409,7 @@ Defined in: [core/matrix.js:139](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **to1DArray**(): `any`
 
-Defined in: [core/matrix.js:110](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L110)
+Defined in: [core/matrix.js:110](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L110)
 
 #### Returns
 
@@ -421,7 +421,7 @@ Defined in: [core/matrix.js:110](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **to2DArray**(): `any`
 
-Defined in: [core/matrix.js:106](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L106)
+Defined in: [core/matrix.js:106](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L106)
 
 #### Returns
 
@@ -433,7 +433,7 @@ Defined in: [core/matrix.js:106](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > **transpose**(): `Matrix`
 
-Defined in: [core/matrix.js:129](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L129)
+Defined in: [core/matrix.js:129](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L129)
 
 #### Returns
 
@@ -445,7 +445,7 @@ Defined in: [core/matrix.js:129](https://github.com/tangent-to/ds/blob/c3530bfad
 
 > `static` **columnVector**(`values`): `Matrix`
 
-Defined in: [core/matrix.js:63](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L63)
+Defined in: [core/matrix.js:63](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L63)
 
 #### Parameters
 
@@ -463,7 +463,7 @@ Defined in: [core/matrix.js:63](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > `static` **diag**(`values`): `Matrix`
 
-Defined in: [core/matrix.js:56](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L56)
+Defined in: [core/matrix.js:56](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L56)
 
 #### Parameters
 
@@ -481,7 +481,7 @@ Defined in: [core/matrix.js:56](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > `static` **eye**(`rows`, `columns?`): `Matrix`
 
-Defined in: [core/matrix.js:50](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L50)
+Defined in: [core/matrix.js:50](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L50)
 
 #### Parameters
 
@@ -503,7 +503,7 @@ Defined in: [core/matrix.js:50](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > `static` **ones**(`rows`, `columns`): `Matrix`
 
-Defined in: [core/matrix.js:44](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L44)
+Defined in: [core/matrix.js:44](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L44)
 
 #### Parameters
 
@@ -525,7 +525,7 @@ Defined in: [core/matrix.js:44](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > `static` **rowVector**(`values`): `Matrix`
 
-Defined in: [core/matrix.js:67](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L67)
+Defined in: [core/matrix.js:67](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L67)
 
 #### Parameters
 
@@ -543,7 +543,7 @@ Defined in: [core/matrix.js:67](https://github.com/tangent-to/ds/blob/c3530bfada
 
 > `static` **zeros**(`rows`, `columns`): `Matrix`
 
-Defined in: [core/matrix.js:40](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/core/matrix.js#L40)
+Defined in: [core/matrix.js:40](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/matrix.js#L40)
 
 #### Parameters
 

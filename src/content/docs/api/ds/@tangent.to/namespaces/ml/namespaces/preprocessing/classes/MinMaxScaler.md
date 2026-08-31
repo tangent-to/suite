@@ -2,7 +2,7 @@
 title: "MinMaxScaler"
 ---
 
-Defined in: [ml/preprocessing.js:175](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L175)
+Defined in: [ml/preprocessing.js:175](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L175)
 
 Scale features to a given range [min, max]
 
@@ -12,7 +12,7 @@ Scale features to a given range [min, max]
 
 > **new MinMaxScaler**(`__namedParameters?`): `MinMaxScaler`
 
-Defined in: [ml/preprocessing.js:176](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L176)
+Defined in: [ml/preprocessing.js:176](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L176)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [ml/preprocessing.js:176](https://github.com/tangent-to/ds/blob/c353
 
 > **\_tableColumns**: `any`[]
 
-Defined in: [ml/preprocessing.js:181](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L181)
+Defined in: [ml/preprocessing.js:181](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L181)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [ml/preprocessing.js:181](https://github.com/tangent-to/ds/blob/c353
 
 > **\_tableNaOmit**: `boolean`
 
-Defined in: [ml/preprocessing.js:182](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L182)
+Defined in: [ml/preprocessing.js:182](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L182)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [ml/preprocessing.js:182](https://github.com/tangent-to/ds/blob/c353
 
 > **dataMax**: `any`[]
 
-Defined in: [ml/preprocessing.js:179](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L179)
+Defined in: [ml/preprocessing.js:179](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L179)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [ml/preprocessing.js:179](https://github.com/tangent-to/ds/blob/c353
 
 > **dataMin**: `any`[]
 
-Defined in: [ml/preprocessing.js:178](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L178)
+Defined in: [ml/preprocessing.js:178](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L178)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [ml/preprocessing.js:178](https://github.com/tangent-to/ds/blob/c353
 
 > **featureRange**: `number`[]
 
-Defined in: [ml/preprocessing.js:177](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L177)
+Defined in: [ml/preprocessing.js:177](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L177)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [ml/preprocessing.js:177](https://github.com/tangent-to/ds/blob/c353
 
 > **nFeatures**: `number`
 
-Defined in: [ml/preprocessing.js:180](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L180)
+Defined in: [ml/preprocessing.js:180](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L180)
 
 ## Methods
 
@@ -80,7 +80,7 @@ Defined in: [ml/preprocessing.js:180](https://github.com/tangent-to/ds/blob/c353
 
 > **fit**(`X`): `MinMaxScaler`
 
-Defined in: [ml/preprocessing.js:190](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L190)
+Defined in: [ml/preprocessing.js:190](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L190)
 
 Compute min and max for scaling
 
@@ -104,7 +104,7 @@ this
 
 > **fitTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:282](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L282)
+Defined in: [ml/preprocessing.js:282](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L282)
 
 Fit and transform in one step
 
@@ -128,7 +128,7 @@ Scaled features
 
 > **inverseTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:291](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L291)
+Defined in: [ml/preprocessing.js:291](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L291)
 
 Inverse transform
 
@@ -152,7 +152,7 @@ Original scale features
 
 > **transform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:222](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/preprocessing.js#L222)
+Defined in: [ml/preprocessing.js:222](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L222)
 
 Scale features to range
 

@@ -4,7 +4,7 @@ title: "cumulativeVariance"
 
 > **cumulativeVariance**(`model`): `number`[]
 
-Defined in: [mva/pca.js:302](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/mva/pca.js#L302)
+Defined in: [mva/pca.js:302](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/mva/pca.js#L302)
 
 Get cumulative variance explained
 

@@ -4,7 +4,7 @@ title: "createGowerDistance"
 
 > **createGowerDistance**(`data`, `types?`): `Function`
 
-Defined in: [ml/distances.js:231](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/distances.js#L231)
+Defined in: [ml/distances.js:231](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/distances.js#L231)
 
 Create a Gower distance function with pre-computed ranges
 Useful for KNN when you want to compute ranges once from training data

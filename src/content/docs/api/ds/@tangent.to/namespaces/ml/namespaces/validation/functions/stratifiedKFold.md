@@ -4,7 +4,7 @@ title: "stratifiedKFold"
 
 > **stratifiedKFold**(`X`, `y`, `k?`): `any`[]
 
-Defined in: [ml/validation.js:448](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/validation.js#L448)
+Defined in: [ml/validation.js:448](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/validation.js#L448)
 
 Stratified K-Fold for classification with balanced class distribution
 

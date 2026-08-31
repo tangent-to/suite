@@ -4,7 +4,7 @@ title: "cohensD"
 
 > **cohensD**(`sample1`, `sample2`, `options?`): `number`
 
-Defined in: [stats/tests.js:576](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/stats/tests.js#L576)
+Defined in: [stats/tests.js:576](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/stats/tests.js#L576)
 
 Cohen's d effect size for two samples
 Standardized mean difference

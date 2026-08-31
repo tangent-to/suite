@@ -4,7 +4,7 @@ title: "confusionMatrixText"
 
 > **confusionMatrixText**(`yTrue`, `yPred`): `string`
 
-Defined in: [ml/metrics.js:129](https://github.com/tangent-to/ds/blob/c3530bfadae69dd953aae709e1eb87bf8e5f2a32/src/ml/metrics.js#L129)
+Defined in: [ml/metrics.js:129](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/metrics.js#L129)
 
 Format confusion matrix as text
 
