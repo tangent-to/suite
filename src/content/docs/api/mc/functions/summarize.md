@@ -4,7 +4,7 @@ title: "summarize"
 
 > **summarize**(`samples`): `object`
 
-Defined in: [utils/trace.js:13](https://github.com/tangent-to/mc/blob/6ab72bfaee3ddf99e56ddaa22a4b0f629cd2ec96/src/utils/trace.js#L13)
+Defined in: [utils/trace.js:13](https://github.com/tangent-to/mc/blob/3b74504f4618f4c9ba8e2a1c2c54dc6ea10d6ce5/src/utils/trace.js#L13)
 
 Compute summary statistics for a trace
 

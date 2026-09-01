@@ -4,7 +4,7 @@ title: "invSqrtSym"
 
 > **invSqrtSym**(`A`, `options?`): `number`[][]
 
-Defined in: [eigsym.js:244](https://github.com/tangent-to/lina/blob/38f2deda0247ee8455f96fb1a9956056f232f3f4/src/eigsym.js#L244)
+Defined in: [eigsym.js:244](https://github.com/tangent-to/lina/blob/c8a71bc6d4accccf099a3c97b1c156bb84b7e8a1/src/eigsym.js#L244)
 
 Inverse square root of a symmetric positive semidefinite matrix:
 the symmetric W with W A W = I on A's range, and W = 0 on its null space.

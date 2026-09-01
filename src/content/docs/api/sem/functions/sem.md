@@ -4,7 +4,7 @@ title: "sem"
 
 > **sem**(`syntax`, `spec?`): `object`
 
-Defined in: [index.js:41](https://github.com/tangent-to/sem/blob/df1b71aa6ac0258a4b9a8935d6fd033fd1883249/src/index.js#L41)
+Defined in: [index.js:41](https://github.com/tangent-to/sem/blob/573c963e3e0cd40a2769ab2ae24d20cee4515c5a/src/index.js#L41)
 
 Fit a structural equation model.
 
