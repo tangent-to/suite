@@ -8,11 +8,11 @@ tableOfContents:
 
 <p class="tg-pkg-head"><span class="tg-slug">tangent<span class="slash">/</span>grad</span> <span class="tg-validated">finite-difference and closed-form validated</span></p>
 
-Write a log-likelihood once; get its exact gradient. An array-valued tape over plain nested arrays, with adjoints for the linear algebra statistical models are made of — no hand-derived derivatives per model, no finite differences.
+Reverse-mode automatic differentiation over plain nested arrays, with adjoints for the linear algebra statistical models are built from: Cholesky factorization, triangular solves, log-determinants and symmetric positive-definite systems. A log-likelihood written in these operations yields its own exact gradient, which is what gradient-based inference and hyperparameter optimization consume instead of a hand-derived formula per model or a finite-difference approximation.
 
 ```bash
-npm install @tangent.to/grad      # npm
-deno add jsr:@tangent/grad         # Deno / JSR
+npm install @tangent.to/grad     # npm
+deno add jsr:@tangent/grad        # Deno / JSR
 ```
 
 <a class="tg-run" href="https://note.tangent.to/gh/tangent-to/grad/examples/gradients.js">
@@ -28,63 +28,45 @@ valueAndGrad(f)({ mu: 3, sigma: 4 });
 // { value: 25, gradient: { mu: 6, sigma: 8 } }
 ```
 
-## Why
-
-Gradients are the bottleneck in two distinct ways.
-
-**Correctness.** Hamiltonian Monte Carlo and NUTS need ∇log p. Approximating it by central differences costs 2·(#params) full likelihood evaluations *per leapfrog step*, and — the more serious problem — the leapfrog integrator is no longer symplectic, so the sampler's acceptance rate degrades or it biases silently. Neither Stan nor PyMC will use finite differences for this.
-
-**Coverage.** Hand-derived gradients get written for the cases someone had time for. A Gaussian process with a hand-written gradient for one kernel family leaves every other kernel on a derivative-free search that stops at a visibly worse optimum — so the quality of a fit depends on which kernel you happened to pick.
-
-Both dissolve into the same missing layer.
-
-## Design
-
-**Array-valued, not scalar-valued.** Nodes are matrices and vectors, never individual numbers. In JavaScript the per-node bookkeeping costs a few hundred nanoseconds — noise beside an O(n³) Cholesky, ruinous beside a scalar multiply. A scalar tape cannot carry a statistical model at useful sizes.
-
-**Two hand-written linalg adjoints, and no more.** Only `cholesky` and `triangularSolve` carry a derived adjoint. Log-determinants, SPD solves, quadratic forms and Gaussian log-likelihoods all *compose* from those, and so inherit correct derivatives for free. Every hand-derived formula is a place to be subtly wrong, so there are as few as the problem allows.
-
-**Rank capped at 2.** Scalars, vectors, matrices. Every model in the suite is expressed in those; rank-N would cost broadcasting complexity in every adjoint for no consumer.
-
-Forward factorizations come from [lina](/lina/), which is scipy-validated.
-
 ## Differentiation
+
+`valueAndGrad` takes either a plain array or a `{name: value}` map, and returns the gradient in the shape the parameters went in.
 
 | Signature | Description |
 | --- | --- |
-| `valueAndGrad(f)` | Returns `(x) => {value, gradient}` for a scalar objective. Takes a plain array or a `{name: value}` map, and returns the gradient in the same shape. |
+| `valueAndGrad(f)` | Returns `(x) => {value, gradient}` for a scalar objective. |
 | `grad(f)` | Gradient only, discarding the value. |
-| `valueAndGradFns(f)` | The `(value, gradient)` function *pair* an API taking two callbacks expects, sharing one evaluation between them. |
-| `jacobian(f)` | `∂f/∂x` for a vector-valued `f`, as an m × n array. |
+| `valueAndGradFns(f)` | The value and gradient as two separate functions, for an API that takes a callback pair. They share one evaluation, so calling both at the same point runs the tape once. |
+| `jacobian(f)` | `∂f/∂x` for a vector-valued `f`, as an m by n array. One forward pass and one reverse sweep per output. |
 | `variable(x)` | Wrap a value as a leaf of the tape. |
 
 ## Linear algebra
 
-The adjoints that make statistical models differentiable.
+Only `cholesky` and `triangularSolve` carry a hand-derived adjoint. The log-determinant and the two solves compose from them, so they inherit correct derivatives without a second formula.
 
 | Signature | Description |
 | --- | --- |
-| `cholesky(A)` | Lower-triangular factor of a symmetric positive-definite `A`. The adjoint is Murray (2016); the returned gradient is symmetrized, i.e. with respect to a symmetric perturbation. |
+| `cholesky(A)` | Lower-triangular factor of a symmetric positive-definite `A`. The adjoint follows Murray (2016). `A` is assumed symmetric, so the returned gradient is symmetrized: it is the derivative with respect to a symmetric perturbation. |
 | `triangularSolve(T, B, {lower})` | Solve a triangular system, differentiable in both operands. |
-| `logdetPSD(A)` | `log\|A\|` for a symmetric positive-definite `A`. Composed as `2·Σ log Lᵢᵢ`, so `A⁻¹` falls out of the Cholesky adjoint with no second formula to get wrong. |
-| `solvePSD(A, B)` | Solve `A X = B` for symmetric positive-definite `A`, via its Cholesky factor. |
-| `solveGeneral(A, B)` | The same for a general square `A`, via LU — for the non-symmetric matrices a structural equation model inverts. |
-| `inv(A)` | Inverse of a general square matrix. Prefer `solveGeneral` where you can: cheaper and better conditioned. |
+| `logdetPSD(A)` | `log\|A\|` for a symmetric positive-definite `A`, computed as `2·Σ log Lᵢᵢ` so that `A⁻¹` falls out of the Cholesky adjoint. |
+| `solvePSD(A, B)` | Solve `A X = B` for symmetric positive-definite `A`, through its Cholesky factor. |
+| `solveGeneral(A, B)` | The same for a general square `A`, through LU. A structural equation model inverts `I - A`, a matrix of directed paths that is not symmetric. |
+| `inv(A)` | Inverse of a general square matrix. `solveGeneral` is cheaper and better conditioned where it applies. |
 
 ## Operations
 
 | Group | Signatures |
 | --- | --- |
-| Arithmetic | `add` `sub` `mul` `div` `neg` — elementwise, with a scalar broadcasting against anything |
+| Arithmetic | `add` `sub` `mul` `div` `neg`, elementwise, with a scalar broadcasting against anything |
 | Functions | `exp` `log` `sqrt` `square` `pow` `tanh` `sigmoid` |
 | Reductions | `sum` `mean` |
 | Arrays | `matmul` `dot` `transpose` `reshape` `slice` `concat` `diagPart` `trace` `addDiag` |
 
-`addDiag(K, alpha)` is the jitter/noise idiom every Gaussian-process likelihood opens with, differentiable in both the matrix and the noise — scalar or one variance per observation.
+`addDiag(K, alpha)` adds observation noise to a kernel matrix, differentiable in both the matrix and the noise, which may be a scalar or one variance per observation.
 
 ## A Gaussian process likelihood
 
-The motivating example. Swap the kernel expression and the gradients follow, with no derivation:
+The log marginal likelihood `-½ yᵀK⁻¹y - ½ log|K| - n/2 log 2π`, with gradients in the kernel hyperparameters:
 
 ```js
 import { addDiag, dot, div, exp, logdetPSD, mul, neg, solvePSD, square, sub, valueAndGrad } from '@tangent.to/grad';
@@ -97,25 +79,22 @@ const logML = (p) => {
 const { value, gradient } = valueAndGrad(logML)({ l: 1.3, v: 0.9 });
 ```
 
+Replacing the kernel expression gives the gradients of the new kernel with no further derivation.
+
+## Design
+
+Nodes on the tape are matrices and vectors, not individual numbers. The per-node bookkeeping costs a few hundred nanoseconds, which is negligible against an O(n³) Cholesky and prohibitive against a scalar multiply, so a scalar tape cannot carry a statistical model at useful sizes.
+
+Rank is capped at 2: scalars, vectors and matrices. Broadcasting is limited to a scalar against anything. Forward factorizations come from [lina](/lina/), which is validated against numpy and scipy.linalg.
+
 ## Validation
 
-Every adjoint is checked two ways, because finite differences alone would not catch an adjoint that is systematically wrong but smooth:
+Each adjoint is checked against two references, since finite differences alone would not catch an adjoint that is wrong but smooth. The first is central finite differences on the composed objective. The second is a closed form known exactly: `d log|A| / dA = A⁻¹`, and for the Gaussian process the trace identity `∂L/∂θ = ½ tr((ααᵀ - K⁻¹) ∂K/∂θ)` computed independently with [lina](/lina/).
 
-- central finite differences on the composed objective;
-- closed forms known exactly — `d log|A| / dA = A⁻¹`, and for the Gaussian process the trace identity `∂L/∂θ = ½ tr((ααᵀ − K⁻¹) ∂K/∂θ)`, computed independently with [lina](/lina/).
+The Gaussian process gradients agree with that identity to 9 decimal places, for a squared-exponential and for a rational-quadratic kernel.
 
-The GP gradients agree with that identity to 9 decimal places, for both a squared-exponential and a rational-quadratic kernel.
+## Scope
 
-## Where it pays, and where it does not
+Reverse mode suits objectives with few outputs and many inputs. A square Jacobian is its worst case: measured against a finite-difference Jacobian inside a stiff ODE solver, the step counts were identical and the exact version ran up to 26 times slower at n = 30. A Newton iteration converges to the same answer with an approximate Jacobian, so the accuracy buys nothing there.
 
-Measured, not assumed.
-
-**Probabilistic models — yes.** Against a finite-difference fallback on a 21-parameter NUTS run: one likelihood evaluation per gradient instead of 2·P, 7.7× faster end to end, same posterior, cross-validated against PyMC.
-
-**Structural equation models — yes.** The ML discrepancy is a scalar objective in few parameters: reverse mode's best case.
-
-**Stiff ODE Jacobians — no.** Measured against a finite-difference Jacobian on a stiff reaction-diffusion system: identical step counts, and up to 26× slower at n = 30. A Newton iteration converges to the same answer with an approximate Jacobian, so the accuracy buys nothing, and a square Jacobian is reverse mode's worst shape.
-
-## Notes
-
-No GPU backend: WebGPU has no `f64`, and the numerics here depend on double precision. No forward mode, which is what a wide Jacobian would want. This is not a deep learning framework and does not try to be.
+There is no GPU backend, because WGSL has no `f64` and the numerics here depend on double precision. There is no forward mode, which is what a wide Jacobian would want.
