@@ -5,6 +5,11 @@ name: Update API reference
 # never needs the package repos. Run this when a package's public API changes:
 # manually, on a weekly schedule, or by a repository_dispatch from a package
 # repo's own release workflow (event type: api-update).
+#
+# That last path needs a token: GITHUB_TOKEN cannot dispatch across repos. Each
+# package's release workflow sends it only when a SUITE_DISPATCH_TOKEN secret is
+# present, so until one is configured the schedule and the manual run are what
+# keep this current.
 on:
   workflow_dispatch:
   schedule:
@@ -30,6 +35,8 @@ jobs:
         with: { repository: tangent-to/proba, path: proba }
       - uses: actions/checkout@v4
         with: { repository: tangent-to/lina, path: lina }
+      - uses: actions/checkout@v4
+        with: { repository: tangent-to/grad, path: grad }
       - uses: actions/checkout@v4
         with: { repository: tangent-to/ode, path: ode }
       - uses: actions/checkout@v4
