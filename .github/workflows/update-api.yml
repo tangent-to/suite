@@ -12,8 +12,13 @@ name: Update API reference
 # keep this current.
 on:
   workflow_dispatch:
+  # Daily, not weekly. The repository_dispatch below is the precise trigger, but
+  # it needs a cross-repo token that is not worth creating and rotating for this;
+  # a nightly run costs a minute and caps how long a published API can sit stale
+  # at a day instead of a week. The job commits nothing when nothing changed, so
+  # most nights are a no-op.
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 6 * * *'
   repository_dispatch:
     types: [api-update]
 
