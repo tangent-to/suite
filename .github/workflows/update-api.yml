@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # to start the deploy after committing; see the last step
 
 jobs:
   update:
@@ -55,6 +56,7 @@ jobs:
         run: npm run gen:api
         working-directory: suite
       - name: Commit if it changed
+        id: commit
         working-directory: suite
         run: |
           git config user.name 'tangent-bot'
@@ -62,7 +64,21 @@ jobs:
           git add src/content/docs/api
           if git diff --cached --quiet; then
             echo 'API reference already up to date.'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
           else
             git commit -m 'chore: regenerate API reference from package JSDoc'
             git push
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
           fi
+      # A push made with GITHUB_TOKEN does not trigger other workflows — GitHub
+      # blocks that to prevent recursion. So committing a regenerated reference
+      # never redeployed the site: the markdown landed on main and the live
+      # pages stayed as they were until some unrelated human push happened to
+      # rebuild. grad's API reference sat committed-but-404 for exactly that
+      # reason. Start the deploy explicitly.
+      - name: Deploy the rebuilt site
+        if: steps.commit.outputs.changed == 'true'
+        working-directory: suite
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
