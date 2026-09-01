@@ -4,7 +4,7 @@ title: "trainTestSplit"
 
 > **trainTestSplit**(`X`, `y?`, `options?`): `any`
 
-Defined in: [ml/validation.js:245](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/validation.js#L245)
+Defined in: [ml/validation.js:245](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/validation.js#L245)
 
 Split data into train and test sets
 Supports both raw matrices and declarative table descriptors

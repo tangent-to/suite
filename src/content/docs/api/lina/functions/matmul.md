@@ -4,7 +4,7 @@ title: "matmul"
 
 > **matmul**(`A`, `B`): `number`[] \| `number`[][]
 
-Defined in: [ops.js:31](https://github.com/tangent-to/lina/blob/34950545722822ff72e186732f4f49743e3261c3/src/ops.js#L31)
+Defined in: [ops.js:31](https://github.com/tangent-to/lina/blob/38f2deda0247ee8455f96fb1a9956056f232f3f4/src/ops.js#L31)
 
 Matrix product A B, or matrix-vector product A b.
 

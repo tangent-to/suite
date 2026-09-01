@@ -4,7 +4,7 @@ title: "plotCalibration"
 
 > **plotCalibration**(`yTrue`, `yProb`, `options?`): `any`
 
-Defined in: [plot/classification.js:337](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/plot/classification.js#L337)
+Defined in: [plot/classification.js:337](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/plot/classification.js#L337)
 
 Generate calibration curve plot configuration
 Shows how well predicted probabilities match actual frequencies

@@ -4,7 +4,7 @@ title: "likelihoodRatioTest"
 
 > **likelihoodRatioTest**(`model1`, `model2`, `_options?`): `any`
 
-Defined in: [stats/model\_comparison.js:117](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/stats/model_comparison.js#L117)
+Defined in: [stats/model\_comparison.js:117](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/stats/model_comparison.js#L117)
 
 Perform likelihood ratio test for nested models
 

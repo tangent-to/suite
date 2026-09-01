@@ -4,7 +4,7 @@ title: "centralize"
 
 > `const` **centralize**: (`mat`) => `any`[] \| `any`[][] = `center`
 
-Defined in: [mva/composition.js:167](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/mva/composition.js#L167)
+Defined in: [mva/composition.js:167](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/mva/composition.js#L167)
 
 Alias for center
 

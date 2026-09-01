@@ -4,7 +4,7 @@ title: "summaryQuantiles"
 
 > **summaryQuantiles**(`arr`, `probs?`, `options?`): `any`
 
-Defined in: [core/math.js:276](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/math.js#L276)
+Defined in: [core/math.js:276](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/math.js#L276)
 
 Compute a set of quantiles keyed by probability
 

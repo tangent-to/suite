@@ -4,7 +4,7 @@ title: "modelCheckpoint"
 
 > **modelCheckpoint**(`metric?`): `any`
 
-Defined in: [ml/train.js:239](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/train.js#L239)
+Defined in: [ml/train.js:239](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/train.js#L239)
 
 Model checkpoint callback
 

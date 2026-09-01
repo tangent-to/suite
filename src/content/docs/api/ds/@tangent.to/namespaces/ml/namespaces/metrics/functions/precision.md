@@ -4,7 +4,7 @@ title: "precision"
 
 > **precision**(`yTrue`, `yPred`, `positiveLabel?`): `number`
 
-Defined in: [ml/metrics.js:180](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/metrics.js#L180)
+Defined in: [ml/metrics.js:180](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/metrics.js#L180)
 
 Precision score (for binary classification)
 

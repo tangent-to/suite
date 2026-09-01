@@ -4,7 +4,7 @@ title: "cutHeight"
 
 > **cutHeight**(`model`, `height`): `number`[]
 
-Defined in: [ml/hca.js:287](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/hca.js#L287)
+Defined in: [ml/hca.js:287](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/hca.js#L287)
 
 Cut a hierarchical clustering dendrogram at a given merge height
 

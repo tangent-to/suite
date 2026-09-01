@@ -4,7 +4,7 @@ title: "predict"
 
 > **predict**(`model`, `X`, `options?`): `number`[]
 
-Defined in: [ml/polynomial.js:120](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/polynomial.js#L120)
+Defined in: [ml/polynomial.js:120](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/polynomial.js#L120)
 
 Predict using polynomial regression model
 

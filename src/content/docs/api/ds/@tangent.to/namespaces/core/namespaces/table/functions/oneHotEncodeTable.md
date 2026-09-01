@@ -4,7 +4,7 @@ title: "oneHotEncodeTable"
 
 > **oneHotEncodeTable**(`options?`): `any`
 
-Defined in: [core/table.js:676](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L676)
+Defined in: [core/table.js:676](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L676)
 
 Utility to one-hot encode columns in a table-like object.
 

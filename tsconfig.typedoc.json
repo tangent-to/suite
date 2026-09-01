@@ -12,6 +12,7 @@
     "../opt/src/**/*.js",
     "../proba/src/**/*.js",
     "../lina/src/**/*.js",
+    "../grad/src/**/*.js",
     "../ode/src/**/*.js",
     "../sem/src/**/*.js",
     "../mc/src/**/*.js",

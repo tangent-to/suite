@@ -29,6 +29,7 @@ export default defineConfig({
           opt: 'optimization',
           proba: 'probability',
           lina: 'linear algebra',
+          grad: 'automatic differentiation',
           ode: 'differential equations',
           ds: 'data science',
           mc: 'Bayesian inference',
@@ -43,7 +44,7 @@ export default defineConfig({
           ],
         });
         return [
-          { label: 'Foundations', items: ['opt', 'proba', 'lina', 'ode'].map(group) },
+          { label: 'Foundations', items: ['opt', 'proba', 'lina', 'grad', 'ode'].map(group) },
           { label: 'Applications', items: ['ds', 'mc', 'sem'].map(group) },
         ];
       })(),

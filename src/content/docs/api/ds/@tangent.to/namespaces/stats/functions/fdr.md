@@ -4,7 +4,7 @@ title: "fdr"
 
 > **fdr**(`pValues`, `alpha?`): `any`
 
-Defined in: [stats/tests.js:1025](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/stats/tests.js#L1025)
+Defined in: [stats/tests.js:1025](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/stats/tests.js#L1025)
 
 Benjamini-Hochberg FDR correction
 Controls false discovery rate

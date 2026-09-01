@@ -4,7 +4,7 @@ title: "forestPlot"
 
 > **forestPlot**(`trace`, `variables?`, `hdi?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:395](https://github.com/tangent-to/mc/blob/8640ecb73b28b14d256dcd197cd7d61ab10c7757/src/utils/visualize.js#L395)
+Defined in: [utils/visualize.js:395](https://github.com/tangent-to/mc/blob/6ab72bfaee3ddf99e56ddaa22a4b0f629cd2ec96/src/utils/visualize.js#L395)
 
 Generate forest plot specification
 Shows posterior summaries with credible intervals

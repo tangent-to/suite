@@ -4,7 +4,7 @@ title: "posteriorPlot"
 
 > **posteriorPlot**(`trace`, `variables?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:106](https://github.com/tangent-to/mc/blob/8640ecb73b28b14d256dcd197cd7d61ab10c7757/src/utils/visualize.js#L106)
+Defined in: [utils/visualize.js:106](https://github.com/tangent-to/mc/blob/6ab72bfaee3ddf99e56ddaa22a4b0f629cd2ec96/src/utils/visualize.js#L106)
 
 Generate posterior distribution plot specification
 Shows histograms and KDE of posterior samples

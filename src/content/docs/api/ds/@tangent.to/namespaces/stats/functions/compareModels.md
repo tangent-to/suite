@@ -4,7 +4,7 @@ title: "compareModels"
 
 > **compareModels**(`models`, `options?`): `any`
 
-Defined in: [stats/model\_comparison.js:16](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/stats/model_comparison.js#L16)
+Defined in: [stats/model\_comparison.js:16](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/stats/model_comparison.js#L16)
 
 Compare multiple models with information criteria
 

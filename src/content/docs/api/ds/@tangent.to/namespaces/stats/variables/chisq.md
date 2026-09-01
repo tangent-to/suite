@@ -4,7 +4,7 @@ title: "chisq"
 
 > `const` **chisq**: `object`
 
-Defined in: [stats/distribution.js:196](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/stats/distribution.js#L196)
+Defined in: [stats/distribution.js:196](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/stats/distribution.js#L196)
 
 ## Type Declaration
 

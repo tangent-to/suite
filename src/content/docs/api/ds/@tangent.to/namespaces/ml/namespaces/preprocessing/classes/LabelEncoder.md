@@ -2,7 +2,7 @@
 title: "LabelEncoder"
 ---
 
-Defined in: [ml/preprocessing.js:319](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L319)
+Defined in: [ml/preprocessing.js:319](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L319)
 
 Encode target labels with value between 0 and n_classes-1
 
@@ -17,7 +17,7 @@ descriptors; the two are intentionally separate.
 
 > **new LabelEncoder**(): `LabelEncoder`
 
-Defined in: [ml/preprocessing.js:320](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L320)
+Defined in: [ml/preprocessing.js:320](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L320)
 
 #### Returns
 
@@ -29,7 +29,7 @@ Defined in: [ml/preprocessing.js:320](https://github.com/tangent-to/ds/blob/7d22
 
 > **\_tableColumn**: `any`
 
-Defined in: [ml/preprocessing.js:323](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L323)
+Defined in: [ml/preprocessing.js:323](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L323)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [ml/preprocessing.js:323](https://github.com/tangent-to/ds/blob/7d22
 
 > **classes**: `any`[]
 
-Defined in: [ml/preprocessing.js:321](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L321)
+Defined in: [ml/preprocessing.js:321](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L321)
 
 ***
 
@@ -45,7 +45,7 @@ Defined in: [ml/preprocessing.js:321](https://github.com/tangent-to/ds/blob/7d22
 
 > **classMap**: `Map`\<`any`, `number`\>
 
-Defined in: [ml/preprocessing.js:322](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L322)
+Defined in: [ml/preprocessing.js:322](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L322)
 
 ## Methods
 
@@ -53,7 +53,7 @@ Defined in: [ml/preprocessing.js:322](https://github.com/tangent-to/ds/blob/7d22
 
 > **\_extractLabelVector**(`input`, `__namedParameters?`): `object`
 
-Defined in: [ml/preprocessing.js:326](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L326)
+Defined in: [ml/preprocessing.js:326](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L326)
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: [ml/preprocessing.js:326](https://github.com/tangent-to/ds/blob/7d22
 
 > **fit**(`y`): `LabelEncoder`
 
-Defined in: [ml/preprocessing.js:353](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L353)
+Defined in: [ml/preprocessing.js:353](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L353)
 
 Fit label encoder
 
@@ -117,7 +117,7 @@ this
 
 > **fitTransform**(`y`): `number`[]
 
-Defined in: [ml/preprocessing.js:404](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L404)
+Defined in: [ml/preprocessing.js:404](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L404)
 
 Fit and transform in one step
 
@@ -141,7 +141,7 @@ Encoded labels
 
 > **inverseTransform**(`y`): `any`[]
 
-Defined in: [ml/preprocessing.js:413](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L413)
+Defined in: [ml/preprocessing.js:413](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L413)
 
 Transform indices back to original labels
 
@@ -165,7 +165,7 @@ Original labels
 
 > **transform**(`y`): `number`[]
 
-Defined in: [ml/preprocessing.js:366](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/preprocessing.js#L366)
+Defined in: [ml/preprocessing.js:366](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L366)
 
 Transform labels to indices
 

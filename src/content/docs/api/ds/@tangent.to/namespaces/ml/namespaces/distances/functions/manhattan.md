@@ -4,7 +4,7 @@ title: "manhattan"
 
 > **manhattan**(`a`, `b`): `number`
 
-Defined in: [ml/distances.js:31](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/distances.js#L31)
+Defined in: [ml/distances.js:31](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/distances.js#L31)
 
 Manhattan distance (L1 norm, taxicab distance)
 

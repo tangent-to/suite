@@ -2,7 +2,7 @@
 title: "WhiteKernel"
 ---
 
-Defined in: [ml/kernels/white.js:32](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L32)
+Defined in: [ml/kernels/white.js:32](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L32)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new WhiteKernel**(`noiseLevelOrOpts?`): `WhiteKernel`
 
-Defined in: [ml/kernels/white.js:41](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L41)
+Defined in: [ml/kernels/white.js:41](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L41)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ new WhiteKernel({ noiseLevel: 0.1 })
 
 > **noiseLevel**: `any`
 
-Defined in: [ml/kernels/white.js:45](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L45)
+Defined in: [ml/kernels/white.js:45](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L45)
 
 ## Methods
 
@@ -56,7 +56,7 @@ Defined in: [ml/kernels/white.js:45](https://github.com/tangent-to/ds/blob/7d229
 
 > **call**(`X1`, `X2?`): [`Matrix`](../../core/namespaces/linalg/classes/Matrix.md)
 
-Defined in: [ml/kernels/white.js:67](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L67)
+Defined in: [ml/kernels/white.js:67](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L67)
 
 noiseLevel·I for K(X, X), all zeros for a cross-covariance K(X1, X2).
 Overridden rather than left to the base pointwise loop so the distinction
@@ -86,7 +86,7 @@ rests on which matrix is being built, not on row identity.
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -106,7 +106,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `any`
 
-Defined in: [ml/kernels/white.js:58](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L58)
+Defined in: [ml/kernels/white.js:58](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L58)
 
 Covariance between two observations. `noiseLevel` only when they are the
 same observation — identified by reference, not by value, since the whole
@@ -138,7 +138,7 @@ row twice (`compute(x, x)`), which is exactly the diagonal case.
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/white.js:81](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L81)
+Defined in: [ml/kernels/white.js:81](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L81)
 
 Get kernel hyperparameters
 
@@ -162,7 +162,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/white.js:85](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/kernels/white.js#L85)
+Defined in: [ml/kernels/white.js:85](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/white.js#L85)
 
 Set kernel hyperparameters
 

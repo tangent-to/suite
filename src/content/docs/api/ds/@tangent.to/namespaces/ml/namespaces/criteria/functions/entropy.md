@@ -4,7 +4,7 @@ title: "entropy"
 
 > **entropy**(`labels`): `number`
 
-Defined in: [ml/criteria.js:41](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/ml/criteria.js#L41)
+Defined in: [ml/criteria.js:41](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/criteria.js#L41)
 
 Entropy (information gain) for classification
 Measures uncertainty/disorder in the data

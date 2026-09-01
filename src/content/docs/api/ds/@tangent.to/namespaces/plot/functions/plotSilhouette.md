@@ -4,7 +4,7 @@ title: "plotSilhouette"
 
 > **plotSilhouette**(`options?`, `__namedParameters?`): `any`
 
-Defined in: [plot/plotSilhouette.js:73](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/plot/plotSilhouette.js#L73)
+Defined in: [plot/plotSilhouette.js:73](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/plot/plotSilhouette.js#L73)
 
 Generate silhouette plot configuration displaying per-sample scores.
 Accepts either precomputed samples or raw data/labels for convenience.

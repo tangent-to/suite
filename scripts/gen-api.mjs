@@ -18,7 +18,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const packages = ['opt', 'proba', 'lina', 'ode', 'ds', 'mc', 'sem'];
+const packages = ['opt', 'proba', 'lina', 'grad', 'ode', 'ds', 'mc', 'sem'];
 const outBase = join(root, 'src/content/docs/api');
 
 rmSync(outBase, { recursive: true, force: true });

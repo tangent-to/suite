@@ -4,7 +4,7 @@ title: "ordiplot"
 
 > **ordiplot**(`result`, `options?`): `any`
 
-Defined in: [plot/ordiplot.js:60](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/plot/ordiplot.js#L60)
+Defined in: [plot/ordiplot.js:70](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/plot/ordiplot.js#L70)
 
 Generate unified ordination plot configuration
 Works with PCA, LDA, and RDA results
@@ -86,15 +86,24 @@ Stroke for loading arrows (default:
 
 #### loadingFactor
 
-`number` = `1`
+`number` = `0`
 
-Multiplier applied to loading vectors (default: 1, set 0 for auto)
+Multiplier applied to loading vectors.
+  Default 0 = AUTO: fit the longest vector to 90% of the score cloud's radius,
+  so arrows and points are readable against each other. Set a number to
+  override — 1 draws the loadings at their raw length, which for PCA is
+  usually far larger than the scores (site scores are normalized to unit
+  column norm, hence of order 1/sqrt(n), while loadings stay of order 1) and
+  leaves the points crushed into a dot at the origin.
 
 #### loadingScale
 
 `number` = `3`
 
-Scale factor for loading vectors (default: 3)
+Constant applied to loading vectors
+  before `loadingFactor` (default: 3). Under the default auto-scaling it has
+  no effect: the auto-fit normalizes by the longest vector, which cancels any
+  constant prefactor. It only bites when `loadingFactor` is set explicitly.
 
 #### loadingTextColor
 
@@ -138,7 +147,8 @@ Stroke for RDA predictor arrows
 
 `number` = `null`
 
-Multiplier for predictor arrows (RDA only, default: inherits loadingFactor; set 0 for auto)
+Multiplier for predictor arrows
+  (RDA only, default: inherits loadingFactor, so auto as well; set a number to override)
 
 #### predictorTextColor
 

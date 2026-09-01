@@ -2,7 +2,7 @@
 title: "LabelEncoder"
 ---
 
-Defined in: [core/table.js:226](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L226)
+Defined in: [core/table.js:226](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L226)
 
 Simple Label Encoder for categorical labels -> integers
 
@@ -22,7 +22,7 @@ predict time because indices grow past the fitted class set).
 
 > **new LabelEncoder**(`__namedParameters?`): `LabelEncoder`
 
-Defined in: [core/table.js:227](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L227)
+Defined in: [core/table.js:227](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L227)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [core/table.js:227](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **classes\_**: `any`[]
 
-Defined in: [core/table.js:228](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L228)
+Defined in: [core/table.js:228](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L228)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [core/table.js:228](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **classIndex**: `Map`\<`any`, `any`\>
 
-Defined in: [core/table.js:229](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L229)
+Defined in: [core/table.js:229](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L229)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [core/table.js:229](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **handleUnknown**: `string`
 
-Defined in: [core/table.js:230](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L230)
+Defined in: [core/table.js:230](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L230)
 
 ## Methods
 
@@ -66,7 +66,7 @@ Defined in: [core/table.js:230](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **fit**(`values?`): `LabelEncoder`
 
-Defined in: [core/table.js:233](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L233)
+Defined in: [core/table.js:233](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L233)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: [core/table.js:233](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **fitTransform**(`values?`): `any`[]
 
-Defined in: [core/table.js:266](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L266)
+Defined in: [core/table.js:266](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L266)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [core/table.js:266](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **inverseTransform**(`indices?`): `any`[]
 
-Defined in: [core/table.js:271](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L271)
+Defined in: [core/table.js:271](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L271)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [core/table.js:271](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **toJSON**(): `object`
 
-Defined in: [core/table.js:275](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L275)
+Defined in: [core/table.js:275](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L275)
 
 #### Returns
 
@@ -144,7 +144,7 @@ Defined in: [core/table.js:275](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > **transform**(`values?`): `any`[]
 
-Defined in: [core/table.js:246](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L246)
+Defined in: [core/table.js:246](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L246)
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: [core/table.js:246](https://github.com/tangent-to/ds/blob/7d229ed87d
 
 > `static` **fromJSON**(`obj?`): `LabelEncoder`
 
-Defined in: [core/table.js:283](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/table.js#L283)
+Defined in: [core/table.js:283](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/table.js#L283)
 
 #### Parameters
 

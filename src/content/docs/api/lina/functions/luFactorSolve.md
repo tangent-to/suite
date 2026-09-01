@@ -4,7 +4,7 @@ title: "luFactorSolve"
 
 > **luFactorSolve**(`fac`, `b`): `Float64Array`\<`ArrayBufferLike`\>
 
-Defined in: [lu.js:147](https://github.com/tangent-to/lina/blob/34950545722822ff72e186732f4f49743e3261c3/src/lu.js#L147)
+Defined in: [lu.js:147](https://github.com/tangent-to/lina/blob/38f2deda0247ee8455f96fb1a9956056f232f3f4/src/lu.js#L147)
 
 Solve A x = b from a packed factorization returned by luFactor().
 

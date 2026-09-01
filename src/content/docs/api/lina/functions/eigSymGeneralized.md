@@ -4,7 +4,7 @@ title: "eigSymGeneralized"
 
 > **eigSymGeneralized**(`A`, `B`, `options?`): `object`
 
-Defined in: [eigsym.js:286](https://github.com/tangent-to/lina/blob/34950545722822ff72e186732f4f49743e3261c3/src/eigsym.js#L286)
+Defined in: [eigsym.js:286](https://github.com/tangent-to/lina/blob/38f2deda0247ee8455f96fb1a9956056f232f3f4/src/eigsym.js#L286)
 
 Generalized symmetric eigenproblem A x = lambda B x, for symmetric A and
 symmetric positive (semi)definite B.

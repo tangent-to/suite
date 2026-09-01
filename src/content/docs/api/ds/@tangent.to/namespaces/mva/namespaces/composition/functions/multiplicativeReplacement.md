@@ -4,7 +4,7 @@ title: "multiplicativeReplacement"
 
 > **multiplicativeReplacement**(`mat`, `delta?`): `any`[] \| `any`[][]
 
-Defined in: [mva/composition.js:110](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/mva/composition.js#L110)
+Defined in: [mva/composition.js:110](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/mva/composition.js#L110)
 
 Replaces zeros with small delta values before closure
 

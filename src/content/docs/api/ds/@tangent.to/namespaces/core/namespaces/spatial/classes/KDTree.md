@@ -2,7 +2,7 @@
 title: "KDTree"
 ---
 
-Defined in: [core/spatial/kdtree.js:24](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L24)
+Defined in: [core/spatial/kdtree.js:24](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L24)
 
 KD-Tree for efficient spatial queries
 
@@ -12,7 +12,7 @@ KD-Tree for efficient spatial queries
 
 > **new KDTree**(`points`, `metric?`): `KDTree`
 
-Defined in: [core/spatial/kdtree.js:25](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L25)
+Defined in: [core/spatial/kdtree.js:25](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L25)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [core/spatial/kdtree.js:25](https://github.com/tangent-to/ds/blob/7d
 
 > **dimensions**: `any`
 
-Defined in: [core/spatial/kdtree.js:27](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L27)
+Defined in: [core/spatial/kdtree.js:27](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L27)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [core/spatial/kdtree.js:27](https://github.com/tangent-to/ds/blob/7d
 
 > **metric**: `string`
 
-Defined in: [core/spatial/kdtree.js:26](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L26)
+Defined in: [core/spatial/kdtree.js:26](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L26)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [core/spatial/kdtree.js:26](https://github.com/tangent-to/ds/blob/7d
 
 > **root**: `any`
 
-Defined in: [core/spatial/kdtree.js:28](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L28)
+Defined in: [core/spatial/kdtree.js:28](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L28)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [core/spatial/kdtree.js:28](https://github.com/tangent-to/ds/blob/7d
 
 > **\_chebyshev**(`a`, `b`): `number`
 
-Defined in: [core/spatial/kdtree.js:167](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L167)
+Defined in: [core/spatial/kdtree.js:167](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L167)
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Defined in: [core/spatial/kdtree.js:167](https://github.com/tangent-to/ds/blob/7
 
 > **\_euclidean**(`a`, `b`): `number`
 
-Defined in: [core/spatial/kdtree.js:151](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L151)
+Defined in: [core/spatial/kdtree.js:151](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L151)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [core/spatial/kdtree.js:151](https://github.com/tangent-to/ds/blob/7
 
 > **\_manhattan**(`a`, `b`): `number`
 
-Defined in: [core/spatial/kdtree.js:159](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L159)
+Defined in: [core/spatial/kdtree.js:159](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L159)
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: [core/spatial/kdtree.js:159](https://github.com/tangent-to/ds/blob/7
 
 > **knn**(`point`, `k`): `object`[]
 
-Defined in: [core/spatial/kdtree.js:64](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L64)
+Defined in: [core/spatial/kdtree.js:64](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L64)
 
 Find k nearest neighbors
 
@@ -152,7 +152,7 @@ Number of neighbors
 
 > **radiusSearch**(`point`, `radius`): `object`[]
 
-Defined in: [core/spatial/kdtree.js:100](https://github.com/tangent-to/ds/blob/7d229ed87da5ebf67c735ea5b568e110c7b5e17a/src/core/spatial/kdtree.js#L100)
+Defined in: [core/spatial/kdtree.js:100](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/spatial/kdtree.js#L100)
 
 Find all neighbors within radius
 
