@@ -36,8 +36,10 @@ valueAndGrad(f)({ mu: 3, sigma: 4 });
 | --- | --- |
 | `valueAndGrad(f)` | Returns `(x) => {value, gradient}` for a scalar objective. |
 | `grad(f)` | Gradient only, discarding the value. |
-| `compile(f)` | The same as `valueAndGrad`, with the tape built once and replayed. See [Reusing the tape](#reusing-the-tape). |
-| `valueAndGradFns(f, options?)` | The value and gradient as two separate functions, for an API that takes a callback pair. They share one evaluation, so calling both at the same point runs the tape once. Pass `{ compile: true }` to reuse the tape. |
+| `compile(f)` | The same as `valueAndGrad`, with the tape built once and replayed. See [Reusing the tape](#reusing-the-tape). Its `.toJSON()` writes the graph out as data. |
+| `compileFromJSON(json)` | Rebuild a compiled objective from that data, on any thread. See [The plan as data](#the-plan-as-data). |
+| `valueAndGradFns(f, options?)` | The value and gradient as two separate functions, for an API that takes a callback pair. They share one evaluation, so calling both at the same point runs the tape once. Pass `{ compile: true }` to reuse the tape; the result then carries the compiled closure as `compiled`. |
+| `splitValueAndGrad(vg)` | The same pair from an existing `(x) => {value, gradient}` function, such as one rebuilt from data. |
 | `jacobian(f)` | `∂f/∂x` for a vector-valued `f`, as an m by n array. One forward pass and one reverse sweep per output. |
 | `variable(x)` | Wrap a value as a leaf of the tape. |
 
@@ -59,7 +61,7 @@ Only `cholesky` and `triangularSolve` carry a hand-derived adjoint. The log-dete
 | Group | Signatures |
 | --- | --- |
 | Arithmetic | `add` `mul`, taking any number of operands; `sub` `div` `neg`, strictly two. All elementwise, with a scalar broadcasting against anything |
-| Functions | `exp` `log` `sqrt` `square` `pow` `tanh` `sigmoid` |
+| Functions | `exp` `log` `sqrt` `square` `pow` `tanh` `sigmoid` `lgamma` |
 | Clamps | `maximum` `minimum` `relu` |
 | Reductions | `sum` `mean` |
 | Arrays | `matmul` `dot` `transpose` `reshape` `slice` `concat` `diagPart` `trace` `addDiag` |
@@ -67,6 +69,8 @@ Only `cholesky` and `triangularSolve` carry a hand-derived adjoint. The log-dete
 JavaScript cannot define `+` on an object, so a model mean cannot be written the way PyMC writes `mu0 + tau * z + gamma`. What a strictly binary operation adds on top of that limit is nesting, and that part is avoidable: `add` and `mul` fold over any number of operands, so a mean with five terms is one call with five arguments rather than four wrapped ones. The graph is the same either way. `sub` and `div` stay binary, since `sub(a, b, c)` reads ambiguously, and every binary operation now rejects a third operand rather than silently dropping it.
 
 `maximum` and `minimum` take their subgradient at a tie on the left operand, so `maximum(x, 0)` at `x = 0` reports `dx = 1`, and `relu'(0) = 0`. A NaN operand propagates rather than being outranked, which is what lets a sampler read back a rejection from outside a support. `relu` is what makes a clamped response, such as the flat arm of a quadratic-plateau dose response, expressible as an expression at all.
+
+`lgamma` is log-gamma with the digamma function as its derivative, what a Gamma or Beta log-density needs when its shape parameter is being differentiated. It uses the same Lanczos and asymptotic-series algorithms as [proba](/proba/)'s special functions, so the two agree to rounding.
 
 `addDiag(K, alpha)` adds observation noise to a kernel matrix, differentiable in both the matrix and the noise, which may be a scalar or one variance per observation.
 
@@ -109,6 +113,22 @@ Measured on a 340-observation regression with 15 parameters, per gradient:
 The three agree bit for bit. What compilation removes is bookkeeping, so the gain is largest for a graph of many cheap operations and smallest for one dominated by a single large matrix product, which was already a single pass.
 
 The constraint is that the graph must be the same on every call. There are two ways to break that, and both take deliberate effort to write: branching on a parameter's numeric value by reaching into `.data`, or closing over data that is mutated between calls. A branch inside an operation is fine, and is why the clamps exist: the kernel picks a side per element while the graph stays put. A change in a parameter's shape is detected and rebuilds the plan, so varying dimensions cost a rebuild rather than a wrong answer.
+
+## The plan as data
+
+A closure cannot cross into a worker thread. That constraint is why running MCMC chains in parallel in JavaScript has meant writing the model as a self-contained factory, with every array it touches passed through by hand. But once `compile` has traced an objective, what it holds is not a closure. It is an ordered list of operations, constant leaves carrying whatever the closure captured, and parameters by name. That is plain data.
+
+```js
+const vg = compile(negLogLik);
+vg(p0);                                   // builds the graph at these shapes
+const json = vg.toJSON();                 // plain data, structured-clonable
+const again = compileFromJSON(json);      // in a worker, say
+again(p1);                                // bit-identical to vg(p1)
+```
+
+Every operation records its exported name and its static arguments for this, a `reshape` shape, a `slice` offset and size, a `pow` exponent, a solve's triangle. A rebuilt plan has no objective to re-trace, so it evaluates only at the shapes it was built for and refuses others rather than adapting silently. A `Var` built by hand outside the package's operations cannot be serialized, and `toJSON` says so.
+
+This is what lets [mc](/mc/) run a model's chains on workers with the model written as it is: the model is serialized, each likelihood term as one of these plans, and rebuilt on the far side. Fifty tests hold the rebuilt plan to the original at the bit across every operation, one of them across a real worker boundary.
 
 ## Design
 
