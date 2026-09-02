@@ -36,7 +36,8 @@ valueAndGrad(f)({ mu: 3, sigma: 4 });
 | --- | --- |
 | `valueAndGrad(f)` | Returns `(x) => {value, gradient}` for a scalar objective. |
 | `grad(f)` | Gradient only, discarding the value. |
-| `valueAndGradFns(f)` | The value and gradient as two separate functions, for an API that takes a callback pair. They share one evaluation, so calling both at the same point runs the tape once. |
+| `compile(f)` | The same as `valueAndGrad`, with the tape built once and replayed. See [Reusing the tape](#reusing-the-tape). |
+| `valueAndGradFns(f, options?)` | The value and gradient as two separate functions, for an API that takes a callback pair. They share one evaluation, so calling both at the same point runs the tape once. Pass `{ compile: true }` to reuse the tape. |
 | `jacobian(f)` | `∂f/∂x` for a vector-valued `f`, as an m by n array. One forward pass and one reverse sweep per output. |
 | `variable(x)` | Wrap a value as a leaf of the tape. |
 
@@ -57,10 +58,15 @@ Only `cholesky` and `triangularSolve` carry a hand-derived adjoint. The log-dete
 
 | Group | Signatures |
 | --- | --- |
-| Arithmetic | `add` `sub` `mul` `div` `neg`, elementwise, with a scalar broadcasting against anything |
+| Arithmetic | `add` `mul`, taking any number of operands; `sub` `div` `neg`, strictly two. All elementwise, with a scalar broadcasting against anything |
 | Functions | `exp` `log` `sqrt` `square` `pow` `tanh` `sigmoid` |
+| Clamps | `maximum` `minimum` `relu` |
 | Reductions | `sum` `mean` |
 | Arrays | `matmul` `dot` `transpose` `reshape` `slice` `concat` `diagPart` `trace` `addDiag` |
+
+JavaScript cannot define `+` on an object, so a model mean cannot be written the way PyMC writes `mu0 + tau * z + gamma`. What a strictly binary operation adds on top of that limit is nesting, and that part is avoidable: `add` and `mul` fold over any number of operands, so a mean with five terms is one call with five arguments rather than four wrapped ones. The graph is the same either way. `sub` and `div` stay binary, since `sub(a, b, c)` reads ambiguously, and every binary operation now rejects a third operand rather than silently dropping it.
+
+`maximum` and `minimum` take their subgradient at a tie on the left operand, so `maximum(x, 0)` at `x = 0` reports `dx = 1`, and `relu'(0) = 0`. A NaN operand propagates rather than being outranked, which is what lets a sampler read back a rejection from outside a support. `relu` is what makes a clamped response, such as the flat arm of a quadratic-plateau dose response, expressible as an expression at all.
 
 `addDiag(K, alpha)` adds observation noise to a kernel matrix, differentiable in both the matrix and the noise, which may be a scalar or one variance per observation.
 
@@ -81,9 +87,34 @@ const { value, gradient } = valueAndGrad(logML)({ l: 1.3, v: 0.9 });
 
 Replacing the kernel expression gives the gradients of the new kernel with no further derivation.
 
+## Reusing the tape
+
+`valueAndGrad` rebuilds the graph on every call: a node and a closure per operation, a topological sort, a fresh gradient buffer per node. None of that changes between calls when the shapes are fixed and the sequence of operations is the same, which is the case for a sampler or an optimizer walking the same model. `compile` keeps the graph, writes the new values into its leaves, and replays it.
+
+```js
+import { compile } from '@tangent.to/grad';
+
+const vg = compile((p) => negLogLik(p));
+for (const p of chain) vg(p);          // one graph, many evaluations
+```
+
+Measured on a 340-observation regression with 15 parameters, per gradient:
+
+| | ms |
+| --- | --- |
+| `valueAndGrad` | 0.258 |
+| `compile` | 0.096 |
+| gradient derived by hand | 0.047 |
+
+The three agree bit for bit. What compilation removes is bookkeeping, so the gain is largest for a graph of many cheap operations and smallest for one dominated by a single large matrix product, which was already a single pass.
+
+The constraint is that the graph must be the same on every call. There are two ways to break that, and both take deliberate effort to write: branching on a parameter's numeric value by reaching into `.data`, or closing over data that is mutated between calls. A branch inside an operation is fine, and is why the clamps exist: the kernel picks a side per element while the graph stays put. A change in a parameter's shape is detected and rebuilds the plan, so varying dimensions cost a rebuild rather than a wrong answer.
+
 ## Design
 
 Nodes on the tape are matrices and vectors, not individual numbers. The per-node bookkeeping costs a few hundred nanoseconds, which is negligible against an O(n³) Cholesky and prohibitive against a scalar multiply, so a scalar tape cannot carry a statistical model at useful sizes.
+
+Each elementwise operation is written as a whole loop over its operands, called once per pass, rather than as a per-element function handed to a shared loop body. The difference is not stylistic. With the function passed per element, a dozen operations funnel different callbacks through one call site, which goes megamorphic: the arithmetic stops inlining and an addition costs upwards of a hundred nanoseconds instead of well under one. On the regression above, hoisting that dispatch out of the inner loop was worth more than every other optimization in the package put together.
 
 Rank is capped at 2: scalars, vectors and matrices. Broadcasting is limited to a scalar against anything. Forward factorizations come from [lina](/lina/), which is validated against numpy and scipy.linalg.
 
