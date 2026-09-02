@@ -4,7 +4,7 @@ title: "parseModel"
 
 > **parseModel**(`syntax`): `object`[]
 
-Defined in: [parse.js:97](https://github.com/tangent-to/sem/blob/573c963e3e0cd40a2769ab2ae24d20cee4515c5a/src/parse.js#L97)
+Defined in: [parse.js:97](https://github.com/tangent-to/sem/blob/b576802250ac549a7b2f70307d7d21b4a1858e4b/src/parse.js#L97)
 
 Parse lavaan-style model syntax into a flat array of parameter rows.
 

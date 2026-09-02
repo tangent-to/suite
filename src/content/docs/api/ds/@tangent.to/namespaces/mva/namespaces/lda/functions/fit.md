@@ -4,7 +4,7 @@ title: "fit"
 
 > **fit**(`X`, `y`, `options?`): `any`
 
-Defined in: [mva/lda.js:34](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/mva/lda.js#L34)
+Defined in: [mva/lda.js:34](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/lda.js#L34)
 
 Fit LDA model
 

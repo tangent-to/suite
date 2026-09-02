@@ -4,7 +4,7 @@ title: "ordiplot"
 
 > **ordiplot**(`result`, `options?`): `any`
 
-Defined in: [plot/ordiplot.js:70](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/plot/ordiplot.js#L70)
+Defined in: [plot/ordiplot.js:79](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/plot/ordiplot.js#L79)
 
 Generate unified ordination plot configuration
 Works with PCA, LDA, and RDA results
@@ -116,12 +116,26 @@ Fill for loading labels (default:
 
 `number` = `0`
 
-Hide loading/predictor vectors
-  whose contribution to the two displayed axes is below this fraction (0-1) of
-  the total, i.e. squared vector length / summed squared length. Default 0 shows
+Hide loading vectors whose
+  contribution to the two displayed axes is below this fraction (0-1) of the
+  total, i.e. squared vector length / summed squared length. Default 0 shows
   every vector at its true relative length. Use e.g. 0.02 to drop near-zero
   vectors that only clutter the plot, keeping magnitudes honest (vectors are NOT
-  rescaled - negligible ones are removed, not inflated).
+  rescaled - negligible ones are removed, not inflated). On an RDA this governs
+  the response arrows, and [minPredictorContribution](#ordiplot) the predictor ones.
+
+#### minPredictorContribution
+
+`number` = `null`
+
+Same filter for RDA
+  predictor arrows (default: null, inherits minLoadingContribution). Each group
+  is measured against its own summed length, and an RDA typically has a handful
+  of responses against many predictors, so one threshold rarely suits both: a
+  response competing with three others clears 2% easily, while the same arrow
+  among twenty predictors may not. Set this to declutter the predictors while
+  keeping every response visible - a response dropping out is usually a finding
+  (these axes carry none of it), not clutter.
 
 #### pointColor
 

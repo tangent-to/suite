@@ -2,7 +2,7 @@
 title: "OneHotEncoder"
 ---
 
-Defined in: [ml/preprocessing.js:432](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L432)
+Defined in: [ml/preprocessing.js:432](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L432)
 
 Encode categorical features as one-hot numeric array
 
@@ -12,7 +12,7 @@ Encode categorical features as one-hot numeric array
 
 > **new OneHotEncoder**(): `OneHotEncoder`
 
-Defined in: [ml/preprocessing.js:433](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L433)
+Defined in: [ml/preprocessing.js:433](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L433)
 
 #### Returns
 
@@ -24,7 +24,7 @@ Defined in: [ml/preprocessing.js:433](https://github.com/tangent-to/ds/blob/a3d0
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/preprocessing.js:436](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L436)
+Defined in: [ml/preprocessing.js:436](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L436)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [ml/preprocessing.js:436](https://github.com/tangent-to/ds/blob/a3d0
 
 > **categories**: `any`[]
 
-Defined in: [ml/preprocessing.js:434](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L434)
+Defined in: [ml/preprocessing.js:434](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L434)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [ml/preprocessing.js:434](https://github.com/tangent-to/ds/blob/a3d0
 
 > **nFeatures**: `any`
 
-Defined in: [ml/preprocessing.js:435](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L435)
+Defined in: [ml/preprocessing.js:435](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L435)
 
 ## Methods
 
@@ -48,7 +48,7 @@ Defined in: [ml/preprocessing.js:435](https://github.com/tangent-to/ds/blob/a3d0
 
 > **\_prepareInput**(`X`, `__namedParameters?`): \{ `columns`: `any`; `matrix`: `any`[]; `rows`: `any`; \} \| \{ `columns`: `any`[]; `matrix`: `any`[][]; `rows`: `any`[]; \}
 
-Defined in: [ml/preprocessing.js:439](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L439)
+Defined in: [ml/preprocessing.js:439](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L439)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [ml/preprocessing.js:439](https://github.com/tangent-to/ds/blob/a3d0
 
 > **fit**(`X`): `OneHotEncoder`
 
-Defined in: [ml/preprocessing.js:473](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L473)
+Defined in: [ml/preprocessing.js:473](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L473)
 
 Fit encoder by discovering categories
 
@@ -100,7 +100,7 @@ this
 
 > **fitTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:570](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L570)
+Defined in: [ml/preprocessing.js:570](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L570)
 
 Fit and transform in one step
 
@@ -124,7 +124,7 @@ One-hot encoded features
 
 > **getFeatureNames**(): `string`[]
 
-Defined in: [ml/preprocessing.js:578](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L578)
+Defined in: [ml/preprocessing.js:578](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L578)
 
 Get feature names after one-hot encoding
 
@@ -140,7 +140,7 @@ Feature names
 
 > **transform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:497](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L497)
+Defined in: [ml/preprocessing.js:497](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L497)
 
 Transform to one-hot encoding
 

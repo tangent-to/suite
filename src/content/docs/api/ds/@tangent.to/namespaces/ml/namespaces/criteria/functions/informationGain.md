@@ -4,7 +4,7 @@ title: "informationGain"
 
 > **informationGain**(`parentLabels`, `leftLabels`, `rightLabels`, `impurityFn?`): `number`
 
-Defined in: [ml/criteria.js:165](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/criteria.js#L165)
+Defined in: [ml/criteria.js:165](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/criteria.js#L165)
 
 Compute information gain (reduction in impurity)
 

@@ -4,7 +4,7 @@ title: "concat"
 
 > **concat**(`parts`): `Var`
 
-Defined in: [ops.js:413](https://github.com/tangent-to/grad/blob/c31bb722bc35d67380373bb52911c29f93e7920d/src/ops.js#L413)
+Defined in: [ops.js:471](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L471)
 
 Assemble scalar or vector Vars into one vector, end to end.
 

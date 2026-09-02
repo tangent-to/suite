@@ -4,7 +4,7 @@ title: "eigGeneralized"
 
 > **eigGeneralized**(`A`, `B`): `any`
 
-Defined in: [core/linalg.js:123](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L123)
+Defined in: [core/linalg.js:123](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L123)
 
 Generalized symmetric eigendecomposition: solve A x = lambda B x for
 symmetric A and symmetric positive (semi)definite B. Eigenvalues are

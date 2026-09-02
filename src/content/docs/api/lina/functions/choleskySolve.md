@@ -4,7 +4,7 @@ title: "choleskySolve"
 
 > **choleskySolve**(`L`, `b`): `number`[] \| `number`[][]
 
-Defined in: [cholesky.js:121](https://github.com/tangent-to/lina/blob/c8a71bc6d4accccf099a3c97b1c156bb84b7e8a1/src/cholesky.js#L121)
+Defined in: [cholesky.js:121](https://github.com/tangent-to/lina/blob/b2d75c870931aa9ccc78651d5f88e37681f92092/src/cholesky.js#L121)
 
 Solve A x = b (or A X = B) given the Cholesky factor L of A (A = L L^T), by
 forward substitution (L y = b) then back substitution (L^T x = y).

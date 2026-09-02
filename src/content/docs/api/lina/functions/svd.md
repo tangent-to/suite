@@ -4,7 +4,7 @@ title: "svd"
 
 > **svd**(`A`, `options?`): `object`
 
-Defined in: [svd.js:23](https://github.com/tangent-to/lina/blob/c8a71bc6d4accccf099a3c97b1c156bb84b7e8a1/src/svd.js#L23)
+Defined in: [svd.js:23](https://github.com/tangent-to/lina/blob/b2d75c870931aa9ccc78651d5f88e37681f92092/src/svd.js#L23)
 
 Thin SVD: A = U diag(s) V^T with U m×k, s length k, V n×k, k = min(m, n).
 Singular values are non-negative and descending.

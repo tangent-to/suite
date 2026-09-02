@@ -4,7 +4,7 @@ title: "triangularSolve"
 
 > **triangularSolve**(`tIn`, `bIn`, `opts?`): [`Var`](../classes/Var.md)
 
-Defined in: [linalg.js:120](https://github.com/tangent-to/grad/blob/c31bb722bc35d67380373bb52911c29f93e7920d/src/linalg.js#L120)
+Defined in: [linalg.js:120](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/linalg.js#L120)
 
 Solve a triangular system T X = B.
 

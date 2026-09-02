@@ -4,7 +4,7 @@ title: "slice"
 
 > **slice**(`aIn`, `start`, `size`): `Var`
 
-Defined in: [ops.js:359](https://github.com/tangent-to/grad/blob/c31bb722bc35d67380373bb52911c29f93e7920d/src/ops.js#L359)
+Defined in: [ops.js:417](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L417)
 
 Extract a contiguous submatrix (or subvector) — the differentiable form of
 `rows.slice(...).map((r) => r.slice(...))`.

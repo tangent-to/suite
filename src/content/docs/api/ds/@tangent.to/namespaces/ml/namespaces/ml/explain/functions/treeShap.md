@@ -4,7 +4,7 @@ title: "treeShap"
 
 > **treeShap**(`spec`, `X`): `object`
 
-Defined in: [ml/explain.js:748](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/explain.js#L748)
+Defined in: [ml/explain.js:748](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/explain.js#L748)
 
 Convenience: TreeSHAP in one call. See [TreeExplainer](../classes/TreeExplainer.md).
 

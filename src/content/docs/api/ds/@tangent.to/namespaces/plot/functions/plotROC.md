@@ -4,7 +4,7 @@ title: "plotROC"
 
 > **plotROC**(`yTrue`, `yProb`, `options?`): `any`
 
-Defined in: [plot/classification.js:15](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/plot/classification.js#L15)
+Defined in: [plot/classification.js:15](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/plot/classification.js#L15)
 
 Generate ROC curve plot configuration
 

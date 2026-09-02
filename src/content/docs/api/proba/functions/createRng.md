@@ -4,7 +4,7 @@ title: "createRng"
 
 > **createRng**(`seed?`): `any`
 
-Defined in: [rng.js:13](https://github.com/tangent-to/proba/blob/ddb61197ca2a47551bb998b11b9a236599b71035/src/rng.js#L13)
+Defined in: [rng.js:13](https://github.com/tangent-to/proba/blob/ff137b26a2ab80e007338fcc2f63e88a0db76119/src/rng.js#L13)
 
 Create a seedable RNG.
 

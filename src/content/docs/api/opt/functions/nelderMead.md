@@ -4,7 +4,7 @@ title: "nelderMead"
 
 > **nelderMead**(`f`, `x0`, `options?`): `any`
 
-Defined in: [neldermead.js:35](https://github.com/tangent-to/opt/blob/3fa4117a98aec86cceff2025f67639bcb80ba817/src/neldermead.js#L35)
+Defined in: [neldermead.js:35](https://github.com/tangent-to/opt/blob/92f11b3aa26804ff0465d67f82f3eea22cefd937/src/neldermead.js#L35)
 
 Minimize a function using the Nelder-Mead downhill simplex method.
 

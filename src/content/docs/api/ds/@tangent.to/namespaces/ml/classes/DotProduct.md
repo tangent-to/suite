@@ -2,7 +2,7 @@
 title: "DotProduct"
 ---
 
-Defined in: [ml/kernels/dot-product.js:15](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L15)
+Defined in: [ml/kernels/dot-product.js:15](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L15)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new DotProduct**(`sigma0OrOpts?`): `DotProduct`
 
-Defined in: [ml/kernels/dot-product.js:24](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L24)
+Defined in: [ml/kernels/dot-product.js:24](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L24)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ new DotProduct({ sigma0: 1.0 })
 
 > **sigma0**: `any`
 
-Defined in: [ml/kernels/dot-product.js:27](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L27)
+Defined in: [ml/kernels/dot-product.js:27](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L27)
 
 ## Methods
 
@@ -55,7 +55,7 @@ Defined in: [ml/kernels/dot-product.js:27](https://github.com/tangent-to/ds/blob
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -89,7 +89,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -109,7 +109,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `number`
 
-Defined in: [ml/kernels/dot-product.js:33](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L33)
+Defined in: [ml/kernels/dot-product.js:33](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L33)
 
 Compute covariance between two points
 
@@ -143,7 +143,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/dot-product.js:39](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L39)
+Defined in: [ml/kernels/dot-product.js:39](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L39)
 
 Get kernel hyperparameters
 
@@ -167,7 +167,7 @@ Hyperparameters
 
 > **setParams**(`params?`): `void`
 
-Defined in: [ml/kernels/dot-product.js:43](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/dot-product.js#L43)
+Defined in: [ml/kernels/dot-product.js:43](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/dot-product.js#L43)
 
 Set kernel hyperparameters
 

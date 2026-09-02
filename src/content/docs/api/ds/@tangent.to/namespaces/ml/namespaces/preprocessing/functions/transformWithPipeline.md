@@ -4,7 +4,7 @@ title: "transformWithPipeline"
 
 > **transformWithPipeline**(`options`): `any`
 
-Defined in: [ml/preprocessing.js:1042](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/preprocessing.js#L1042)
+Defined in: [ml/preprocessing.js:1042](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L1042)
 
 Transform new data using a fitted preprocessing pipeline
 

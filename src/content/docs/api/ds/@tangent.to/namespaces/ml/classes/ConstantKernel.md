@@ -2,7 +2,7 @@
 title: "ConstantKernel"
 ---
 
-Defined in: [ml/kernels/constant.js:11](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L11)
+Defined in: [ml/kernels/constant.js:11](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L11)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new ConstantKernel**(`valueOrOpts?`): `ConstantKernel`
 
-Defined in: [ml/kernels/constant.js:15](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L15)
+Defined in: [ml/kernels/constant.js:15](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L15)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Constant value or options object
 
 > **value**: `any`
 
-Defined in: [ml/kernels/constant.js:19](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L19)
+Defined in: [ml/kernels/constant.js:19](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L19)
 
 ## Methods
 
@@ -48,7 +48,7 @@ Defined in: [ml/kernels/constant.js:19](https://github.com/tangent-to/ds/blob/a3
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -82,7 +82,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -102,7 +102,7 @@ New kernel instance
 
 > **compute**(): `any`
 
-Defined in: [ml/kernels/constant.js:25](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L25)
+Defined in: [ml/kernels/constant.js:25](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L25)
 
 Compute covariance between two points
 
@@ -122,7 +122,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/constant.js:29](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L29)
+Defined in: [ml/kernels/constant.js:29](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L29)
 
 Get kernel hyperparameters
 
@@ -146,7 +146,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/constant.js:33](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/kernels/constant.js#L33)
+Defined in: [ml/kernels/constant.js:33](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/kernels/constant.js#L33)
 
 Set kernel hyperparameters
 

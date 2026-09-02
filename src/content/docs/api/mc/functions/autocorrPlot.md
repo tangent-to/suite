@@ -4,7 +4,7 @@ title: "autocorrPlot"
 
 > **autocorrPlot**(`trace`, `variables?`, `maxLag?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:213](https://github.com/tangent-to/mc/blob/3b74504f4618f4c9ba8e2a1c2c54dc6ea10d6ce5/src/utils/visualize.js#L213)
+Defined in: [utils/visualize.js:213](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/utils/visualize.js#L213)
 
 Generate autocorrelation plot specification
 Shows autocorrelation to assess mixing

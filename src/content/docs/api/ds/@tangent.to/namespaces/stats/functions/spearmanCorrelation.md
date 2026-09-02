@@ -4,7 +4,7 @@ title: "spearmanCorrelation"
 
 > **spearmanCorrelation**(`x`, `y`): `any`
 
-Defined in: [stats/tests.js:778](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/stats/tests.js#L778)
+Defined in: [stats/tests.js:778](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/stats/tests.js#L778)
 
 Spearman rank correlation coefficient with significance test
 

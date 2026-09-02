@@ -4,7 +4,7 @@ title: "mae"
 
 > **mae**(`values`): `number`
 
-Defined in: [ml/criteria.js:93](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/ml/criteria.js#L93)
+Defined in: [ml/criteria.js:93](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/criteria.js#L93)
 
 Mean Absolute Error (MAE) for regression
 Robust alternative to MSE

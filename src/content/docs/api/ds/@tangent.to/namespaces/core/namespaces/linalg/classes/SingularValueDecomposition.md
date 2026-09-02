@@ -2,7 +2,7 @@
 title: "SingularValueDecomposition"
 ---
 
-Defined in: [core/linalg.js:218](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L218)
+Defined in: [core/linalg.js:218](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L218)
 
 SVD with the decomposition-object interface of ml-matrix, for
 least-squares solves and pseudoinverses reusing one factorization.
@@ -13,7 +13,7 @@ least-squares solves and pseudoinverses reusing one factorization.
 
 > **new SingularValueDecomposition**(`data`): `SingularValueDecomposition`
 
-Defined in: [core/linalg.js:222](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L222)
+Defined in: [core/linalg.js:222](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L222)
 
 #### Parameters
 
@@ -33,7 +33,7 @@ Input matrix (any shape)
 
 > **\_m**: `any`
 
-Defined in: [core/linalg.js:227](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L227)
+Defined in: [core/linalg.js:227](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L227)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [core/linalg.js:227](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **\_n**: `any`
 
-Defined in: [core/linalg.js:228](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L228)
+Defined in: [core/linalg.js:228](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L228)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [core/linalg.js:228](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **\_s**: `any`
 
-Defined in: [core/linalg.js:225](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L225)
+Defined in: [core/linalg.js:225](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L225)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [core/linalg.js:225](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **\_U**: `any`
 
-Defined in: [core/linalg.js:224](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L224)
+Defined in: [core/linalg.js:224](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L224)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: [core/linalg.js:224](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **\_V**: `any`
 
-Defined in: [core/linalg.js:226](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L226)
+Defined in: [core/linalg.js:226](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L226)
 
 ## Accessors
 
@@ -75,7 +75,7 @@ Defined in: [core/linalg.js:226](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **get** **diagonal**(): `any`
 
-Defined in: [core/linalg.js:239](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L239)
+Defined in: [core/linalg.js:239](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L239)
 
 ##### Returns
 
@@ -89,7 +89,7 @@ Defined in: [core/linalg.js:239](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **get** **leftSingularVectors**(): [`Matrix`](Matrix.md)
 
-Defined in: [core/linalg.js:231](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L231)
+Defined in: [core/linalg.js:231](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L231)
 
 ##### Returns
 
@@ -103,7 +103,7 @@ Defined in: [core/linalg.js:231](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **get** **rightSingularVectors**(): [`Matrix`](Matrix.md)
 
-Defined in: [core/linalg.js:235](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L235)
+Defined in: [core/linalg.js:235](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L235)
 
 ##### Returns
 
@@ -115,7 +115,7 @@ Defined in: [core/linalg.js:235](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **\_cutoff**(): `number`
 
-Defined in: [core/linalg.js:243](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L243)
+Defined in: [core/linalg.js:243](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L243)
 
 #### Returns
 
@@ -127,7 +127,7 @@ Defined in: [core/linalg.js:243](https://github.com/tangent-to/ds/blob/a3d0ec90b
 
 > **inverse**(): [`Matrix`](Matrix.md)
 
-Defined in: [core/linalg.js:269](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L269)
+Defined in: [core/linalg.js:269](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L269)
 
 Pseudoinverse from the computed factorization
 
@@ -143,7 +143,7 @@ Pseudoinverse
 
 > **solve**(`b`): [`Matrix`](Matrix.md)
 
-Defined in: [core/linalg.js:252](https://github.com/tangent-to/ds/blob/a3d0ec90bff96188eef59cf586d298d1ed9186dc/src/core/linalg.js#L252)
+Defined in: [core/linalg.js:252](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L252)
 
 Minimum-norm least-squares solution of A x = b
 
