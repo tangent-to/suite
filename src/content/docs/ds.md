@@ -68,12 +68,33 @@ The default export is namespaced. Import the whole library (`import ds from '@ta
 | `new ds.ml.DecisionTreeClassifier(options?)` | CART classification tree. |
 | `new ds.ml.DecisionTreeRegressor(options?)` | CART regression tree. |
 | `new ds.ml.MLPRegressor(options?)` | Multilayer-perceptron regressor. |
+| `new ds.ml.RandomForestRegressor(options?)` | Random forest regressor, seeded. |
+| `new ds.ml.GaussianProcessRegressor(options?)` | Gaussian process regression with a composable kernel; see [Gaussian processes](#gaussian-processes). |
 | `new ds.ml.preprocessing.StandardScaler()` | Standardize features to zero mean and unit variance (`fit`/`transform`). |
 | `new ds.ml.preprocessing.MinMaxScaler()` | Scale features to a fixed range. |
 | `new ds.ml.preprocessing.OneHotEncoder()` | One-hot encode categorical columns. |
 | `ds.ml.validation.trainTestSplit(spec, options?)` | Split rows into train and test sets. |
 | `ds.ml.validation.crossValidate(...)` | K-fold cross-validation, with `kFold` and `stratifiedKFold` helpers. |
 | `ds.ml.recipe(spec)` | Chainable, inspectable preprocessing pipeline (`prep`/`bake`). |
+
+### Gaussian processes
+
+`GaussianProcessRegressor` takes a kernel built from `RBF`, `Matern`, `RationalQuadratic`, `Periodic`, `DotProduct`, `ConstantKernel` and `WhiteKernel`, combined with `SumKernel`. With `optimize: true` the kernel's hyperparameters are tuned by marginal likelihood, with exact gradients from [grad](/grad/). `alpha` is known, fixed observation noise and is never tuned; a noise to be learned is a `WhiteKernel` in the sum, which also enters the predictive standard deviation, so intervals are then for observations rather than for the latent function.
+
+```js
+const kernel = new ds.ml.SumKernel({ kernels: [
+  new ds.ml.Matern({ lengthScale: [1, 1, 1], blocks, nu: 2.5 }),           // one scale per feature block
+  new ds.ml.WhiteKernel({ noiseLevel: 0.1, noiseLevelBounds: [0.01, 4] }), // learned noise, floored
+] });
+const gp = new ds.ml.GaussianProcessRegressor({ kernel, alpha: 1e-10, optimize: true, normalizeY: true });
+gp.fit(X, y);
+gp.predict(Xnew, { returnStd: true });
+gp.predictGradient(x);   // mean, std, and their gradients in x
+```
+
+Two things there exist because tuning one length scale per feature on a few hundred rows is under-constrained. `blocks` maps each input dimension to an entry of `lengthScale`, so a group of features shares one scale: three blocks cost three hyperparameters where per-feature ARD on 37 features cost 37, and on a 340-row agronomic model that took the held-out RMSE from 9.9 to 9.1 and the 95% interval coverage from 73% to 93%, with a learned noise that stayed put across folds where the per-feature version's collapsed to zero in four folds of seven. The `*Bounds` options, `[low, high]` on a length scale, a variance or a noise level, are honoured by the optimizer, and a floor on the noise is the usual reason to set one.
+
+`predictGradient(x)` returns the predictive mean and standard deviation at one input with their gradients in that input, from the same autodiff path, compiled once per fit. It is what a gradient-based search over the input needs: a quasi-Newton method with it converges in tens of evaluations where a derivative-free simplex needs thousands and grows unreliable past ten dimensions. Stationary kernels only.
 
 ## Multivariate analysis
 

@@ -147,6 +147,7 @@ The diagnostics namespace summarizes and audits a trace after sampling.
 | `summarize(draws)` | Reduce a column of draws to mean, std, and a 95 percent credible interval (`hdi_2_5` to `hdi_97_5`). |
 | `effectiveSampleSize(draws)` | Effective sample size accounting for autocorrelation. |
 | `gelmanRubin(chains)` | Gelman-Rubin R-hat convergence statistic across chains. |
+| `fit.divergences` | Divergent transitions after warmup, on every NUTS result and per chain on a multi-chain one. The diagnostic R-hat and ESS cannot give: a chain that diverges is exploring a region its step size cannot resolve, typically a scale parameter near zero, and both of those statistics look fine while it happens. A positive count is reported once on the console. |
 | `printSummary(trace)` | Print a formatted posterior summary table. |
 | `traceToJSON(trace)` / `traceToCSV(trace)` | Serialize a trace for storage or external tools. |
 
