@@ -34,6 +34,7 @@ A `Model` is a container of named random variables. Add priors with `addVariable
 | `model.addVariable(name, dist, observed?)` | Register a random variable under a prior distribution. |
 | `model.potential(name, fn, gradFn?)` | Add a log-density factor. `fn(params)` returns the term's log density as a number. Without a `gradFn` the term falls back to central finite differences. |
 | `model.autoPotential(name, fn, options?)` | The same term written in [grad](/grad/) operations and differentiated exactly. See [Exact gradients](#exact-gradients). |
+| `mc.ops` | grad's operations, re-exported so a model needs no second import of the package. |
 | `model.deterministic(name, fn)` | Record a named transform of the parameters in the trace. It receives plain numbers after sampling and does not affect the log probability, so it is not the place to build a model expression. |
 | `model.logProb(params)` | Evaluate the unnormalized joint log probability at a point. |
 
@@ -69,7 +70,11 @@ A gradient-based sampler needs the gradient of the joint log probability. Priors
 
 `autoPotential` avoids both costs. The term is written as an expression in [grad](/grad/) operations and differentiated by reverse-mode autodiff, at one evaluation per gradient regardless of the parameter count, and to about `1e-13` against a hand-derived closed form.
 
+The operations come from `mc.ops`, not from a separate import of [grad](/grad/). That distinction is about correctness rather than convenience: pinning grad alongside mc loads a second copy of the module the moment mc's own dependency range resolves to a different version, and the two copies have different `Var` classes, so `autoPotential` rejects an expression built with the other one.
+
 ```js
+const { add, div, log, mul, square, sub, sum } = mc.ops;
+
 model.autoPotential('y', (v) => {
   const mu = add(v.intercept, mul(v.slope, xData), seasonOffset);
   const z = div(sub(yData, mu), v.sigma);
@@ -87,7 +92,7 @@ A worker cannot receive a live closure, so the model arrives as a self-contained
 
 ```js
 const fit = await sampleChains((data, mc) => {
-  const { add, div, log, mul, square, sub, sum } = mc.ops;
+  const { add, div, log, mul, square, sub, sum } = mc.ops;   // the same namespace, inside the worker
   const model = new mc.Model('lin');
   model.addVariable('a', new mc.distributions.Normal(0, 5));
   model.addVariable('logSig', new mc.distributions.Normal(0, 1));
@@ -98,6 +103,8 @@ const fit = await sampleChains((data, mc) => {
 fit.byChain.a   // [[chain-0 draws], [chain-1 draws], ...], ready for gelmanRubin
 fit.trace.a     // the chains pooled
 ```
+
+Whether that is worth it depends on what the code is for. A build script that runs unattended should take the speedup. A notebook meant to be read pays for it in the model's legibility, since every array the likelihood touches has to be threaded through `data`, and there the calling thread may be the better default.
 
 Each chain derives its own seed from `seed`, so a run is reproducible, and `{ parallel: false }` runs the same chains in process from the same seeds and the same factory source, producing identical draws. On a 340-observation model with 15 parameters, four chains of 400 draws after 400 warmup take 19.5 seconds in series and 5.7 seconds across four workers.
 
