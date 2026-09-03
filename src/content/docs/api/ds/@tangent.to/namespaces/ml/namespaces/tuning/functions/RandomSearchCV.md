@@ -4,7 +4,7 @@ title: "RandomSearchCV"
 
 > **RandomSearchCV**(`fitFn`, `scoreFn`, `X`, `y`, `paramDistributions`, `options?`): `any`
 
-Defined in: [ml/tuning.js:123](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/tuning.js#L123)
+Defined in: [ml/tuning.js:123](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/tuning.js#L123)
 
 Random Search Cross-Validation
 

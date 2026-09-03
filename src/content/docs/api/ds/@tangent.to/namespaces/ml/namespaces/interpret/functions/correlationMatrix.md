@@ -4,7 +4,7 @@ title: "correlationMatrix"
 
 > **correlationMatrix**(`X`, `featureNames?`): `any`
 
-Defined in: [ml/interpret.js:185](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/interpret.js#L185)
+Defined in: [ml/interpret.js:185](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/interpret.js#L185)
 
 Compute correlation matrix
 

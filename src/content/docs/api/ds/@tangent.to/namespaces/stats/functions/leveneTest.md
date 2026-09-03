@@ -4,7 +4,7 @@ title: "leveneTest"
 
 > **leveneTest**(`groups`, `options?`): `any`
 
-Defined in: [stats/tests.js:639](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/stats/tests.js#L639)
+Defined in: [stats/tests.js:639](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/stats/tests.js#L639)
 
 Levene's test for equality of variances
 Tests homogeneity of variance assumption (homoscedasticity)

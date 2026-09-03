@@ -4,7 +4,7 @@ title: "pow"
 
 > **pow**(`aIn`, `k`): `Var`
 
-Defined in: [ops.js:171](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L171)
+Defined in: [ops.js:411](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L411)
 
 Raise elementwise to a CONSTANT power. The exponent is not differentiated —
 for a variable exponent write `exp(mul(k, log(x)))`, which carries both

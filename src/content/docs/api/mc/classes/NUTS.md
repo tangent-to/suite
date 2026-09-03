@@ -2,7 +2,7 @@
 title: "NUTS"
 ---
 
-Defined in: [samplers/nuts.js:29](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L29)
+Defined in: [samplers/nuts.js:30](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L30)
 
 No-U-Turn Sampler (NUTS)
 
@@ -34,7 +34,7 @@ where $\theta^+, p^+$ are the forward endpoint and $\theta^-, p^-$ are the backw
 
 > **new NUTS**(`stepSize?`, `maxTreeDepth?`, `targetAcceptance?`): `NUTS`
 
-Defined in: [samplers/nuts.js:43](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L43)
+Defined in: [samplers/nuts.js:44](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L44)
 
 Accepts either positional arguments or a single options object.
 
@@ -79,7 +79,7 @@ new NUTS({ stepSize: 0.01, maxTreeDepth: 10, targetAcceptance: 0.8 })
 
 > **gamma**: `number`
 
-Defined in: [samplers/nuts.js:56](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L56)
+Defined in: [samplers/nuts.js:57](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L57)
 
 ***
 
@@ -87,7 +87,7 @@ Defined in: [samplers/nuts.js:56](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **kappa**: `number`
 
-Defined in: [samplers/nuts.js:58](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L58)
+Defined in: [samplers/nuts.js:59](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L59)
 
 ***
 
@@ -95,7 +95,7 @@ Defined in: [samplers/nuts.js:58](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **maxTreeDepth**: `number`
 
-Defined in: [samplers/nuts.js:51](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L51)
+Defined in: [samplers/nuts.js:52](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L52)
 
 ***
 
@@ -103,7 +103,7 @@ Defined in: [samplers/nuts.js:51](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **mu**: `number`
 
-Defined in: [samplers/nuts.js:55](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L55)
+Defined in: [samplers/nuts.js:56](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L56)
 
 ***
 
@@ -111,7 +111,7 @@ Defined in: [samplers/nuts.js:55](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **stepSize**: `any`
 
-Defined in: [samplers/nuts.js:50](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L50)
+Defined in: [samplers/nuts.js:51](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L51)
 
 ***
 
@@ -119,7 +119,7 @@ Defined in: [samplers/nuts.js:50](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **t0**: `number`
 
-Defined in: [samplers/nuts.js:57](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L57)
+Defined in: [samplers/nuts.js:58](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L58)
 
 ***
 
@@ -127,7 +127,7 @@ Defined in: [samplers/nuts.js:57](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **targetAcceptance**: `number`
 
-Defined in: [samplers/nuts.js:52](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L52)
+Defined in: [samplers/nuts.js:53](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L53)
 
 ## Methods
 
@@ -135,7 +135,7 @@ Defined in: [samplers/nuts.js:52](https://github.com/tangent-to/mc/blob/eecd6fe0
 
 > **buildTree**(`position`, `momentum`, `logSlice`, `direction`, `depth`, `stepSize`, `model`, `H0`, `startGrad?`): `any`
 
-Defined in: [samplers/nuts.js:213](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L213)
+Defined in: [samplers/nuts.js:214](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L214)
 
 Build tree recursively (doubling procedure)
 
@@ -210,7 +210,7 @@ Tree information (also carries `gradMinus`/`gradPlus`, the
 
 > **getParams**(): `object`
 
-Defined in: [samplers/nuts.js:65](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L65)
+Defined in: [samplers/nuts.js:66](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L66)
 
 Get the sampler's configuration.
 
@@ -236,7 +236,7 @@ Get the sampler's configuration.
 
 > **hamiltonian**(`position`, `momentum`, `model`): `number`
 
-Defined in: [samplers/nuts.js:169](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L169)
+Defined in: [samplers/nuts.js:170](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L170)
 
 Compute Hamiltonian (total energy)
 
@@ -272,7 +272,7 @@ Hamiltonian value
 
 > **isUTurn**(`positionMinus`, `positionPlus`, `momentumMinus`, `momentumPlus`): `boolean`
 
-Defined in: [samplers/nuts.js:181](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L181)
+Defined in: [samplers/nuts.js:182](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L182)
 
 Check if trajectory is making a U-turn
 
@@ -314,7 +314,7 @@ True if trajectory is making a U-turn
 
 > **leapfrog**(`position`, `momentum`, `stepSize`, `model`): `any`
 
-Defined in: [samplers/nuts.js:81](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L81)
+Defined in: [samplers/nuts.js:82](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L82)
 
 Single leapfrog step
 
@@ -356,7 +356,7 @@ New position and momentum
 
 > **leapfrogStep**(`position`, `momentum`, `startGrad`, `stepSize`, `model`): `object`
 
-Defined in: [samplers/nuts.js:134](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L134)
+Defined in: [samplers/nuts.js:135](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L135)
 
 Single leapfrog step that REUSES the start gradient and computes the
 endpoint gradient and log-probability in one combined pass.
@@ -426,16 +426,14 @@ New position/momentum, the endpoint gradient (to thread onward), and the
 
 ### sample()
 
-> **sample**(`userModel`, `userInitialValues`, `nSamples?`, `nWarmup?`, `thin?`): `any`
+> **sample**(`userModel`, `userInitialValues`, `nSamples?`, `nWarmup?`, `thin?`): `Promise`\<`any`\> \| \{ `acceptanceRate`: `number`; `divergences`: `number`; `divergencesWarmup`: `number`; `nSamples`: `number`; `stepSize`: `any`; `trace`: `any`; \}
 
-Defined in: [samplers/nuts.js:337](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/nuts.js#L337)
+Defined in: [samplers/nuts.js:354](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/nuts.js#L354)
 
-Run NUTS sampling.
-
-The sampling controls may be passed positionally or as a single options
-object. When an options object is supplied as the third argument, the
-`nWarmup` and `thin` positional arguments are ignored in favour of the
-object's fields.
+`sample(model, init, { chains: 4, ... })` runs four chains and returns a
+Promise of `{ trace, byChain, chains, acceptanceRates, seeds, parallel,
+parallelReason }`, pooled and per chain. With one chain, or the positional
+form, it returns the trace synchronously as before.
 
 #### Parameters
 
@@ -449,34 +447,16 @@ object's fields.
 
 ##### nSamples?
 
-`any` = `1000`
-
-Number of samples, or an options object
+`number` = `1000`
 
 ##### nWarmup?
 
 `number` = `500`
 
-Number of warmup samples for step-size adaptation (positional form)
-
 ##### thin?
 
 `number` = `1`
 
-Thinning interval (positional form)
-
 #### Returns
 
-`any`
-
-Trace object with samples and diagnostics
-
-#### Examples
-
-```ts
-nuts.sample(model, { mu: 0 }, 1000, 500, 1)
-```
-
-```ts
-nuts.sample(model, { mu: 0 }, { nSamples: 1000, nWarmup: 500, thin: 1 })
-```
+`Promise`\<`any`\> \| \{ `acceptanceRate`: `number`; `divergences`: `number`; `divergencesWarmup`: `number`; `nSamples`: `number`; `stepSize`: `any`; `trace`: `any`; \}

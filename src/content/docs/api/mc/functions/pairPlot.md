@@ -4,7 +4,7 @@ title: "pairPlot"
 
 > **pairPlot**(`trace`, `variables?`, `options?`): `any`
 
-Defined in: [utils/visualize.js:315](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/utils/visualize.js#L315)
+Defined in: [utils/visualize.js:315](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/utils/visualize.js#L315)
 
 Generate pair plot specification (scatter plot matrix)
 Shows relationships between parameters

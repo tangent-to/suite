@@ -2,9 +2,9 @@
 title: "sub"
 ---
 
-> `const` **sub**: (`aIn`, `bIn`) => [`Var`](../classes/Var.md)
+> `const` **sub**: (`aIn`, `bIn`, ...`rest`) => [`Var`](../classes/Var.md)
 
-Defined in: [ops.js:92](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L92)
+Defined in: [ops.js:195](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L195)
 
 ## Parameters
 
@@ -15,6 +15,10 @@ Defined in: [ops.js:92](https://github.com/tangent-to/grad/blob/5a636acf7613af4e
 ### bIn
 
 `any`
+
+### rest
+
+...`any`[]
 
 ## Returns
 

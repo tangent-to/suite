@@ -2,7 +2,7 @@
 title: "KNNImputer"
 ---
 
-Defined in: [ml/impute.js:434](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L434)
+Defined in: [ml/impute.js:434](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L434)
 
 Imputation using k-Nearest Neighbors
 Compatible with sklearn.impute.KNNImputer
@@ -24,7 +24,7 @@ const X_filled = imputer.transform(X_test);
 
 > **new KNNImputer**(`options?`): `KNNImputer`
 
-Defined in: [ml/impute.js:442](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L442)
+Defined in: [ml/impute.js:442](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L442)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Number of neighbors to use (default: 5)
 
 > **\_columnTypes**: `any`
 
-Defined in: [ml/impute.js:501](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L501)
+Defined in: [ml/impute.js:501](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L501)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [ml/impute.js:501](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/impute.js:458](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L458)
+Defined in: [ml/impute.js:458](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L458)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [ml/impute.js:458](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **\_useGowerDistance**: `boolean`
 
-Defined in: [ml/impute.js:506](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L506)
+Defined in: [ml/impute.js:506](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L506)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [ml/impute.js:506](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **copy**: `boolean`
 
-Defined in: [ml/impute.js:455](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L455)
+Defined in: [ml/impute.js:455](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L455)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [ml/impute.js:455](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **metric**: `Function`
 
-Defined in: [ml/impute.js:454](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L454)
+Defined in: [ml/impute.js:454](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L454)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [ml/impute.js:454](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **n\_neighbors**: `number`
 
-Defined in: [ml/impute.js:452](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L452)
+Defined in: [ml/impute.js:452](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L452)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [ml/impute.js:452](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **nFeatures\_**: `number`
 
-Defined in: [ml/impute.js:457](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L457)
+Defined in: [ml/impute.js:457](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L457)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [ml/impute.js:457](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **weights**: `string`
 
-Defined in: [ml/impute.js:453](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L453)
+Defined in: [ml/impute.js:453](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L453)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: [ml/impute.js:453](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **X\_**: `any`[]
 
-Defined in: [ml/impute.js:456](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L456)
+Defined in: [ml/impute.js:456](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L456)
 
 ## Methods
 
@@ -136,7 +136,7 @@ Defined in: [ml/impute.js:456](https://github.com/tangent-to/ds/blob/f03994f48e9
 
 > **\_euclideanDistance**(`a`, `b`): `number`
 
-Defined in: [ml/impute.js:464](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L464)
+Defined in: [ml/impute.js:464](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L464)
 
 Euclidean distance between two vectors (ignoring missing values)
 
@@ -160,7 +160,7 @@ Euclidean distance between two vectors (ignoring missing values)
 
 > **\_findNeighbors**(`row`, `k`, `excludeIdx?`): `object`[]
 
-Defined in: [ml/impute.js:677](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L677)
+Defined in: [ml/impute.js:677](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L677)
 
 Find k nearest neighbors for a given row
 
@@ -190,7 +190,7 @@ Row index to exclude (-1 for none)
 
 > **fit**(`X`): `KNNImputer`
 
-Defined in: [ml/impute.js:491](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L491)
+Defined in: [ml/impute.js:491](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L491)
 
 Fit the imputer on training data
 
@@ -214,7 +214,7 @@ this
 
 > **fit\_transform**(`X`): `any`[] \| `number`[][]
 
-Defined in: [ml/impute.js:710](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L710)
+Defined in: [ml/impute.js:710](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L710)
 
 Fit and transform in one step
 
@@ -238,7 +238,7 @@ Transformed data
 
 > **transform**(`X`, `exclude_indices?`): `any`[] \| `number`[][]
 
-Defined in: [ml/impute.js:535](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/impute.js#L535)
+Defined in: [ml/impute.js:535](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L535)
 
 Transform data by filling missing values using KNN
 

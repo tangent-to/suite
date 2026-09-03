@@ -2,7 +2,7 @@
 title: "PolynomialFeatures"
 ---
 
-Defined in: [ml/preprocessing.js:598](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L598)
+Defined in: [ml/preprocessing.js:598](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L598)
 
 Generate polynomial and interaction features
 
@@ -12,7 +12,7 @@ Generate polynomial and interaction features
 
 > **new PolynomialFeatures**(`__namedParameters?`): `PolynomialFeatures`
 
-Defined in: [ml/preprocessing.js:599](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L599)
+Defined in: [ml/preprocessing.js:599](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L599)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [ml/preprocessing.js:599](https://github.com/tangent-to/ds/blob/f039
 
 > **\_featurePatterns**: `any`[]
 
-Defined in: [ml/preprocessing.js:604](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L604)
+Defined in: [ml/preprocessing.js:604](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L604)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [ml/preprocessing.js:604](https://github.com/tangent-to/ds/blob/f039
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/preprocessing.js:605](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L605)
+Defined in: [ml/preprocessing.js:605](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L605)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [ml/preprocessing.js:605](https://github.com/tangent-to/ds/blob/f039
 
 > **\_tableNaOmit**: `boolean`
 
-Defined in: [ml/preprocessing.js:606](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L606)
+Defined in: [ml/preprocessing.js:606](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L606)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [ml/preprocessing.js:606](https://github.com/tangent-to/ds/blob/f039
 
 > **degree**: `number`
 
-Defined in: [ml/preprocessing.js:600](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L600)
+Defined in: [ml/preprocessing.js:600](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L600)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [ml/preprocessing.js:600](https://github.com/tangent-to/ds/blob/f039
 
 > **includeBias**: `boolean`
 
-Defined in: [ml/preprocessing.js:601](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L601)
+Defined in: [ml/preprocessing.js:601](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L601)
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: [ml/preprocessing.js:601](https://github.com/tangent-to/ds/blob/f039
 
 > **nInputFeatures**: `any`
 
-Defined in: [ml/preprocessing.js:602](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L602)
+Defined in: [ml/preprocessing.js:602](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L602)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [ml/preprocessing.js:602](https://github.com/tangent-to/ds/blob/f039
 
 > **nOutputFeatures**: `number`
 
-Defined in: [ml/preprocessing.js:603](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L603)
+Defined in: [ml/preprocessing.js:603](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L603)
 
 ## Methods
 
@@ -92,7 +92,7 @@ Defined in: [ml/preprocessing.js:603](https://github.com/tangent-to/ds/blob/f039
 
 > **\_appendDegreePatterns**(`degree`): `void`
 
-Defined in: [ml/preprocessing.js:651](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L651)
+Defined in: [ml/preprocessing.js:651](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L651)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [ml/preprocessing.js:651](https://github.com/tangent-to/ds/blob/f039
 
 > **\_buildFeatureNames**(`columns?`): `string`[]
 
-Defined in: [ml/preprocessing.js:678](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L678)
+Defined in: [ml/preprocessing.js:678](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L678)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: [ml/preprocessing.js:678](https://github.com/tangent-to/ds/blob/f039
 
 > **\_buildFeaturePatterns**(): `void`
 
-Defined in: [ml/preprocessing.js:634](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L634)
+Defined in: [ml/preprocessing.js:634](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L634)
 
 #### Returns
 
@@ -140,7 +140,7 @@ Defined in: [ml/preprocessing.js:634](https://github.com/tangent-to/ds/blob/f039
 
 > **\_evaluatePattern**(`pattern`, `row`): `any`
 
-Defined in: [ml/preprocessing.js:670](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L670)
+Defined in: [ml/preprocessing.js:670](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L670)
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: [ml/preprocessing.js:670](https://github.com/tangent-to/ds/blob/f039
 
 > **\_normalizeInput**(`X`, `__namedParameters?`): \{ `matrix`: `any`[][]; `tableInput`: \{ `naOmit`: `boolean`; `prepared`: \{ `columns`: `any`[]; `encoders`: \{ \}; `n`: `number`; `rows`: `any`[]; `sourceLength`: `number`; `validIndices`: `any`[]; `X`: `any`[][]; \}; \}; \} \| \{ `matrix`: `any`[]; `tableInput`: `any`; \}
 
-Defined in: [ml/preprocessing.js:609](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L609)
+Defined in: [ml/preprocessing.js:609](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L609)
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: [ml/preprocessing.js:609](https://github.com/tangent-to/ds/blob/f039
 
 > **fit**(`X`): `PolynomialFeatures`
 
-Defined in: [ml/preprocessing.js:705](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L705)
+Defined in: [ml/preprocessing.js:705](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L705)
 
 Fit by determining input/output dimensions
 
@@ -218,7 +218,7 @@ this
 
 > **fitTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:779](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L779)
+Defined in: [ml/preprocessing.js:779](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L779)
 
 Fit and transform in one step
 
@@ -242,7 +242,7 @@ Polynomial features
 
 > **transform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:731](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/preprocessing.js#L731)
+Defined in: [ml/preprocessing.js:731](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L731)
 
 Transform to polynomial features
 

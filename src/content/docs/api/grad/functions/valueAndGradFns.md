@@ -2,9 +2,9 @@
 title: "valueAndGradFns"
 ---
 
-> **valueAndGradFns**(`f`): `object`
+> **valueAndGradFns**(`f`, `options?`): `object`
 
-Defined in: [api.js:157](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/api.js#L157)
+Defined in: [api.js:185](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/api.js#L185)
 
 Split an objective into the SEPARATE value and gradient functions that an
 API taking a `(fn, gradFn)` pair expects — `@tangent.to/mc`'s
@@ -27,9 +27,29 @@ it correctly rather than returning a stale gradient.
 
 objective built from this package's ops
 
+### options?
+
+#### compile?
+
+`boolean`
+
+build the tape once and replay it,
+  via [compile](compile.md). Worth an order of magnitude on a sampler, which calls
+  this thousands of times at the same shapes; read `compile`'s constraint
+  before turning it on. Off by default: a static graph is an assumption about
+  your objective, and one this package cannot check for you.
+
 ## Returns
 
 `object`
+
+With `compile: true`, `compiled` is the underlying [compile](compile.md) closure,
+  so its `toJSON()` is reachable: what lets a model send its likelihood to a
+  worker as data.
+
+### compiled?
+
+> `optional` **compiled?**: `Function`
 
 ### gradient
 
@@ -62,6 +82,6 @@ objective built from this package's ops
 ## Example
 
 ```ts
-const { value, gradient } = valueAndGradFns((p) => logLik(p));
+const { value, gradient } = valueAndGradFns((p) => logLik(p), { compile: true });
 model.potential('y', value, gradient);
 ```

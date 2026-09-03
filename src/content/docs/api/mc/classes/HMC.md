@@ -2,7 +2,7 @@
 title: "HMC"
 ---
 
-Defined in: [samplers/hmc-vector.js:22](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L22)
+Defined in: [samplers/hmc-vector.js:24](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L24)
 
 Vector-aware Hamiltonian Monte Carlo.
 
@@ -30,7 +30,7 @@ const { trace } = hmc.sample(model, { slope: 0, intercept: 0, sigma: 1 },
 
 > **new HMC**(`opts?`): `HMC`
 
-Defined in: [samplers/hmc-vector.js:32](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L32)
+Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L34)
 
 Create a vector-aware HMC sampler.
 
@@ -78,7 +78,7 @@ Target acceptance for step-size adaptation.
 
 > **adapt**: `boolean`
 
-Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L36)
+Defined in: [samplers/hmc-vector.js:38](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L38)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/ee
 
 > **nSteps**: `number`
 
-Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L34)
+Defined in: [samplers/hmc-vector.js:36](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L36)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [samplers/hmc-vector.js:34](https://github.com/tangent-to/mc/blob/ee
 
 > **seed**: `number`
 
-Defined in: [samplers/hmc-vector.js:37](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L37)
+Defined in: [samplers/hmc-vector.js:39](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L39)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [samplers/hmc-vector.js:37](https://github.com/tangent-to/mc/blob/ee
 
 > **stepSize**: `number`
 
-Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L33)
+Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L35)
 
 ***
 
@@ -110,71 +110,61 @@ Defined in: [samplers/hmc-vector.js:33](https://github.com/tangent-to/mc/blob/ee
 
 > **targetAccept**: `number`
 
-Defined in: [samplers/hmc-vector.js:35](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L35)
+Defined in: [samplers/hmc-vector.js:37](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L37)
 
 ## Methods
 
-### sample()
+### getParams()
 
-> **sample**(`model`, `initialValues`, `opts?`): `object`
+> **getParams**(): `object`
 
-Defined in: [samplers/hmc-vector.js:53](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L53)
+Defined in: [samplers/hmc-vector.js:56](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L56)
 
-Run a single chain.
-
-#### Parameters
-
-##### model
-
-`Model`
-
-##### initialValues
-
-`any`
-
-{name: number | number[]} starting point.
-
-##### opts?
-
-###### nSamples?
-
-`number` = `1000`
-
-###### nWarmup?
-
-`number` = `500`
-
-###### progress?
-
-`boolean` = `false`
-
-###### thin?
-
-`number` = `1`
+The constructor options, so a worker can rebuild this sampler.
 
 #### Returns
 
 `object`
 
-##### acceptanceRate
+##### adapt
 
-> **acceptanceRate**: `number`
+> **adapt**: `boolean`
 
-##### divergences
+##### nSteps
 
-> **divergences**: `number`
-
-##### specs
-
-> **specs**: `any`[]
+> **nSteps**: `number`
 
 ##### stepSize
 
 > **stepSize**: `number`
 
-##### trace
+##### targetAccept
 
-> **trace**: `any`
+> **targetAccept**: `number`
+
+***
+
+### sample()
+
+> **sample**(`userModel`, `userInitialValues`, `options?`): `Promise`\<`any`\> \| \{ `acceptanceRate`: `number`; `divergences`: `number`; `specs`: `any`; `stepSize`: `number`; `trace`: \{ \}; \}
+
+Defined in: [samplers/hmc-vector.js:60](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L60)
+
+#### Parameters
+
+##### userModel
+
+`any`
+
+##### userInitialValues
+
+`any`
+
+##### options?
+
+#### Returns
+
+`Promise`\<`any`\> \| \{ `acceptanceRate`: `number`; `divergences`: `number`; `specs`: `any`; `stepSize`: `number`; `trace`: \{ \}; \}
 
 ***
 
@@ -182,7 +172,7 @@ Run a single chain.
 
 > **sampleChains**(`model`, `initial`, `opts?`): `any`[]
 
-Defined in: [samplers/hmc-vector.js:196](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/hmc-vector.js#L196)
+Defined in: [samplers/hmc-vector.js:217](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L217)
 
 Run several independent chains (sequentially) from (optionally) jittered
 starting points. Returns an array of single-chain results, ready for

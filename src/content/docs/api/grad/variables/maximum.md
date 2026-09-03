@@ -2,9 +2,9 @@
 title: "maximum"
 ---
 
-> `const` **maximum**: (`aIn`, `bIn`) => [`Var`](../classes/Var.md)
+> `const` **maximum**: (`aIn`, `bIn`, ...`rest`) => [`Var`](../classes/Var.md)
 
-Defined in: [ops.js:121](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L121)
+Defined in: [ops.js:292](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L292)
 
 Elementwise maximum, broadcasting a scalar against anything.
 
@@ -27,6 +27,10 @@ value to reach it.
 ### bIn
 
 `any`
+
+### rest
+
+...`any`[]
 
 ## Returns
 

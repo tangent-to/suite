@@ -2,7 +2,7 @@
 title: "MetropolisHastings"
 ---
 
-Defined in: [samplers/metropolis.js:21](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L21)
+Defined in: [samplers/metropolis.js:22](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L22)
 
 Metropolis-Hastings MCMC sampler
 
@@ -27,7 +27,7 @@ $$
 
 > **new MetropolisHastings**(`proposalStd?`): `MetropolisHastings`
 
-Defined in: [samplers/metropolis.js:33](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L33)
+Defined in: [samplers/metropolis.js:34](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L34)
 
 Accepts either a positional argument or a single options object.
 
@@ -60,7 +60,7 @@ new MetropolisHastings({ proposalStd: 0.5 })
 
 > **proposalStd**: `any`
 
-Defined in: [samplers/metropolis.js:37](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L37)
+Defined in: [samplers/metropolis.js:38](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L38)
 
 ## Methods
 
@@ -68,7 +68,7 @@ Defined in: [samplers/metropolis.js:37](https://github.com/tangent-to/mc/blob/ee
 
 > **getParams**(): `object`
 
-Defined in: [samplers/metropolis.js:44](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L44)
+Defined in: [samplers/metropolis.js:45](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L45)
 
 Get the sampler's configuration.
 
@@ -86,7 +86,7 @@ Get the sampler's configuration.
 
 > **sample**(`model`, `initialValues`, `nSamples?`, `burnIn?`, `thin?`): `any`
 
-Defined in: [samplers/metropolis.js:72](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L72)
+Defined in: [samplers/metropolis.js:73](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L73)
 
 Run Metropolis-Hastings sampling.
 
@@ -149,7 +149,7 @@ mh.sample(model, { mu: 0 }, { nSamples: 1000, burnIn: 500, thin: 1 })
 
 > **tuneProposal**(`currentAcceptanceRate`): `number`
 
-Defined in: [samplers/metropolis.js:153](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/samplers/metropolis.js#L153)
+Defined in: [samplers/metropolis.js:157](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/metropolis.js#L157)
 
 Tune the proposal standard deviation to achieve target acceptance rate
 

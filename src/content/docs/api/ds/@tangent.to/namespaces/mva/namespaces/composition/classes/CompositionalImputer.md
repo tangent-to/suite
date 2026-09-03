@@ -2,7 +2,7 @@
 title: "CompositionalImputer"
 ---
 
-Defined in: [mva/composition.js:519](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L519)
+Defined in: [mva/composition.js:519](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L519)
 
 Fit/transform wrapper around [imputeMissing](../functions/imputeMissing.md) for leakage-free
 cross-validation. `fit()` learns the CLR mean of a training composition
@@ -27,7 +27,7 @@ const testZ  = imp.transform(testComp);  // completed with train-only stats
 
 > **new CompositionalImputer**(`opts?`): `CompositionalImputer`
 
-Defined in: [mva/composition.js:525](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L525)
+Defined in: [mva/composition.js:525](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L525)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ Convergence tolerance for the training fit.
 
 > **D**: `any`
 
-Defined in: [mva/composition.js:553](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L553)
+Defined in: [mva/composition.js:553](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L553)
 
 ***
 
@@ -63,7 +63,7 @@ Defined in: [mva/composition.js:553](https://github.com/tangent-to/ds/blob/f0399
 
 > **fitted**: `boolean`
 
-Defined in: [mva/composition.js:528](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L528)
+Defined in: [mva/composition.js:528](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L528)
 
 ***
 
@@ -71,7 +71,7 @@ Defined in: [mva/composition.js:528](https://github.com/tangent-to/ds/blob/f0399
 
 > **maxIter**: `number`
 
-Defined in: [mva/composition.js:526](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L526)
+Defined in: [mva/composition.js:526](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L526)
 
 ***
 
@@ -79,7 +79,7 @@ Defined in: [mva/composition.js:526](https://github.com/tangent-to/ds/blob/f0399
 
 > **meanClr**: `any`[]
 
-Defined in: [mva/composition.js:552](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L552)
+Defined in: [mva/composition.js:552](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L552)
 
 ***
 
@@ -87,7 +87,7 @@ Defined in: [mva/composition.js:552](https://github.com/tangent-to/ds/blob/f0399
 
 > **tol**: `number`
 
-Defined in: [mva/composition.js:527](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L527)
+Defined in: [mva/composition.js:527](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L527)
 
 ## Methods
 
@@ -95,7 +95,7 @@ Defined in: [mva/composition.js:527](https://github.com/tangent-to/ds/blob/f0399
 
 > **fit**(`mat`): `CompositionalImputer`
 
-Defined in: [mva/composition.js:541](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L541)
+Defined in: [mva/composition.js:541](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L541)
 
 Learn the CLR mean of the (imputed) training composition.
 
@@ -119,7 +119,7 @@ this
 
 > **fitTransform**(`mat`): `number`[][]
 
-Defined in: [mva/composition.js:595](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L595)
+Defined in: [mva/composition.js:595](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L595)
 
 Convenience: fit then transform the same matrix.
 
@@ -143,7 +143,7 @@ Strictly-positive completed composition
 
 > **transform**(`mat`): `number`[][]
 
-Defined in: [mva/composition.js:563](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/mva/composition.js#L563)
+Defined in: [mva/composition.js:563](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L563)
 
 Complete each row of `mat` toward the learned CLR mean.
 

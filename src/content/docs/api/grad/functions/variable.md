@@ -4,7 +4,7 @@ title: "variable"
 
 > **variable**(`x`, `name?`): [`Var`](../classes/Var.md)
 
-Defined in: [tape.js:115](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/tape.js#L115)
+Defined in: [tape.js:138](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L138)
 
 Wrap a value as a leaf of the tape.
 

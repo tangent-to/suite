@@ -4,7 +4,7 @@ title: "cut"
 
 > **cut**(`model`, `k`): `number`[]
 
-Defined in: [ml/hca.js:233](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/hca.js#L233)
+Defined in: [ml/hca.js:233](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/hca.js#L233)
 
 Cut a hierarchical clustering dendrogram into k flat clusters
 

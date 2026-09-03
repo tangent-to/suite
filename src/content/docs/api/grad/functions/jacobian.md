@@ -4,7 +4,7 @@ title: "jacobian"
 
 > **jacobian**(`f`): (`x`) => `number`[][]
 
-Defined in: [api.js:209](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/api.js#L209)
+Defined in: [api.js:250](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/api.js#L250)
 
 Jacobian of a VECTOR-valued function: `J[i][j] = ∂f(x)ᵢ / ∂xⱼ`.
 

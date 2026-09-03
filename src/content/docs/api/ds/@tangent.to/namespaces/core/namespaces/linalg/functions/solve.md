@@ -4,7 +4,7 @@ title: "solve"
 
 > **solve**(`A`, `b`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:175](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/linalg.js#L175)
+Defined in: [core/linalg.js:175](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/linalg.js#L175)
 
 Solve the linear system Ax = b (square A); throws if singular
 

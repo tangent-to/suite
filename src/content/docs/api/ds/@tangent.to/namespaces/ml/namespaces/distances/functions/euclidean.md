@@ -4,7 +4,7 @@ title: "euclidean"
 
 > **euclidean**(`a`, `b`): `number`
 
-Defined in: [ml/distances.js:12](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/distances.js#L12)
+Defined in: [ml/distances.js:12](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/distances.js#L12)
 
 Euclidean distance (L2 norm)
 

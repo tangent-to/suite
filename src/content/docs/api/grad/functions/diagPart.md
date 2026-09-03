@@ -4,7 +4,7 @@ title: "diagPart"
 
 > **diagPart**(`aIn`): `Var`
 
-Defined in: [ops.js:320](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L320)
+Defined in: [ops.js:584](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L584)
 
 Diagonal of a square matrix, as a vector.
 

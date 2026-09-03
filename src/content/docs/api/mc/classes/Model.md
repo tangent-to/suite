@@ -2,7 +2,7 @@
 title: "Model"
 ---
 
-Defined in: [model.js:45](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L45)
+Defined in: [model.js:52](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L52)
 
 Bayesian probabilistic model: a DAG of random variables (priors), observed
 likelihoods, generic [Model#potential](#potential) log-density terms, and named
@@ -15,7 +15,7 @@ and its gradient for the MCMC samplers.
 
 > **new Model**(`name?`): `Model`
 
-Defined in: [model.js:56](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L56)
+Defined in: [model.js:63](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L63)
 
 Accepts either a positional name or a single options object `{ name }`.
 
@@ -47,7 +47,15 @@ new Model({ name: 'linear_regression' })
 
 > **\_transformCache**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:178](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L178)
+Defined in: [model.js:271](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L271)
+
+***
+
+### compiledTerms
+
+> **compiledTerms**: `Map`\<`any`, `any`\>
+
+Defined in: [model.js:75](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L75)
 
 ***
 
@@ -55,7 +63,7 @@ Defined in: [model.js:178](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8
 
 > **deterministics**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:65](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L65)
+Defined in: [model.js:72](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L72)
 
 ***
 
@@ -63,7 +71,15 @@ Defined in: [model.js:65](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **name**: `any`
 
-Defined in: [model.js:60](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L60)
+Defined in: [model.js:67](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L67)
+
+***
+
+### observedTerms
+
+> **observedTerms**: `Map`\<`any`, `any`\>
+
+Defined in: [model.js:79](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L79)
 
 ***
 
@@ -71,7 +87,7 @@ Defined in: [model.js:60](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **observedVars**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:62](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L62)
+Defined in: [model.js:69](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L69)
 
 ***
 
@@ -79,7 +95,7 @@ Defined in: [model.js:62](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **potentialGrads**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:64](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L64)
+Defined in: [model.js:71](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L71)
 
 ***
 
@@ -87,7 +103,7 @@ Defined in: [model.js:64](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **potentials**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:63](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L63)
+Defined in: [model.js:70](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L70)
 
 ***
 
@@ -95,7 +111,7 @@ Defined in: [model.js:63](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **variables**: `Map`\<`any`, `any`\>
 
-Defined in: [model.js:61](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L61)
+Defined in: [model.js:68](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L68)
 
 ## Methods
 
@@ -103,7 +119,7 @@ Defined in: [model.js:61](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c87
 
 > **\_potentialSum**(`params`): `number`
 
-Defined in: [model.js:198](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L198)
+Defined in: [model.js:291](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L291)
 
 Sum of all potential terms at the given parameter values.
 
@@ -121,9 +137,9 @@ Sum of all potential terms at the given parameter values.
 
 ### addVariable()
 
-> **addVariable**(`name`, `distribution`, `observed?`): `Distribution`
+> **addVariable**(`name`, `distribution`, `observed?`): [`Distribution`](Distribution.md)
 
-Defined in: [model.js:176](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L176)
+Defined in: [model.js:269](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L269)
 
 Add a random variable to the model
 
@@ -137,7 +153,7 @@ Name of the variable
 
 ##### distribution
 
-`Distribution`
+[`Distribution`](Distribution.md)
 
 Distribution of the variable
 
@@ -149,7 +165,7 @@ Observed data (optional)
 
 #### Returns
 
-`Distribution`
+[`Distribution`](Distribution.md)
 
 The distribution
 
@@ -157,9 +173,9 @@ The distribution
 
 ### autoPotential()
 
-> **autoPotential**(`name`, `fn`): `Model`
+> **autoPotential**(`name`, `fn`, `options?`): `Model`
 
-Defined in: [model.js:149](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L149)
+Defined in: [model.js:187](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L187)
 
 Register a potential written in `@tangent.to/grad` ops, differentiated
 exactly by reverse-mode autodiff.
@@ -178,6 +194,14 @@ model.autoPotential('y', (v) => {
 });
 ```
 
+`add` and `mul` take any number of operands, which is what keeps a mean
+with several terms readable. JavaScript cannot overload `+`, so this is as
+close as the language gets to PyMC's `mu0 + tau * z + gamma`:
+
+```js
+const mu = add(v.mu0, mul(tau, matmul(Z, v.z)), matmul(C, v.cyc));
+```
+
 Against the finite-difference fallback on a 21-parameter regression with
 300 observations: one likelihood evaluation per gradient instead of 2·P,
 NUTS 7.7× faster end to end, and the same posterior. The gradient matches
@@ -186,6 +210,20 @@ a hand-derived closed form to ~1e-13, where central differences are off by
 
 The value and gradient share one evaluation, so the sampler's
 value-and-gradient path sweeps the data once rather than twice.
+
+The tape is COMPILED by default: built once and replayed at each new set of
+parameters, rather than reconstructed per call. That is worth roughly 6x on
+a real model, and it is safe here because of the contract above. `fn`
+builds an expression out of grad's ops, so its graph is fixed by the way it
+is written; and a sampler holds every parameter's shape constant for the
+length of a run, so nothing can change underneath the plan.
+
+Stepping outside that contract breaks the assumption, and the two ways to
+do it both take deliberate effort: branching on a parameter's numeric value
+by reaching into `.data`, so different draws take different paths through
+`fn`, or closing over data that is mutated while the sampler runs. Neither
+is an expression built from ops, which is why the default is what it is.
+Pass `{ compile: false }` if you need one of them.
 
 #### Parameters
 
@@ -202,6 +240,14 @@ Identifier for the term
 Builds the log-density as a grad
   expression; receives the free variables as grad `Var`s keyed by name
 
+##### options?
+
+###### compile?
+
+`boolean`
+
+reuse the tape across calls
+
 #### Returns
 
 `Model`
@@ -214,14 +260,7 @@ this
 
 > **computeDeterministics**(`trace`): `any`
 
-Defined in: [model.js:529](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L529)
-
-Evaluate registered [Model#deterministic](#deterministic) transforms on each posterior
-draw and append them to the trace as extra columns. Computed post-hoc - they
-do not affect sampling - and the MCMC samplers call this automatically before
-returning their trace. Each `fn(params)` receives a `{name: number}` map of
-the free-variable values for one draw and may return a number or an array
-(legacy tensor-like returns with `arraySync` are read out too).
+Defined in: [model.js:715](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L715)
 
 #### Parameters
 
@@ -229,13 +268,9 @@ the free-variable values for one draw and may return a number or an array
 
 `any`
 
-Trace map `{ name: [...] }` or a `{ trace }` wrapper.
-
 #### Returns
 
 `any`
-
-The same trace, with one column per deterministic.
 
 ***
 
@@ -243,7 +278,7 @@ The same trace, with one column per deterministic.
 
 > **deterministic**(`name`, `fn`): `Model`
 
-Defined in: [model.js:164](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L164)
+Defined in: [model.js:257](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L257)
 
 Register a named deterministic transform of the parameters for recording in
 the trace (computed post-hoc from posterior draws). Deterministics do NOT
@@ -276,7 +311,7 @@ this
 
 > **getFreeVariableNames**(): `string`[]
 
-Defined in: [model.js:508](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L508)
+Defined in: [model.js:601](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L601)
 
 Get list of unobserved variable names
 
@@ -290,9 +325,9 @@ Variable names
 
 ### getVariable()
 
-> **getVariable**(`name`): `Distribution`
+> **getVariable**(`name`): [`Distribution`](Distribution.md)
 
-Defined in: [model.js:193](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L193)
+Defined in: [model.js:286](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L286)
 
 Get a variable from the model
 
@@ -306,7 +341,7 @@ Name of the variable
 
 #### Returns
 
-`Distribution`
+[`Distribution`](Distribution.md)
 
 The distribution
 
@@ -316,7 +351,7 @@ The distribution
 
 > **gradientsOnly**(`params`): `any`
 
-Defined in: [model.js:284](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L284)
+Defined in: [model.js:377](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L377)
 
 Gradient of the joint log-probability WITHOUT its value — exactly
 `logProbAndGradient(params).gradients`, skipping the potential-value pass.
@@ -346,7 +381,7 @@ Parameter values as {name: number|Array} pairs
 
 > **gradientsOnlyUnconstrained**(`uparams`): `any`
 
-Defined in: [model.js:416](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L416)
+Defined in: [model.js:509](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L509)
 
 Gradient only, in unconstrained space — the leapfrog hot path.
 
@@ -368,7 +403,7 @@ Gradient only, in unconstrained space — the leapfrog hot path.
 
 > **hasConstrainedVariables**(): `boolean`
 
-Defined in: [model.js:327](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L327)
+Defined in: [model.js:420](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L420)
 
 Does any free variable have a bounded support?
 
@@ -386,7 +421,7 @@ entirely and behave exactly as it did before this existed.
 
 > **logProb**(`params`): `number`
 
-Defined in: [model.js:211](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L211)
+Defined in: [model.js:304](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L304)
 
 Compute the log probability of the model given parameter values
 
@@ -410,7 +445,7 @@ Log probability (scalar)
 
 > **logProbAndGradient**(`params`): `object`
 
-Defined in: [model.js:245](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L245)
+Defined in: [model.js:338](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L338)
 
 Compute the log probability and its gradient with respect to parameters.
 
@@ -447,7 +482,7 @@ The scalar log probability
 
 > **logProbAndGradientUnconstrained**(`uparams`): `object`
 
-Defined in: [model.js:384](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L384)
+Defined in: [model.js:477](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L477)
 
 Joint log-probability and gradient in UNCONSTRAINED space.
 
@@ -484,11 +519,75 @@ both in unconstrained terms
 
 ***
 
+### observe()
+
+> **observe**(`name`, `factory`, `observed`, `options?`): `Model`
+
+Defined in: [model.js:226](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L226)
+
+Declare an observed random variable: the likelihood, derived from a
+distribution instead of written out.
+
+`factory` receives the free variables as grad `Var`s and returns a
+distribution whose parameters are expressions in them. The term added to
+the model is that distribution's `logDensity` at `observed`, differentiated
+exactly and compiled, so this is [Model#autoPotential](#autopotential) with the
+density supplied by the distribution rather than by you. What that
+removes from a model is everything a PyMC user never writes: the kernel,
+the `-n log sigma`, the normalizing constant.
+
+```js
+const { add, mul } = mc.ops;
+model.addVariable('a', new Normal(0, 5));
+model.addVariable('b', new Normal(0, 5));
+model.addVariable('sigma', new HalfNormal(2));
+model.observe('y', (v) => new Normal(add(v.a, mul(v.b, xData)), v.sigma), yData);
+```
+
+The seven built-in distributions can be observed. A user-defined one
+cannot be differentiated and is refused here; write its term with
+`autoPotential`.
+
+#### Parameters
+
+##### name
+
+`string`
+
+Identifier for the term
+
+##### factory
+
+(`v`) => [`Distribution`](Distribution.md)
+
+Builds the observation
+  distribution from the free variables
+
+##### observed
+
+`number` \| `any`[]
+
+The data
+
+##### options?
+
+`any` = `{}`
+
+As for [Model#autoPotential](#autopotential)
+
+#### Returns
+
+`Model`
+
+this
+
+***
+
 ### potential()
 
 > **potential**(`name`, `fn`, `gradFn?`): `Model`
 
-Defined in: [model.js:110](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L110)
+Defined in: [model.js:124](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L124)
 
 Register a generic log-density term (a "potential" / factor) contributing to
 the joint log-probability. `fn(params)` receives the current free-variable
@@ -558,7 +657,7 @@ this
 
 > **predictPosterior**(`trace`, `predictFn`, `nSamples?`): `any`[]
 
-Defined in: [model.js:561](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L561)
+Defined in: [model.js:747](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L747)
 
 Posterior predictive sampling
 Generate predictions by sampling from the posterior
@@ -595,7 +694,7 @@ Array of predictions from each posterior sample
 
 > **predictPosteriorSummary**(`trace`, `predictFn`, `credibleInterval?`): `any`
 
-Defined in: [model.js:590](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L590)
+Defined in: [model.js:776](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L776)
 
 Compute posterior predictive mean and credible intervals
 
@@ -631,7 +730,7 @@ Credible interval (e.g., 0.95 for 95%)
 
 > **samplePrior**(`nSamples?`): `any`
 
-Defined in: [model.js:492](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L492)
+Defined in: [model.js:585](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L585)
 
 Sample from the prior distributions
 
@@ -651,11 +750,32 @@ Samples as {name: Array} pairs
 
 ***
 
+### serializable()
+
+> **serializable**(): \{ `ok`: `true`; \} \| \{ `ok`: `false`; `reason`: `string`; \}
+
+Defined in: [model.js:634](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L634)
+
+Can this model be written out as data and rebuilt elsewhere?
+
+It can when every variable is one of mc's own distributions, so it
+travels as a class name and parameters, and every potential is a compiled
+grad term, so it travels as a plan. A `potential` written over plain
+numbers is a function and cannot; a user-defined distribution cannot. The
+answer names the first thing that stands in the way, since it is what the
+user would have to change to get parallel chains.
+
+#### Returns
+
+\{ `ok`: `true`; \} \| \{ `ok`: `false`; `reason`: `string`; \}
+
+***
+
 ### summary()
 
 > **summary**(): `string`
 
-Defined in: [model.js:639](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L639)
+Defined in: [model.js:825](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L825)
 
 Create a summary of the model
 
@@ -671,7 +791,7 @@ Model summary
 
 > **toConstrained**(`uparams`): `any`
 
-Defined in: [model.js:358](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L358)
+Defined in: [model.js:451](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L451)
 
 Map unconstrained values back into the model's units.
 
@@ -691,11 +811,41 @@ the same shape, constrained
 
 ***
 
+### toJSON()
+
+> **toJSON**(`at`): `any`
+
+Defined in: [model.js:664](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L664)
+
+The model as data. Every variable as its distribution's class name and
+parameters; every term as a compiled plan; deterministics left out, since
+they run on the trace afterwards and stay on the calling thread.
+
+A plan exists only once its graph has been traced, which needs a point to
+trace at; `at` is that point, in the model's own (constrained)
+parameterization, the same values a sampler is initialized with.
+
+#### Parameters
+
+##### at
+
+`any`
+
+a full set of parameter values
+
+#### Returns
+
+`any`
+
+structured-clonable
+
+***
+
 ### toUnconstrained()
 
 > **toUnconstrained**(`params`): `any`
 
-Defined in: [model.js:341](https://github.com/tangent-to/mc/blob/eecd6fe07ebd8c8796649fd674572b2291118a97/src/model.js#L341)
+Defined in: [model.js:434](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L434)
 
 Map constrained parameter values into the unconstrained space a gradient
 sampler should move through.
@@ -713,3 +863,27 @@ sampler should move through.
 `any`
 
 the same shape, unconstrained
+
+***
+
+### fromJSON()
+
+> `static` **fromJSON**(`json`): `Model`
+
+Defined in: [model.js:698](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/model.js#L698)
+
+Rebuild a model from [Model#toJSON](#tojson)'s output, on any thread.
+
+The terms come back as compiled plans, bound to the shapes they were
+traced at. Deterministics do not travel; add them on the calling side
+and apply them to the trace when the chains return.
+
+#### Parameters
+
+##### json
+
+`any`
+
+#### Returns
+
+`Model`

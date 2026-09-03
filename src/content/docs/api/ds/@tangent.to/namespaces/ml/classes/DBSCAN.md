@@ -2,7 +2,7 @@
 title: "DBSCAN"
 ---
 
-Defined in: [ml/estimators/DBSCAN.js:17](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L17)
+Defined in: [ml/estimators/DBSCAN.js:17](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L17)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ml/estimators/DBSCAN.js:17](https://github.com/tangent-to/ds/blob/f
 
 > **new DBSCAN**(`params?`): `DBSCAN`
 
-Defined in: [ml/estimators/DBSCAN.js:23](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L23)
+Defined in: [ml/estimators/DBSCAN.js:23](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L23)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Minimum number of points to form a dense region (default: 5)
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -72,7 +72,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **coreSampleIndices**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:93](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L93)
+Defined in: [ml/estimators/DBSCAN.js:93](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L93)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [ml/estimators/DBSCAN.js:93](https://github.com/tangent-to/ds/blob/f
 
 > **eps**: `number`
 
-Defined in: [ml/estimators/DBSCAN.js:25](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L25)
+Defined in: [ml/estimators/DBSCAN.js:25](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L25)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [ml/estimators/DBSCAN.js:25](https://github.com/tangent-to/ds/blob/f
 
 > **fitted**: `boolean`
 
-Defined in: [ml/estimators/DBSCAN.js:30](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L30)
+Defined in: [ml/estimators/DBSCAN.js:30](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L30)
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: [ml/estimators/DBSCAN.js:30](https://github.com/tangent-to/ds/blob/f
 
 > **labels**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:90](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L90)
+Defined in: [ml/estimators/DBSCAN.js:90](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L90)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [ml/estimators/DBSCAN.js:90](https://github.com/tangent-to/ds/blob/f
 
 > **minSamples**: `number`
 
-Defined in: [ml/estimators/DBSCAN.js:26](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L26)
+Defined in: [ml/estimators/DBSCAN.js:26](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L26)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: [ml/estimators/DBSCAN.js:26](https://github.com/tangent-to/ds/blob/f
 
 > **model**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:29](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L29)
+Defined in: [ml/estimators/DBSCAN.js:29](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L29)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [ml/estimators/DBSCAN.js:29](https://github.com/tangent-to/ds/blob/f
 
 > **nClusters**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:91](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L91)
+Defined in: [ml/estimators/DBSCAN.js:91](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L91)
 
 ***
 
@@ -132,7 +132,7 @@ Defined in: [ml/estimators/DBSCAN.js:91](https://github.com/tangent-to/ds/blob/f
 
 > **nNoise**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:92](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L92)
+Defined in: [ml/estimators/DBSCAN.js:92](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L92)
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: [ml/estimators/DBSCAN.js:92](https://github.com/tangent-to/ds/blob/f
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -152,7 +152,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **X\_train**: `any`
 
-Defined in: [ml/estimators/DBSCAN.js:31](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L31)
+Defined in: [ml/estimators/DBSCAN.js:31](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L31)
 
 ## Accessors
 
@@ -162,7 +162,7 @@ Defined in: [ml/estimators/DBSCAN.js:31](https://github.com/tangent-to/ds/blob/f
 
 > **get** **components**(): `any`
 
-Defined in: [ml/estimators/DBSCAN.js:147](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L147)
+Defined in: [ml/estimators/DBSCAN.js:147](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L147)
 
 Get components (core samples) - returns array of core sample data points
 
@@ -178,7 +178,7 @@ Get components (core samples) - returns array of core sample data points
 
 > **get** **coreSampleMask**(): `any`[]
 
-Defined in: [ml/estimators/DBSCAN.js:135](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L135)
+Defined in: [ml/estimators/DBSCAN.js:135](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L135)
 
 Get core sample mask (boolean array indicating which samples are core points)
 
@@ -192,7 +192,7 @@ Get core sample mask (boolean array indicating which samples are core points)
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -226,7 +226,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -246,7 +246,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -264,7 +264,7 @@ Clear all warnings
 
 > **fit**(`X`, `opts?`): `DBSCAN`
 
-Defined in: [ml/estimators/DBSCAN.js:48](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L48)
+Defined in: [ml/estimators/DBSCAN.js:48](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L48)
 
 Fit the DBSCAN model.
 
@@ -314,7 +314,7 @@ The fitted estimator (for chaining).
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -334,7 +334,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -352,7 +352,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -372,7 +372,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -392,7 +392,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -420,7 +420,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -438,7 +438,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -456,7 +456,7 @@ Check if model is fitted
 
 > **predict**(`X`): `number`[]
 
-Defined in: [ml/estimators/DBSCAN.js:113](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L113)
+Defined in: [ml/estimators/DBSCAN.js:113](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L113)
 
 Predict cluster labels for new data.
 
@@ -492,7 +492,7 @@ Predicted cluster labels (cluster id >= 0, or -1 for noise) for each sample.
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -512,7 +512,7 @@ JSON representation of the model
 
 > **setParams**(`params?`): `DBSCAN`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -536,7 +536,7 @@ Set parameters (mutates instance).
 
 > **summary**(): `object`
 
-Defined in: [ml/estimators/DBSCAN.js:155](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L155)
+Defined in: [ml/estimators/DBSCAN.js:155](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L155)
 
 Convenience: return summary stats for fitted model
 
@@ -582,7 +582,7 @@ Convenience: return summary stats for fitted model
 
 > **toJSON**(): `object`
 
-Defined in: [ml/estimators/DBSCAN.js:178](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L178)
+Defined in: [ml/estimators/DBSCAN.js:178](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L178)
 
 Serialization helper
 
@@ -620,7 +620,7 @@ Serialization helper
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -638,7 +638,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`obj?`): `DBSCAN`
 
-Defined in: [ml/estimators/DBSCAN.js:188](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/estimators/DBSCAN.js#L188)
+Defined in: [ml/estimators/DBSCAN.js:188](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/DBSCAN.js#L188)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -661,7 +661,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

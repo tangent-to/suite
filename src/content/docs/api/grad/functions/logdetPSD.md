@@ -4,7 +4,7 @@ title: "logdetPSD"
 
 > **logdetPSD**(`aIn`): [`Var`](../classes/Var.md)
 
-Defined in: [linalg.js:169](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/linalg.js#L169)
+Defined in: [linalg.js:177](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/linalg.js#L177)
 
 Log-determinant of a symmetric positive-definite matrix.
 

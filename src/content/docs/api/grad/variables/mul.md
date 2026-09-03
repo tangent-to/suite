@@ -2,20 +2,19 @@
 title: "mul"
 ---
 
-> `const` **mul**: (`aIn`, `bIn`) => [`Var`](../classes/Var.md)
+> `const` **mul**: (...`args`) => `any`
 
-Defined in: [ops.js:93](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L93)
+Defined in: [ops.js:210](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L210)
+
+Product of two or more operands, elementwise, broadcasting a scalar against
+anything.
 
 ## Parameters
 
-### aIn
+### args
 
-`any`
-
-### bIn
-
-`any`
+...`any`[]
 
 ## Returns
 
-[`Var`](../classes/Var.md)
+`any`

@@ -2,15 +2,19 @@
 title: "exp"
 ---
 
-> `const` **exp**: (`aIn`) => [`Var`](../classes/Var.md)
+> `const` **exp**: (`aIn`, ...`rest`) => [`Var`](../classes/Var.md)
 
-Defined in: [ops.js:97](https://github.com/tangent-to/grad/blob/5a636acf7613af4e7113f4cbcc95ee3318ae5698/src/ops.js#L97)
+Defined in: [ops.js:239](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L239)
 
 ## Parameters
 
 ### aIn
 
 `any`
+
+### rest
+
+...`any`[]
 
 ## Returns
 

@@ -4,7 +4,7 @@ title: "recipe"
 
 > **recipe**(`options`): [`Recipe`](../classes/Recipe.md)
 
-Defined in: [ml/recipe.js:71](https://github.com/tangent-to/ds/blob/f03994f48e9c28111fe220ccf64940ed8dbce7ac/src/ml/recipe.js#L71)
+Defined in: [ml/recipe.js:71](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/recipe.js#L71)
 
 Create a preprocessing recipe
 
