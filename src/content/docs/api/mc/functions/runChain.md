@@ -4,7 +4,7 @@ title: "\_\_runChain"
 
 > **\_\_runChain**(`spec`): `object`
 
-Defined in: [parallel.js:138](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/parallel.js#L138)
+Defined in: [parallel.js:138](https://github.com/tangent-to/mc/blob/f38d89de05ced575b3f6ced1ee3aba6345b5d160/src/parallel.js#L138)
 
 Run ONE chain from a serialized spec. Shared by the worker entry and the
 in-process fallback so both paths are byte-for-byte the same computation.

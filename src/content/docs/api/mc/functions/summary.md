@@ -4,7 +4,7 @@ title: "summary"
 
 > **summary**(`chainsOrResults`, `opts?`): `any`[]
 
-Defined in: [samplers/hmc-vector.js:238](https://github.com/tangent-to/mc/blob/479ed802039cc6f55191648284819e2988a24579/src/samplers/hmc-vector.js#L238)
+Defined in: [samplers/hmc-vector.js:238](https://github.com/tangent-to/mc/blob/f38d89de05ced575b3f6ced1ee3aba6345b5d160/src/samplers/hmc-vector.js#L238)
 
 ArviZ-style posterior summary across one or more chains.
 
