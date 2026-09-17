@@ -4,7 +4,7 @@ title: "alr"
 
 > **alr**(`mat`, `denomIdx?`, `handleZeros?`, `delta?`): `any`[] \| `any`[][]
 
-Defined in: [mva/composition.js:217](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/mva/composition.js#L217)
+Defined in: [mva/composition.js:217](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/mva/composition.js#L217)
 
 Additive log-ratio transformation (ALR)
 Uses the last component as the reference denominator

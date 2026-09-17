@@ -4,7 +4,7 @@ title: "approxEqual"
 
 > **approxEqual**(`a`, `b`, `tolerance?`): `boolean`
 
-Defined in: [core/math.js:17](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/math.js#L17)
+Defined in: [core/math.js:17](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/math.js#L17)
 
 Approximate equality comparison for floating point numbers
 

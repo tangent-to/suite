@@ -2,7 +2,7 @@
 title: "GaussianProcessRegressor"
 ---
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:246](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L246)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:246](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L246)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:246](https://github.com/t
 
 > **new GaussianProcessRegressor**(`opts?`): `GaussianProcessRegressor`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:264](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L264)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:264](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L264)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Signal variance (default: 1.0)
 
 > **\_alphaDiag**: `number`[]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:336](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L336)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:336](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L336)
 
 ***
 
@@ -93,7 +93,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:336](https://github.com/t
 
 > **\_alphaVector**: `number`[] \| `number`[][]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:333](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L333)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:333](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L333)
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:333](https://github.com/t
 
 > **\_L**: [`Matrix`](../../core/namespaces/linalg/classes/Matrix.md)
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:332](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L332)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:332](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L332)
 
 ***
 
@@ -109,7 +109,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:332](https://github.com/t
 
 > **\_predictAD**: `object`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:440](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L440)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:440](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L440)
 
 #### meanFn
 
@@ -125,7 +125,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:440](https://github.com/t
 
 > **\_seed**: `any`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:327](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L327)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:327](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L327)
 
 ***
 
@@ -133,7 +133,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:327](https://github.com/t
 
 > **\_state**: `object`
 
-Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L27)
+Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L27)
 
 #### Inherited from
 
@@ -145,7 +145,7 @@ Defined in: [core/estimators/estimator.js:27](https://github.com/tangent-to/ds/b
 
 > **\_warnings**: `any`[]
 
-Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L29)
+Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L29)
 
 #### Inherited from
 
@@ -157,7 +157,7 @@ Defined in: [core/estimators/estimator.js:29](https://github.com/tangent-to/ds/b
 
 > **\_XTrain**: [`Matrix`](../../core/namespaces/linalg/classes/Matrix.md)
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:330](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L330)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:330](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L330)
 
 ***
 
@@ -165,7 +165,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:330](https://github.com/t
 
 > **\_yMean**: `number`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:315](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L315)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:315](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L315)
 
 ***
 
@@ -173,7 +173,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:315](https://github.com/t
 
 > **\_yStd**: `number`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:316](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L316)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:316](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L316)
 
 ***
 
@@ -181,7 +181,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:316](https://github.com/t
 
 > **\_yTrain**: `any`[] \| `number`[]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:331](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L331)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:331](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L331)
 
 ***
 
@@ -189,7 +189,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:331](https://github.com/t
 
 > **alpha**: `number` \| `number`[]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:307](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L307)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:307](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L307)
 
 ***
 
@@ -197,7 +197,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:307](https://github.com/t
 
 > **fitted**: `boolean`
 
-Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L25)
+Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L25)
 
 #### Inherited from
 
@@ -209,7 +209,7 @@ Defined in: [core/estimators/estimator.js:25](https://github.com/tangent-to/ds/b
 
 > **kernel**: [`RBF`](RBF.md) \| [`Kernel`](Kernel.md) \| [`Periodic`](Periodic.md) \| [`RationalQuadratic`](RationalQuadratic.md) \| [`Matern`](Matern.md) \| [`ConstantKernel`](ConstantKernel.md)
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:269](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L269)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:269](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L269)
 
 ***
 
@@ -217,7 +217,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:269](https://github.com/t
 
 > **logMarginalLikelihood\_**: `number`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:337](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L337)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:337](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L337)
 
 ***
 
@@ -225,7 +225,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:337](https://github.com/t
 
 > **normalizeY**: `any`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:314](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L314)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:314](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L314)
 
 ***
 
@@ -233,7 +233,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:314](https://github.com/t
 
 > **nRestarts**: `any`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:326](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L326)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:326](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L326)
 
 ***
 
@@ -241,7 +241,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:326](https://github.com/t
 
 > **optimize**: `boolean`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:323](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L323)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:323](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L323)
 
 ***
 
@@ -249,7 +249,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:323](https://github.com/t
 
 > **params**: `any`
 
-Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L24)
+Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L24)
 
 #### Inherited from
 
@@ -261,7 +261,7 @@ Defined in: [core/estimators/estimator.js:24](https://github.com/tangent-to/ds/b
 
 > **\_computePosteriorCovariance**(`XTest`, `KStar`): `object`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:974](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L974)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:974](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L974)
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: [ml/estimators/GaussianProcessRegressor.js:974](https://github.com/t
 
 > **\_prepareArgsForFit**(`args?`): \{ `columns?`: `undefined`; `columnsX`: `any`[]; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y`: `any`[]; \} \| \{ `columns`: `any`[]; `columnsX?`: `undefined`; `prepared`: `boolean`; `raw?`: `undefined`; `rows`: `any`[]; `X`: `any`[][]; `y?`: `undefined`; \} \| \{ `columns?`: `undefined`; `columnsX?`: `undefined`; `prepared?`: `undefined`; `raw`: `any`[]; `rows?`: `undefined`; `X?`: `undefined`; `y?`: `undefined`; \}
 
-Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L367)
+Defined in: [core/estimators/estimator.js:367](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L367)
 
 Convenience helper: parse arguments passed to fit/predict/transform.
 
@@ -325,7 +325,7 @@ it does not perform encoding of categorical predictors.
 
 > **\_r2**(`yTrue`, `yPred`): `number`
 
-Defined in: [core/estimators/estimator.js:489](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L489)
+Defined in: [core/estimators/estimator.js:489](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L489)
 
 #### Parameters
 
@@ -351,7 +351,7 @@ Defined in: [core/estimators/estimator.js:489](https://github.com/tangent-to/ds/
 
 > **\_repr\_html\_**(): `string`
 
-Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L201)
+Defined in: [core/estimators/estimator.js:201](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L201)
 
 Observable/Jupyter HTML representation
 
@@ -371,7 +371,7 @@ HTML representation
 
 > **clearWarnings**(): `void`
 
-Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L139)
+Defined in: [core/estimators/estimator.js:139](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L139)
 
 Clear all warnings
 
@@ -389,7 +389,7 @@ Clear all warnings
 
 > **fit**(`X`, `y?`, `opts?`): `GaussianProcessRegressor`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:356](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L356)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:356](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L356)
 
 Fit the GP to training data
 
@@ -441,7 +441,7 @@ The fitted estimator (for chaining)
 
 > **getMemoryUsage**(): `string`
 
-Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L97)
+Defined in: [core/estimators/estimator.js:97](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L97)
 
 Get memory usage in human-readable format
 
@@ -461,7 +461,7 @@ Memory usage string (e.g., "2.3 MB" or "145 KB")
 
 > **getParams**(): `any`
 
-Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L294)
+Defined in: [core/estimators/estimator.js:294](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L294)
 
 Get a shallow copy of parameters.
 
@@ -479,7 +479,7 @@ Get a shallow copy of parameters.
 
 > **getState**(): `any`
 
-Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L65)
+Defined in: [core/estimators/estimator.js:65](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L65)
 
 Get comprehensive model state
 
@@ -499,7 +499,7 @@ State information including fitted status, memory estimate, warnings
 
 > **getWarnings**(): `any`[]
 
-Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L124)
+Defined in: [core/estimators/estimator.js:124](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L124)
 
 Get all warnings
 
@@ -519,7 +519,7 @@ Array of warning objects
 
 > **getWarningsByType**(`type`): `any`[]
 
-Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L148)
+Defined in: [core/estimators/estimator.js:148](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L148)
 
 Get warnings of a specific type
 
@@ -547,7 +547,7 @@ Filtered warnings
 
 > **hasWarnings**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L132)
+Defined in: [core/estimators/estimator.js:132](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L132)
 
 Check if model has warnings
 
@@ -565,7 +565,7 @@ Check if model has warnings
 
 > **isFitted**(): `boolean`
 
-Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L36)
+Defined in: [core/estimators/estimator.js:36](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L36)
 
 Check if model is fitted
 
@@ -583,7 +583,7 @@ Check if model is fitted
 
 > **logMarginalLikelihood**(): `number`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:457](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L457)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:457](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L457)
 
 Log marginal likelihood of the training data under the current
 hyperparameters: log p(y|X) = -½ yᵀK⁻¹y - ½ log|K| - n/2 log(2π).
@@ -599,7 +599,7 @@ Requires the model to have seen training data (via fit).
 
 > **predict**(`X`, `opts?`): `number`[] \| \{ `covariance?`: `number`[][]; `mean`: `number`[]; `std?`: `number`[]; \}
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:787](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L787)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:787](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L787)
 
 Predict at test points
 
@@ -643,7 +643,7 @@ Predicted means, or an object with mean and std/covariance when requested
 
 > **predictGradient**(`x`): `object`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:849](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L849)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:849](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L849)
 
 The predictive mean and standard deviation at ONE input, with their
 gradients with respect to that input.
@@ -695,7 +695,7 @@ one input, length d
 
 > **sample**(`X`, `nSamples?`, `seed?`): `any`[][]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:886](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L886)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:886](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L886)
 
 Sample from the posterior distribution
 
@@ -731,7 +731,7 @@ Array of samples
 
 > **samplePrior**(`X`, `nSamples?`, `seed?`): `any`[][]
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:923](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L923)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:923](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L923)
 
 Sample from the prior (unfitted GP)
 
@@ -767,7 +767,7 @@ Array of samples
 
 > **save**(): `string`
 
-Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L329)
+Defined in: [core/estimators/estimator.js:329](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L329)
 
 Save model to JSON string
 
@@ -787,7 +787,7 @@ JSON representation of the model
 
 > **score**(`yTrueOrOpts`, `yPred`, `_opts?`, ...`args?`): `number`
 
-Defined in: [core/estimators/estimator.js:461](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L461)
+Defined in: [core/estimators/estimator.js:461](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L461)
 
 Default R^2 scoring implementation:
   1 - SS_res / SS_tot
@@ -826,7 +826,7 @@ Accepts either:
 
 > **setParams**(`params?`): `GaussianProcessRegressor`
 
-Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L285)
+Defined in: [core/estimators/estimator.js:285](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L285)
 
 Set parameters (mutates instance).
 
@@ -850,7 +850,7 @@ Set parameters (mutates instance).
 
 > **toJSON**(): `object`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:1037](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L1037)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:1037](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L1037)
 
 Serialize minimal model metadata.
 Subclasses may override to include learned parameters.
@@ -921,7 +921,7 @@ Subclasses may override to include learned parameters.
 
 > **transform**(): `void`
 
-Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L431)
+Defined in: [core/estimators/estimator.js:431](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L431)
 
 Transform should be implemented by transformers.
 
@@ -939,7 +939,7 @@ Transform should be implemented by transformers.
 
 > `static` **fromJSON**(`json`): `GaussianProcessRegressor`
 
-Defined in: [ml/estimators/GaussianProcessRegressor.js:1058](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/estimators/GaussianProcessRegressor.js#L1058)
+Defined in: [ml/estimators/GaussianProcessRegressor.js:1058](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/estimators/GaussianProcessRegressor.js#L1058)
 
 Basic deserialization. Subclasses should override if they need
 to restore learned arrays / matrices.
@@ -964,7 +964,7 @@ to restore learned arrays / matrices.
 
 > `static` **load**(`jsonString`): `Estimator`
 
-Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/estimators/estimator.js#L346)
+Defined in: [core/estimators/estimator.js:346](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/estimators/estimator.js#L346)
 
 Load model from JSON string
 

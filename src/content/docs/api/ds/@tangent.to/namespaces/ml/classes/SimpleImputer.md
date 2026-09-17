@@ -2,7 +2,7 @@
 title: "SimpleImputer"
 ---
 
-Defined in: [ml/impute.js:148](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L148)
+Defined in: [ml/impute.js:148](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L148)
 
 Simple imputation strategies for missing values
 Compatible with sklearn.impute.SimpleImputer
@@ -21,7 +21,7 @@ const X_filled = imputer.transform(X_test);
 
 > **new SimpleImputer**(`options?`): `SimpleImputer`
 
-Defined in: [ml/impute.js:155](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L155)
+Defined in: [ml/impute.js:155](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L155)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ Value to use for 'constant' strategy
 
 > **\_groupModels**: `Map`\<`any`, `any`\>
 
-Defined in: [ml/impute.js:175](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L175)
+Defined in: [ml/impute.js:175](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L175)
 
 ***
 
@@ -63,7 +63,7 @@ Defined in: [ml/impute.js:175](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **\_originalData**: `any`
 
-Defined in: [ml/impute.js:176](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L176)
+Defined in: [ml/impute.js:176](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L176)
 
 ***
 
@@ -71,7 +71,7 @@ Defined in: [ml/impute.js:176](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **\_tableColumns**: `any`
 
-Defined in: [ml/impute.js:174](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L174)
+Defined in: [ml/impute.js:174](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L174)
 
 ***
 
@@ -79,7 +79,7 @@ Defined in: [ml/impute.js:174](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **copy**: `boolean`
 
-Defined in: [ml/impute.js:171](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L171)
+Defined in: [ml/impute.js:171](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L171)
 
 ***
 
@@ -87,7 +87,7 @@ Defined in: [ml/impute.js:171](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **fill\_value**: `string` \| `number`
 
-Defined in: [ml/impute.js:170](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L170)
+Defined in: [ml/impute.js:170](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L170)
 
 ***
 
@@ -95,7 +95,7 @@ Defined in: [ml/impute.js:170](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **nFeatures\_**: `number`
 
-Defined in: [ml/impute.js:173](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L173)
+Defined in: [ml/impute.js:173](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L173)
 
 ***
 
@@ -103,7 +103,7 @@ Defined in: [ml/impute.js:173](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **statistics\_**: `any`[]
 
-Defined in: [ml/impute.js:172](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L172)
+Defined in: [ml/impute.js:172](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L172)
 
 ***
 
@@ -111,7 +111,7 @@ Defined in: [ml/impute.js:172](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **strategy**: `string`
 
-Defined in: [ml/impute.js:169](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L169)
+Defined in: [ml/impute.js:169](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L169)
 
 ## Methods
 
@@ -119,7 +119,7 @@ Defined in: [ml/impute.js:169](https://github.com/tangent-to/ds/blob/6e21a5270fa
 
 > **\_fitSingleModel**(`X`): `any`
 
-Defined in: [ml/impute.js:262](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L262)
+Defined in: [ml/impute.js:262](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L262)
 
 Internal method to fit a single imputation model
 
@@ -143,7 +143,7 @@ Model statistics
 
 > **\_transformWithModel**(`X`, `statistics`): `number`[][]
 
-Defined in: [ml/impute.js:394](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L394)
+Defined in: [ml/impute.js:394](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L394)
 
 Internal method to transform data with specific statistics
 
@@ -173,7 +173,7 @@ Transformed data
 
 > **fit**(`X`): `SimpleImputer`
 
-Defined in: [ml/impute.js:184](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L184)
+Defined in: [ml/impute.js:184](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L184)
 
 Fit the imputer on training data
 
@@ -197,7 +197,7 @@ this
 
 > **fit\_transform**(`X`): `number`[][]
 
-Defined in: [ml/impute.js:415](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L415)
+Defined in: [ml/impute.js:415](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L415)
 
 Fit and transform in one step
 
@@ -221,7 +221,7 @@ Transformed data
 
 > **transform**(`X`): `any`[] \| `number`[][]
 
-Defined in: [ml/impute.js:311](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/impute.js#L311)
+Defined in: [ml/impute.js:311](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/impute.js#L311)
 
 Transform data by filling missing values
 

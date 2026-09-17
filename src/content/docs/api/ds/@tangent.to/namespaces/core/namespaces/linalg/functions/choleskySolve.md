@@ -4,7 +4,7 @@ title: "choleskySolve"
 
 > **choleskySolve**(`L`, `b`): `number`[] \| `number`[][]
 
-Defined in: [core/linalg.js:198](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/linalg.js#L198)
+Defined in: [core/linalg.js:198](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/linalg.js#L198)
 
 Solve A x = b (or A X = B) from the Cholesky factor L of A, by forward then
 back substitution. Passing every right-hand side at once is much cheaper

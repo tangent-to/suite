@@ -2,7 +2,7 @@
 title: "StandardScaler"
 ---
 
-Defined in: [ml/preprocessing.js:43](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L43)
+Defined in: [ml/preprocessing.js:43](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L43)
 
 Standardize features by removing mean and scaling to unit variance
 
@@ -12,7 +12,7 @@ Standardize features by removing mean and scaling to unit variance
 
 > **new StandardScaler**(): `StandardScaler`
 
-Defined in: [ml/preprocessing.js:44](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L44)
+Defined in: [ml/preprocessing.js:44](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L44)
 
 #### Returns
 
@@ -24,7 +24,7 @@ Defined in: [ml/preprocessing.js:44](https://github.com/tangent-to/ds/blob/6e21a
 
 > **\_tableColumns**: `any`[]
 
-Defined in: [ml/preprocessing.js:48](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L48)
+Defined in: [ml/preprocessing.js:48](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L48)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [ml/preprocessing.js:48](https://github.com/tangent-to/ds/blob/6e21a
 
 > **\_tableNaOmit**: `boolean`
 
-Defined in: [ml/preprocessing.js:49](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L49)
+Defined in: [ml/preprocessing.js:49](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L49)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [ml/preprocessing.js:49](https://github.com/tangent-to/ds/blob/6e21a
 
 > **means**: `any`[]
 
-Defined in: [ml/preprocessing.js:45](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L45)
+Defined in: [ml/preprocessing.js:45](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L45)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [ml/preprocessing.js:45](https://github.com/tangent-to/ds/blob/6e21a
 
 > **nFeatures**: `any`
 
-Defined in: [ml/preprocessing.js:47](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L47)
+Defined in: [ml/preprocessing.js:47](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L47)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [ml/preprocessing.js:47](https://github.com/tangent-to/ds/blob/6e21a
 
 > **stds**: `any`[]
 
-Defined in: [ml/preprocessing.js:46](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L46)
+Defined in: [ml/preprocessing.js:46](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L46)
 
 ## Methods
 
@@ -64,7 +64,7 @@ Defined in: [ml/preprocessing.js:46](https://github.com/tangent-to/ds/blob/6e21a
 
 > **fit**(`X`): `StandardScaler`
 
-Defined in: [ml/preprocessing.js:57](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L57)
+Defined in: [ml/preprocessing.js:57](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L57)
 
 Compute mean and standard deviation
 
@@ -88,7 +88,7 @@ this
 
 > **fitTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:147](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L147)
+Defined in: [ml/preprocessing.js:147](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L147)
 
 Fit and transform in one step
 
@@ -112,7 +112,7 @@ Scaled features
 
 > **inverseTransform**(`X`): `number`[][]
 
-Defined in: [ml/preprocessing.js:156](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L156)
+Defined in: [ml/preprocessing.js:156](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L156)
 
 Inverse transform (unscale)
 
@@ -136,7 +136,7 @@ Original scale features
 
 > **transform**(`X`): `any`
 
-Defined in: [ml/preprocessing.js:88](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L88)
+Defined in: [ml/preprocessing.js:88](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L88)
 
 Standardize features
 

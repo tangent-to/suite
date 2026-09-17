@@ -4,7 +4,7 @@ title: "parseFormula"
 
 > **parseFormula**(`formula`, `_data?`): `any`
 
-Defined in: [core/formula.js:19](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/core/formula.js#L19)
+Defined in: [core/formula.js:19](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/formula.js#L19)
 
 Parse an R-style formula string
 

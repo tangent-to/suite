@@ -4,7 +4,7 @@ title: "fisherExactTest"
 
 > **fisherExactTest**(`table`, `options?`): `any`
 
-Defined in: [stats/tests.js:838](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/stats/tests.js#L838)
+Defined in: [stats/tests.js:838](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/stats/tests.js#L838)
 
 Fisher's exact test for 2x2 contingency tables
 

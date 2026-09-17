@@ -13,6 +13,7 @@ title: "math"
 ## Functions
 
 - [approxEqual](functions/approxEqual.md)
+- [extent](functions/extent.md)
 - [guardFinite](functions/guardFinite.md)
 - [guardPositive](functions/guardPositive.md)
 - [guardProbability](functions/guardProbability.md)

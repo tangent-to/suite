@@ -4,7 +4,7 @@ title: "preprocessCategorical"
 
 > `const` **preprocessCategorical**: (`options`) => `any` = `preprocess`
 
-Defined in: [ml/preprocessing.js:1141](https://github.com/tangent-to/ds/blob/6e21a5270fa50d9c6d6c92270cea025b02e6d754/src/ml/preprocessing.js#L1141)
+Defined in: [ml/preprocessing.js:1141](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/preprocessing.js#L1141)
 
 Declarative preprocessing pipeline for tabular data
 Handles numeric parsing, data validation, and categorical encoding in one step
