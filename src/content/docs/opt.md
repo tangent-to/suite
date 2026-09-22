@@ -26,7 +26,7 @@ Run the example notebook
 
 ## Minimization
 
-The declarative entry point takes a single spec object and dispatches by method. L-BFGS is the default for smooth problems; Nelder-Mead needs no gradient.
+The declarative entry point takes a single spec object and dispatches by method. L-BFGS is the default for smooth problems; Nelder-Mead needs no gradient. An objective may return a number, `{ loss, gradient }`, or `{ value, gradient }` as [grad](/grad/)'s `valueAndGrad` and `compile` do, so one of those is an objective as it stands.
 
 | Signature | Description |
 | --- | --- |
@@ -35,6 +35,7 @@ The declarative entry point takes a single spec object and dispatches by method.
 | `nelderMead(f, x0, options?)` | Derivative-free downhill simplex. |
 | `gradientDescent(f, x0, options?)` | Gradient descent with optional backtracking line search. |
 | `adam(f, x0, options?)` | Adam, for stochastic or noisy objectives. |
+| `adamStep(x, gradient, state, options)` | One Adam update in place, for a loop that owns its own sampling; `state` is created on the first call. Also `gradientStep`, `momentumStep`, `rmspropStep`. The drivers above are built from these. |
 | `methods()` | List the available method names. |
 
 ## Scalar problems

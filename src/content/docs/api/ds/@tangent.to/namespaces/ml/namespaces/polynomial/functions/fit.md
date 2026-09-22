@@ -4,7 +4,7 @@ title: "fit"
 
 > **fit**(`X`, `y`, `options?`): `any`
 
-Defined in: [ml/polynomial.js:75](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/polynomial.js#L75)
+Defined in: [ml/polynomial.js:75](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/polynomial.js#L75)
 
 Fit polynomial regression model
 

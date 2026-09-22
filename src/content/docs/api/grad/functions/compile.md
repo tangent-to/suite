@@ -2,9 +2,9 @@
 title: "compile"
 ---
 
-> **compile**(`f`): (`x`) => `object`
+> **compile**(`f`): (`x`, `inputs?`) => `object`
 
-Defined in: [api.js:424](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/api.js#L424)
+Defined in: [api.js:532](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/api.js#L532)
 
 Like [valueAndGrad](valueAndGrad.md), but the tape is built once and replayed.
 
@@ -29,24 +29,40 @@ A branch INSIDE an op is fine, and is the reason `relu` and `maximum` exist:
 the kernel picks a side per element, while the graph stays put. If your
 objective needs a genuine structural branch, use `valueAndGrad`.
 
-A change in a parameter's SHAPE is detected and rebuilds the plan, so
-varying dimensions cost a rebuild rather than a wrong answer.
+Data that changes between calls is not a constant: pass it as INPUTS, the
+second argument. The plan writes new inputs into its leaves exactly as it
+writes new parameters, and reads no gradient from them. A mini-batch, a
+dropout mask, a per-fit coefficient all go this way.
+
+A change in a parameter's or an input's SHAPE builds another plan, and the
+plans are kept by shape (a handful of them), so a loop that alternates a
+full batch and a partial last batch pays for each shape once.
 
 ## Parameters
 
 ### f
 
-(`x`) => [`Var`](../classes/Var.md)
+(`x`, `inputs?`) => [`Var`](../classes/Var.md)
 
 objective, as for [valueAndGrad](valueAndGrad.md)
 
 ## Returns
 
-(`x`) => `object`
+with `.value(x, inputs)`, the forward replay alone, which returns the
+  root's value and may be a vector or a matrix; and `.toJSON()`, the plan as
+  data.
 
-## Example
+(`x`, `inputs?`) => `object`
+
+## Examples
 
 ```ts
 const vg = compile((p) => negLogLik(p));
 for (const p of chain) vg(p);   // one graph, many evaluations
+```
+
+```ts
+const step = compile((p, d) => loss(net(p, d.X), d.y));
+for (const [X, y] of batches) update(p, step(p, { X, y }).gradient);
+step.value(p, { X: Xval, y: yval });   // the validation loss, no backward sweep
 ```

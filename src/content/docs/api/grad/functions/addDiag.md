@@ -4,7 +4,7 @@ title: "addDiag"
 
 > **addDiag**(`aIn`, `alphaIn`): `Var`
 
-Defined in: [ops.js:620](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L620)
+Defined in: [ops.js:664](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/ops.js#L664)
 
 Add a constant to the diagonal of a square matrix — the jitter/noise idiom
 (`K + αI`) that every Gaussian-process likelihood opens with. Differentiable

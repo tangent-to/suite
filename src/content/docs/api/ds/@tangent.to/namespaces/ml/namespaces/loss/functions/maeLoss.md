@@ -2,9 +2,9 @@
 title: "maeLoss"
 ---
 
-> **maeLoss**(`yTrue`, `yPred`): `any`
+> **maeLoss**(`yTrue`, `yPred`): `number`
 
-Defined in: [ml/loss.js:38](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/loss.js#L38)
+Defined in: [ml/loss.js:33](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/loss.js#L33)
 
 Mean Absolute Error Loss
 
@@ -24,6 +24,4 @@ Predicted values
 
 ## Returns
 
-`any`
-
-{loss, gradient}
+`number`

@@ -4,7 +4,7 @@ title: "momentumDescent"
 
 > **momentumDescent**(`f`, `x0`, `options?`): `any`
 
-Defined in: [gradient.js:158](https://github.com/tangent-to/opt/blob/92f11b3aa26804ff0465d67f82f3eea22cefd937/src/gradient.js#L158)
+Defined in: [gradient.js:156](https://github.com/tangent-to/opt/blob/2c60d687aa9d4aa31542bf370be075cafa422b5c/src/gradient.js#L156)
 
 Gradient descent with momentum.
 

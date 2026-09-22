@@ -4,7 +4,7 @@ title: "hypothesis"
 
 > `const` **hypothesis**: `object`
 
-Defined in: [stats/index.js:101](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/stats/index.js#L101)
+Defined in: [stats/index.js:101](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/stats/index.js#L101)
 
 Functional hypothesis-test helpers grouped under a single namespace for
 direct (non-estimator) usage. Each property is the functional form of the

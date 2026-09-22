@@ -4,7 +4,7 @@ title: "ordiplot"
 
 > **ordiplot**(`result`, `options?`): `any`
 
-Defined in: [plot/ordiplot.js:79](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/plot/ordiplot.js#L79)
+Defined in: [plot/ordiplot.js:79](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/ordiplot.js#L79)
 
 Generate unified ordination plot configuration
 Works with PCA, LDA, and RDA results

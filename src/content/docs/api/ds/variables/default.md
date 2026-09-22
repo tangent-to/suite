@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:24](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/index.js#L24)
+Defined in: [index.js:24](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/index.js#L24)
 
 Default export bundling every namespace (core, stats, ml, mva, plot) under
 one object for convenient single-import usage.

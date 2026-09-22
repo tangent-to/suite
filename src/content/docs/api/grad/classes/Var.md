@@ -2,7 +2,7 @@
 title: "Var"
 ---
 
-Defined in: [tape.js:18](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L18)
+Defined in: [tape.js:18](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L18)
 
 A node in the computation graph.
 
@@ -12,7 +12,7 @@ A node in the computation graph.
 
 > **new Var**(`value`, `parents?`, `backward?`, `recompute?`, `spec?`): `Var`
 
-Defined in: [tape.js:31](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L31)
+Defined in: [tape.js:31](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L31)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ recompute this node's forward
 
 > **\_backward**: (`g`) => `Float64Array`\<`ArrayBufferLike`\>[]
 
-Defined in: [tape.js:34](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L34)
+Defined in: [tape.js:34](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L34)
 
 #### Parameters
 
@@ -78,7 +78,7 @@ Defined in: [tape.js:34](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **\_recompute**: () => `void`
 
-Defined in: [tape.js:35](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L35)
+Defined in: [tape.js:35](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L35)
 
 #### Returns
 
@@ -90,7 +90,7 @@ Defined in: [tape.js:35](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **grad**: `Float64Array`\<`ArrayBufferLike`\>
 
-Defined in: [tape.js:44](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L44)
+Defined in: [tape.js:44](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L44)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [tape.js:44](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **parents**: `Var`[]
 
-Defined in: [tape.js:33](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L33)
+Defined in: [tape.js:33](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L33)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [tape.js:33](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **spec**: `object`
 
-Defined in: [tape.js:42](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L42)
+Defined in: [tape.js:42](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L42)
 
 How to rebuild this node from its parents: the op's exported name and
 its static (non-Var) arguments. What lets a compiled plan be written
@@ -130,7 +130,7 @@ out as data and rebuilt elsewhere. Null on a leaf.
 
 > **value**: `Tensor`
 
-Defined in: [tape.js:32](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L32)
+Defined in: [tape.js:32](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L32)
 
 ## Accessors
 
@@ -140,7 +140,7 @@ Defined in: [tape.js:32](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **get** **data**(): `Float64Array`\<`ArrayBufferLike`\>
 
-Defined in: [tape.js:51](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L51)
+Defined in: [tape.js:51](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L51)
 
 ##### Returns
 
@@ -154,7 +154,7 @@ Defined in: [tape.js:51](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **get** **isScalar**(): `boolean`
 
-Defined in: [tape.js:56](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L56)
+Defined in: [tape.js:56](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L56)
 
 True for a rank-0 node, the only kind `backward()` can seed on its own.
 
@@ -170,7 +170,7 @@ True for a rank-0 node, the only kind `backward()` can seed on its own.
 
 > **get** **shape**(): `number`[]
 
-Defined in: [tape.js:47](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L47)
+Defined in: [tape.js:47](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L47)
 
 ##### Returns
 
@@ -182,7 +182,7 @@ Defined in: [tape.js:47](https://github.com/tangent-to/grad/blob/26e3c3d68f4be69
 
 > **backward**(`seed?`): `Var`
 
-Defined in: [tape.js:67](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/tape.js#L67)
+Defined in: [tape.js:67](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/tape.js#L67)
 
 Accumulate gradients through the graph, from this node backwards.
 

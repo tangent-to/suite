@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:45](https://github.com/tangent-to/opt/blob/92f11b3aa26804ff0465d67f82f3eea22cefd937/src/index.js#L45)
+Defined in: [index.js:47](https://github.com/tangent-to/opt/blob/2c60d687aa9d4aa31542bf370be075cafa422b5c/src/index.js#L47)
 
 ## Type Declaration
 
@@ -43,6 +43,60 @@ Initial parameters
 ### AdamOptimizer
 
 > **AdamOptimizer**: *typeof* [`AdamOptimizer`](../classes/AdamOptimizer.md)
+
+### adamStep
+
+> **adamStep**: (`x`, `gradient`, `state?`, `options?`) => `object`
+
+Adam (Kingma and Ba, 2015): bias-corrected first and second moments. The
+step count lives in the state, so bias correction is right however many
+tensors share one options object.
+
+#### Parameters
+
+##### x
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+moved in place
+
+##### gradient
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+##### state?
+
+###### m
+
+`Float64Array`
+
+###### t
+
+`number`
+
+###### v
+
+`Float64Array`
+
+##### options?
+
+`StepOptions` & `object` = `{}`
+
+#### Returns
+
+`object`
+
+##### m
+
+> **m**: `Float64Array`
+
+##### t
+
+> **t**: `number`
+
+##### v
+
+> **v**: `Float64Array`
 
 ### createOptimizer
 
@@ -152,6 +206,37 @@ Initial parameters
 ### GradientDescent
 
 > **GradientDescent**: *typeof* [`GradientDescent`](../classes/GradientDescent.md)
+
+### gradientStep
+
+> **gradientStep**: (`x`, `gradient`, `_state?`, `options?`) => `null`
+
+Plain gradient descent: `x -= lr · g`. Stateless; returns `null` so it has
+the signature of the others.
+
+#### Parameters
+
+##### x
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+moved in place
+
+##### gradient
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+##### \_state?
+
+`null` = `null`
+
+##### options?
+
+`StepOptions` = `{}`
+
+#### Returns
+
+`null`
 
 ### lbfgs
 
@@ -471,6 +556,42 @@ Initial parameters
 
 > **MomentumOptimizer**: *typeof* [`MomentumOptimizer`](../classes/MomentumOptimizer.md)
 
+### momentumStep
+
+> **momentumStep**: (`x`, `gradient`, `state?`, `options?`) => `object`
+
+Gradient descent with momentum: `v = μ v + lr · g; x -= v`.
+
+#### Parameters
+
+##### x
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+moved in place
+
+##### gradient
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+##### state?
+
+###### velocity
+
+`Float64Array`
+
+##### options?
+
+`StepOptions` & `object` = `{}`
+
+#### Returns
+
+`object`
+
+##### velocity
+
+> **velocity**: `Float64Array`
+
 ### nelderMead
 
 > **nelderMead**: (`f`, `x0`, `options?`) => `any`
@@ -697,6 +818,42 @@ Initial parameters
 ### RMSProp
 
 > **RMSProp**: *typeof* [`RMSProp`](../classes/RMSProp.md)
+
+### rmspropStep
+
+> **rmspropStep**: (`x`, `gradient`, `state?`, `options?`) => `object`
+
+RMSProp: a running mean of squared gradients scales each coordinate's step.
+
+#### Parameters
+
+##### x
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+moved in place
+
+##### gradient
+
+`number`[] \| `Float64Array`\<`ArrayBufferLike`\>
+
+##### state?
+
+###### cache
+
+`Float64Array`
+
+##### options?
+
+`StepOptions` & `object` = `{}`
+
+#### Returns
+
+`object`
+
+##### cache
+
+> **cache**: `Float64Array`
 
 ### rootScalar
 

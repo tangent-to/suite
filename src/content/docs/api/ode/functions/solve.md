@@ -4,7 +4,7 @@ title: "solve"
 
 > **solve**(`f`, `tSpan`, `y0`, `options?`): `object`
 
-Defined in: [index.js:33](https://github.com/tangent-to/ode/blob/fa5990adf6915abfe95f8767a2b159eeabde5ff9/src/index.js#L33)
+Defined in: [index.js:33](https://github.com/tangent-to/ode/blob/b92bb1c638a13d812f7a421c836439863942f200/src/index.js#L33)
 
 Solve an initial value problem, dispatching by method name (scipy
 solve_ivp style). Defaults to adaptive RK45.

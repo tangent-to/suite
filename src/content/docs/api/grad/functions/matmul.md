@@ -4,7 +4,7 @@ title: "matmul"
 
 > **matmul**(`aIn`, `bIn`): `Var`
 
-Defined in: [ops.js:470](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L470)
+Defined in: [ops.js:514](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/ops.js#L514)
 
 Matrix product. Accepts matrix × matrix and matrix × vector; a vector on the
 right is treated as a column, as in numpy.

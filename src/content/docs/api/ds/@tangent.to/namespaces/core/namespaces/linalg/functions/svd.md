@@ -4,7 +4,7 @@ title: "svd"
 
 > **svd**(`data`): `any`
 
-Defined in: [core/linalg.js:85](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/linalg.js#L85)
+Defined in: [core/linalg.js:85](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L85)
 
 Singular Value Decomposition (thin: U is m×k, V is n×k, k = min(m, n))
 

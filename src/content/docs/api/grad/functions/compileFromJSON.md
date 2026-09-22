@@ -2,9 +2,9 @@
 title: "compileFromJSON"
 ---
 
-> **compileFromJSON**(`json`): (`x`) => `object`
+> **compileFromJSON**(`json`): (`x`, `inputs?`) => `object`
 
-Defined in: [api.js:524](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/api.js#L524)
+Defined in: [api.js:660](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/api.js#L660)
 
 Rebuild a compiled objective from the data [compile](compile.md)'s `toJSON`
 produced, on this thread or another.
@@ -13,7 +13,8 @@ What comes back behaves like the output of `compile`, with one difference:
 it has no objective function to fall back to, so it evaluates only at the
 shapes it was built for and throws on any other. That is the point. A
 worker cannot receive a closure, but it can receive this, and the data the
-closure captured travels inside it as constant leaves.
+closure captured travels inside it as constant leaves; the data the closure
+took as inputs is asked for again, by name, on every call.
 
 ## Parameters
 
@@ -25,7 +26,9 @@ the value `compiled.toJSON()` returned
 
 ## Returns
 
-(`x`) => `object`
+with `.value(x, inputs)` as on [compile](compile.md)
+
+(`x`, `inputs?`) => `object`
 
 ## Example
 

@@ -4,7 +4,7 @@ title: "normalQuantile"
 
 > **normalQuantile**(`p`): `number`
 
-Defined in: [special.js:401](https://github.com/tangent-to/proba/blob/ff137b26a2ab80e007338fcc2f63e88a0db76119/src/special.js#L401)
+Defined in: [special.js:401](https://github.com/tangent-to/proba/blob/553f6ddb839a983351006d4e70b05dc7313098ad/src/special.js#L401)
 
 Inverse standard normal CDF (probit), Acklam's approximation refined
 with one Halley step against erfc — accurate to full double precision.

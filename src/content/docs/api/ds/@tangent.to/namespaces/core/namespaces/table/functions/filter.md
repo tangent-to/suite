@@ -4,7 +4,7 @@ title: "filter"
 
 > **filter**(`data`, `predicate`): `any`[]
 
-Defined in: [core/table.js:139](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/table.js#L139)
+Defined in: [core/table.js:139](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/table.js#L139)
 
 Filter rows based on predicate
 

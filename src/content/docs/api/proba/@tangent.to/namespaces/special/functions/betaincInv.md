@@ -4,7 +4,7 @@ title: "betaincInv"
 
 > **betaincInv**(`p`, `a`, `b`): `number`
 
-Defined in: [special.js:292](https://github.com/tangent-to/proba/blob/ff137b26a2ab80e007338fcc2f63e88a0db76119/src/special.js#L292)
+Defined in: [special.js:292](https://github.com/tangent-to/proba/blob/553f6ddb839a983351006d4e70b05dc7313098ad/src/special.js#L292)
 
 Inverse of the regularized incomplete beta: x with I_x(a, b) = p.
 Newton iteration with a bisection safeguard.

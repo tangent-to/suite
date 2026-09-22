@@ -4,7 +4,7 @@ title: "reshape"
 
 > **reshape**(`aIn`, `shape`): `Var`
 
-Defined in: [ops.js:666](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L666)
+Defined in: [ops.js:710](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/ops.js#L710)
 
 Reinterpret a tensor's shape without moving data. Row-major order is
 preserved, so a length-6 vector becomes a 2×3 matrix reading left to right,

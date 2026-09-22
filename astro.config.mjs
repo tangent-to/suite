@@ -34,6 +34,7 @@ export default defineConfig({
           ds: 'data science',
           mc: 'Bayesian inference',
           sem: 'structural equation modeling',
+          nn: 'neural networks',
         };
         const group = (slug) => ({
           label: `${slug} · ${meta[slug]}`,
@@ -45,7 +46,7 @@ export default defineConfig({
         });
         return [
           { label: 'Foundations', items: ['opt', 'proba', 'lina', 'grad', 'ode'].map(group) },
-          { label: 'Applications', items: ['ds', 'mc', 'sem'].map(group) },
+          { label: 'Applications', items: ['ds', 'mc', 'nn', 'sem'].map(group) },
         ];
       })(),
       pagination: false,

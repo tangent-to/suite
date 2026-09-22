@@ -35,6 +35,7 @@ Every distribution is a frozen object exposing the same methods. `params` is a p
 | `cdf(x, params)` | Cumulative probability `P(X <= x)`. |
 | `quantile(p, params)` | Inverse CDF for `p` in `[0, 1]`. Discrete: smallest `k` with `cdf(k) >= p`. |
 | `dlogpdf(x, params)` | Analytic gradient of `logpdf`. Continuous returns `{dx, ...d<param>}`; discrete returns `{...d<param>}`. |
+| `logDensity(x, params)` | The same log density as a [grad](/grad/) expression: `x` and any parameter may be a `Var`. Elementwise, shaped like `x`; the support is not checked. See [On the tape](#on-the-tape). |
 | `sample(params, rng)` | One draw using an `rng` from `createRng`. |
 | `sampleN(params, rng, n)` | Array of `n` draws. |
 | `mean(params)` | Distribution mean (`NaN` where undefined). |
@@ -71,6 +72,22 @@ The differentiator: `dlogpdf` returns exact derivatives, not finite differences.
 | `normal.dlogpdf(x, {mu, sigma})` | Returns `{dx, dmu, dsigma}`. |
 | `gamma.dlogpdf(x, {alpha, beta})` | Returns `{dx, dalpha, dbeta}`. |
 | `bernoulli.dlogpdf(x, {p})` | Discrete: returns `{dp}` (no `dx`). |
+
+## On the tape
+
+Since 0.2 every distribution also carries `logDensity`, the log density written in grad's operations, one function per distribution in `src/density.js`. Where `logpdf` takes numbers and branches on the support, `logDensity` takes `Var`s and does not: a branch on a `Var` is not differentiable, a sampler keeps its values inside the support by construction, and an observed value is data the caller validated. It is elementwise, so the caller reduces with `sum` or `mean`, or weights the rows first.
+
+```js
+import { normal, poisson } from '@tangent.to/proba';
+import { compile, exp, mean, neg } from '@tangent.to/grad';
+
+const nll = compile((p, d) =>
+  neg(mean(normal.logDensity(d.y, { mu: p.mu, sigma: exp(p.logSigma) }))));
+nll({ mu: 0.2, logSigma: 0 }, { y: data });      // { value, gradient }
+poisson.logDensity(counts, { lambda: exp(logRate) });
+```
+
+Inside the support, on plain numbers, `logDensity` agrees with `logpdf`, and its gradients through grad agree with `dlogpdf` in `x` and in every parameter; both are tested. [mc](/mc/) derives its observation models from it, [nn](/nn/) its likelihood losses, so each formula has one copy in the suite. proba depends on grad for this.
 
 ## Sampling
 

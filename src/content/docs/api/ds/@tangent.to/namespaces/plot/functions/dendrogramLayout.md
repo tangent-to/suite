@@ -4,7 +4,7 @@ title: "dendrogramLayout"
 
 > **dendrogramLayout**(`dendrogramData`, `options?`): `any`
 
-Defined in: [plot/plotHCA.js:59](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/plot/plotHCA.js#L59)
+Defined in: [plot/plotHCA.js:59](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/plotHCA.js#L59)
 
 Convert dendrogram to layout coordinates
 

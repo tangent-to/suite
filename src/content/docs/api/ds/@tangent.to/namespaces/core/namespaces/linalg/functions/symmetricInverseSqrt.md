@@ -4,7 +4,7 @@ title: "symmetricInverseSqrt"
 
 > **symmetricInverseSqrt**(`data`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:137](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/core/linalg.js#L137)
+Defined in: [core/linalg.js:137](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L137)
 
 Inverse square root of a symmetric positive semidefinite matrix: the
 symmetric W with W A W = I on A's range, and 0 on its null space

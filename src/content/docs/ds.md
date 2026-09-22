@@ -32,7 +32,7 @@ The default export is namespaced. Import the whole library (`import ds from '@ta
 | --- | --- |
 | `ds.core` | Numeric primitives: math, linear algebra, tables, spatial helpers, formula parsing. |
 | `ds.stats` | Distributions, hypothesis tests, correlation, ANOVA, and generalized linear models. |
-| `ds.ml` | Preprocessing, KNN, decision trees, KMeans, MLP, cross-validation, and pipelines. |
+| `ds.ml` | Preprocessing, KNN, decision trees, random forests, Gaussian processes, an MLP on [nn](/nn/), cross-validation, and pipelines. |
 | `ds.mva` | Multivariate analysis: PCA, LDA, RDA, CCA. |
 | `ds.plot` | Observable Plot helpers for common statistical charts (optional peer dependency). |
 
@@ -67,7 +67,7 @@ The default export is namespaced. Import the whole library (`import ds from '@ta
 | `new ds.ml.KNNRegressor(options?)` | K-nearest-neighbors regressor. |
 | `new ds.ml.DecisionTreeClassifier(options?)` | CART classification tree. |
 | `new ds.ml.DecisionTreeRegressor(options?)` | CART regression tree. |
-| `new ds.ml.MLPRegressor(options?)` | Multilayer-perceptron regressor. |
+| `new ds.ml.MLPRegressor(options?)` | Multilayer-perceptron regressor, a chain of [nn](/nn/) layers: `layerSizes`, `activation`, `dropout`, `optimizer` (`adam` or `lbfgs`), `seed`. `predict(X, { samples })` for Monte Carlo dropout. |
 | `new ds.ml.RandomForestRegressor(options?)` | Random forest regressor, seeded. |
 | `new ds.ml.GaussianProcessRegressor(options?)` | Gaussian process regression with a composable kernel; see [Gaussian processes](#gaussian-processes). |
 | `new ds.ml.preprocessing.StandardScaler()` | Standardize features to zero mean and unit variance (`fit`/`transform`). |

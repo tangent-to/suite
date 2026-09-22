@@ -4,7 +4,7 @@ title: "plotPrecisionRecall"
 
 > **plotPrecisionRecall**(`yTrue`, `yProb`, `options?`): `any`
 
-Defined in: [plot/classification.js:125](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/plot/classification.js#L125)
+Defined in: [plot/classification.js:125](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/classification.js#L125)
 
 Generate precision-recall curve plot configuration
 

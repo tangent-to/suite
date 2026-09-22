@@ -2,9 +2,9 @@
 title: "hingeLoss"
 ---
 
-> **hingeLoss**(`yTrue`, `yPred`): `any`
+> **hingeLoss**(`yTrue`, `yPred`): `number`
 
-Defined in: [ml/loss.js:130](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/loss.js#L130)
+Defined in: [ml/loss.js:100](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/loss.js#L100)
 
 Hinge Loss (for SVM)
 
@@ -24,6 +24,4 @@ Predicted scores
 
 ## Returns
 
-`any`
-
-{loss, gradient}
+`number`

@@ -4,7 +4,7 @@ title: "minimize"
 
 > **minimize**(`spec?`): `any`
 
-Defined in: [minimize.js:64](https://github.com/tangent-to/opt/blob/92f11b3aa26804ff0465d67f82f3eea22cefd937/src/minimize.js#L64)
+Defined in: [minimize.js:64](https://github.com/tangent-to/opt/blob/2c60d687aa9d4aa31542bf370be075cafa422b5c/src/minimize.js#L64)
 
 Minimize a scalar function of one or more variables.
 

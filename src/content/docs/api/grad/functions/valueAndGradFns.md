@@ -4,7 +4,7 @@ title: "valueAndGradFns"
 
 > **valueAndGradFns**(`f`, `options?`): `object`
 
-Defined in: [api.js:185](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/api.js#L185)
+Defined in: [api.js:259](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/api.js#L259)
 
 Split an objective into the SEPARATE value and gradient functions that an
 API taking a `(fn, gradFn)` pair expects — `@tangent.to/mc`'s
@@ -17,7 +17,10 @@ is a full sweep over the data.
 
 The cache holds exactly one entry and compares parameters structurally
 against a defensive copy, so mutating a parameter array in place invalidates
-it correctly rather than returning a stale gradient.
+it correctly rather than returning a stale gradient. A call that passes
+inputs bypasses the cache: the same parameters on a different batch are a
+different evaluation, and copying a batch to compare it would cost what the
+cache saves.
 
 ## Parameters
 

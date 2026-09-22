@@ -56,7 +56,7 @@ That is the whole model. The likelihood and its exact gradient come from the Nor
 
 ## Distributions
 
-The distribution classes back both priors and likelihoods. Each constructor takes positional parameters or a single options object, matching the tangent convention, and its parameters may be numbers, arrays, or grad expressions. Call `.logProb(x)` for the elementwise log density on plain numbers, `.logDensity(x)` for the total as a differentiable expression, and `.sample(n)` to draw.
+The distribution classes back both priors and likelihoods. Each constructor takes positional parameters or a single options object, matching the tangent convention, and its parameters may be numbers, arrays, or grad expressions. Call `.logProb(x)` for the elementwise log density on plain numbers, `.logDensity(x)` for the total as a differentiable expression, and `.sample(n)` to draw. Since 0.11 the expression is [proba](/proba/)'s `logDensity`, summed, so a new distribution is a constructor and its parameters.
 
 | Signature | Description |
 | --- | --- |
@@ -67,6 +67,9 @@ The distribution classes back both priors and likelihoods. Each constructor take
 | `new Gamma(alpha, beta)` | Gamma parameterized by shape and RATE, also `{ alpha \| shape, beta \| rate }`. Passing a `scale` key throws (use `rate = 1/scale`). |
 | `new Lognormal(mu, sigma)` | Lognormal, also `{ mu \| mean, sigma \| sd \| std }`. |
 | `new HalfNormal(sigma)` | Half-normal on the positive line, also `{ sigma \| sd \| std \| scale }`. |
+| `new Exponential(lambda)` | Exponential, rate-parameterized, also `{ lambda \| rate }`. |
+| `new StudentT(nu, mu, sigma)` | Student-t with location and scale, also `{ nu \| df, mu \| mean, sigma \| sd }`. The robust observation model. |
+| `new Poisson(lambda)` | Poisson, for counts, also `{ lambda \| rate \| mu }`. As an observation model, on an `exp(...)` rate. |
 
 ## Samplers
 

@@ -2,9 +2,9 @@
 title: "logLoss"
 ---
 
-> **logLoss**(`yTrue`, `yPred`, `epsilon?`): `any`
+> **logLoss**(`yTrue`, `yPred`, `epsilon?`): `number`
 
-Defined in: [ml/loss.js:65](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/ml/loss.js#L65)
+Defined in: [ml/loss.js:53](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/loss.js#L53)
 
 Binary Cross-Entropy Loss (Log Loss)
 
@@ -30,6 +30,4 @@ Small value to avoid log(0)
 
 ## Returns
 
-`any`
-
-{loss, gradient}
+`number`

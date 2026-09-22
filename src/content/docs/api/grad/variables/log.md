@@ -4,7 +4,7 @@ title: "log"
 
 > `const` **log**: (`aIn`, ...`rest`) => [`Var`](../classes/Var.md)
 
-Defined in: [ops.js:245](https://github.com/tangent-to/grad/blob/26e3c3d68f4be6927aff68186f4111754dbe8da9/src/ops.js#L245)
+Defined in: [ops.js:289](https://github.com/tangent-to/grad/blob/2b49f114ab283e1b1f70b759a41ed9af1b885364/src/ops.js#L289)
 
 ## Parameters
 

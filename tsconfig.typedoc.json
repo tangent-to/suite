@@ -16,6 +16,7 @@
     "../ode/src/**/*.js",
     "../sem/src/**/*.js",
     "../mc/src/**/*.js",
+    "../nn/src/**/*.js",
     "../ds/src/**/*.js"
   ]
 }

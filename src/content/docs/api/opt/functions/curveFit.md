@@ -4,7 +4,7 @@ title: "curveFit"
 
 > **curveFit**(`spec?`): `any`
 
-Defined in: [leastsq.js:341](https://github.com/tangent-to/opt/blob/92f11b3aa26804ff0465d67f82f3eea22cefd937/src/leastsq.js#L341)
+Defined in: [leastsq.js:341](https://github.com/tangent-to/opt/blob/2c60d687aa9d4aa31542bf370be075cafa422b5c/src/leastsq.js#L341)
 
 Fit a scalar model to (x, y) data, scipy.optimize.curve_fit style.
 

@@ -4,7 +4,7 @@ title: "normal"
 
 > `const` **normal**: `object`
 
-Defined in: [stats/distribution.js:20](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/stats/distribution.js#L20)
+Defined in: [stats/distribution.js:20](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/stats/distribution.js#L20)
 
 Normal distribution
 

@@ -4,7 +4,7 @@ title: "permutationTest"
 
 > **permutationTest**(`model`, `options?`): `any`
 
-Defined in: [mva/rda.js:373](https://github.com/tangent-to/ds/blob/d419050f9e6d9041137ea692cbd0c91c7ba902e3/src/mva/rda.js#L373)
+Defined in: [mva/rda.js:373](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/mva/rda.js#L373)
 
 Permutation test of the global RDA (equivalent to vegan's
 `anova.cca(model)`): tests H0 that the constraints explain no more response
