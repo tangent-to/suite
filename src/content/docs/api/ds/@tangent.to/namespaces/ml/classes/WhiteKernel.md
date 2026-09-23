@@ -2,7 +2,7 @@
 title: "WhiteKernel"
 ---
 
-Defined in: [ml/kernels/white.js:32](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L32)
+Defined in: [ml/kernels/white.js:32](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L32)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new WhiteKernel**(`noiseLevelOrOpts?`): `WhiteKernel`
 
-Defined in: [ml/kernels/white.js:45](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L45)
+Defined in: [ml/kernels/white.js:45](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L45)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ new WhiteKernel({ noiseLevel: 0.1, noiseLevelBounds: [0.05, 2] })
 
 > **noiseLevel**: `any`
 
-Defined in: [ml/kernels/white.js:49](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L49)
+Defined in: [ml/kernels/white.js:49](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L49)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [ml/kernels/white.js:49](https://github.com/tangent-to/ds/blob/9dbc6
 
 > **noiseLevelBounds**: `any`
 
-Defined in: [ml/kernels/white.js:54](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L54)
+Defined in: [ml/kernels/white.js:54](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L54)
 
 ## Methods
 
@@ -68,7 +68,7 @@ Defined in: [ml/kernels/white.js:54](https://github.com/tangent-to/ds/blob/9dbc6
 
 > **call**(`X1`, `X2?`): [`Matrix`](../../core/namespaces/linalg/classes/Matrix.md)
 
-Defined in: [ml/kernels/white.js:76](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L76)
+Defined in: [ml/kernels/white.js:76](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L76)
 
 noiseLevel·I for K(X, X), all zeros for a cross-covariance K(X1, X2).
 Overridden rather than left to the base pointwise loop so the distinction
@@ -98,7 +98,7 @@ rests on which matrix is being built, not on row identity.
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -118,7 +118,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `any`
 
-Defined in: [ml/kernels/white.js:67](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L67)
+Defined in: [ml/kernels/white.js:67](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L67)
 
 Covariance between two observations. `noiseLevel` only when they are the
 same observation — identified by reference, not by value, since the whole
@@ -150,7 +150,7 @@ row twice (`compute(x, x)`), which is exactly the diagonal case.
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/white.js:90](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L90)
+Defined in: [ml/kernels/white.js:90](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L90)
 
 Get kernel hyperparameters
 
@@ -174,7 +174,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/white.js:96](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/white.js#L96)
+Defined in: [ml/kernels/white.js:96](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/white.js#L96)
 
 Set kernel hyperparameters
 

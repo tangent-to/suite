@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:119](https://github.com/tangent-to/sem/blob/8cbfcf7338eed351e3ac258460cdda17e8ccf14d/src/index.js#L119)
+Defined in: [index.js:119](https://github.com/tangent-to/sem/blob/b576802250ac549a7b2f70307d7d21b4a1858e4b/src/index.js#L119)
 
 Default export bundling the primary entry points ([sem](../functions/sem.md), [cfa](cfa.md), [parseModel](../functions/parseModel.md)).
 

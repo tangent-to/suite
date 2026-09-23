@@ -4,7 +4,7 @@ title: "inner"
 
 > **inner**(`x`, `y`): `number` \| `any`[]
 
-Defined in: [mva/composition.js:387](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/mva/composition.js#L387)
+Defined in: [mva/composition.js:387](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/mva/composition.js#L387)
 
 Computes inner product in the Aitchison simplex
 

@@ -4,7 +4,7 @@ title: "covarianceMatrix"
 
 > **covarianceMatrix**(`data`, `center?`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:62](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L62)
+Defined in: [core/linalg.js:62](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/linalg.js#L62)
 
 Compute covariance matrix
 

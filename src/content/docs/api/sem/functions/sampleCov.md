@@ -4,7 +4,7 @@ title: "sampleCov"
 
 > **sampleCov**(`data`, `names`): `object`
 
-Defined in: [fit.js:48](https://github.com/tangent-to/sem/blob/8cbfcf7338eed351e3ac258460cdda17e8ccf14d/src/fit.js#L48)
+Defined in: [fit.js:48](https://github.com/tangent-to/sem/blob/b576802250ac549a7b2f70307d7d21b4a1858e4b/src/fit.js#L48)
 
 Sample covariance matrix and means from raw data.
 

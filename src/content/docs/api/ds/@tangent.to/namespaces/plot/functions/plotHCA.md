@@ -4,7 +4,7 @@ title: "plotHCA"
 
 > **plotHCA**(`result`): `any`
 
-Defined in: [plot/plotHCA.js:13](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/plotHCA.js#L13)
+Defined in: [plot/plotHCA.js:13](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/plot/plotHCA.js#L13)
 
 Generate dendrogram data structure
 

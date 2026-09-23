@@ -4,7 +4,7 @@ title: "cholesky"
 
 > **cholesky**(`data`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:185](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L185)
+Defined in: [core/linalg.js:185](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/linalg.js#L185)
 
 Cholesky factorization of a symmetric positive definite matrix
 

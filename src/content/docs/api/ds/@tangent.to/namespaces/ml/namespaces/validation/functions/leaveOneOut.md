@@ -4,7 +4,7 @@ title: "leaveOneOut"
 
 > **leaveOneOut**(`X`, `_y`): `any`[]
 
-Defined in: [ml/validation.js:508](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/validation.js#L508)
+Defined in: [ml/validation.js:508](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/validation.js#L508)
 
 Leave-One-Out cross-validation
 

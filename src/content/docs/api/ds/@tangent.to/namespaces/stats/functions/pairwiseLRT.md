@@ -4,7 +4,7 @@ title: "pairwiseLRT"
 
 > **pairwiseLRT**(`models`, `_options?`): `any`
 
-Defined in: [stats/model\_comparison.js:179](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/stats/model_comparison.js#L179)
+Defined in: [stats/model\_comparison.js:179](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/stats/model_comparison.js#L179)
 
 Compare multiple models and perform pairwise LRT
 

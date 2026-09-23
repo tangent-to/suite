@@ -2,7 +2,7 @@
 title: "TreeExplainer"
 ---
 
-Defined in: [ml/explain.js:388](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L388)
+Defined in: [ml/explain.js:388](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L388)
 
 Exact SHAP for tree models using the path-dependent algorithm of
 Lundberg et al. (2018). Runs in O(T·L·D²) and uses each node's training
@@ -24,7 +24,7 @@ const { values, baseValue } = ex.shapValues(Xtest);
 
 > **new TreeExplainer**(`opts?`): `TreeExplainer`
 
-Defined in: [ml/explain.js:394](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L394)
+Defined in: [ml/explain.js:394](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L394)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Fitted tree or forest regressor.
 
 > **\_treeBase**: `any`
 
-Defined in: [ml/explain.js:406](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L406)
+Defined in: [ml/explain.js:406](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L406)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [ml/explain.js:406](https://github.com/tangent-to/ds/blob/9dbc626cfa
 
 > **expectedValue**: `number`
 
-Defined in: [ml/explain.js:407](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L407)
+Defined in: [ml/explain.js:407](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L407)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [ml/explain.js:407](https://github.com/tangent-to/ds/blob/9dbc626cfa
 
 > **featureNames**: `string`[]
 
-Defined in: [ml/explain.js:403](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L403)
+Defined in: [ml/explain.js:403](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L403)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [ml/explain.js:403](https://github.com/tangent-to/ds/blob/9dbc626cfa
 
 > **nFeatures**: `number`
 
-Defined in: [ml/explain.js:402](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L402)
+Defined in: [ml/explain.js:402](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L402)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [ml/explain.js:402](https://github.com/tangent-to/ds/blob/9dbc626cfa
 
 > **roots**: `any`
 
-Defined in: [ml/explain.js:395](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L395)
+Defined in: [ml/explain.js:395](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L395)
 
 ## Methods
 
@@ -90,7 +90,7 @@ Defined in: [ml/explain.js:395](https://github.com/tangent-to/ds/blob/9dbc626cfa
 
 > **shapValues**(`X`): `object`
 
-Defined in: [ml/explain.js:415](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/explain.js#L415)
+Defined in: [ml/explain.js:415](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/explain.js#L415)
 
 #### Parameters
 

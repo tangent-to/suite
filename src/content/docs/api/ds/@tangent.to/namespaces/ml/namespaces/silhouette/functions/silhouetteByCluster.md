@@ -4,7 +4,7 @@ title: "silhouetteByCluster"
 
 > **silhouetteByCluster**(`X`, `labels`): `object`[]
 
-Defined in: [ml/silhouette.js:130](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/silhouette.js#L130)
+Defined in: [ml/silhouette.js:130](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/silhouette.js#L130)
 
 Group per-sample silhouette values by cluster and compute cluster averages
 

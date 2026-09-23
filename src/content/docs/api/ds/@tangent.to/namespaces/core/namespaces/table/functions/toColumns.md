@@ -4,7 +4,7 @@ title: "toColumns"
 
 > **toColumns**(`data`, `columns`): `any`
 
-Defined in: [core/table.js:109](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/table.js#L109)
+Defined in: [core/table.js:109](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/table.js#L109)
 
 Extract multiple columns as arrays
 

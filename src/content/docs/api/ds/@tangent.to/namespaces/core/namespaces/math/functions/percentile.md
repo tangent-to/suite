@@ -4,7 +4,7 @@ title: "percentile"
 
 > **percentile**(`arr`, `value`, `options?`): `number`
 
-Defined in: [core/math.js:256](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/math.js#L256)
+Defined in: [core/math.js:256](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/math.js#L256)
 
 Compute the proportion of values less than or equal to a given value
 

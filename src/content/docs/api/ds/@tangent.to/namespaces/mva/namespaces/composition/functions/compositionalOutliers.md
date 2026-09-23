@@ -4,7 +4,7 @@ title: "compositionalOutliers"
 
 > **compositionalOutliers**(`mat`, `opts?`): `object`
 
-Defined in: [mva/composition.js:721](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/mva/composition.js#L721)
+Defined in: [mva/composition.js:721](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/mva/composition.js#L721)
 
 Detect compositional outliers via the Mahalanobis distance in log-ratio
 space, tested as a chi-squared variable (Filzmoser & Hron; Parent & Dafir,

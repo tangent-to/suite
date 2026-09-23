@@ -4,7 +4,7 @@ title: "huberLoss"
 
 > **huberLoss**(`yTrue`, `yPred`, `delta?`): `number`
 
-Defined in: [ml/loss.js:120](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/loss.js#L120)
+Defined in: [ml/loss.js:120](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/loss.js#L120)
 
 Huber Loss (robust to outliers)
 

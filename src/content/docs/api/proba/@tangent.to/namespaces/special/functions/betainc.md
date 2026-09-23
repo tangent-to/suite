@@ -4,7 +4,7 @@ title: "betainc"
 
 > **betainc**(`a`, `b`, `x`): `number`
 
-Defined in: [special.js:269](https://github.com/tangent-to/proba/blob/553f6ddb839a983351006d4e70b05dc7313098ad/src/special.js#L269)
+Defined in: [special.js:269](https://github.com/tangent-to/proba/blob/0dacd237d4491015fc8940f23991a06450968594/src/special.js#L269)
 
 Regularized incomplete beta I_x(a, b).
 

@@ -4,7 +4,7 @@ title: "predict"
 
 > **predict**(`model`, `X`, `X_train`, `eps`): `number`[]
 
-Defined in: [ml/dbscan.js:205](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/dbscan.js#L205)
+Defined in: [ml/dbscan.js:205](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/dbscan.js#L205)
 
 Predict cluster labels for new data points
 Note: DBSCAN doesn't naturally support prediction on new points.

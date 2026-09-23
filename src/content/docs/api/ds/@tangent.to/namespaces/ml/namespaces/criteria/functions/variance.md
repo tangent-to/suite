@@ -4,7 +4,7 @@ title: "variance"
 
 > **variance**(`values`): `number`
 
-Defined in: [ml/criteria.js:69](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/criteria.js#L69)
+Defined in: [ml/criteria.js:69](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/criteria.js#L69)
 
 Variance for regression
 Measures spread of continuous values

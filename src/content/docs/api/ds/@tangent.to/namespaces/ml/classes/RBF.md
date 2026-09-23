@@ -2,7 +2,7 @@
 title: "RBF"
 ---
 
-Defined in: [ml/kernels/rbf.js:15](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L15)
+Defined in: [ml/kernels/rbf.js:15](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L15)
 
 Abstract base class for GP kernels
 
@@ -16,7 +16,7 @@ Abstract base class for GP kernels
 
 > **new RBF**(`lengthScaleOrOpts?`, `variance?`): `RBF`
 
-Defined in: [ml/kernels/rbf.js:36](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L36)
+Defined in: [ml/kernels/rbf.js:36](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L36)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ a length scale, one
 
 > **blocks**: `any`
 
-Defined in: [ml/kernels/rbf.js:48](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L48)
+Defined in: [ml/kernels/rbf.js:48](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L48)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [ml/kernels/rbf.js:48](https://github.com/tangent-to/ds/blob/9dbc626
 
 > **lengthScale**: `any`
 
-Defined in: [ml/kernels/rbf.js:45](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L45)
+Defined in: [ml/kernels/rbf.js:45](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L45)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [ml/kernels/rbf.js:45](https://github.com/tangent-to/ds/blob/9dbc626
 
 > **lengthScaleBounds**: `any`
 
-Defined in: [ml/kernels/rbf.js:49](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L49)
+Defined in: [ml/kernels/rbf.js:49](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L49)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [ml/kernels/rbf.js:49](https://github.com/tangent-to/ds/blob/9dbc626
 
 > **variance**: `any`
 
-Defined in: [ml/kernels/rbf.js:46](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L46)
+Defined in: [ml/kernels/rbf.js:46](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L46)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [ml/kernels/rbf.js:46](https://github.com/tangent-to/ds/blob/9dbc626
 
 > **varianceBounds**: `any`
 
-Defined in: [ml/kernels/rbf.js:50](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L50)
+Defined in: [ml/kernels/rbf.js:50](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L50)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Defined in: [ml/kernels/rbf.js:50](https://github.com/tangent-to/ds/blob/9dbc626
 
 > **call**(`X1`, `X2?`): `Matrix`
 
-Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/base.js#L30)
+Defined in: [ml/kernels/base.js:30](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/base.js#L30)
 
 Compute covariance matrix between sets of points
 
@@ -122,7 +122,7 @@ Covariance matrix (n1 x n2)
 
 > **clone**(): [`Kernel`](Kernel.md)
 
-Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/base.js#L87)
+Defined in: [ml/kernels/base.js:87](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/base.js#L87)
 
 Clone the kernel with the same parameters
 
@@ -142,7 +142,7 @@ New kernel instance
 
 > **compute**(`x1`, `x2`): `number`
 
-Defined in: [ml/kernels/rbf.js:59](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L59)
+Defined in: [ml/kernels/rbf.js:59](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L59)
 
 Compute covariance between two points
 
@@ -176,7 +176,7 @@ Covariance value
 
 > **getParams**(): `object`
 
-Defined in: [ml/kernels/rbf.js:73](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L73)
+Defined in: [ml/kernels/rbf.js:73](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L73)
 
 Get kernel hyperparameters
 
@@ -204,7 +204,7 @@ Hyperparameters
 
 > **setParams**(`params`): `void`
 
-Defined in: [ml/kernels/rbf.js:81](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/kernels/rbf.js#L81)
+Defined in: [ml/kernels/rbf.js:81](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/kernels/rbf.js#L81)
 
 Set kernel hyperparameters
 

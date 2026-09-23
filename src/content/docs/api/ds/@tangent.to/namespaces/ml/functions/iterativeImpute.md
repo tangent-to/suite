@@ -4,7 +4,7 @@ title: "iterativeImpute"
 
 > **iterativeImpute**(`X`, `options?`): `number`[][]
 
-Defined in: [ml/impute.js:1096](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/impute.js#L1096)
+Defined in: [ml/impute.js:1096](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/impute.js#L1096)
 
 Iterative imputation (functional interface)
 

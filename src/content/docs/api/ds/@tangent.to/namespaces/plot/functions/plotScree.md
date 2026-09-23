@@ -4,7 +4,7 @@ title: "plotScree"
 
 > **plotScree**(`result`, `options?`): `any`
 
-Defined in: [plot/plotScree.js:11](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/plotScree.js#L11)
+Defined in: [plot/plotScree.js:11](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/plot/plotScree.js#L11)
 
 Generate scree plot configuration for PCA/ordination results
 Shows variance explained by each component

@@ -4,7 +4,7 @@ title: "eig"
 
 > **eig**(`data`): `any`
 
-Defined in: [core/linalg.js:101](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L101)
+Defined in: [core/linalg.js:101](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/linalg.js#L101)
 
 Eigenvalue decomposition of a symmetric matrix.
 Eigenvalues are returned in descending order; eigenvectors are the

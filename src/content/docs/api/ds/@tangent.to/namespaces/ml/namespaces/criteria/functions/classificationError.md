@@ -4,7 +4,7 @@ title: "classificationError"
 
 > **classificationError**(`labels`): `number`
 
-Defined in: [ml/criteria.js:112](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/criteria.js#L112)
+Defined in: [ml/criteria.js:112](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/criteria.js#L112)
 
 Classification error (misclassification rate)
 Simple impurity measure based on majority class

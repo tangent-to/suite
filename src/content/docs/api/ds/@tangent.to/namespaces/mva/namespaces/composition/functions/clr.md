@@ -4,7 +4,7 @@ title: "clr"
 
 > **clr**(`mat`, `handleZeros?`, `delta?`): `any`[] \| `any`[][]
 
-Defined in: [mva/composition.js:176](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/mva/composition.js#L176)
+Defined in: [mva/composition.js:176](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/mva/composition.js#L176)
 
 Centered log-ratio transformation (CLR)
 

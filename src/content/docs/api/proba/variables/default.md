@@ -4,7 +4,7 @@ title: "default"
 
 > **default**: `object`
 
-Defined in: [index.js:72](https://github.com/tangent-to/proba/blob/553f6ddb839a983351006d4e70b05dc7313098ad/src/index.js#L72)
+Defined in: [index.js:72](https://github.com/tangent-to/proba/blob/0dacd237d4491015fc8940f23991a06450968594/src/index.js#L72)
 
 Default export: every distribution by name, the `distributions` registry,
 `createRng`, and the `special` namespace, bundled for a single import.

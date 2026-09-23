@@ -4,7 +4,7 @@ title: "parseNumeric"
 
 > **parseNumeric**(`options`): `any`[]
 
-Defined in: [ml/preprocessing.js:795](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/preprocessing.js#L795)
+Defined in: [ml/preprocessing.js:795](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/preprocessing.js#L795)
 
 Convert string columns to numeric
 Useful when CSV parsers incorrectly infer column types

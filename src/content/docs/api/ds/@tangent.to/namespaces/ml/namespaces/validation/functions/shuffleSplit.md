@@ -4,7 +4,7 @@ title: "shuffleSplit"
 
 > **shuffleSplit**(`X`, `y`, `options?`): `any`[]
 
-Defined in: [ml/validation.js:529](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/validation.js#L529)
+Defined in: [ml/validation.js:529](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/validation.js#L529)
 
 Shuffle Split - repeated random train-test splits
 

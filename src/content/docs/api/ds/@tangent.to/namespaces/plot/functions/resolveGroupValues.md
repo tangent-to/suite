@@ -4,7 +4,7 @@ title: "resolveGroupValues"
 
 > **resolveGroupValues**(`spec`, `result?`, `name?`): `any`[]
 
-Defined in: [plot/utils.js:27](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/plot/utils.js#L27)
+Defined in: [plot/utils.js:27](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/plot/utils.js#L27)
 
 Normalize a colorBy (or labels) specification into a plain array of
 per-observation values.

@@ -4,7 +4,7 @@ title: "silhouetteSamples"
 
 > **silhouetteSamples**(`X`, `labels`): `object`[]
 
-Defined in: [ml/silhouette.js:60](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/ml/silhouette.js#L60)
+Defined in: [ml/silhouette.js:60](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/ml/silhouette.js#L60)
 
 Compute the silhouette value for each sample
 

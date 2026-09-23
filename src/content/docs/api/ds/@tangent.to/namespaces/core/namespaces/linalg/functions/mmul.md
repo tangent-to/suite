@@ -4,7 +4,7 @@ title: "mmul"
 
 > **mmul**(`A`, `B`): [`Matrix`](../classes/Matrix.md)
 
-Defined in: [core/linalg.js:147](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/core/linalg.js#L147)
+Defined in: [core/linalg.js:147](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/core/linalg.js#L147)
 
 Matrix multiplication
 

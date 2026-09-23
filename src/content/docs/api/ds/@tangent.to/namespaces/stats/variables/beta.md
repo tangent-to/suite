@@ -4,7 +4,7 @@ title: "beta"
 
 > `const` **beta**: `object`
 
-Defined in: [stats/distribution.js:155](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/stats/distribution.js#L155)
+Defined in: [stats/distribution.js:155](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/stats/distribution.js#L155)
 
 ## Type Declaration
 

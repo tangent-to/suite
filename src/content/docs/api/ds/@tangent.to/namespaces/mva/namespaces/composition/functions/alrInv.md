@@ -4,7 +4,7 @@ title: "alrInv"
 
 > **alrInv**(`mat`, `denomIdx?`): `any`[] \| `any`[][]
 
-Defined in: [mva/composition.js:254](https://github.com/tangent-to/ds/blob/9dbc626cfabd94d37405b8d2e2c24fdf3fdfe65f/src/mva/composition.js#L254)
+Defined in: [mva/composition.js:254](https://github.com/tangent-to/ds/blob/09615975dac258601b705b966868b430eb321dc8/src/mva/composition.js#L254)
 
 Inverse additive log-ratio transformation
 

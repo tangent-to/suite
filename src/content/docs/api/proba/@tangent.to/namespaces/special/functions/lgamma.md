@@ -4,7 +4,7 @@ title: "lgamma"
 
 > **lgamma**(`x`): `number`
 
-Defined in: [special.js:38](https://github.com/tangent-to/proba/blob/553f6ddb839a983351006d4e70b05dc7313098ad/src/special.js#L38)
+Defined in: [special.js:38](https://github.com/tangent-to/proba/blob/0dacd237d4491015fc8940f23991a06450968594/src/special.js#L38)
 
 Natural log of the absolute value of the gamma function.
 Exact poles (0, -1, -2, ...) return Infinity.
